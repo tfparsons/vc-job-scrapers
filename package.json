@@ -1,0 +1,16 @@
+{
+  "name": "vc-job-scrapers",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Cloudflare Workers that scrape VC portfolio job boards and return normalised JSON. Called by an n8n orchestrator.",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "test": "node test/test.js",
+    "tail": "wrangler tail"
+  },
+  "devDependencies": {
+    "wrangler": "^4.84.1"
+  }
+}

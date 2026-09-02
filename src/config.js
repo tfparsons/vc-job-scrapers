@@ -32,3 +32,7 @@ export const USER_AGENT =
 export const FETCH_CONCURRENCY = 4;
 export const GETRO_CONCURRENCY = 1;
 export const FETCH_TIMEOUT_MS = 15000;
+// From Cloudflare's edge a Getro search takes about 3 s and the slow ones
+// pass 15 s, so Getro gets a longer timeout. Searches are sequential, so a
+// slow one only delays the board, it does not pile up.
+export const GETRO_TIMEOUT_MS = 25000;

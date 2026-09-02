@@ -243,11 +243,11 @@ after, or look for the Cloudflare check on the commit in GitHub.
   requests and a few milliseconds of CPU; the rest is waiting on the network,
   which does not count. Do not upgrade pre-emptively; the signal is "Script
   exceeded time limit" in the Cloudflare logs.
-- Consider searches run 4 at a time and a board takes a few seconds. Getro
+- Consider searches run 4 at a time and a board takes 2 to 3 s. Getro
   searches run one at a time because Getro slows sharply and times out when
-  hit in parallel; a Getro board takes 10 to 50 s end to end depending on the
-  board's own speed. Each request has a 15 s timeout. Set the caller's HTTP
-  timeout to 90 s.
+  hit in parallel; from Cloudflare's edge each search takes about 3 s, so a
+  Getro board takes 20 to 60 s end to end. Consider requests have a 15 s
+  timeout, Getro requests 25 s. Set the caller's HTTP timeout to 120 s.
 - One pass per board per day, descriptive User-Agent, no retries.
 - No state, no caching, no auth. The host allowlist is the abuse guard.
 

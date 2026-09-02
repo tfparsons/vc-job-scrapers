@@ -5,7 +5,7 @@
 
 import { runFilters } from "../lib/filter.js";
 import { fetchWithUA, mapPool } from "../lib/http.js";
-import { GETRO_CONCURRENCY } from "../config.js";
+import { GETRO_CONCURRENCY, GETRO_TIMEOUT_MS } from "../config.js";
 import { clean, stripTags } from "../lib/html.js";
 import { relativeToDate } from "../lib/relative-date.js";
 
@@ -85,7 +85,7 @@ export function parseGetroPage(html, host, now) {
 
 async function fetchTerm(host, term, now, fetchImpl) {
   const url = `https://${host}/jobs?q=${encodeURIComponent(term)}`;
-  const res = await fetchWithUA(url, { headers: { accept: "text/html" } }, fetchImpl);
+  const res = await fetchWithUA(url, { headers: { accept: "text/html" }, timeoutMs: GETRO_TIMEOUT_MS }, fetchImpl);
   if (!res.ok) {
     if (res.body) await res.body.cancel();
     throw new Error(`HTTP ${res.status} for ${term}`);

@@ -13,6 +13,12 @@ Design of record: [BRIEF.md](BRIEF.md) (this Worker) and [docs/PLAN.md](docs/PLA
 
 Live at `https://vc-job-scrapers.tfparsons87.workers.dev`.
 
+The caller is the n8n workflow "VC Boards Sweep" (id `AQzbFqr1Pi0uyWMd`, folder
+VC Job Boards) which runs daily at 06:30 London, reads the Sources table in the
+VC Job Sweeper Airtable base (`appv8Lxbh4kp6DoBv`), upserts Raw Listings on
+Link, and emails tfparsons87@gmail.com. To pause a board, untick Active on its
+Sources row. To pause everything, deactivate the workflow.
+
 ## Endpoints
 
 | Endpoint | What it does |

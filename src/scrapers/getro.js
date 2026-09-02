@@ -83,7 +83,7 @@ export function parseGetroPage(html, host, now) {
 
 // ---------- network ----------
 
-async function fetchTerm(host, term, now, fetchImpl) {
+async function fetchTermOnce(host, term, now, fetchImpl) {
   const url = `https://${host}/jobs?q=${encodeURIComponent(term)}`;
   const res = await fetchWithUA(url, { headers: { accept: "text/html" }, timeoutMs: GETRO_TIMEOUT_MS }, fetchImpl);
   if (!res.ok) {
@@ -91,6 +91,19 @@ async function fetchTerm(host, term, now, fetchImpl) {
     throw new Error(`HTTP ${res.status} for ${term}`);
   }
   return parseGetroPage(await res.text(), host, now);
+}
+
+// Getro occasionally stalls on a single search. One retry after a timeout is
+// enough; anything else fails the term and is reported as partial.
+async function fetchTerm(host, term, now, fetchImpl) {
+  try {
+    return await fetchTermOnce(host, term, now, fetchImpl);
+  } catch (err) {
+    if (err && (err.name === "TimeoutError" || /timeout|aborted/i.test(err.message || ""))) {
+      return fetchTermOnce(host, term, now, fetchImpl);
+    }
+    throw err;
+  }
 }
 
 export async function scrapeGetro({ host, now, config, fetch: fetchImpl = globalThis.fetch }) {

@@ -125,3 +125,21 @@ test("getro: every term failing yields an error and no listings", async () => {
   assert.deepEqual(out.listings, []);
   assert.equal(out.error, "getro: HTTP 500 for gtm");
 });
+
+test("getro: a timed-out search is retried once, other errors are not", async () => {
+  let calls = 0;
+  const flaky = async () => {
+    calls += 1;
+    if (calls === 1) { const e = new Error("The operation was aborted due to timeout"); e.name = "TimeoutError"; throw e; }
+    return new Response(PAGE, { status: 200 });
+  };
+  const out = await scrapeGetro({ host: HOST, now: NOW, config: { ...CONFIG, terms: ["gtm"] }, fetch: flaky });
+  assert.equal(out.error, null);
+  assert.equal(calls, 2);
+  assert.equal(out.counts.unique, 20);
+
+  let calls2 = 0;
+  const broken = async () => { calls2 += 1; return new Response("", { status: 500 }); };
+  await scrapeGetro({ host: HOST, now: NOW, config: { ...CONFIG, terms: ["gtm"] }, fetch: broken });
+  assert.equal(calls2, 1, "HTTP errors are not retried");
+});

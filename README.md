@@ -248,7 +248,8 @@ after, or look for the Cloudflare check on the commit in GitHub.
   hit in parallel; from Cloudflare's edge each search takes about 3 s, so a
   Getro board takes 20 to 60 s end to end. Consider requests have a 15 s
   timeout, Getro requests 25 s. Set the caller's HTTP timeout to 120 s.
-- One pass per board per day, descriptive User-Agent, no retries.
+- One pass per board per day, descriptive User-Agent. The only retry is a
+  single second attempt when a Getro search times out.
 - No state, no caching, no auth. The host allowlist is the abuse guard.
 
 ## Layout

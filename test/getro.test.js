@@ -90,13 +90,17 @@ test("getro: term loop unions on link and encodes terms in the URL", async () =>
 
 test("getro: default filters keep London/UK/remote within 7 days", async () => {
   const { fetchImpl } = stubFetch(() => ({ body: PAGE }));
-  const config = { terms: ["gtm"], location_keep: ["london", "united kingdom", "uk", "remote", "emea", "europe"], max_age_days: 7 };
+  const config = { terms: ["gtm"], location_keep: ["london", "united kingdom", "uk", "emea", "europe"], remote_exclude: ["united states", "usa", "us"], max_age_days: 7 };
   const out = await scrapeGetro({ host: HOST, now: NOW, config, fetch: fetchImpl });
   assert.equal(out.error, null);
   assert.ok(out.counts.after_recency < out.counts.after_location);
   for (const l of out.listings) {
-    assert.ok(l.location === null || /london|united kingdom|uk|remote|emea|europe/i.test(l.location), l.location);
+    const named = l.location === null || /london|united kingdom|\buk\b|emea|europe/i.test(l.location);
+    const remoteOk = /remote/i.test(l.location) && !/united states|usa|\bus\b/i.test(l.location);
+    assert.ok(named || remoteOk, l.location);
   }
+  assert.ok(out.listings.some((l) => l.company === "Oneleet"), "United States; Europe; Remote is kept because Europe is named");
+  assert.ok(!out.listings.some((l) => /New York/.test(l.location || "")), "on-site US dropped");
   assert.ok(out.listings.some((l) => l.company === "Inforcer"), "no-location listing kept");
   assert.ok(!out.listings.some((l) => l.company === "Soldo"), "1 month old dropped");
 });

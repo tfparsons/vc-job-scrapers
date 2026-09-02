@@ -6,7 +6,9 @@ import { parseSetCookies, cookieHeaderFrom, setCookiesFromResponse } from "../sr
 import { decodeEntities, stripTags, clean } from "../src/lib/html.js";
 import { unionByLink, keepByLocation, keepByRecency, runFilters } from "../src/lib/filter.js";
 import { mapPool } from "../src/lib/http.js";
-import { LOCATION_KEEP } from "../src/config.js";
+import { LOCATION_KEEP, LOCATION_REMOTE_EXCLUDE } from "../src/config.js";
+
+const RULES = { keep: LOCATION_KEEP, remoteExclude: LOCATION_REMOTE_EXCLUDE };
 import { HOSTS, lookupHost, hostsFor } from "../src/allowlist.js";
 
 import { NOW } from "./helpers.js";
@@ -99,22 +101,38 @@ test("filter: union dedupes on link and records matched terms in term order", ()
   assert.deepEqual(listings[1].matched_terms, ["gtm"]);
 });
 
-test("filter: location keep-list semantics", () => {
+test("filter: location keeps London/UK/EMEA, and Remote only when not pinned elsewhere", () => {
   const cases = [
     [{ location: null }, true, "null location keeps"],
     [{ location: "" }, true, "empty location keeps"],
     [{ location: "London, UK" }, true],
-    [{ location: "Paris, France" }, false],
+    [{ location: "United Kingdom" }, true],
+    [{ location: "Birmingham, UK" }, true],
+    [{ location: "Berlin, Germany; London, UK" }, true, "any keep token anywhere"],
+    [{ location: "Paris, France" }, false, "on-site EU is out"],
+    [{ location: "Dublin, Ireland" }, false],
+    [{ location: "Spain; Poland; Ukraine; Romania" }, false, "uk must match as a word, not inside Ukraine"],
+    [{ location: "Remote" }, true, "bare remote keeps"],
     [{ location: "Remote - EMEA" }, true],
-    [{ location: "Berlin, Germany; Remote" }, true],
+    [{ location: "Remote-EMEA" }, true],
+    [{ location: "Remote within Europe" }, true],
+    [{ location: "Remote - United States" }, false],
+    [{ location: "Remote US" }, false],
+    [{ location: "US-Remote, US-Chicago" }, false],
+    [{ location: "Remote, US (Hub cities)" }, false],
+    [{ location: "United States; Remote" }, false],
+    [{ location: "United States; Europe; Remote" }, true, "Europe named wins"],
+    [{ location: "Chicago, Remote" }, false, "US hub city"],
+    [{ location: "Remote within Canada; United States" }, false],
     [{ location: "United States" }, false],
-    [{ location: "New York, NY, USA", remote: true }, true, "remote flag keeps"],
-    [{ location: "Dublin, Ireland" }, false, "Ireland is not in the keep-list"],
+    [{ location: "New York, NY, USA", remote: true }, false, "remote flag does not rescue a US location"],
+    [{ location: "Berlin, Germany", remote: true }, true, "remote flag with an unlisted region keeps"],
+    [{ location: null, remote: true }, true],
   ];
   for (const [over, expected, label] of cases) {
-    assert.equal(keepByLocation(listing(over), LOCATION_KEEP), expected, label || JSON.stringify(over));
+    assert.equal(keepByLocation(listing(over), RULES), expected, label || JSON.stringify(over));
   }
-  assert.equal(keepByLocation(listing({ location: "Paris, France" }), null), true, "loc=all keeps everything");
+  assert.equal(keepByLocation(listing({ location: "Remote - United States" }), null), true, "loc=all keeps everything");
 });
 
 test("filter: recency keeps nulls, drops stale relatives, is inclusive at the boundary", () => {
@@ -142,7 +160,7 @@ test("filter: runFilters produces counts that add up", () => {
     ] },
     { term: "growth", listings: [listing({ link: "https://x/1" })] },
   ];
-  const { listings, counts } = runFilters(hits, { locationKeep: LOCATION_KEEP, maxAgeDays: 7, now: NOW });
+  const { listings, counts } = runFilters(hits, { locationRules: RULES, maxAgeDays: 7, now: NOW });
   assert.deepEqual(counts, { fetched: 4, unique: 3, after_location: 2, after_recency: 1 });
   assert.equal(listings.length, counts.after_recency);
   assert.deepEqual(listings[0].matched_terms, ["gtm", "growth"]);

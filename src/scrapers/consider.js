@@ -159,7 +159,7 @@ export async function scrapeConsider({ host, now, config, fetch: fetchImpl = glo
   }
 
   const { listings, counts } = runFilters(hits, {
-    locationKeep: config.location_keep,
+    locationRules: config.location_keep ? { keep: config.location_keep, remoteExclude: config.remote_exclude || [] } : null,
     maxAgeDays: config.max_age_days,
     now,
   });

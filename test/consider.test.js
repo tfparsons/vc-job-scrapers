@@ -102,14 +102,15 @@ test("consider: an HTML 404 is reported as non-JSON", async () => {
 
 test("consider: default filters keep only London/UK/remote and recent", async () => {
   const { fetchImpl } = stubFetch();
-  const config = { terms: ["gtm"], location_keep: ["london", "united kingdom", "uk", "remote", "emea", "europe"], max_age_days: 7 };
+  const config = { terms: ["gtm"], location_keep: ["london", "united kingdom", "uk", "emea", "europe"], remote_exclude: ["united states", "usa", "us"], max_age_days: 7 };
   const out = await scrapeConsider({ host: "jobs.notion.vc", now: NOW, config, fetch: fetchImpl });
   assert.equal(out.error, null);
   assert.ok(out.counts.after_location <= out.counts.unique);
   assert.ok(out.counts.after_recency <= out.counts.after_location);
   for (const l of out.listings) {
-    const ok = l.remote === true || l.location === null || /london|united kingdom|uk|remote|emea|europe/i.test(l.location);
-    assert.ok(ok, `unexpected location kept: ${l.location}`);
+    const named = l.location === null || /london|united kingdom|\buk\b|emea|europe/i.test(l.location);
+    const remoteOk = (l.remote === true || /remote/i.test(l.location)) && !/united states|usa|\bus\b/i.test(l.location);
+    assert.ok(named || remoteOk, `unexpected location kept: ${l.location}`);
   }
 });
 

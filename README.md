@@ -43,7 +43,7 @@ Every scraper endpoint accepts these. n8n calls with defaults.
 | Param | Effect |
 |---|---|
 | `?terms=gtm,growth` | Replace the search terms for this call. |
-| `?loc=all` | Disable the location filter. |
+| `?loc=all` | Disable the location filter (both the keep-list and the remote exclude list). |
 | `?days=30` | Widen the recency window. |
 
 The `config` block in the response echoes the values actually used, so
@@ -59,7 +59,7 @@ failures go in `error`.
   "source": "seedcamp",
   "platform": "getro",
   "scraped_at": "2026-09-03T06:30:00.000Z",
-  "config": {"terms": ["gtm", "growth"], "location_keep": ["london", "uk", "remote"], "max_age_days": 7},
+  "config": {"terms": ["gtm", "growth"], "location_keep": ["london", "uk"], "remote_exclude": ["united states", "usa"], "max_age_days": 7},
   "listings": [
     {
       "company": "Zinc",
@@ -119,8 +119,13 @@ to every scraper:
 
 - **Terms**: search each term per board, union the results, dedupe on `link`.
 - **Location**: keep if `location` is null or empty (deliberate: a no-location
-  GTM Engineer at Framer was once dropped downstream), or any keep-list token
-  appears in it case-insensitively, or the platform's `remote` flag is true.
+  GTM Engineer at Framer was once dropped downstream); or if it names London,
+  the UK, EMEA or Europe (whole-word, case-insensitive, so "UK" does not match
+  "Ukraine"); or if it is remote (the word "Remote" or the platform's `remote`
+  flag) and does not name a region on the remote exclude list, which covers
+  the US, Canada, the Americas, APAC and the main US hub cities. So
+  "Remote - EMEA" stays, "Remote - United States" and "US-Remote" go, and
+  on-site roles in other EU cities go.
 - **Recency**: keep if `posted_date` is null, or within `max_age_days` of
   `scraped_at` counted in calendar days. A null date with a `posted_relative`
   of "N months" or "N years" is dropped.
@@ -243,7 +248,7 @@ The interim alternative is `npx wrangler login` followed by `npm run deploy`.
 ```
 src/
   index.js              router: /healthz, /consider, /getro; query overrides; envelope
-  config.js             TERMS, LOCATION_KEEP, MAX_AGE_DAYS, USER_AGENT, concurrency
+  config.js             TERMS, LOCATION_KEEP, LOCATION_REMOTE_EXCLUDE, MAX_AGE_DAYS, USER_AGENT
   allowlist.js          the 17 hosts and their platform / source slug
   scrapers/consider.js  session (cookies + CSRF), search per term, field mapping
   scrapers/getro.js     split-on-card parser, search per term

@@ -1,5 +1,5 @@
 import pkg from "../package.json" with { type: "json" };
-import { TERMS, LOCATION_KEEP, MAX_AGE_DAYS } from "./config.js";
+import { TERMS, LOCATION_KEEP, LOCATION_REMOTE_EXCLUDE, MAX_AGE_DAYS } from "./config.js";
 import { lookupHost } from "./allowlist.js";
 import { envelope, jsonResponse, neverThrow } from "./lib/respond.js";
 import { scrapeConsider } from "./scrapers/consider.js";
@@ -18,12 +18,14 @@ function readConfig(params) {
     .filter(Boolean);
   const terms = rawTerms.length ? [...new Set(rawTerms)] : TERMS;
 
-  const locationKeep = params.get("loc") === "all" ? null : LOCATION_KEEP;
+  const all = params.get("loc") === "all";
+  const locationKeep = all ? null : LOCATION_KEEP;
+  const remoteExclude = all ? null : LOCATION_REMOTE_EXCLUDE;
 
   const days = Number.parseInt(params.get("days") || "", 10);
   const maxAgeDays = Number.isInteger(days) && days > 0 ? days : MAX_AGE_DAYS;
 
-  return { terms, location_keep: locationKeep, max_age_days: maxAgeDays };
+  return { terms, location_keep: locationKeep, remote_exclude: remoteExclude, max_age_days: maxAgeDays };
 }
 
 export default {

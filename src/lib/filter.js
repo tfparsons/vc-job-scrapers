@@ -2,6 +2,9 @@
 // location, then recency. Empty is safe, wrong is dangerous: a listing with no
 // location or no date is kept, because dropping it silently is how good roles
 // go missing.
+//
+// Location: keep London / UK / EMEA-Europe by name, or Remote when it is not
+// pinned to another region (so "Remote - EMEA" stays, "Remote - US" goes).
 
 import { isStaleRelative } from "./relative-date.js";
 
@@ -25,13 +28,25 @@ export function unionByLink(hits) {
   return { listings: [...byLink.values()], fetched };
 }
 
-export function keepByLocation(listing, locationKeep) {
-  if (!locationKeep) return true; // ?loc=all
-  if (listing.remote === true) return true;
+function escapeRe(s) {
+  return s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
+
+// Whole-word, case-insensitive match so "uk" does not match "Ukraine".
+function mentionsAny(text, tokens) {
+  return tokens.some((t) => new RegExp(`(^|[^a-z])${escapeRe(t)}([^a-z]|$)`, "i").test(text));
+}
+
+// `rules` is { keep: [...], remoteExclude: [...] } or null for ?loc=all.
+export function keepByLocation(listing, rules) {
+  if (!rules) return true;
   const loc = listing.location;
-  if (loc == null || String(loc).trim() === "") return true;
-  const lower = String(loc).toLowerCase();
-  return locationKeep.some((token) => lower.includes(token));
+  if (loc == null || String(loc).trim() === "") return true; // deliberate: never drop for missing data
+  const text = String(loc).toLowerCase();
+  if (mentionsAny(text, rules.keep)) return true;
+  const isRemote = listing.remote === true || /remote/i.test(text);
+  if (isRemote) return !mentionsAny(text, rules.remoteExclude);
+  return false;
 }
 
 export function keepByRecency(listing, maxAgeDays, now) {
@@ -47,9 +62,9 @@ export function keepByRecency(listing, maxAgeDays, now) {
   return ageDays <= maxAgeDays;
 }
 
-export function runFilters(hits, { locationKeep, maxAgeDays, now }) {
+export function runFilters(hits, { locationRules, maxAgeDays, now }) {
   const { listings: unique, fetched } = unionByLink(hits);
-  const afterLocation = unique.filter((l) => keepByLocation(l, locationKeep));
+  const afterLocation = unique.filter((l) => keepByLocation(l, locationRules));
   const afterRecency = afterLocation.filter((l) => keepByRecency(l, maxAgeDays, now));
   return {
     listings: afterRecency,

@@ -116,7 +116,7 @@ export async function scrapeGetro({ host, now, config, fetch: fetchImpl = global
   }
 
   const { listings, counts } = runFilters(hits, {
-    locationKeep: config.location_keep,
+    locationRules: config.location_keep ? { keep: config.location_keep, remoteExclude: config.remote_exclude || [] } : null,
     maxAgeDays: config.max_age_days,
     now,
   });

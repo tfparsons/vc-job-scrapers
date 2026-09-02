@@ -11,7 +11,7 @@ are no secrets and nothing to store.
 Design of record: [BRIEF.md](BRIEF.md) (this Worker) and [docs/PLAN.md](docs/PLAN.md)
 (the wider pipeline).
 
-Live at `https://vc-job-scrapers.tfparsons.workers.dev`.
+Live at `https://vc-job-scrapers.tfparsons87.workers.dev`.
 
 ## Endpoints
 
@@ -148,7 +148,7 @@ to every scraper:
 - **Consider or Getro**: add one line to `HOSTS` in
   [src/allowlist.js](src/allowlist.js) with the platform and a short `source`
   slug, push, and add a Sources row in Airtable whose Worker endpoint is
-  `https://vc-job-scrapers.tfparsons.workers.dev/<platform>?host=<host>`.
+  `https://vc-job-scrapers.tfparsons87.workers.dev/<platform>?host=<host>`.
   To tell the platforms apart: a Consider board's page source contains
   `"csrfToken"`, a Getro page contains `data-testid="job-list-item"` and
   "Powered by Getro".
@@ -220,14 +220,22 @@ curl -s -b jar.txt -X POST https://jobs.notion.vc/api-boards/search-jobs \
 
 ## Deploying
 
-Pushes to `main` deploy through Cloudflare's GitHub integration (Workers Builds).
-To confirm a push landed, compare `deploy_id` from `/healthz` before and after,
-or look for the Cloudflare check on the commit in GitHub.
+The Worker lives in the tfparsons87@gmail.com Cloudflare account (subdomain
+`tfparsons87.workers.dev`). An older copy from April sits in the
+tim@nauticusstudios.com account at `vc-job-scrapers.tfparsons.workers.dev`;
+it is stale and can be deleted.
 
-If the integration is not connected: Cloudflare dashboard, Workers & Pages,
-`vc-job-scrapers`, Settings, Builds, connect the `tfparsons/vc-job-scrapers`
-repository on branch `main` with the default deploy command `npx wrangler deploy`.
-The interim alternative is `npx wrangler login` followed by `npm run deploy`.
+Two ways to deploy:
+
+- `npx wrangler login` once (choose the tfparsons87 account), then
+  `npm run deploy`.
+- Pushes to `main` through Cloudflare's GitHub integration (Workers Builds):
+  dashboard, Workers & Pages, `vc-job-scrapers`, Settings, Builds, connect
+  `tfparsons/vc-job-scrapers` on branch `main`, no build command, deploy
+  command `npx wrangler deploy`.
+
+To confirm a deploy landed, compare `deploy_id` from `/healthz` before and
+after, or look for the Cloudflare check on the commit in GitHub.
 
 ## Limits and politeness
 

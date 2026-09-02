@@ -108,7 +108,7 @@ Tuning these is a config change, not a code change. Start wide; Stage 1 adjacenc
 ### Changes from the April build
 
 - **Delete** the `Triaged` table (`tbl2d8YL3XX1bCXuF`) - done 2 Sep; Airtable converted the Raw Listings link field into a stray `Triaged` text column that still needs deleting by hand.
-- **Sources**: `Board ID` (single line text, reference only - the Worker reads Consider's id from the page) added 2 Sep. Still to do: add `Consider` to the `Platform` single select; set Platform per the coverage table above (Molten, 83North, a16z, Eight Roads = Custom). `Worker endpoint` becomes the full URL n8n calls, e.g. `https://vc-job-scrapers.tfparsons.workers.dev/consider?host=jobs.notion.vc`.
+- **Sources**: `Board ID` (single line text, reference only - the Worker reads Consider's id from the page) added 2 Sep. Still to do: add `Consider` to the `Platform` single select; set Platform per the coverage table above (Molten, 83North, a16z, Eight Roads = Custom). `Worker endpoint` becomes the full URL n8n calls, e.g. `https://vc-job-scrapers.tfparsons87.workers.dev/consider?host=jobs.notion.vc`.
 - **Raw Listings**: `Link` is the upsert key. Add `Emailed on` (date) so a re-run on the same day cannot double-send.
 - Views: keep two - `Failing sources` (Sources where Last error is not empty) and `Last 30 days` (Raw Listings by First seen). Drop the rest.
 
@@ -208,7 +208,7 @@ Sender identity (resolved 2 Sep, job-sweep v19): the email is self-sent from tfp
 
 ## Phases
 
-1. **Worker scaffold** (Claude Code Session 1): repo, wrangler, `/healthz`, GitHub auto-deploy to `vc-job-scrapers.tfparsons.workers.dev`.
+1. **Worker scaffold** (Claude Code Session 1): repo, wrangler, `/healthz`, GitHub auto-deploy to `vc-job-scrapers.tfparsons87.workers.dev`.
 2. **Consider endpoint** (Session 2): `/consider?host=` against a fixture, then live against all 8 boards.
 3. **Getro endpoint** (Session 3): `/getro?host=` with the term loop, live against all 9 boards. Plus `/static?board=83north`.
 4. **n8n workflow**: read Sources, fan out, upsert, compose, send. Dry-run to Tim first.

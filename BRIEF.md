@@ -12,7 +12,7 @@ Out of scope here: state, dedupe, email, scoring, anything with an LLM.
 
 - Tim Parsons, London-based PM / GTM Engineer, between roles. He consumes the downstream email, not these endpoints.
 - Non-technical but technically literate. Clear code and sensible defaults over cleverness. He does not write code; he reads it.
-- Existing stack: Cloudflare (subdomain `tfparsons.workers.dev`), n8n cloud, Airtable, GitHub. This repo deploys to `vc-job-scrapers.tfparsons.workers.dev`.
+- Existing stack: Cloudflare (subdomain `tfparsons87.workers.dev`), n8n cloud, Airtable, GitHub. This repo deploys to `vc-job-scrapers.tfparsons87.workers.dev`.
 
 ## Output contract
 
@@ -206,7 +206,7 @@ vc-job-scrapers/
 
 ## Session plan
 
-1. **Scaffold.** Repo, `wrangler.toml`, `/healthz`, GitHub to Cloudflare auto-deploy. Done when `curl https://vc-job-scrapers.tfparsons.workers.dev/healthz` returns ok.
+1. **Scaffold.** Repo, `wrangler.toml`, `/healthz`, GitHub to Cloudflare auto-deploy. Done when `curl https://vc-job-scrapers.tfparsons87.workers.dev/healthz` returns ok.
 2. **Consider.** `consider.js` against a saved fixture, then live against `jobs.notion.vc`, then all 8 hosts. Done when each returns contract JSON with a non-zero `counts.fetched` and the London-filtered set looks right by eye.
 3. **Getro.** `getro.js` with the term loop and filter module, against a Dawn fixture, then all 9 hosts. Same done criteria. Add `/static` for 83North in the same session if time allows.
 4. **Hardening.** Fixture tests for every parser and the filter module; the Getro zero-cards guard; the Consider non-JSON guard; README with "how to add a board" (a Sources row for Consider/Getro; a new scraper module otherwise).

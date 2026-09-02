@@ -5,6 +5,7 @@
 
 import { runFilters } from "../lib/filter.js";
 import { fetchWithUA, mapPool } from "../lib/http.js";
+import { GETRO_CONCURRENCY } from "../config.js";
 import { clean, stripTags } from "../lib/html.js";
 import { relativeToDate } from "../lib/relative-date.js";
 
@@ -93,7 +94,7 @@ async function fetchTerm(host, term, now, fetchImpl) {
 }
 
 export async function scrapeGetro({ host, now, config, fetch: fetchImpl = globalThis.fetch }) {
-  const results = await mapPool(config.terms, (term) => fetchTerm(host, term, now, fetchImpl));
+  const results = await mapPool(config.terms, (term) => fetchTerm(host, term, now, fetchImpl), GETRO_CONCURRENCY);
 
   const hits = [];
   const failures = [];

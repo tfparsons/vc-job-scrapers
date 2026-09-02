@@ -14,5 +14,8 @@ export const USER_AGENT =
   "VC-Job-Scrapers/2.0 (personal job search tool; github.com/tfparsons/vc-job-scrapers)";
 
 // How many board requests run at once per invocation, and how long each may take.
+// Getro answers each search in about a second on its own but slows sharply and
+// times out when hit in parallel, so its searches run one at a time.
 export const FETCH_CONCURRENCY = 4;
-export const FETCH_TIMEOUT_MS = 15000; // Getro searches can take 5-8 s under load
+export const GETRO_CONCURRENCY = 1;
+export const FETCH_TIMEOUT_MS = 15000;

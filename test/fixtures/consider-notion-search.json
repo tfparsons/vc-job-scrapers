@@ -1,0 +1,2673 @@
+{
+  "version": {
+    "client": {
+      "git": "d4f7b27b7de220b74a9462dc9c0a1d9523e3d890",
+      "date": "2026-09-01T00:15:51.729Z"
+    },
+    "server": {
+      "git": "d4f7b27b7de220b74a9462dc9c0a1d9523e3d890",
+      "date": "2026-09-01T00:15:51.729Z"
+    }
+  },
+  "jobs": [
+    {
+      "applicationWindow": {
+        "status": "accepting"
+      },
+      "applyUrl": "https://job-boards.greenhouse.io/gocardless/jobs/8143812",
+      "companyDomain": "gocardless.com",
+      "companyLogos": {
+        "manual": {
+          "height": 160,
+          "src": "https://dzh2zima160vx.cloudfront.net/logo/007db8d59a04079426b51ab7a7370c74_288_160?Expires=1861920000&Signature=odXEFqex1mRvj2OG0iMjYfZgOy264ETK8iEd2mkgZ7g6xJxdcwgFBWGXWwag~JPyomJJV7XTQvOY7SrUxmZ2JSgG7LnIQMMOSpU-E9whThmsQCuI3GDofTh154~gfrI0mBgHtPEs97z5rgboMuW8ZvBBGs8PUsNX8ZmJ~un2-GDzG1yFTMgbHdm-toV3Gc0JvgkKmnNjVrwesVLqJk2WLSKVDVqVQQHx9kq8PuuS0h5zMAewi~BBcDnMPCokoy9sB-uJuusbwDC~WmMoxi4PSZI2d542qmWT97CwQTTo48tM1m0~XJUfjb~I73TzMwO4gRhVkdUiv91LDhxAQF6vqA__&Key-Pair-Id=APKAII5OVX4LZ3WT422Q",
+          "width": 288
+        },
+        "linkedin": {
+          "height": 100,
+          "src": "https://dzh2zima160vx.cloudfront.net/profile/3d559ef22f4d8b8ff4939cc0a26e7bfa_100_100?Expires=1893456000&Signature=NQku~JGGUmTyOsgrQfJ-~5Z5o7ovTagMS9536LtrFDRMCvOIIcTL6CG23jq0meSry21k7udB8PTPEtTekTWYLKRywM-djb-GYWtTlg~4mMDESdsJzJziUoiP2PVBUQP83lkasL8jAFrYWmytiXdmfouHz3iizxnJB17CLgZMHkKdye5vtiqwtr6lfZLuDZxPrynGQ8MEGgkr6rr05HZEPrIFaHRKUMqt4IWXM5LfymUMPzNsJ1wqZdu2A21lCieUtuS0sCIKQgjixQgG5ofAi-KEOvG8~mKByuHCswb5MfYr~J-oiY-KIbrLdpx2ctDetJf~uhNYO9pvbetmDawJ4Q__&Key-Pair-Id=APKAII5OVX4LZ3WT422Q",
+          "width": 100
+        }
+      },
+      "companyId": "GoCardless",
+      "companySlug": "gocardless",
+      "companyName": "GoCardless",
+      "companyStaffCount": 833,
+      "considerHosted": false,
+      "departments": [
+        "Product Development"
+      ],
+      "jobTypes": [
+        {
+          "id": "product-manager",
+          "label": "Product Manager",
+          "value": "product-manager"
+        }
+      ],
+      "jobFunctions": [
+        {
+          "id": "Product Management",
+          "label": "Product Management",
+          "value": "Product Management"
+        }
+      ],
+      "locations": [
+        "Lisbon, Portugal"
+      ],
+      "normalizedLocations": [
+        {
+          "id": "Portugal",
+          "label": "Portugal",
+          "value": "Portugal"
+        }
+      ],
+      "salary": {
+        "period": {
+          "label": "Year",
+          "value": "year"
+        },
+        "minValue": 125000,
+        "maxValue": 190000,
+        "currency": {
+          "label": "USD",
+          "value": "USD"
+        },
+        "isOriginal": false
+      },
+      "skills": [
+        {
+          "id": "resume:Data Driven",
+          "label": "Data Driven",
+          "value": "resume:Data Driven"
+        },
+        {
+          "id": "resume:Market Data",
+          "label": "Market Data",
+          "value": "resume:Market Data"
+        },
+        {
+          "id": "resume:Machine Learning",
+          "label": "Machine Learning",
+          "value": "resume:Machine Learning"
+        },
+        {
+          "id": "resume:Product Strategy",
+          "label": "Product Strategy",
+          "value": "resume:Product Strategy"
+        },
+        {
+          "id": "resume:Assessment",
+          "label": "Assessment",
+          "value": "resume:Assessment"
+        },
+        {
+          "id": "resume:Data Infrastructure",
+          "label": "Data Infrastructure",
+          "value": "resume:Data Infrastructure"
+        },
+        {
+          "id": "resume:Artificial Intelligence",
+          "label": "Artificial Intelligence",
+          "value": "resume:Artificial Intelligence"
+        },
+        {
+          "id": "resume:Financial technology",
+          "label": "Financial technology",
+          "value": "resume:Financial technology"
+        },
+        {
+          "id": "resume:Budgeting",
+          "label": "Budgeting",
+          "value": "resume:Budgeting"
+        }
+      ],
+      "requiredSkills": [
+        {
+          "id": "resume:Data Driven",
+          "label": "Data Driven",
+          "value": "resume:Data Driven"
+        },
+        {
+          "id": "resume:Market Data",
+          "label": "Market Data",
+          "value": "resume:Market Data"
+        },
+        {
+          "id": "resume:Machine Learning",
+          "label": "Machine Learning",
+          "value": "resume:Machine Learning"
+        }
+      ],
+      "preferredSkills": [
+        {
+          "id": "resume:Product Strategy",
+          "label": "Product Strategy",
+          "value": "resume:Product Strategy"
+        },
+        {
+          "id": "resume:Assessment",
+          "label": "Assessment",
+          "value": "resume:Assessment"
+        },
+        {
+          "id": "resume:Data Infrastructure",
+          "label": "Data Infrastructure",
+          "value": "resume:Data Infrastructure"
+        },
+        {
+          "id": "resume:Artificial Intelligence",
+          "label": "Artificial Intelligence",
+          "value": "resume:Artificial Intelligence"
+        },
+        {
+          "id": "resume:Financial technology",
+          "label": "Financial technology",
+          "value": "resume:Financial technology"
+        },
+        {
+          "id": "resume:Budgeting",
+          "label": "Budgeting",
+          "value": "resume:Budgeting"
+        }
+      ],
+      "manager": false,
+      "consultant": false,
+      "contractor": false,
+      "considerLevels": [
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "regions": [
+        {
+          "id": "EMEA",
+          "label": "EMEA",
+          "value": "EMEA"
+        },
+        {
+          "id": "Western Europe",
+          "label": "Western Europe",
+          "value": "Western Europe"
+        }
+      ],
+      "stages": [
+        {
+          "id": "100-1000 employees",
+          "label": "100-1000 employees",
+          "value": "100-1000 employees"
+        }
+      ],
+      "markets": [
+        {
+          "id": "Fintech",
+          "label": "FinTech",
+          "value": "Fintech"
+        }
+      ],
+      "timeStamp": "2026-08-20T09:26:25Z",
+      "title": "Product Manager III",
+      "url": "https://job-boards.greenhouse.io/gocardless/jobs/8143812",
+      "jobId": "8143812",
+      "remote": false,
+      "hybrid": false,
+      "scores": {
+        "score": 1000.6640320898955,
+        "matchScore": 0,
+        "ageScore": 0.5640320898954475,
+        "richnessScore": 1
+      },
+      "atsJobs": [],
+      "matchingTalent": {
+        "count": 0,
+        "matches": []
+      },
+      "jobSeniorities": [
+        {
+          "id": "mid",
+          "label": "Mid",
+          "value": "mid"
+        }
+      ],
+      "jobSeniorityIds": [
+        "mid"
+      ],
+      "isFeatured": false
+    },
+    {
+      "applicationWindow": {
+        "status": "accepting"
+      },
+      "applyUrl": "https://apply.workable.com/j/6BE233C82F",
+      "companyDomain": "vortexa.com",
+      "companyLogos": {
+        "manual": {
+          "height": 160,
+          "src": "https://dzh2zima160vx.cloudfront.net/logo/f7f6dabe6ed9bfadeeee1f6e7c6252c7_320_160?Expires=1861920000&Signature=XkgK9DVBKki~sIZJHJwEkaojMILAKvX8bXzeNnrC34y5X3W26dyYlCy42ZCEVguc8vqj1no01GPb54VAq2RP5Mg6rEFqwZX8V-wRxl4KZ5ZfVoyVGORbVncmpSx0EukqEKg3nUYquHYzqCMGzOUlkmmRJzEThaUufG5ReXOkUSrztnWZmSr2El~Kdo-XmWnBT~aYQ3Amkpj7BFDpCA9UXZB1CYpQA2Hd8vfqa0ii-Gybl4W52uMVqH1WPR1X622rUF2XmVV6p3oEnLW9VqtpFPPsTGACaa9LPhYdY0YnaxMf1jpjj5Oe9yEZQ-LJIh2TzTbsbmzDzTkBUKALw5VBGQ__&Key-Pair-Id=APKAII5OVX4LZ3WT422Q",
+          "width": 320
+        },
+        "linkedin": {
+          "height": 100,
+          "src": "https://dzh2zima160vx.cloudfront.net/profile/5854cd6b51e4996999ed1667234059fc_100_100?Expires=1893456000&Signature=ghsWzkL~Icr5~6vxoyZOXWXcA-r1M0-5mzZVyRikjmQe3n-ZjM0OuTM7wsW-BgUAAYYix70F0LaupMfO71uUD7VjJngyxY586Cx-ZgG14Ih3OL~WjZjh3fSiZPLmRuhOlWkAYgOf2tGr~bE5WaQ2rPMc-n8hFYr~0K-GAdgB94EXWB1ujZDkW~RdX0VPTZIw33BMR66kWAc3sgPu~mynZxTTuIriMEeysdcAxlVhPlnYtbKmu2g4KRMLs3azz8SvdgTABJPkRTxXXTAeqelltviFst~cfyu~Or6fa~PFG1pxbvcPimeruubBgK-MzWmMOXCufX6AvBc2hsjjhkUsoA__&Key-Pair-Id=APKAII5OVX4LZ3WT422Q",
+          "width": 100
+        }
+      },
+      "companyId": "Vortexa",
+      "companySlug": "vortexa",
+      "companyName": "Vortexa",
+      "companyStaffCount": 209,
+      "considerHosted": false,
+      "departments": [],
+      "jobTypes": [
+        {
+          "id": "product-manager",
+          "label": "Product Manager",
+          "value": "product-manager"
+        },
+        {
+          "id": "school-student",
+          "label": "Intern",
+          "value": "school-student"
+        }
+      ],
+      "jobFunctions": [
+        {
+          "id": "Product Management",
+          "label": "Product Management",
+          "value": "Product Management"
+        }
+      ],
+      "locations": [
+        "London, England, United Kingdom"
+      ],
+      "normalizedLocations": [
+        {
+          "id": "London, Greater London, United Kingdom",
+          "label": "London",
+          "value": "London, Greater London, United Kingdom"
+        }
+      ],
+      "skills": [
+        {
+          "id": "resume:SaaS",
+          "label": "Software as a Service",
+          "value": "resume:SaaS"
+        },
+        {
+          "id": "resume:Hedge Funds",
+          "label": "Hedge Funds",
+          "value": "resume:Hedge Funds"
+        },
+        {
+          "id": "resume:B2B",
+          "label": "B2B",
+          "value": "resume:B2B"
+        },
+        {
+          "id": "resume:SDK",
+          "label": "SDK",
+          "value": "resume:SDK"
+        },
+        {
+          "id": "resume:Low Latency",
+          "label": "Low Latency",
+          "value": "resume:Low Latency"
+        },
+        {
+          "id": "resume:Product Strategy",
+          "label": "Product Strategy",
+          "value": "resume:Product Strategy"
+        },
+        {
+          "id": "resume:Artificial Intelligence",
+          "label": "Artificial Intelligence",
+          "value": "resume:Artificial Intelligence"
+        },
+        {
+          "id": "resume:KPI Dashboards",
+          "label": "KPI Dashboards",
+          "value": "resume:KPI Dashboards"
+        },
+        {
+          "id": "resume:Forecasting",
+          "label": "Forecasting",
+          "value": "resume:Forecasting"
+        },
+        {
+          "id": "resume:Energy Industry",
+          "label": "Energy Industry",
+          "value": "resume:Energy Industry"
+        },
+        {
+          "id": "resume:Front-end Development",
+          "label": "Frontend Web Development",
+          "value": "resume:Front-end Development"
+        },
+        {
+          "id": "resume:Analytics",
+          "label": "Analytics",
+          "value": "resume:Analytics"
+        }
+      ],
+      "requiredSkills": [
+        {
+          "id": "resume:SaaS",
+          "label": "Software as a Service",
+          "value": "resume:SaaS"
+        },
+        {
+          "id": "resume:Hedge Funds",
+          "label": "Hedge Funds",
+          "value": "resume:Hedge Funds"
+        },
+        {
+          "id": "resume:B2B",
+          "label": "B2B",
+          "value": "resume:B2B"
+        }
+      ],
+      "preferredSkills": [
+        {
+          "id": "resume:SDK",
+          "label": "SDK",
+          "value": "resume:SDK"
+        },
+        {
+          "id": "resume:Low Latency",
+          "label": "Low Latency",
+          "value": "resume:Low Latency"
+        },
+        {
+          "id": "resume:Product Strategy",
+          "label": "Product Strategy",
+          "value": "resume:Product Strategy"
+        },
+        {
+          "id": "resume:Artificial Intelligence",
+          "label": "Artificial Intelligence",
+          "value": "resume:Artificial Intelligence"
+        },
+        {
+          "id": "resume:KPI Dashboards",
+          "label": "KPI Dashboards",
+          "value": "resume:KPI Dashboards"
+        },
+        {
+          "id": "resume:Forecasting",
+          "label": "Forecasting",
+          "value": "resume:Forecasting"
+        },
+        {
+          "id": "resume:Energy Industry",
+          "label": "Energy Industry",
+          "value": "resume:Energy Industry"
+        },
+        {
+          "id": "resume:Front-end Development",
+          "label": "Frontend Web Development",
+          "value": "resume:Front-end Development"
+        },
+        {
+          "id": "resume:Analytics",
+          "label": "Analytics",
+          "value": "resume:Analytics"
+        }
+      ],
+      "manager": false,
+      "consultant": false,
+      "contractor": false,
+      "considerLevels": [
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "regions": [
+        {
+          "id": "EMEA",
+          "label": "EMEA",
+          "value": "EMEA"
+        },
+        {
+          "id": "Western Europe",
+          "label": "Western Europe",
+          "value": "Western Europe"
+        }
+      ],
+      "stages": [
+        {
+          "id": "100-1000 employees",
+          "label": "100-1000 employees",
+          "value": "100-1000 employees"
+        }
+      ],
+      "markets": [
+        {
+          "id": "Data & Analytics",
+          "label": "Data & Analytics",
+          "value": "Data & Analytics"
+        }
+      ],
+      "timeStamp": "2026-08-18T00:00:00Z",
+      "title": "Graduate Product Manager",
+      "url": "https://apply.workable.com/j/6BE233C82F",
+      "jobId": "6BE233C82F",
+      "remote": false,
+      "hybrid": false,
+      "scores": {
+        "score": 1000.5835741163179,
+        "matchScore": 0,
+        "ageScore": 0.48357411631790126,
+        "richnessScore": 1
+      },
+      "atsJobs": [],
+      "matchingTalent": {
+        "count": 0,
+        "matches": []
+      },
+      "jobSeniorities": [
+        {
+          "id": "intern",
+          "label": "Intern",
+          "value": "intern"
+        }
+      ],
+      "jobSeniorityIds": [
+        "intern"
+      ],
+      "isFeatured": false
+    },
+    {
+      "applicationWindow": {
+        "status": "accepting"
+      },
+      "applyUrl": "https://apply.workable.com/j/4CEC7D2F74",
+      "companyDomain": "cogna.co",
+      "companyLogos": {
+        "manual": {
+          "height": 160,
+          "src": "https://dzh2zima160vx.cloudfront.net/logo/f88dafb3d4e29084f7aedb799c562b13_272_160?Expires=1861920000&Signature=A6qcXCOH~41YmBspYo0YDeB1n6xCLPB8lXK-EZhfG-7tQ40HHKWA03g-X4CzxM8nqFF5AkhbJIdhAR1EHtVrgVB~EggQfNI9b3y6sGdpK1seaIawSXHIeLhCVaeQwmHvPN8ishwpX7qygwhM7BgFcKSL7ShNHfN7y8gXydqgaaJwdXoj5QwEUjcBuHfe~Nre4SIr1RO8o1rhl90Vd0QABBuoDf6QKf0-AyHljh64EsVkEJZC3ebvFMH4l352URkWVsjSQXbUlov2ZJQw7aJPnmb6rlMoPafQULCqycDED0181sgRYp635qIEadwrjKNrIJBMTjDQl5AklYMHu9--bg__&Key-Pair-Id=APKAII5OVX4LZ3WT422Q",
+          "width": 272
+        },
+        "linkedin": {
+          "height": 100,
+          "src": "https://dzh2zima160vx.cloudfront.net/profile/808e7911388326f7b18667e99486277c_100_100?Expires=1893456000&Signature=GkiGjVwYXB29uduHzg8xA-uJlVBMcUZUZIeXl0RJNJ6cP1eFvsIxlskd7-GX8Vx-g8SX-8MIzRJ7X3OCDwPJ4FekzfgWqsj4ReEZRQNrIvXhDZJJy5VmWM45WooDQM6FwYfDnUMZaIe8h75thWihC5bAi1QXlYywqVINEcZpnPMm3Mp93tZTIyvie1ol4FqzYHC7-t0I0JC~hMdjU~jL2Cb5t2S5MEvTjg7GSzuFO6XSKZHOI9Pkv7PMIo2DfDQUPQ5zQ7YpAvUYozoOKz7NcGmtQuB04N0VITrpj9yhfNV3l9lfe~CacG4HBZDQ03pwe43FVPNelGRYNFxJM6GaEA__&Key-Pair-Id=APKAII5OVX4LZ3WT422Q",
+          "width": 100
+        }
+      },
+      "companyId": "Cogna",
+      "companySlug": "cogna",
+      "companyName": "Cogna",
+      "companyStaffCount": 85,
+      "considerHosted": false,
+      "departments": [],
+      "jobTypes": [
+        {
+          "id": "product-manager",
+          "label": "Product Manager",
+          "value": "product-manager"
+        }
+      ],
+      "jobFunctions": [
+        {
+          "id": "Product Management",
+          "label": "Product Management",
+          "value": "Product Management"
+        }
+      ],
+      "locations": [
+        "London, England, United Kingdom"
+      ],
+      "normalizedLocations": [
+        {
+          "id": "London, Greater London, United Kingdom",
+          "label": "London",
+          "value": "London, Greater London, United Kingdom"
+        }
+      ],
+      "salary": {
+        "period": {
+          "label": "Year",
+          "value": "year"
+        },
+        "minValue": 140000,
+        "maxValue": 225000,
+        "currency": {
+          "label": "USD",
+          "value": "USD"
+        },
+        "isOriginal": false
+      },
+      "skills": [
+        {
+          "id": "resume:Experimentation",
+          "label": "Experimentation",
+          "value": "resume:Experimentation"
+        },
+        {
+          "id": "resume:Quality Assurance",
+          "label": "Quality Assurance",
+          "value": "resume:Quality Assurance"
+        },
+        {
+          "id": "resume:Artificial Intelligence",
+          "label": "Artificial Intelligence",
+          "value": "resume:Artificial Intelligence"
+        },
+        {
+          "id": "resume:Program Management",
+          "label": "Program Management",
+          "value": "resume:Program Management"
+        },
+        {
+          "id": "resume:Infrastructure",
+          "label": "Infrastructure",
+          "value": "resume:Infrastructure"
+        }
+      ],
+      "requiredSkills": [
+        {
+          "id": "resume:Experimentation",
+          "label": "Experimentation",
+          "value": "resume:Experimentation"
+        },
+        {
+          "id": "resume:Quality Assurance",
+          "label": "Quality Assurance",
+          "value": "resume:Quality Assurance"
+        },
+        {
+          "id": "resume:Artificial Intelligence",
+          "label": "Artificial Intelligence",
+          "value": "resume:Artificial Intelligence"
+        }
+      ],
+      "preferredSkills": [
+        {
+          "id": "resume:Program Management",
+          "label": "Program Management",
+          "value": "resume:Program Management"
+        },
+        {
+          "id": "resume:Infrastructure",
+          "label": "Infrastructure",
+          "value": "resume:Infrastructure"
+        }
+      ],
+      "manager": false,
+      "consultant": false,
+      "contractor": false,
+      "considerLevels": [
+        [
+          3,
+          4
+        ]
+      ],
+      "minYearsExp": 4,
+      "regions": [
+        {
+          "id": "EMEA",
+          "label": "EMEA",
+          "value": "EMEA"
+        },
+        {
+          "id": "Western Europe",
+          "label": "Western Europe",
+          "value": "Western Europe"
+        }
+      ],
+      "stages": [
+        {
+          "id": "10-100 employees",
+          "label": "10-100 employees",
+          "value": "10-100 employees"
+        },
+        {
+          "id": "Series A",
+          "label": "Series A",
+          "value": "Series A"
+        }
+      ],
+      "fundingLV": {
+        "id": "Series A",
+        "label": "Series A",
+        "value": "Series A"
+      },
+      "markets": [
+        {
+          "id": "AI",
+          "label": "AI",
+          "value": "AI"
+        },
+        {
+          "id": "Enterprise Software",
+          "label": "Enterprise Software",
+          "value": "Enterprise Software"
+        },
+        {
+          "id": "SaaS",
+          "label": "SaaS",
+          "value": "SaaS"
+        }
+      ],
+      "timeStamp": "2026-06-05T00:00:00Z",
+      "title": "Product Manager",
+      "url": "https://apply.workable.com/j/4CEC7D2F74",
+      "jobId": "4CEC7D2F74",
+      "remote": false,
+      "hybrid": false,
+      "scores": {
+        "score": 0.1,
+        "matchScore": 0,
+        "ageScore": 0,
+        "richnessScore": 1
+      },
+      "atsJobs": [],
+      "matchingTalent": {
+        "count": 0,
+        "matches": []
+      },
+      "jobSeniorities": [
+        {
+          "id": "mid",
+          "label": "Mid",
+          "value": "mid"
+        }
+      ],
+      "jobSeniorityIds": [
+        "mid"
+      ],
+      "isFeatured": false
+    },
+    {
+      "applicationWindow": {
+        "status": "accepting"
+      },
+      "applyUrl": "https://careers.techwolf.ai/o/product-manager-workforce-transformation",
+      "companyDomain": "techwolf.com",
+      "companyLogos": {
+        "manual": {
+          "height": 160,
+          "src": "https://dzh2zima160vx.cloudfront.net/logo/92ffdd0b6122e4f67a352c9c34be005b_320_160?Expires=1861920000&Signature=tj44zuH6uyzJdDWVXrU1iEcSuQMIeYFUlRAbNxLlReAxjot8pF7z0RC6YATui5Lzi7VmLCVEjlL7m0s0vKMSH3iFKxlTUztGPOjHn3Xjos3X35CJ2T9UlnVhEcf3sMsM75AsCtvWtz1hjl1BJ5t-J2~Rvg~ZnwcTJZ0y5PPBKGIiRuE26L21B9pqPe6N6XOVrOleg~FAFO5sjxApn~szDQqjsHdMdDoJq9qCHZMg5wOAUVPTsaQChUwL0PAzhlByh88OoPi6K0L~3pnQo-LKYqDkcPe7mVanoCFkL9POpjVNtzIMAPL3hdY-8wVYussQbefbMBHp2Jcge-qMJD1bEQ__&Key-Pair-Id=APKAII5OVX4LZ3WT422Q",
+          "width": 320
+        },
+        "linkedin": {
+          "height": 100,
+          "src": "https://dzh2zima160vx.cloudfront.net/profile/48c812ed34c4824e90d2450bfccfffd3_100_100?Expires=1893456000&Signature=i-VG6K2PwEK4RQIvYIIz3BFxW~KHXj8LPrEwxUBj~HyeV5nFAOKstnaV~tbvMq2Ec5JhCT9lG70SwrwFpAxrWH9MZVHJDlEIsS1HQ5glvQbDFlQfcjg7LrfzyoUPZtXWLfjvYIvevT2VMr7ypWrPq~~C65bP5NZC0eWvi8K5A~zMsekxOAVI9Xt50oSkKzUoZ5lkuFpLFji9~00TSavaAc8f~NkdF4V4q3d9pPSeTiCqZ1Zr1m3~4jtgX4kTPWDTJd1vEoliqxejd~bDKEFq5H9pJl9UKztZwCxkOJovODNndDdABSBILvTv8rCqvalnLd7516LRCdrr-ecU0O~~eg__&Key-Pair-Id=APKAII5OVX4LZ3WT422Q",
+          "width": 100
+        }
+      },
+      "companyId": "TechWolf",
+      "companySlug": "techwolf",
+      "companyName": "TechWolf",
+      "companyStaffCount": 138,
+      "considerHosted": false,
+      "departments": [
+        "Product"
+      ],
+      "jobTypes": [
+        {
+          "id": "product-manager",
+          "label": "Product Manager",
+          "value": "product-manager"
+        }
+      ],
+      "jobFunctions": [
+        {
+          "id": "Product Management",
+          "label": "Product Management",
+          "value": "Product Management"
+        }
+      ],
+      "locations": [
+        "Ghent, Vlaams Gewest, Belgium"
+      ],
+      "normalizedLocations": [
+        {
+          "id": "Belgium",
+          "label": "Belgium",
+          "value": "Belgium"
+        }
+      ],
+      "skills": [
+        {
+          "id": "resume:Human Resources",
+          "label": "Human Resources",
+          "value": "resume:Human Resources"
+        },
+        {
+          "id": "resume:Workforce Planning",
+          "label": "Workforce Planning",
+          "value": "resume:Workforce Planning"
+        },
+        {
+          "id": "resume:Talent Development",
+          "label": "Talent Development",
+          "value": "resume:Talent Development"
+        },
+        {
+          "id": "resume:Artificial Intelligence",
+          "label": "Artificial Intelligence",
+          "value": "resume:Artificial Intelligence"
+        },
+        {
+          "id": "resume:SAP",
+          "label": "SAP",
+          "value": "resume:SAP"
+        },
+        {
+          "id": "resume:Human Capital Management",
+          "label": "Human Capital Management",
+          "value": "resume:Human Capital Management"
+        }
+      ],
+      "requiredSkills": [
+        {
+          "id": "resume:Human Resources",
+          "label": "Human Resources",
+          "value": "resume:Human Resources"
+        },
+        {
+          "id": "resume:Workforce Planning",
+          "label": "Workforce Planning",
+          "value": "resume:Workforce Planning"
+        },
+        {
+          "id": "resume:Talent Development",
+          "label": "Talent Development",
+          "value": "resume:Talent Development"
+        }
+      ],
+      "preferredSkills": [
+        {
+          "id": "resume:Artificial Intelligence",
+          "label": "Artificial Intelligence",
+          "value": "resume:Artificial Intelligence"
+        },
+        {
+          "id": "resume:SAP",
+          "label": "SAP",
+          "value": "resume:SAP"
+        },
+        {
+          "id": "resume:Human Capital Management",
+          "label": "Human Capital Management",
+          "value": "resume:Human Capital Management"
+        }
+      ],
+      "manager": false,
+      "consultant": false,
+      "contractor": false,
+      "considerLevels": [
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "minYearsExp": 5,
+      "regions": [
+        {
+          "id": "EMEA",
+          "label": "EMEA",
+          "value": "EMEA"
+        },
+        {
+          "id": "Western Europe",
+          "label": "Western Europe",
+          "value": "Western Europe"
+        }
+      ],
+      "stages": [
+        {
+          "id": "100-1000 employees",
+          "label": "100-1000 employees",
+          "value": "100-1000 employees"
+        },
+        {
+          "id": "Growth",
+          "label": "Growth",
+          "value": "Growth"
+        }
+      ],
+      "fundingLV": {
+        "id": "Growth",
+        "label": "Growth",
+        "value": "Growth"
+      },
+      "markets": [
+        {
+          "id": "AI",
+          "label": "AI",
+          "value": "AI"
+        },
+        {
+          "id": "Enterprise Software",
+          "label": "Enterprise Software",
+          "value": "Enterprise Software"
+        },
+        {
+          "id": "SaaS",
+          "label": "SaaS",
+          "value": "SaaS"
+        }
+      ],
+      "timeStamp": "2026-04-01T07:23:21Z",
+      "title": "Product Manager, Workforce Transformation",
+      "url": "https://careers.techwolf.ai/o/product-manager-workforce-transformation",
+      "jobId": "2550079",
+      "remote": false,
+      "hybrid": false,
+      "scores": {
+        "score": 0.1,
+        "matchScore": 0,
+        "ageScore": 0,
+        "richnessScore": 1
+      },
+      "atsJobs": [],
+      "matchingTalent": {
+        "count": 0,
+        "matches": []
+      },
+      "jobSeniorities": [
+        {
+          "id": "mid",
+          "label": "Mid",
+          "value": "mid"
+        }
+      ],
+      "jobSeniorityIds": [
+        "mid"
+      ],
+      "isFeatured": false
+    },
+    {
+      "applicationWindow": {
+        "status": "accepting"
+      },
+      "applyUrl": "https://apply.workable.com/j/187C0291FC",
+      "companyDomain": "vortexa.com",
+      "companyLogos": {
+        "manual": {
+          "height": 160,
+          "src": "https://dzh2zima160vx.cloudfront.net/logo/f7f6dabe6ed9bfadeeee1f6e7c6252c7_320_160?Expires=1861920000&Signature=XkgK9DVBKki~sIZJHJwEkaojMILAKvX8bXzeNnrC34y5X3W26dyYlCy42ZCEVguc8vqj1no01GPb54VAq2RP5Mg6rEFqwZX8V-wRxl4KZ5ZfVoyVGORbVncmpSx0EukqEKg3nUYquHYzqCMGzOUlkmmRJzEThaUufG5ReXOkUSrztnWZmSr2El~Kdo-XmWnBT~aYQ3Amkpj7BFDpCA9UXZB1CYpQA2Hd8vfqa0ii-Gybl4W52uMVqH1WPR1X622rUF2XmVV6p3oEnLW9VqtpFPPsTGACaa9LPhYdY0YnaxMf1jpjj5Oe9yEZQ-LJIh2TzTbsbmzDzTkBUKALw5VBGQ__&Key-Pair-Id=APKAII5OVX4LZ3WT422Q",
+          "width": 320
+        },
+        "linkedin": {
+          "height": 100,
+          "src": "https://dzh2zima160vx.cloudfront.net/profile/5854cd6b51e4996999ed1667234059fc_100_100?Expires=1893456000&Signature=ghsWzkL~Icr5~6vxoyZOXWXcA-r1M0-5mzZVyRikjmQe3n-ZjM0OuTM7wsW-BgUAAYYix70F0LaupMfO71uUD7VjJngyxY586Cx-ZgG14Ih3OL~WjZjh3fSiZPLmRuhOlWkAYgOf2tGr~bE5WaQ2rPMc-n8hFYr~0K-GAdgB94EXWB1ujZDkW~RdX0VPTZIw33BMR66kWAc3sgPu~mynZxTTuIriMEeysdcAxlVhPlnYtbKmu2g4KRMLs3azz8SvdgTABJPkRTxXXTAeqelltviFst~cfyu~Or6fa~PFG1pxbvcPimeruubBgK-MzWmMOXCufX6AvBc2hsjjhkUsoA__&Key-Pair-Id=APKAII5OVX4LZ3WT422Q",
+          "width": 100
+        }
+      },
+      "companyId": "Vortexa",
+      "companySlug": "vortexa",
+      "companyName": "Vortexa",
+      "companyStaffCount": 209,
+      "considerHosted": false,
+      "departments": [],
+      "jobTypes": [
+        {
+          "id": "product-manager",
+          "label": "Product Manager",
+          "value": "product-manager"
+        }
+      ],
+      "jobFunctions": [
+        {
+          "id": "Product Management",
+          "label": "Product Management",
+          "value": "Product Management"
+        }
+      ],
+      "locations": [
+        "London, England, United Kingdom"
+      ],
+      "normalizedLocations": [
+        {
+          "id": "London, Greater London, United Kingdom",
+          "label": "London",
+          "value": "London, Greater London, United Kingdom"
+        }
+      ],
+      "salary": {
+        "period": {
+          "label": "Year",
+          "value": "year"
+        },
+        "minValue": 140000,
+        "maxValue": 225000,
+        "currency": {
+          "label": "USD",
+          "value": "USD"
+        },
+        "isOriginal": false
+      },
+      "skills": [
+        {
+          "id": "resume:Trading Systems",
+          "label": "Trading Systems",
+          "value": "resume:Trading Systems"
+        },
+        {
+          "id": "resume:Financial Markets",
+          "label": "Financial Markets",
+          "value": "resume:Financial Markets"
+        },
+        {
+          "id": "resume:SaaS",
+          "label": "Software as a Service",
+          "value": "resume:SaaS"
+        },
+        {
+          "id": "resume:Hedge Funds",
+          "label": "Hedge Funds",
+          "value": "resume:Hedge Funds"
+        },
+        {
+          "id": "resume:B2B",
+          "label": "B2B",
+          "value": "resume:B2B"
+        },
+        {
+          "id": "resume:SDK",
+          "label": "SDK",
+          "value": "resume:SDK"
+        },
+        {
+          "id": "resume:Low Latency",
+          "label": "Low Latency",
+          "value": "resume:Low Latency"
+        },
+        {
+          "id": "resume:Artificial Intelligence",
+          "label": "Artificial Intelligence",
+          "value": "resume:Artificial Intelligence"
+        },
+        {
+          "id": "resume:KPI Dashboards",
+          "label": "KPI Dashboards",
+          "value": "resume:KPI Dashboards"
+        },
+        {
+          "id": "resume:Forecasting",
+          "label": "Forecasting",
+          "value": "resume:Forecasting"
+        },
+        {
+          "id": "resume:Energy Industry",
+          "label": "Energy Industry",
+          "value": "resume:Energy Industry"
+        },
+        {
+          "id": "resume:Front-end Development",
+          "label": "Frontend Web Development",
+          "value": "resume:Front-end Development"
+        },
+        {
+          "id": "resume:Analytics",
+          "label": "Analytics",
+          "value": "resume:Analytics"
+        }
+      ],
+      "requiredSkills": [
+        {
+          "id": "resume:Trading Systems",
+          "label": "Trading Systems",
+          "value": "resume:Trading Systems"
+        },
+        {
+          "id": "resume:Financial Markets",
+          "label": "Financial Markets",
+          "value": "resume:Financial Markets"
+        },
+        {
+          "id": "resume:SaaS",
+          "label": "Software as a Service",
+          "value": "resume:SaaS"
+        }
+      ],
+      "preferredSkills": [
+        {
+          "id": "resume:Hedge Funds",
+          "label": "Hedge Funds",
+          "value": "resume:Hedge Funds"
+        },
+        {
+          "id": "resume:B2B",
+          "label": "B2B",
+          "value": "resume:B2B"
+        },
+        {
+          "id": "resume:SDK",
+          "label": "SDK",
+          "value": "resume:SDK"
+        },
+        {
+          "id": "resume:Low Latency",
+          "label": "Low Latency",
+          "value": "resume:Low Latency"
+        },
+        {
+          "id": "resume:Artificial Intelligence",
+          "label": "Artificial Intelligence",
+          "value": "resume:Artificial Intelligence"
+        },
+        {
+          "id": "resume:KPI Dashboards",
+          "label": "KPI Dashboards",
+          "value": "resume:KPI Dashboards"
+        },
+        {
+          "id": "resume:Forecasting",
+          "label": "Forecasting",
+          "value": "resume:Forecasting"
+        },
+        {
+          "id": "resume:Energy Industry",
+          "label": "Energy Industry",
+          "value": "resume:Energy Industry"
+        },
+        {
+          "id": "resume:Front-end Development",
+          "label": "Frontend Web Development",
+          "value": "resume:Front-end Development"
+        },
+        {
+          "id": "resume:Analytics",
+          "label": "Analytics",
+          "value": "resume:Analytics"
+        }
+      ],
+      "manager": false,
+      "consultant": false,
+      "contractor": false,
+      "considerLevels": [
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "minYearsExp": 1,
+      "maxYearsExp": 2,
+      "regions": [
+        {
+          "id": "EMEA",
+          "label": "EMEA",
+          "value": "EMEA"
+        },
+        {
+          "id": "Western Europe",
+          "label": "Western Europe",
+          "value": "Western Europe"
+        }
+      ],
+      "stages": [
+        {
+          "id": "100-1000 employees",
+          "label": "100-1000 employees",
+          "value": "100-1000 employees"
+        }
+      ],
+      "markets": [
+        {
+          "id": "Data & Analytics",
+          "label": "Data & Analytics",
+          "value": "Data & Analytics"
+        }
+      ],
+      "timeStamp": "2026-06-25T00:00:00Z",
+      "title": "Associate Product Manager",
+      "url": "https://apply.workable.com/j/187C0291FC",
+      "jobId": "187C0291FC",
+      "remote": false,
+      "hybrid": false,
+      "scores": {
+        "score": 0.1,
+        "matchScore": 0,
+        "ageScore": 0,
+        "richnessScore": 1
+      },
+      "atsJobs": [],
+      "matchingTalent": {
+        "count": 0,
+        "matches": []
+      },
+      "jobSeniorities": [
+        {
+          "id": "mid",
+          "label": "Mid",
+          "value": "mid"
+        },
+        {
+          "id": "junior",
+          "label": "Junior",
+          "value": "junior"
+        }
+      ],
+      "jobSeniorityIds": [
+        "mid",
+        "junior"
+      ],
+      "isFeatured": false
+    },
+    {
+      "applicationWindow": {
+        "status": "accepting"
+      },
+      "applyUrl": "https://jobs.ashbyhq.com/Protex%20AI/0f4a61a8-020c-4a14-a6eb-49d29b17603c?utm_source=jobs.notion.vc",
+      "companyDomain": "protex.ai",
+      "companyLogos": {
+        "manual": {
+          "height": 160,
+          "src": "https://dzh2zima160vx.cloudfront.net/logo/934481adc79250e268ecfe1ebce22727_272_160?Expires=1861920000&Signature=T561GZmTjMsriECgnWfRZ2DjFR2wUNcjWhFRsih4F2nzHvFdEzOjISfc4CCw5RDvz4zCQRdZ0qFgU2-SZaWwHOgenlhqT0PotDkLhTxnjaa4pUSuBOnYmdj5BK4ubo7qY7uWlNmd4FwBrjcqam-VKgCDciPYVXXPQ11O8Z~f3rFtHPYzB5NncA7hL3nxx0iYGtGcrRM-W3XnCJ8~oU1ZEy7PPBShECS3Pj8jVUVYDi0MbTf80RADLcvFmnWJMUIh5uIRKaWkWX0f1OTeqfUluv5ImUifPKKNJwDaciam3krLRwHzgpiSTPdnip72fF0zGLsADvs3tzkSpt1XLQ5Cvg__&Key-Pair-Id=APKAII5OVX4LZ3WT422Q",
+          "width": 272
+        },
+        "linkedin": {
+          "height": 100,
+          "src": "https://dzh2zima160vx.cloudfront.net/profile/17483162ffd56be2ca53ad968fd093cf_100_100?Expires=1893456000&Signature=hVPOnhHs9IYJN2kW-Iesh1m3-yWqlcEtaA0N9Y0OVC9d6Ev2PQKaBdkjXvj1e8~-Glsx9qcqEPTZRM~lzWNS4KrNBPapwEC5mhv8093pJoN4W2IzP~QI6kBalO4q2u7Z4kU8GvBGYezDhjvIaPHY7Vt6oCy9CV-hQTAqbtcZ8b25UMOuiz36kLC-QJoorWwr4BURfELU9C4t1POvd26w2wEdoGSrUDDsNsmmoVJqbFP2njVefANW2k-KKRpSRaXzF52v2W2~YgYMn7kilyBY-GTJcr55tDVruqT~rsfGjKKH~Cc4AEUiZijv-q6TPDNpIQpf9o9GxqqApOzuheItDg__&Key-Pair-Id=APKAII5OVX4LZ3WT422Q",
+          "width": 100
+        }
+      },
+      "companyId": "Protex AI",
+      "companySlug": "protex-ai",
+      "companyName": "Protex AI",
+      "companyStaffCount": 94,
+      "considerHosted": false,
+      "departments": [
+        "Product"
+      ],
+      "jobTypes": [
+        {
+          "id": "technical-product-manager",
+          "label": "Technical Product Manager",
+          "value": "technical-product-manager"
+        }
+      ],
+      "jobFunctions": [
+        {
+          "id": "Product Management",
+          "label": "Product Management",
+          "value": "Product Management"
+        }
+      ],
+      "locations": [
+        "Dublin, Dublin, Ireland",
+        "Dublin"
+      ],
+      "normalizedLocations": [
+        {
+          "id": "Dublin, Leinster, Ireland",
+          "label": "Dublin, Ireland",
+          "value": "Dublin, Leinster, Ireland"
+        }
+      ],
+      "skills": [
+        {
+          "id": "resume:Infrastructure",
+          "label": "Infrastructure",
+          "value": "resume:Infrastructure"
+        },
+        {
+          "id": "resume:B2B",
+          "label": "B2B",
+          "value": "resume:B2B"
+        },
+        {
+          "id": "resume:Customer Facing Roles",
+          "label": "Customer Facing Roles",
+          "value": "resume:Customer Facing Roles"
+        },
+        {
+          "id": "resume:Logistics",
+          "label": "Logistics",
+          "value": "resume:Logistics"
+        },
+        {
+          "id": "resume:Artificial Intelligence",
+          "label": "Artificial Intelligence",
+          "value": "resume:Artificial Intelligence"
+        },
+        {
+          "id": "resume:Sales Engineering",
+          "label": "Sales Engineering",
+          "value": "resume:Sales Engineering"
+        },
+        {
+          "id": "resume:Team Leadership",
+          "label": "Team Leadership",
+          "value": "resume:Team Leadership"
+        },
+        {
+          "id": "resume:Computer Vision",
+          "label": "Computer Vision",
+          "value": "resume:Computer Vision"
+        },
+        {
+          "id": "resume:Mobile",
+          "label": "Mobile",
+          "value": "resume:Mobile"
+        }
+      ],
+      "requiredSkills": [
+        {
+          "id": "resume:Infrastructure",
+          "label": "Infrastructure",
+          "value": "resume:Infrastructure"
+        },
+        {
+          "id": "resume:B2B",
+          "label": "B2B",
+          "value": "resume:B2B"
+        },
+        {
+          "id": "resume:Customer Facing Roles",
+          "label": "Customer Facing Roles",
+          "value": "resume:Customer Facing Roles"
+        }
+      ],
+      "preferredSkills": [
+        {
+          "id": "resume:Logistics",
+          "label": "Logistics",
+          "value": "resume:Logistics"
+        },
+        {
+          "id": "resume:Artificial Intelligence",
+          "label": "Artificial Intelligence",
+          "value": "resume:Artificial Intelligence"
+        },
+        {
+          "id": "resume:Sales Engineering",
+          "label": "Sales Engineering",
+          "value": "resume:Sales Engineering"
+        },
+        {
+          "id": "resume:Team Leadership",
+          "label": "Team Leadership",
+          "value": "resume:Team Leadership"
+        },
+        {
+          "id": "resume:Computer Vision",
+          "label": "Computer Vision",
+          "value": "resume:Computer Vision"
+        },
+        {
+          "id": "resume:Mobile",
+          "label": "Mobile",
+          "value": "resume:Mobile"
+        }
+      ],
+      "manager": false,
+      "consultant": false,
+      "contractor": false,
+      "considerLevels": [
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "minYearsExp": 2,
+      "maxYearsExp": 7,
+      "regions": [
+        {
+          "id": "EMEA",
+          "label": "EMEA",
+          "value": "EMEA"
+        },
+        {
+          "id": "Western Europe",
+          "label": "Western Europe",
+          "value": "Western Europe"
+        }
+      ],
+      "stages": [
+        {
+          "id": "10-100 employees",
+          "label": "10-100 employees",
+          "value": "10-100 employees"
+        },
+        {
+          "id": "Growth",
+          "label": "Growth",
+          "value": "Growth"
+        }
+      ],
+      "fundingLV": {
+        "id": "Growth",
+        "label": "Growth",
+        "value": "Growth"
+      },
+      "markets": [
+        {
+          "id": "AI",
+          "label": "AI",
+          "value": "AI"
+        },
+        {
+          "id": "Enterprise Software",
+          "label": "Enterprise Software",
+          "value": "Enterprise Software"
+        },
+        {
+          "id": "SaaS",
+          "label": "SaaS",
+          "value": "SaaS"
+        }
+      ],
+      "timeStamp": "2026-07-30T00:00:00Z",
+      "title": "Technical Product Manager",
+      "url": "https://jobs.ashbyhq.com/Protex%20AI/0f4a61a8-020c-4a14-a6eb-49d29b17603c",
+      "jobId": "0f4a61a8-020c-4a14-a6eb-49d29b17603c",
+      "remote": false,
+      "hybrid": true,
+      "scores": {
+        "score": 0.1,
+        "matchScore": 0,
+        "ageScore": 0,
+        "richnessScore": 1
+      },
+      "atsJobs": [],
+      "matchingTalent": {
+        "count": 0,
+        "matches": []
+      },
+      "jobSeniorities": [
+        {
+          "id": "mid",
+          "label": "Mid",
+          "value": "mid"
+        }
+      ],
+      "jobSeniorityIds": [
+        "mid"
+      ],
+      "isFeatured": false
+    },
+    {
+      "applicationWindow": {
+        "status": "accepting"
+      },
+      "applyUrl": "https://careers.techwolf.ai/o/product-manager-2",
+      "companyDomain": "techwolf.com",
+      "companyLogos": {
+        "manual": {
+          "height": 160,
+          "src": "https://dzh2zima160vx.cloudfront.net/logo/92ffdd0b6122e4f67a352c9c34be005b_320_160?Expires=1861920000&Signature=tj44zuH6uyzJdDWVXrU1iEcSuQMIeYFUlRAbNxLlReAxjot8pF7z0RC6YATui5Lzi7VmLCVEjlL7m0s0vKMSH3iFKxlTUztGPOjHn3Xjos3X35CJ2T9UlnVhEcf3sMsM75AsCtvWtz1hjl1BJ5t-J2~Rvg~ZnwcTJZ0y5PPBKGIiRuE26L21B9pqPe6N6XOVrOleg~FAFO5sjxApn~szDQqjsHdMdDoJq9qCHZMg5wOAUVPTsaQChUwL0PAzhlByh88OoPi6K0L~3pnQo-LKYqDkcPe7mVanoCFkL9POpjVNtzIMAPL3hdY-8wVYussQbefbMBHp2Jcge-qMJD1bEQ__&Key-Pair-Id=APKAII5OVX4LZ3WT422Q",
+          "width": 320
+        },
+        "linkedin": {
+          "height": 100,
+          "src": "https://dzh2zima160vx.cloudfront.net/profile/48c812ed34c4824e90d2450bfccfffd3_100_100?Expires=1893456000&Signature=i-VG6K2PwEK4RQIvYIIz3BFxW~KHXj8LPrEwxUBj~HyeV5nFAOKstnaV~tbvMq2Ec5JhCT9lG70SwrwFpAxrWH9MZVHJDlEIsS1HQ5glvQbDFlQfcjg7LrfzyoUPZtXWLfjvYIvevT2VMr7ypWrPq~~C65bP5NZC0eWvi8K5A~zMsekxOAVI9Xt50oSkKzUoZ5lkuFpLFji9~00TSavaAc8f~NkdF4V4q3d9pPSeTiCqZ1Zr1m3~4jtgX4kTPWDTJd1vEoliqxejd~bDKEFq5H9pJl9UKztZwCxkOJovODNndDdABSBILvTv8rCqvalnLd7516LRCdrr-ecU0O~~eg__&Key-Pair-Id=APKAII5OVX4LZ3WT422Q",
+          "width": 100
+        }
+      },
+      "companyId": "TechWolf",
+      "companySlug": "techwolf",
+      "companyName": "TechWolf",
+      "companyStaffCount": 138,
+      "considerHosted": false,
+      "departments": [
+        "Product"
+      ],
+      "jobTypes": [
+        {
+          "id": "product-manager",
+          "label": "Product Manager",
+          "value": "product-manager"
+        }
+      ],
+      "jobFunctions": [
+        {
+          "id": "Product Management",
+          "label": "Product Management",
+          "value": "Product Management"
+        }
+      ],
+      "locations": [
+        "Ghent, Vlaams Gewest, Belgium"
+      ],
+      "normalizedLocations": [
+        {
+          "id": "Belgium",
+          "label": "Belgium",
+          "value": "Belgium"
+        }
+      ],
+      "skills": [
+        {
+          "id": "resume:Decision-Making",
+          "label": "Decision-Making",
+          "value": "resume:Decision-Making"
+        },
+        {
+          "id": "resume:Sales & Marketing",
+          "label": "Sales & Marketing",
+          "value": "resume:Sales & Marketing"
+        },
+        {
+          "id": "resume:Product Strategy",
+          "label": "Product Strategy",
+          "value": "resume:Product Strategy"
+        },
+        {
+          "id": "resume:Artificial Intelligence",
+          "label": "Artificial Intelligence",
+          "value": "resume:Artificial Intelligence"
+        },
+        {
+          "id": "resume:User Experience",
+          "label": "User Experience",
+          "value": "resume:User Experience"
+        },
+        {
+          "id": "resume:Cross-functional Team Leadership",
+          "label": "Cross-functional Team Leadership",
+          "value": "resume:Cross-functional Team Leadership"
+        },
+        {
+          "id": "resume:SAP",
+          "label": "SAP",
+          "value": "resume:SAP"
+        },
+        {
+          "id": "resume:ServiceNow",
+          "label": "ServiceNow",
+          "value": "resume:ServiceNow"
+        },
+        {
+          "id": "resume:Pre-sales",
+          "label": "Pre-sales",
+          "value": "resume:Pre-sales"
+        },
+        {
+          "id": "resume:API Integrations",
+          "label": "API Integrations",
+          "value": "resume:API Integrations"
+        },
+        {
+          "id": "resume:Human Capital Management",
+          "label": "Human Capital Management",
+          "value": "resume:Human Capital Management"
+        },
+        {
+          "id": "resume:Product Roadmap",
+          "label": "Product Roadmap",
+          "value": "resume:Product Roadmap"
+        }
+      ],
+      "requiredSkills": [
+        {
+          "id": "resume:Decision-Making",
+          "label": "Decision-Making",
+          "value": "resume:Decision-Making"
+        },
+        {
+          "id": "resume:Sales & Marketing",
+          "label": "Sales & Marketing",
+          "value": "resume:Sales & Marketing"
+        },
+        {
+          "id": "resume:Product Strategy",
+          "label": "Product Strategy",
+          "value": "resume:Product Strategy"
+        }
+      ],
+      "preferredSkills": [
+        {
+          "id": "resume:Artificial Intelligence",
+          "label": "Artificial Intelligence",
+          "value": "resume:Artificial Intelligence"
+        },
+        {
+          "id": "resume:User Experience",
+          "label": "User Experience",
+          "value": "resume:User Experience"
+        },
+        {
+          "id": "resume:Cross-functional Team Leadership",
+          "label": "Cross-functional Team Leadership",
+          "value": "resume:Cross-functional Team Leadership"
+        },
+        {
+          "id": "resume:SAP",
+          "label": "SAP",
+          "value": "resume:SAP"
+        },
+        {
+          "id": "resume:ServiceNow",
+          "label": "ServiceNow",
+          "value": "resume:ServiceNow"
+        },
+        {
+          "id": "resume:Pre-sales",
+          "label": "Pre-sales",
+          "value": "resume:Pre-sales"
+        },
+        {
+          "id": "resume:API Integrations",
+          "label": "API Integrations",
+          "value": "resume:API Integrations"
+        },
+        {
+          "id": "resume:Human Capital Management",
+          "label": "Human Capital Management",
+          "value": "resume:Human Capital Management"
+        },
+        {
+          "id": "resume:Product Roadmap",
+          "label": "Product Roadmap",
+          "value": "resume:Product Roadmap"
+        }
+      ],
+      "manager": false,
+      "consultant": false,
+      "contractor": false,
+      "considerLevels": [
+        [
+          3,
+          4
+        ]
+      ],
+      "minYearsExp": 4,
+      "regions": [
+        {
+          "id": "EMEA",
+          "label": "EMEA",
+          "value": "EMEA"
+        },
+        {
+          "id": "Western Europe",
+          "label": "Western Europe",
+          "value": "Western Europe"
+        }
+      ],
+      "stages": [
+        {
+          "id": "100-1000 employees",
+          "label": "100-1000 employees",
+          "value": "100-1000 employees"
+        },
+        {
+          "id": "Growth",
+          "label": "Growth",
+          "value": "Growth"
+        }
+      ],
+      "fundingLV": {
+        "id": "Growth",
+        "label": "Growth",
+        "value": "Growth"
+      },
+      "markets": [
+        {
+          "id": "AI",
+          "label": "AI",
+          "value": "AI"
+        },
+        {
+          "id": "Enterprise Software",
+          "label": "Enterprise Software",
+          "value": "Enterprise Software"
+        },
+        {
+          "id": "SaaS",
+          "label": "SaaS",
+          "value": "SaaS"
+        }
+      ],
+      "timeStamp": "2025-02-27T08:37:33Z",
+      "title": "Product Manager",
+      "url": "https://careers.techwolf.ai/o/product-manager-2",
+      "jobId": "2045908",
+      "remote": false,
+      "hybrid": false,
+      "scores": {
+        "score": 0.1,
+        "matchScore": 0,
+        "ageScore": 0,
+        "richnessScore": 1
+      },
+      "atsJobs": [],
+      "matchingTalent": {
+        "count": 0,
+        "matches": []
+      },
+      "jobSeniorities": [
+        {
+          "id": "mid",
+          "label": "Mid",
+          "value": "mid"
+        }
+      ],
+      "jobSeniorityIds": [
+        "mid"
+      ],
+      "isFeatured": false
+    },
+    {
+      "applicationWindow": {
+        "status": "accepting"
+      },
+      "applyUrl": "https://apply.workable.com/j/8849B8E78B",
+      "companyDomain": "cogna.co",
+      "companyLogos": {
+        "manual": {
+          "height": 160,
+          "src": "https://dzh2zima160vx.cloudfront.net/logo/f88dafb3d4e29084f7aedb799c562b13_272_160?Expires=1861920000&Signature=A6qcXCOH~41YmBspYo0YDeB1n6xCLPB8lXK-EZhfG-7tQ40HHKWA03g-X4CzxM8nqFF5AkhbJIdhAR1EHtVrgVB~EggQfNI9b3y6sGdpK1seaIawSXHIeLhCVaeQwmHvPN8ishwpX7qygwhM7BgFcKSL7ShNHfN7y8gXydqgaaJwdXoj5QwEUjcBuHfe~Nre4SIr1RO8o1rhl90Vd0QABBuoDf6QKf0-AyHljh64EsVkEJZC3ebvFMH4l352URkWVsjSQXbUlov2ZJQw7aJPnmb6rlMoPafQULCqycDED0181sgRYp635qIEadwrjKNrIJBMTjDQl5AklYMHu9--bg__&Key-Pair-Id=APKAII5OVX4LZ3WT422Q",
+          "width": 272
+        },
+        "linkedin": {
+          "height": 100,
+          "src": "https://dzh2zima160vx.cloudfront.net/profile/808e7911388326f7b18667e99486277c_100_100?Expires=1893456000&Signature=GkiGjVwYXB29uduHzg8xA-uJlVBMcUZUZIeXl0RJNJ6cP1eFvsIxlskd7-GX8Vx-g8SX-8MIzRJ7X3OCDwPJ4FekzfgWqsj4ReEZRQNrIvXhDZJJy5VmWM45WooDQM6FwYfDnUMZaIe8h75thWihC5bAi1QXlYywqVINEcZpnPMm3Mp93tZTIyvie1ol4FqzYHC7-t0I0JC~hMdjU~jL2Cb5t2S5MEvTjg7GSzuFO6XSKZHOI9Pkv7PMIo2DfDQUPQ5zQ7YpAvUYozoOKz7NcGmtQuB04N0VITrpj9yhfNV3l9lfe~CacG4HBZDQ03pwe43FVPNelGRYNFxJM6GaEA__&Key-Pair-Id=APKAII5OVX4LZ3WT422Q",
+          "width": 100
+        }
+      },
+      "companyId": "Cogna",
+      "companySlug": "cogna",
+      "companyName": "Cogna",
+      "companyStaffCount": 85,
+      "considerHosted": false,
+      "departments": [],
+      "jobTypes": [
+        {
+          "id": "product-manager",
+          "label": "Product Manager",
+          "value": "product-manager"
+        }
+      ],
+      "jobFunctions": [
+        {
+          "id": "Product Management",
+          "label": "Product Management",
+          "value": "Product Management"
+        }
+      ],
+      "locations": [
+        "London, England, United Kingdom"
+      ],
+      "normalizedLocations": [
+        {
+          "id": "London, Greater London, United Kingdom",
+          "label": "London",
+          "value": "London, Greater London, United Kingdom"
+        }
+      ],
+      "salary": {
+        "period": {
+          "label": "Year",
+          "value": "year"
+        },
+        "minValue": 140000,
+        "maxValue": 225000,
+        "currency": {
+          "label": "USD",
+          "value": "USD"
+        },
+        "isOriginal": false
+      },
+      "skills": [
+        {
+          "id": "resume:Experimentation",
+          "label": "Experimentation",
+          "value": "resume:Experimentation"
+        },
+        {
+          "id": "resume:Quality Assurance",
+          "label": "Quality Assurance",
+          "value": "resume:Quality Assurance"
+        },
+        {
+          "id": "resume:Artificial Intelligence",
+          "label": "Artificial Intelligence",
+          "value": "resume:Artificial Intelligence"
+        },
+        {
+          "id": "resume:Program Management",
+          "label": "Program Management",
+          "value": "resume:Program Management"
+        },
+        {
+          "id": "resume:Infrastructure",
+          "label": "Infrastructure",
+          "value": "resume:Infrastructure"
+        }
+      ],
+      "requiredSkills": [
+        {
+          "id": "resume:Experimentation",
+          "label": "Experimentation",
+          "value": "resume:Experimentation"
+        },
+        {
+          "id": "resume:Quality Assurance",
+          "label": "Quality Assurance",
+          "value": "resume:Quality Assurance"
+        },
+        {
+          "id": "resume:Artificial Intelligence",
+          "label": "Artificial Intelligence",
+          "value": "resume:Artificial Intelligence"
+        }
+      ],
+      "preferredSkills": [
+        {
+          "id": "resume:Program Management",
+          "label": "Program Management",
+          "value": "resume:Program Management"
+        },
+        {
+          "id": "resume:Infrastructure",
+          "label": "Infrastructure",
+          "value": "resume:Infrastructure"
+        }
+      ],
+      "manager": false,
+      "consultant": false,
+      "contractor": false,
+      "considerLevels": [
+        [
+          3,
+          4
+        ]
+      ],
+      "minYearsExp": 4,
+      "regions": [
+        {
+          "id": "EMEA",
+          "label": "EMEA",
+          "value": "EMEA"
+        },
+        {
+          "id": "Western Europe",
+          "label": "Western Europe",
+          "value": "Western Europe"
+        }
+      ],
+      "stages": [
+        {
+          "id": "10-100 employees",
+          "label": "10-100 employees",
+          "value": "10-100 employees"
+        },
+        {
+          "id": "Series A",
+          "label": "Series A",
+          "value": "Series A"
+        }
+      ],
+      "fundingLV": {
+        "id": "Series A",
+        "label": "Series A",
+        "value": "Series A"
+      },
+      "markets": [
+        {
+          "id": "AI",
+          "label": "AI",
+          "value": "AI"
+        },
+        {
+          "id": "Enterprise Software",
+          "label": "Enterprise Software",
+          "value": "Enterprise Software"
+        },
+        {
+          "id": "SaaS",
+          "label": "SaaS",
+          "value": "SaaS"
+        }
+      ],
+      "timeStamp": "2026-06-05T00:00:00Z",
+      "title": "Product Manager, Platform",
+      "url": "https://apply.workable.com/j/8849B8E78B",
+      "jobId": "8849B8E78B",
+      "remote": false,
+      "hybrid": false,
+      "scores": {
+        "score": 0.1,
+        "matchScore": 0,
+        "ageScore": 0,
+        "richnessScore": 1
+      },
+      "atsJobs": [],
+      "matchingTalent": {
+        "count": 0,
+        "matches": []
+      },
+      "jobSeniorities": [
+        {
+          "id": "mid",
+          "label": "Mid",
+          "value": "mid"
+        }
+      ],
+      "jobSeniorityIds": [
+        "mid"
+      ],
+      "isFeatured": false
+    },
+    {
+      "applicationWindow": {
+        "status": "accepting"
+      },
+      "applyUrl": "https://jobs.ashbyhq.com/paddle/cde17e70-5be2-4b2f-86c0-26591c168cec?utm_source=jobs.notion.vc",
+      "companyDomain": "paddle.com",
+      "companyLogos": {
+        "manual": {
+          "height": 160,
+          "src": "https://dzh2zima160vx.cloudfront.net/logo/fe6801d2c4cf6f622ad32a6ff92e8e10_192_160?Expires=1861920000&Signature=R9oRKOcF6Gpum4xBV~BSOLrQqHfQOZW4pcfDJFqfjo83wJn1JpMT5IWQAmM2je81Fr~Hqiul2X4V6PJQx2PBHSlPvNjhvk3qj4m3wxn6jCwbMYoK4T~nj6sauYyK4g24uTtfYEDK2tkilvp6WK7t9kKs2DKCDklDvllFjsRIU6vQlpj0gdS5atsKOTYDYKf9FQYx0ExVkwm6kqIexr1XBExIAOhFGbmvLjc1kGkz0rGimSzLRRIbvSN2lIhUGuggUWZq0erorxFLY2gXOOPjFZuvnagFdVpzenrz7vW6ZQmOisunJJHpVRiZFe2W8nDpq7AucNsuChVdwOjtY1JnHQ__&Key-Pair-Id=APKAII5OVX4LZ3WT422Q",
+          "width": 192
+        },
+        "linkedin": {
+          "height": 100,
+          "src": "https://dzh2zima160vx.cloudfront.net/profile/cbbd90a3924b25dbba5440602caf50db_100_100?Expires=1893456000&Signature=i8vPhOnc3tZzsX0yUdQhqtyZHQ8Ro-IDEv03aRX-2rCE30E3S8V7xlEncjlzKPiLhLx42W0zj0HiO~6UYhYnt6wr1ibnP9RT1I6tcO0qlP0iMrr8U~YSz3ADwMtbVe-PDAPkPHAuCbdC1~ZYTtu2nzMBDVlmgslaJM6D5IaMm0Q40gwskQp83B8EOyWokiZyPe~Hp9AeLKW-xKN-l4rTkVsIGWs9QHMKEWjafqonh9ORk8owJDWuFe1T2N0rkL7-DL18LpiaLNJLJQN~--Bb7gXMauIxaVcg7DnLiYg4-4xBmphgq7yRWuu5DMmDD~OUDZfbi9JjkvnJYkLMrjBPLg__&Key-Pair-Id=APKAII5OVX4LZ3WT422Q",
+          "width": 100
+        }
+      },
+      "companyId": "Paddle",
+      "companySlug": "paddle",
+      "companyName": "Paddle",
+      "companyStaffCount": 411,
+      "considerHosted": false,
+      "departments": [
+        "Product"
+      ],
+      "jobTypes": [
+        {
+          "id": "product-manager",
+          "label": "Product Manager",
+          "value": "product-manager"
+        }
+      ],
+      "jobFunctions": [
+        {
+          "id": "Product Management",
+          "label": "Product Management",
+          "value": "Product Management"
+        }
+      ],
+      "locations": [
+        "London, England, UK",
+        "London"
+      ],
+      "normalizedLocations": [
+        {
+          "id": "London, Greater London, United Kingdom",
+          "label": "London",
+          "value": "London, Greater London, United Kingdom"
+        }
+      ],
+      "salary": {
+        "period": {
+          "label": "Year",
+          "value": "year"
+        },
+        "minValue": 140000,
+        "maxValue": 225000,
+        "currency": {
+          "label": "USD",
+          "value": "USD"
+        },
+        "isOriginal": false
+      },
+      "skills": [
+        {
+          "id": "resume:Finance",
+          "label": "Finance",
+          "value": "resume:Finance"
+        },
+        {
+          "id": "resume:Financial technology",
+          "label": "Financial technology",
+          "value": "resume:Financial technology"
+        },
+        {
+          "id": "resume:Fraud",
+          "label": "Fraud",
+          "value": "resume:Fraud"
+        },
+        {
+          "id": "resume:Infrastructure",
+          "label": "Infrastructure",
+          "value": "resume:Infrastructure"
+        },
+        {
+          "id": "resume:Compliance",
+          "label": "Compliance",
+          "value": "resume:Compliance"
+        },
+        {
+          "id": "resume:User Experience Design",
+          "label": "User Experience Design",
+          "value": "resume:User Experience Design"
+        }
+      ],
+      "requiredSkills": [
+        {
+          "id": "resume:Finance",
+          "label": "Finance",
+          "value": "resume:Finance"
+        },
+        {
+          "id": "resume:Financial technology",
+          "label": "Financial technology",
+          "value": "resume:Financial technology"
+        },
+        {
+          "id": "resume:Fraud",
+          "label": "Fraud",
+          "value": "resume:Fraud"
+        }
+      ],
+      "preferredSkills": [
+        {
+          "id": "resume:Infrastructure",
+          "label": "Infrastructure",
+          "value": "resume:Infrastructure"
+        },
+        {
+          "id": "resume:Compliance",
+          "label": "Compliance",
+          "value": "resume:Compliance"
+        },
+        {
+          "id": "resume:User Experience Design",
+          "label": "User Experience Design",
+          "value": "resume:User Experience Design"
+        }
+      ],
+      "manager": false,
+      "consultant": false,
+      "contractor": false,
+      "considerLevels": [
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "regions": [
+        {
+          "id": "EMEA",
+          "label": "EMEA",
+          "value": "EMEA"
+        },
+        {
+          "id": "Western Europe",
+          "label": "Western Europe",
+          "value": "Western Europe"
+        }
+      ],
+      "stages": [
+        {
+          "id": "100-1000 employees",
+          "label": "100-1000 employees",
+          "value": "100-1000 employees"
+        }
+      ],
+      "markets": [
+        {
+          "id": "Payments",
+          "label": "Payments",
+          "value": "Payments"
+        }
+      ],
+      "timeStamp": "2026-05-14T00:00:00Z",
+      "title": "Staff Product Manager",
+      "url": "https://jobs.ashbyhq.com/paddle/cde17e70-5be2-4b2f-86c0-26591c168cec",
+      "jobId": "cde17e70-5be2-4b2f-86c0-26591c168cec",
+      "remote": true,
+      "hybrid": false,
+      "scores": {
+        "score": 0.1,
+        "matchScore": 0,
+        "ageScore": 0,
+        "richnessScore": 1
+      },
+      "atsJobs": [],
+      "matchingTalent": {
+        "count": 0,
+        "matches": []
+      },
+      "jobSeniorities": [
+        {
+          "id": "mid",
+          "label": "Mid",
+          "value": "mid"
+        },
+        {
+          "id": "senior",
+          "label": "Senior",
+          "value": "senior"
+        }
+      ],
+      "jobSeniorityIds": [
+        "mid",
+        "senior"
+      ],
+      "isFeatured": false
+    },
+    {
+      "applicationWindow": {
+        "status": "accepting"
+      },
+      "applyUrl": "https://jobs.ashbyhq.com/upvest/029dc97e-632a-406b-819b-8e67ae0ee194?utm_source=jobs.notion.vc",
+      "companyDomain": "upvest.co",
+      "companyLogos": {
+        "manual": {
+          "height": 160,
+          "src": "https://dzh2zima160vx.cloudfront.net/logo/c91f4e7b4af17b8dc2fa69390eabcbd5_224_160?Expires=1861920000&Signature=I631FdZdZ5~2UY~fH3bjRiICRNHrkW857pfMkc3ynEgRCv5WXyuR39~tFes0BdrhWqB3mrKYeU715SkU93EPAKAyohkKE4Px87xogv5rRy8VJQ2TX-mxowwG0L154S2bFkbXg0s3M5AufMw28RnO-asIY4BpdLA05Qkqviiwt49ChOKujl8lJZe4mGdqUPWoRB5h7RK2lF4uOaYHuaZgUDZ3wQ1MrNzCh8TGFievnT4sXjv1VDDWRFdwjLeiSdhfwNxDYzDCgnvCgw1Dx5DCFIfQI8KxQBqrpWGW1vqhyj6SPRCeqCuGySI0vZdb2rL-hmFHK-y4NNcGw7Y1DNQRJQ__&Key-Pair-Id=APKAII5OVX4LZ3WT422Q",
+          "width": 224
+        },
+        "linkedin": {
+          "height": 100,
+          "src": "https://dzh2zima160vx.cloudfront.net/profile/0626ca9d3840bcf88039bb422fa8e065_100_100?Expires=1893456000&Signature=iDrUComml42FoHJ8WZH-ePzC5EglEu-6k-9lngWDhED25somI2TGLCHlVCqLmlJQUCUO1QPF4pia9my7MMrh9t-zRGJo-fdvN5WFvdybxcmVnvhaa~XYug7b~90qcEBq3m1h1CFbxRB~Cs0dOThuejn02DJsAkD7DcnpTVAHX-Tw9lyY2q5SukcxyAEC5w0Eh1jlbFs5nf3D1FuJZv9kaKhfCPMIoZGJCB47qejb6cZTKuOxBP~FON8tM4GN3Hi2fOiiGuxiyYJPD-SL8OncAA2bNRKaQCOEjWO-y1K6YwJh7h~SrOxkOQp62sbQthngkN~kFQk9N3MsNGJLti~srQ__&Key-Pair-Id=APKAII5OVX4LZ3WT422Q",
+          "width": 100
+        }
+      },
+      "companyId": "Upvest",
+      "companySlug": "upvest",
+      "companyName": "Upvest",
+      "companyStaffCount": 287,
+      "considerHosted": false,
+      "departments": [
+        "Product"
+      ],
+      "jobTypes": [
+        {
+          "id": "product-manager",
+          "label": "Product Manager",
+          "value": "product-manager"
+        },
+        {
+          "id": "senior-product-manager",
+          "label": "Senior Product Manager",
+          "value": "senior-product-manager"
+        }
+      ],
+      "jobFunctions": [
+        {
+          "id": "Product Management",
+          "label": "Product Management",
+          "value": "Product Management"
+        }
+      ],
+      "locations": [
+        "Berlin, Berlin, Germany",
+        "Berlin"
+      ],
+      "normalizedLocations": [
+        {
+          "id": "Berlin, Berlin, Germany",
+          "label": "Berlin, Germany",
+          "value": "Berlin, Berlin, Germany"
+        }
+      ],
+      "skills": [
+        {
+          "id": "resume:Trading Systems",
+          "label": "Trading Systems",
+          "value": "resume:Trading Systems"
+        },
+        {
+          "id": "resume:Financial Products",
+          "label": "Financial Products",
+          "value": "resume:Financial Products"
+        },
+        {
+          "id": "resume:Finance",
+          "label": "Finance",
+          "value": "resume:Finance"
+        },
+        {
+          "id": "resume:SaaS",
+          "label": "Software as a Service",
+          "value": "resume:SaaS"
+        },
+        {
+          "id": "resume:B2B",
+          "label": "B2B",
+          "value": "resume:B2B"
+        },
+        {
+          "id": "resume:Taxes",
+          "label": "Taxes",
+          "value": "resume:Taxes"
+        },
+        {
+          "id": "resume:Wealth Management",
+          "label": "Wealth Management",
+          "value": "resume:Wealth Management"
+        },
+        {
+          "id": "resume:Figma",
+          "label": "Figma",
+          "value": "resume:Figma"
+        },
+        {
+          "id": "resume:Financial technology",
+          "label": "Financial technology",
+          "value": "resume:Financial technology"
+        },
+        {
+          "id": "resume:Capital Markets",
+          "label": "Capital Markets",
+          "value": "resume:Capital Markets"
+        },
+        {
+          "id": "resume:Retirement Planning",
+          "label": "Retirement Planning",
+          "value": "resume:Retirement Planning"
+        }
+      ],
+      "requiredSkills": [
+        {
+          "id": "resume:Trading Systems",
+          "label": "Trading Systems",
+          "value": "resume:Trading Systems"
+        },
+        {
+          "id": "resume:Financial Products",
+          "label": "Financial Products",
+          "value": "resume:Financial Products"
+        },
+        {
+          "id": "resume:Finance",
+          "label": "Finance",
+          "value": "resume:Finance"
+        }
+      ],
+      "preferredSkills": [
+        {
+          "id": "resume:SaaS",
+          "label": "Software as a Service",
+          "value": "resume:SaaS"
+        },
+        {
+          "id": "resume:B2B",
+          "label": "B2B",
+          "value": "resume:B2B"
+        },
+        {
+          "id": "resume:Taxes",
+          "label": "Taxes",
+          "value": "resume:Taxes"
+        },
+        {
+          "id": "resume:Wealth Management",
+          "label": "Wealth Management",
+          "value": "resume:Wealth Management"
+        },
+        {
+          "id": "resume:Figma",
+          "label": "Figma",
+          "value": "resume:Figma"
+        },
+        {
+          "id": "resume:Financial technology",
+          "label": "Financial technology",
+          "value": "resume:Financial technology"
+        },
+        {
+          "id": "resume:Capital Markets",
+          "label": "Capital Markets",
+          "value": "resume:Capital Markets"
+        },
+        {
+          "id": "resume:Retirement Planning",
+          "label": "Retirement Planning",
+          "value": "resume:Retirement Planning"
+        }
+      ],
+      "manager": false,
+      "consultant": false,
+      "contractor": false,
+      "considerLevels": [
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "minYearsExp": 3,
+      "maxYearsExp": 5,
+      "regions": [
+        {
+          "id": "EMEA",
+          "label": "EMEA",
+          "value": "EMEA"
+        },
+        {
+          "id": "Western Europe",
+          "label": "Western Europe",
+          "value": "Western Europe"
+        }
+      ],
+      "stages": [
+        {
+          "id": "100-1000 employees",
+          "label": "100-1000 employees",
+          "value": "100-1000 employees"
+        }
+      ],
+      "markets": [
+        {
+          "id": "Financial Services",
+          "label": "Financial Services",
+          "value": "Financial Services"
+        },
+        {
+          "id": "Fintech",
+          "label": "FinTech",
+          "value": "Fintech"
+        }
+      ],
+      "timeStamp": "2026-02-09T00:00:00Z",
+      "title": "Senior Product Manager - Expansion (f/m/d)",
+      "url": "https://jobs.ashbyhq.com/upvest/029dc97e-632a-406b-819b-8e67ae0ee194",
+      "jobId": "029dc97e-632a-406b-819b-8e67ae0ee194",
+      "remote": false,
+      "hybrid": true,
+      "scores": {
+        "score": 0.1,
+        "matchScore": 0,
+        "ageScore": 0,
+        "richnessScore": 1
+      },
+      "atsJobs": [],
+      "matchingTalent": {
+        "count": 0,
+        "matches": []
+      },
+      "jobSeniorities": [
+        {
+          "id": "mid",
+          "label": "Mid",
+          "value": "mid"
+        },
+        {
+          "id": "senior",
+          "label": "Senior",
+          "value": "senior"
+        }
+      ],
+      "jobSeniorityIds": [
+        "mid",
+        "senior"
+      ],
+      "isFeatured": false
+    },
+    {
+      "applicationWindow": {
+        "status": "accepting"
+      },
+      "applyUrl": "https://job-boards.greenhouse.io/gocardless/jobs/8064518",
+      "companyDomain": "gocardless.com",
+      "companyLogos": {
+        "manual": {
+          "height": 160,
+          "src": "https://dzh2zima160vx.cloudfront.net/logo/007db8d59a04079426b51ab7a7370c74_288_160?Expires=1861920000&Signature=odXEFqex1mRvj2OG0iMjYfZgOy264ETK8iEd2mkgZ7g6xJxdcwgFBWGXWwag~JPyomJJV7XTQvOY7SrUxmZ2JSgG7LnIQMMOSpU-E9whThmsQCuI3GDofTh154~gfrI0mBgHtPEs97z5rgboMuW8ZvBBGs8PUsNX8ZmJ~un2-GDzG1yFTMgbHdm-toV3Gc0JvgkKmnNjVrwesVLqJk2WLSKVDVqVQQHx9kq8PuuS0h5zMAewi~BBcDnMPCokoy9sB-uJuusbwDC~WmMoxi4PSZI2d542qmWT97CwQTTo48tM1m0~XJUfjb~I73TzMwO4gRhVkdUiv91LDhxAQF6vqA__&Key-Pair-Id=APKAII5OVX4LZ3WT422Q",
+          "width": 288
+        },
+        "linkedin": {
+          "height": 100,
+          "src": "https://dzh2zima160vx.cloudfront.net/profile/3d559ef22f4d8b8ff4939cc0a26e7bfa_100_100?Expires=1893456000&Signature=NQku~JGGUmTyOsgrQfJ-~5Z5o7ovTagMS9536LtrFDRMCvOIIcTL6CG23jq0meSry21k7udB8PTPEtTekTWYLKRywM-djb-GYWtTlg~4mMDESdsJzJziUoiP2PVBUQP83lkasL8jAFrYWmytiXdmfouHz3iizxnJB17CLgZMHkKdye5vtiqwtr6lfZLuDZxPrynGQ8MEGgkr6rr05HZEPrIFaHRKUMqt4IWXM5LfymUMPzNsJ1wqZdu2A21lCieUtuS0sCIKQgjixQgG5ofAi-KEOvG8~mKByuHCswb5MfYr~J-oiY-KIbrLdpx2ctDetJf~uhNYO9pvbetmDawJ4Q__&Key-Pair-Id=APKAII5OVX4LZ3WT422Q",
+          "width": 100
+        }
+      },
+      "companyId": "GoCardless",
+      "companySlug": "gocardless",
+      "companyName": "GoCardless",
+      "companyStaffCount": 833,
+      "considerHosted": false,
+      "departments": [
+        "Product Development"
+      ],
+      "jobTypes": [
+        {
+          "id": "product-manager",
+          "label": "Product Manager",
+          "value": "product-manager"
+        },
+        {
+          "id": "senior-product-manager",
+          "label": "Senior Product Manager",
+          "value": "senior-product-manager"
+        }
+      ],
+      "jobFunctions": [
+        {
+          "id": "Product Management",
+          "label": "Product Management",
+          "value": "Product Management"
+        }
+      ],
+      "locations": [
+        "London, UK"
+      ],
+      "normalizedLocations": [
+        {
+          "id": "London, Greater London, United Kingdom",
+          "label": "London",
+          "value": "London, Greater London, United Kingdom"
+        }
+      ],
+      "salary": {
+        "period": {
+          "label": "Year",
+          "value": "year"
+        },
+        "minValue": 125000,
+        "maxValue": 225000,
+        "currency": {
+          "label": "USD",
+          "value": "USD"
+        },
+        "isOriginal": false
+      },
+      "skills": [
+        {
+          "id": "resume:Quantitative Analytics",
+          "label": "Quantitative Analytics",
+          "value": "resume:Quantitative Analytics"
+        },
+        {
+          "id": "resume:Analytical Skills",
+          "label": "Analytical Skills",
+          "value": "resume:Analytical Skills"
+        },
+        {
+          "id": "resume:Experimentation",
+          "label": "Experimentation",
+          "value": "resume:Experimentation"
+        }
+      ],
+      "requiredSkills": [
+        {
+          "id": "resume:Quantitative Analytics",
+          "label": "Quantitative Analytics",
+          "value": "resume:Quantitative Analytics"
+        },
+        {
+          "id": "resume:Analytical Skills",
+          "label": "Analytical Skills",
+          "value": "resume:Analytical Skills"
+        },
+        {
+          "id": "resume:Experimentation",
+          "label": "Experimentation",
+          "value": "resume:Experimentation"
+        }
+      ],
+      "preferredSkills": [],
+      "manager": false,
+      "consultant": false,
+      "contractor": false,
+      "considerLevels": [
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "regions": [
+        {
+          "id": "EMEA",
+          "label": "EMEA",
+          "value": "EMEA"
+        },
+        {
+          "id": "Western Europe",
+          "label": "Western Europe",
+          "value": "Western Europe"
+        }
+      ],
+      "stages": [
+        {
+          "id": "100-1000 employees",
+          "label": "100-1000 employees",
+          "value": "100-1000 employees"
+        }
+      ],
+      "markets": [
+        {
+          "id": "Fintech",
+          "label": "FinTech",
+          "value": "Fintech"
+        }
+      ],
+      "timeStamp": "2026-07-20T04:01:05Z",
+      "title": "Senior Product Manager",
+      "url": "https://job-boards.greenhouse.io/gocardless/jobs/8064518",
+      "jobId": "8064518",
+      "remote": false,
+      "hybrid": false,
+      "scores": {
+        "score": 0.06,
+        "matchScore": 0,
+        "ageScore": 0,
+        "richnessScore": 0.6
+      },
+      "atsJobs": [],
+      "matchingTalent": {
+        "count": 0,
+        "matches": []
+      },
+      "jobSeniorities": [
+        {
+          "id": "mid",
+          "label": "Mid",
+          "value": "mid"
+        },
+        {
+          "id": "senior",
+          "label": "Senior",
+          "value": "senior"
+        }
+      ],
+      "jobSeniorityIds": [
+        "mid",
+        "senior"
+      ],
+      "isFeatured": false
+    },
+    {
+      "applicationWindow": {
+        "status": "accepting"
+      },
+      "applyUrl": "https://aikidosecurity.recruitee.com/o/product-manager-enterprise",
+      "companyDomain": "aikido.dev",
+      "companyLogos": {
+        "manual": {
+          "height": 160,
+          "src": "https://dzh2zima160vx.cloudfront.net/logo/80a53ea13628ca8d23078e6662d3a88c_240_160?Expires=1861920000&Signature=r8dDVlyVynMofqKV9SLrObudBcrRfwqXiL2mnx9TtiGWG5vxiycROLj3dvbcyD~IIb3fZZUDy1e3WylTZHCTz5RByKoj41DIq2dZrZ9~sUA655Z7ebDd7scYDJE6GWZGZZ47NVvWu~GElgrkgOozFQUXBBrUkbIgtQftEsqPamAfEtLG-xQxEu1BFrzeetqKQs05NuBySm~E0ZyZ4rghoGLEtZDXRmrAHqzS9eAOhpv9mnWCszBr4jG8Up2Zph52ybNgyLQd-3pdoEHC-XeJxuPtpL1sYQtqrH6StTWpuSkn1RUC5rTmSmmZH5hRh5LW9JuNq4IQmXjFoLm3EmxeCA__&Key-Pair-Id=APKAII5OVX4LZ3WT422Q",
+          "width": 240
+        },
+        "linkedin": {
+          "height": 100,
+          "src": "https://dzh2zima160vx.cloudfront.net/profile/a0fe01863dba3def61713ec885bf82e8_100_100?Expires=1893456000&Signature=pQdpY67VcMce92Wnc0xeabRJn~Khq83Aj~CPf6OktBUlnFCzLC15NdClP3KXa-bATeg5aG2j8BtDLoowwhCp~ax3csZxeSG7GVGGyN7q9DpSe4PusWiyUh0aKtwgQSJBLPSN7pMTYu27o~yNem65B31RmBXwvyrzFb-ZtGbVlDQTcYq-~uw0461YiCmtVtrgw0CFfmOD3gqXXWba5UQwiEbL5VVBxiG-hzjtH~WJnqWo74AKD4ityq5daJeixqpkWEUN~jYrjoM7oedzB9wJ9tGbwFCVmyG~g8uuwhLOox1fTS2k73W~UBdKGH~F-myV3eABckxTi-VOikTVA0mtJQ__&Key-Pair-Id=APKAII5OVX4LZ3WT422Q",
+          "width": 100
+        }
+      },
+      "companyId": "Aikido Security",
+      "companySlug": "aikido-security",
+      "companyName": "Aikido Security",
+      "companyStaffCount": 190,
+      "considerHosted": false,
+      "departments": [
+        "Engineering"
+      ],
+      "jobTypes": [
+        {
+          "id": "product-manager",
+          "label": "Product Manager",
+          "value": "product-manager"
+        }
+      ],
+      "jobFunctions": [
+        {
+          "id": "Product Management",
+          "label": "Product Management",
+          "value": "Product Management"
+        }
+      ],
+      "locations": [
+        "Ghent, Oost-Vlaanderen, Belgium"
+      ],
+      "normalizedLocations": [
+        {
+          "id": "Belgium",
+          "label": "Belgium",
+          "value": "Belgium"
+        }
+      ],
+      "skills": [
+        {
+          "id": "resume:REST",
+          "label": "REST",
+          "value": "resume:REST"
+        },
+        {
+          "id": "resume:Enterprise Software",
+          "label": "Enterprise Software",
+          "value": "resume:Enterprise Software"
+        }
+      ],
+      "requiredSkills": [
+        {
+          "id": "resume:REST",
+          "label": "REST",
+          "value": "resume:REST"
+        },
+        {
+          "id": "resume:Enterprise Software",
+          "label": "Enterprise Software",
+          "value": "resume:Enterprise Software"
+        }
+      ],
+      "preferredSkills": [],
+      "manager": false,
+      "consultant": false,
+      "contractor": false,
+      "considerLevels": [
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "regions": [
+        {
+          "id": "EMEA",
+          "label": "EMEA",
+          "value": "EMEA"
+        },
+        {
+          "id": "Western Europe",
+          "label": "Western Europe",
+          "value": "Western Europe"
+        }
+      ],
+      "stages": [
+        {
+          "id": "100-1000 employees",
+          "label": "100-1000 employees",
+          "value": "100-1000 employees"
+        },
+        {
+          "id": "Growth",
+          "label": "Growth",
+          "value": "Growth"
+        }
+      ],
+      "fundingLV": {
+        "id": "Growth",
+        "label": "Growth",
+        "value": "Growth"
+      },
+      "markets": [
+        {
+          "id": "Computer & Network Security",
+          "label": "Computer & Network Security",
+          "value": "Computer & Network Security"
+        },
+        {
+          "id": "Developer Tools",
+          "label": "Developer Tools",
+          "value": "Developer Tools"
+        }
+      ],
+      "timeStamp": "2026-07-28T12:18:59Z",
+      "title": "Product Manager (Enterprise)",
+      "url": "https://aikidosecurity.recruitee.com/o/product-manager-enterprise",
+      "jobId": "2692504",
+      "remote": false,
+      "hybrid": true,
+      "scores": {
+        "score": 0.04000000000000001,
+        "matchScore": 0,
+        "ageScore": 0,
+        "richnessScore": 0.4
+      },
+      "atsJobs": [],
+      "matchingTalent": {
+        "count": 0,
+        "matches": []
+      },
+      "jobSeniorities": [
+        {
+          "id": "mid",
+          "label": "Mid",
+          "value": "mid"
+        }
+      ],
+      "jobSeniorityIds": [
+        "mid"
+      ],
+      "isFeatured": false
+    }
+  ],
+  "meta": {
+    "size": 100
+  },
+  "availableFilters": [
+    {
+      "param": "remoteOnly",
+      "value": "true",
+      "total": 1
+    }
+  ],
+  "total": 12,
+  "errors": [],
+  "debug": []
+}

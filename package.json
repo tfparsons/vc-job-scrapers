@@ -7,8 +7,8 @@
   "scripts": {
     "dev": "wrangler dev",
     "deploy": "wrangler deploy",
-    "test": "node --test test/test.js",
-    "test:update": "UPDATE_SNAPSHOTS=1 node --test test/test.js",
+    "test": "node --test test/*.test.js",
+    "test:update": "UPDATE_SNAPSHOTS=1 node --test test/*.test.js",
     "tail": "wrangler tail"
   },
   "devDependencies": {

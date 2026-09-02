@@ -15,4 +15,4 @@ export const USER_AGENT =
 
 // How many board requests run at once per invocation, and how long each may take.
 export const FETCH_CONCURRENCY = 4;
-export const FETCH_TIMEOUT_MS = 8000;
+export const FETCH_TIMEOUT_MS = 15000; // Getro searches can take 5-8 s under load

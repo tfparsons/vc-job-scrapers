@@ -65,8 +65,19 @@ export default {
       return jsonResponse(envelope({ ...base, error: `host not allowed: ${rawHost || "(missing)"}` }));
     }
 
+    // Boards hosted on the platform's own domain need ?board=<id> to say which one.
+    let hostedBoard = null;
+    if (board.hosted) {
+      const rawBoard = (url.searchParams.get("board") || "").trim().toLowerCase();
+      if (!/^[a-z0-9-]{1,80}$/.test(rawBoard)) {
+        return jsonResponse(envelope({ ...base, error: `board required for ${board.host}: ?board=<id>` }));
+      }
+      hostedBoard = rawBoard;
+      base.source = rawBoard;
+    }
+
     const body = await neverThrow(base, async () => {
-      const result = await scraper.run({ host: board.host, now, config });
+      const result = await scraper.run({ host: board.host, board: hostedBoard, now, config });
       return envelope({ ...base, ...result });
     });
     return jsonResponse(body);

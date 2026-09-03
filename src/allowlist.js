@@ -23,6 +23,29 @@ export const HOSTS = {
   "jobs.accel.com": { platform: "getro", source: "accel" },
   "careers.atomico.com": { platform: "getro", source: "atomico" },
   "portfolio.joinef.com": { platform: "getro", source: "ef" },
+
+  // Tier 1 adds, 3 Sep 2026 (coverage audit). All verified live that day.
+  "jobs.generalcatalyst.com": { platform: "getro", source: "generalcatalyst" },
+  "portfoliojobs.partechpartners.com": { platform: "getro", source: "partech" },
+  "talent.cherry.vc": { platform: "getro", source: "cherry" },
+  "positions.moonfire.com": { platform: "getro", source: "moonfire" },
+  "jobs.hvcapital.com": { platform: "getro", source: "hvcapital" },
+  "jobs.headline.com": { platform: "getro", source: "headline" },
+  "careers.crane.vc": { platform: "getro", source: "crane" },
+  "jobs.pointnine.com": { platform: "getro", source: "pointnine" },
+  "jobs.firstminute.capital": { platform: "getro", source: "firstminute" },
+  "talent.backed.vc": { platform: "getro", source: "backed" },
+  "jobs.outlierventures.io": { platform: "getro", source: "outlier" },
+  "careers.speedinvest.com": { platform: "getro", source: "speedinvest" },
+  "jobs.techstars.com": { platform: "getro", source: "techstars" },
+  "jobs.lsvp.com": { platform: "consider", source: "lightspeed" },
+  "careers.creandum.com": { platform: "consider", source: "creandum" },
+  "careers.playfair.vc": { platform: "consider", source: "playfair" },
+  "jobs.gtmfund.com": { platform: "consider", source: "gtmfund" },
+
+  // Boards hosted on consider.com itself (no vanity domain). The board id comes
+  // from ?board=<id>; the source slug becomes that id. Point72 = point72-ventures.
+  "consider.com": { platform: "consider", source: "consider-hosted", hosted: true },
 };
 
 const HOST_SHAPE = /^[a-z0-9.-]+$/;

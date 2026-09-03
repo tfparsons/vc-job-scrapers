@@ -184,10 +184,11 @@ test("mapPool keeps input order and isolates failures", async () => {
 
 // ---------- allowlist ----------
 
-test("allowlist: 8 consider + 9 getro hosts, lookup is platform-scoped and lowercases", () => {
-  assert.equal(hostsFor("consider").length, 8);
-  assert.equal(hostsFor("getro").length, 9);
-  assert.equal(Object.keys(HOSTS).length, 17);
+test("allowlist: 13 consider + 22 getro hosts, lookup is platform-scoped and lowercases", () => {
+  assert.equal(hostsFor("consider").length, 13);
+  assert.equal(hostsFor("getro").length, 22);
+  assert.equal(Object.keys(HOSTS).length, 35);
+  assert.equal(lookupHost("consider.com", "consider").hosted, true);
   assert.deepEqual(lookupHost("Jobs.Notion.VC", "consider"), { host: "jobs.notion.vc", platform: "consider", source: "notion" });
   assert.equal(lookupHost("jobs.notion.vc", "getro"), null);
   assert.equal(lookupHost("evil.example", "getro"), null);

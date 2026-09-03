@@ -137,3 +137,22 @@ test("consider: does not page when the last job is already outside the window", 
   await scrapeConsider({ host: "jobs.notion.vc", now, config, fetch: fetchImpl });
   assert.equal(calls.filter((c) => c.init.method === "POST").length, 1);
 });
+
+test("consider: a board hosted on consider.com uses the board path and the id from the query", async () => {
+  const pageWithoutBoard = PAGE.replace(/"board":\{"id":"[^"]+","isParent":(?:true|false)\}/, '"fixedBoard":false');
+  assert.equal(parseConsiderSession(pageWithoutBoard).board, null, "fixture stripped of its board object");
+  const calls = [];
+  const fetchImpl = async (url, init = {}) => {
+    calls.push({ url: String(url), init });
+    if (init.method === "POST") return new Response(SEARCH, { status: 200, headers: { "content-type": "application/json" } });
+    const h = new Headers();
+    h.append("set-cookie", "session=abc; Path=/");
+    return new Response(pageWithoutBoard, { status: 200, headers: h });
+  };
+  const out = await scrapeConsider({ host: "consider.com", board: "point72-ventures", now: NOW, config: { ...CONFIG, terms: ["gtm"] }, fetch: fetchImpl });
+  assert.equal(out.error, null);
+  assert.equal(calls[0].url, "https://consider.com/boards/vc/point72-ventures/jobs");
+  assert.equal(calls[1].url, "https://consider.com/api-boards/search-jobs");
+  assert.equal(calls[1].init.headers.referer, "https://consider.com/boards/vc/point72-ventures/jobs");
+  assert.deepEqual(JSON.parse(calls[1].init.body).board, { id: "point72-ventures", isParent: true });
+});

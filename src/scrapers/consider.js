@@ -68,8 +68,11 @@ export function mapConsiderJobs(json) {
 
 // ---------- network ----------
 
-async function fetchSession(origin, fetchImpl) {
-  let res = await fetchWithUA(`${origin}/jobs`, { redirect: "manual" }, fetchImpl);
+// `hostedBoard` is set for boards on consider.com itself, e.g. point72-ventures:
+// the session page is /boards/vc/<id>/jobs and the page carries no board object.
+async function fetchSession(origin, hostedBoard, fetchImpl) {
+  const pagePath = hostedBoard ? `/boards/vc/${hostedBoard}/jobs` : "/jobs";
+  let res = await fetchWithUA(`${origin}${pagePath}`, { redirect: "manual" }, fetchImpl);
   const jar = parseSetCookies(setCookiesFromResponse(res));
   if (res.status >= 300 && res.status < 400) {
     // Follow one redirect by hand so its cookies are not lost.
@@ -84,9 +87,10 @@ async function fetchSession(origin, fetchImpl) {
     throw new Error(`board page HTTP ${res.status}`);
   }
   const html = await res.text();
-  const { csrfToken, board } = parseConsiderSession(html);
-  if (!csrfToken || !board) throw new Error("csrf token or board id not found in page");
-  return { csrfToken, board, cookie: cookieHeaderFrom(jar) };
+  const parsed = parseConsiderSession(html);
+  const board = parsed.board || (hostedBoard ? { id: hostedBoard, isParent: true } : null);
+  if (!parsed.csrfToken || !board) throw new Error("csrf token or board id not found in page");
+  return { csrfToken: parsed.csrfToken, board, cookie: cookieHeaderFrom(jar), referer: `${origin}${pagePath}` };
 }
 
 async function postSearch(origin, session, body, fetchImpl) {
@@ -96,7 +100,7 @@ async function postSearch(origin, session, body, fetchImpl) {
       "content-type": "application/json",
       "x-csrf-token": session.csrfToken,
       origin,
-      referer: `${origin}/jobs`,
+      referer: session.referer,
       cookie: session.cookie,
     },
     body: JSON.stringify(body),
@@ -135,11 +139,11 @@ async function searchTerm(origin, session, term, { now, maxAgeDays }, fetchImpl)
   return listings;
 }
 
-export async function scrapeConsider({ host, now, config, fetch: fetchImpl = globalThis.fetch }) {
+export async function scrapeConsider({ host, board = null, now, config, fetch: fetchImpl = globalThis.fetch }) {
   const origin = `https://${host}`;
   let session;
   try {
-    session = await fetchSession(origin, fetchImpl);
+    session = await fetchSession(origin, board, fetchImpl);
   } catch (err) {
     return { listings: [], counts: null, error: `consider: ${err.message}` };
   }

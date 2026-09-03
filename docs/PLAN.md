@@ -12,6 +12,8 @@ Live end to end since the evening of 2 Sep 2026. The first real email carried 19
 | n8n | "VC Boards Sweep", id `AQzbFqr1Pi0uyWMd`, folder VC Job Boards, published | Daily 06:30 London plus a manual trigger. |
 | Airtable | base `appv8Lxbh4kp6DoBv` | Sources rows carry the Worker URLs; Raw Listings gained `Emailed on`; Triaged table gone. |
 
+**3 Sep 2026, Tier 1 and Tier 2 (see `docs/BRIEF-tier1-tier2.md`).** The Cowork coverage audit (`gtme-sourcing-research.md`, "VC Boards Coverage Audit" artifact) measured the 17 live boards at about 18% of GTM-family UK roles arriving via other channels and about 43% of those at VC- or growth-backed startups. Tier 1 adds 16 boards with existing Getro or Consider hosts plus Techstars (allowlist only) and takes funded-startup coverage to roughly 58%. Point72's board is hosted on consider.com and is reached with `?board=point72-ventures`. Tier 2 adds two scraper modules: `/yc` (Work at a Startup's public search JSON) and `/a16z` (server-rendered cards with a `posted=<days>` filter). All 20 new Sources rows were verified live on production and activated the same day, so the daily run now covers 37 boards. Molten and Eight Roads remain deferred.
+
 Changes from this plan as written, all deliberate:
 
 - **Consider's search key is `titlePrefix`, not `query`.** The API silently ignores `query` and returns the same 100 newest jobs for any term. The site's own search box sends `titlePrefix`, a word-prefix match on titles. Found on the first live run.
@@ -60,14 +62,16 @@ Rules that follow from the system map (`job-hunt-system-map.md`):
 |---|---|---|---|
 | Notion Capital, Balderton, Phoenix Court, Hoxton, Anthemis, Amadeus, Highland Europe, Sequoia (8) | Consider.com | GET board page for session cookies + CSRF token, then POST `/api-boards/search-jobs`. JSON response with canonical ATS URLs, ISO timestamps, normalised locations, remote flag, seniority. | Proven 2 Sep |
 | Dawn, Index, Seedcamp, MMC, Octopus Ventures, Northzone, Accel, Atomico, Entrepreneur First (9) | Getro | GET `/jobs?q=<term>`, parse schema.org JobPosting microdata. 20 cards per response; a term loop gets past that. | Proven 2 Sep |
-| 83North | Static HTML with ld+json | Plain fetch + ld+json parse | Trivial, unverified |
-| a16z | Next.js aggregator | Spike: look for `__NEXT_DATA__` or an internal API | Deferred, US-heavy |
+| General Catalyst, Partech, Cherry, Moonfire, HV Capital, Headline, Crane, Point Nine, Firstminute, Backed, Outlier Ventures, Speedinvest, Techstars (13) | Getro | Same mechanism; allowlist lines added 3 Sep (Tier 1). | Live 3 Sep |
+| Lightspeed, Creandum, Playfair, GTMfund (4) | Consider | Same mechanism; allowlist lines added 3 Sep (Tier 1). | Live 3 Sep |
+| Point72 Ventures | Consider, hosted on consider.com | Session page at `consider.com/boards/vc/point72-ventures/jobs`; the search API is the shared one with `board: {id, isParent: true}` supplied from the query. | Live 3 Sep |
+| Y Combinator (Work at a Startup) | Rails/Inertia app with a public search JSON | `GET /jobs/search?q=<term>` with `Accept: application/json`, 30 results per query, no pagination, no posted date. Location words added to the term loop. | Live 3 Sep |
+| a16z | Next.js aggregator, server-rendered cards | `GET /jobs?q=<term>&posted=<days>`, 25 cards per query, ATS links with tracking params stripped. | Live 3 Sep |
+| 83North | Static HTML | Nothing to scrape: one paragraph naming two titles. | Dropped 2 Sep |
 | Molten Ventures | Custom page referencing Getro | Spike: look for an embedded Getro network ID | Deferred |
 | Eight Roads | Thrive (JS app) | Spike: look for an API; otherwise drop | Deferred, lowest value |
 
-17 of 22 boards on two endpoints. The five spikes are not blockers.
-
-v2 board additions to evaluate once live: Plural, Latitude, Kindred, Cherry, Creandum, Earlybird, LocalGlobe, Connect Ventures, Mosaic. Most will be Getro or Consider, so each is a Sources row, not code.
+37 boards live on four endpoints as of 3 Sep 2026. Tier 3, a per-company ATS poller over the Employers table, is the largest remaining coverage block and gets its own brief.
 
 ## Architecture
 
@@ -242,7 +246,8 @@ Sender identity (resolved 2 Sep, job-sweep v19): the email is self-sent from tfp
 4. **n8n workflow** - done 2 Sep. Dry-run sent (first attempt tripped the FAILED guard on an Airtable field-shape bug, second attempt sent 193 roles). Published.
 5. **job-sweep extractor** - not started. Senders row, `vcboards` extractor, extract prompt (drafted as job-sweep v19). Run one sweep with the new sender and check the rows land as `new` with the right `source_label`. Brief handed to Cowork 2 Sep.
 6. **Airtable tidy** - done 2 Sep, except the two views, which are a by-hand tidy.
-7. **Spikes** (optional, not started): a16z, Molten, Eight Roads. Then the v2 board list.
+7. **Spikes**: a16z done 3 Sep (Tier 2, with YC). Molten and Eight Roads still deferred. The v2 board list was superseded by the Tier 1 audit list, which is live.
+8. **Tier 1 and Tier 2** (3 Sep, `docs/BRIEF-tier1-tier2.md`): done, 20 boards added and verified live the same day. Watch Techstars for a week and drop it if the London yield is poor.
 
 ## Cost
 
@@ -259,3 +264,6 @@ Cloudflare free tier (~20 requests/day). Airtable free with the 30-day archive. 
 7. (2 Sep) Remote is kept only when UK/EU-friendly. Tim's call after seeing US-remote roles dominate the Sequoia set.
 8. (2 Sep) Worker deploys to the tfparsons87 Cloudflare account; the Nauticus-account copy is abandoned.
 9. (2 Sep) 83North dropped from v1 as unscrapeable rather than building `/static` for nothing.
+10. (3 Sep) Hosted Consider boards take `?board=<id>` rather than an allowlist entry per board; the allowlist guards the host, the query names the board.
+11. (3 Sep) YC listings carry no posted date, so they always pass recency. Accepted because the email is new-links-only after day one.
+12. (3 Sep) a16z uses the board's own `posted=<days>` filter instead of parsing every card's age, so the 25-card cap only bites on terms with more than 25 postings a week (product manager).

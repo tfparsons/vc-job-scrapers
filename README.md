@@ -25,22 +25,42 @@ Sources row. To pause everything, deactivate the workflow.
 |---|---|
 | `GET /healthz` | `{"ok": true, "version": "2.0.0", "deploy_id": "..."}`. `deploy_id` changes on every deploy. |
 | `GET /consider?host=<board host>` | Consider.com boards. Two requests per board: the board page for cookies and a CSRF token, then one search per term. |
+| `GET /consider?host=consider.com&board=<id>` | Boards hosted on consider.com itself (no vanity domain), e.g. `board=point72-ventures`. The board id is the last path segment of `https://consider.com/boards/vc/<id>/jobs` and is also kept in the Sources row's Board ID column. |
 | `GET /getro?host=<board host>` | Getro boards. One HTML search per term, parsed for JobPosting cards. |
+| `GET /yc` | Y Combinator's Work at a Startup. One JSON search per term plus "london" and "united kingdom". 30 results per query, no posted dates. |
+| `GET /a16z` | a16z portfolio jobs. One HTML search per term with `posted=<max_age_days>`, 25 cards per query, ATS links. |
 
 `host` must be on the allowlist in [src/allowlist.js](src/allowlist.js). Anything
 else returns the normal envelope with `error: "host not allowed: ..."`.
 
-### Consider boards (8)
+### Consider boards (13)
 
 `jobs.notion.vc`, `careers.balderton.com`, `jobs.phoenixcourt.vc`,
 `jobs.hoxtonventures.com`, `jobs.anthemis.com`, `jobs.amadeuscapital.com`,
-`careers.highlandeurope.com`, `jobs.sequoiacap.com`
+`careers.highlandeurope.com`, `jobs.sequoiacap.com`, `jobs.lsvp.com`,
+`careers.creandum.com`, `careers.playfair.vc`, `jobs.gtmfund.com`, and
+`consider.com` with `board=point72-ventures`.
 
-### Getro boards (9)
+### Getro boards (22)
 
 `jobs.dawncapital.com`, `indexventures.getro.com`, `talent.seedcamp.com`,
 `jobs.mmc.vc`, `talent.octopusventures.com`, `opportunities.northzone.com`,
-`jobs.accel.com`, `careers.atomico.com`, `portfolio.joinef.com`
+`jobs.accel.com`, `careers.atomico.com`, `portfolio.joinef.com`,
+`jobs.generalcatalyst.com`, `portfoliojobs.partechpartners.com`,
+`talent.cherry.vc`, `positions.moonfire.com`, `jobs.hvcapital.com`,
+`jobs.headline.com`, `careers.crane.vc`, `jobs.pointnine.com`,
+`jobs.firstminute.capital`, `talent.backed.vc`, `jobs.outlierventures.io`,
+`careers.speedinvest.com`, `jobs.techstars.com`
+
+### Single-host platforms (2)
+
+`www.workatastartup.com` (`/yc`) and `jobs.a16z.com` (`/a16z`). `host` can be
+omitted for these.
+
+A note on `counts.fetched`: Getro returns 20 cards per search and a16z 25,
+newest or most relevant first, so on a big board `fetched` sits at that cap
+times the number of terms. It is not the board's total. At daily cadence with a
+7 day window that is fine; older matches are simply not visible.
 
 ### Debug overrides
 
@@ -98,8 +118,11 @@ Field rules:
   `posted_relative` and used as a fallback when the date is missing. "N months"
   and older stay null. Consider gives an ISO timestamp; `posted_relative` is
   null there.
-- `remote` is Consider's boolean flag. Getro has no flag, so it is null; Getro
-  puts "Remote" in the location string instead.
+- `remote` is Consider's boolean flag. The other platforms have no flag, so it
+  is null; they put "Remote" in the location string instead.
+- YC exposes no posted date at all, so its listings always have `posted_date`
+  null and pass the recency filter. Dedupe on link keeps the daily email to
+  genuinely new ones.
 - `link` is the role's identity downstream, so it must be stable run to run. For
   Consider it is the canonical ATS URL (`url`, never `applyUrl` with its utm
   suffix). For Getro it is the board's own listing page with `#content` removed.
@@ -145,7 +168,8 @@ to every scraper:
 | `consider: non-JSON response (HTTP 404)` | The host is not a Consider board any more, or the API path moved. |
 | `consider: csrf token or board id not found in page` | The board page markup changed. |
 | `getro: 0 cards on all terms (DOM change?)` | The page still says "Powered by Getro" but no cards parsed. If every Getro board says this at once, Getro changed its markup. |
-| `getro: HTTP 503 for gtm` | Every term search failed; the first failure is shown. |
+| `getro: HTTP 503 for gtm` | Every term search failed; the first failure is shown. Same shape for `yc:` and `a16z:`. |
+| `board required for consider.com: ?board=<id>` | A hosted Consider board was called without its board id. |
 | `partial: 2/15 term fetches failed: ...` | Some searches timed out or errored; the listings from the rest are still returned. |
 | `unhandled: ...` | A bug. The stack is in `wrangler tail`. |
 
@@ -155,9 +179,15 @@ to every scraper:
   [src/allowlist.js](src/allowlist.js) with the platform and a short `source`
   slug, push, and add a Sources row in Airtable whose Worker endpoint is
   `https://vc-job-scrapers.tfparsons87.workers.dev/<platform>?host=<host>`.
-  To tell the platforms apart: a Consider board's page source contains
-  `"csrfToken"`, a Getro page contains `data-testid="job-list-item"` and
-  "Powered by Getro".
+  Leave the row's Active box unticked until the deploy is live: a host that
+  is not yet allowlisted returns `host not allowed`, and six or more erroring
+  boards trip the FAILED guard for the whole run. To tell the platforms
+  apart: a Consider board's page source contains `"csrfToken"`, a Getro page
+  contains `data-testid="job-list-item"` and "Powered by Getro".
+- **A Consider board with no vanity domain** (its URL is
+  `consider.com/boards/vc/<id>/jobs`): no allowlist change. The Sources row's
+  endpoint is `/consider?host=consider.com&board=<id>` and its Board ID
+  column holds `<id>`.
 - **Anything else**: a new module in `src/scrapers/`, a route in
   [src/index.js](src/index.js), a fixture in `test/fixtures/` and a test. Keep
   parsing functions pure (HTML or JSON in, listings out) so they can be tested
@@ -168,7 +198,7 @@ Not covered and why:
 - **83North** (`83north.com/open-positions/`): the page is a single paragraph
   listing two role titles with no links, companies or dates, and its ld+json
   has no JobPosting. There is nothing to scrape.
-- **a16z**, **Molten**, **Eight Roads**: deferred spikes, see BRIEF.md.
+- **Molten**, **Eight Roads**: deferred spikes, see BRIEF.md.
 
 ## Local development
 
@@ -264,9 +294,11 @@ after, or look for the Cloudflare check on the commit in GitHub.
 src/
   index.js              router: /healthz, /consider, /getro; query overrides; envelope
   config.js             TERMS, LOCATION_KEEP, LOCATION_REMOTE_EXCLUDE, MAX_AGE_DAYS, USER_AGENT
-  allowlist.js          the 17 hosts and their platform / source slug
+  allowlist.js          the 37 hosts and their platform / source slug
   scrapers/consider.js  session (cookies + CSRF), search per term, field mapping
   scrapers/getro.js     split-on-card parser, search per term
+  scrapers/yc.js        Work at a Startup search JSON per term
+  scrapers/a16z.js      a16z cards per term with posted=<days>
   lib/filter.js         dedupe on link, location keep-list, recency, counts
   lib/relative-date.js  "4 days" -> "2026-08-29"
   lib/cookies.js        Set-Cookie headers -> Cookie header

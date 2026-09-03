@@ -9,7 +9,7 @@ import { mapPool } from "../src/lib/http.js";
 import { LOCATION_KEEP, LOCATION_REMOTE_EXCLUDE } from "../src/config.js";
 
 const RULES = { keep: LOCATION_KEEP, remoteExclude: LOCATION_REMOTE_EXCLUDE };
-import { HOSTS, lookupHost, hostsFor } from "../src/allowlist.js";
+import { HOSTS, lookupHost, hostsFor, defaultHostFor } from "../src/allowlist.js";
 
 import { NOW } from "./helpers.js";
 
@@ -187,8 +187,10 @@ test("mapPool keeps input order and isolates failures", async () => {
 test("allowlist: 13 consider + 22 getro hosts, lookup is platform-scoped and lowercases", () => {
   assert.equal(hostsFor("consider").length, 13);
   assert.equal(hostsFor("getro").length, 22);
-  assert.equal(Object.keys(HOSTS).length, 35);
+  assert.equal(Object.keys(HOSTS).length, 37);
   assert.equal(lookupHost("consider.com", "consider").hosted, true);
+  assert.equal(defaultHostFor("yc"), "www.workatastartup.com");
+  assert.equal(defaultHostFor("getro"), null);
   assert.deepEqual(lookupHost("Jobs.Notion.VC", "consider"), { host: "jobs.notion.vc", platform: "consider", source: "notion" });
   assert.equal(lookupHost("jobs.notion.vc", "getro"), null);
   assert.equal(lookupHost("evil.example", "getro"), null);

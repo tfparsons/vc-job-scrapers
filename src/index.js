@@ -1,13 +1,17 @@
 import pkg from "../package.json" with { type: "json" };
 import { TERMS, LOCATION_KEEP, LOCATION_REMOTE_EXCLUDE, MAX_AGE_DAYS } from "./config.js";
-import { lookupHost } from "./allowlist.js";
+import { lookupHost, defaultHostFor } from "./allowlist.js";
 import { envelope, jsonResponse, neverThrow } from "./lib/respond.js";
 import { scrapeConsider } from "./scrapers/consider.js";
 import { scrapeGetro } from "./scrapers/getro.js";
+import { scrapeYc } from "./scrapers/yc.js";
+import { scrapeA16z } from "./scrapers/a16z.js";
 
 const SCRAPERS = {
   "/consider": { platform: "consider", run: scrapeConsider },
   "/getro": { platform: "getro", run: scrapeGetro },
+  "/yc": { platform: "yc", run: scrapeYc },
+  "/a16z": { platform: "a16z", run: scrapeA16z },
 };
 
 // Debug overrides: ?terms=gtm,growth  ?loc=all  ?days=30. n8n calls with defaults.
@@ -47,7 +51,7 @@ export default {
       return jsonResponse({
         service: "vc-job-scrapers",
         version: pkg.version,
-        endpoints: ["/healthz", "/consider?host=<board host>", "/getro?host=<board host>"],
+        endpoints: ["/healthz", "/consider?host=<board host>", "/consider?host=consider.com&board=<id>", "/getro?host=<board host>", "/yc", "/a16z"],
       });
     }
 
@@ -57,7 +61,7 @@ export default {
     }
 
     const config = readConfig(url.searchParams);
-    const rawHost = url.searchParams.get("host");
+    const rawHost = url.searchParams.get("host") || defaultHostFor(scraper.platform);
     const board = lookupHost(rawHost, scraper.platform);
     const base = { source: board ? board.source : null, platform: scraper.platform, now, config };
 

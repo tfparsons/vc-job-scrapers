@@ -46,6 +46,10 @@ export const HOSTS = {
   // Boards hosted on consider.com itself (no vanity domain). The board id comes
   // from ?board=<id>; the source slug becomes that id. Point72 = point72-ventures.
   "consider.com": { platform: "consider", source: "consider-hosted", hosted: true },
+
+  // Single-host platforms with their own scraper module.
+  "www.workatastartup.com": { platform: "yc", source: "ycombinator" },
+  "jobs.a16z.com": { platform: "a16z", source: "a16z" },
 };
 
 const HOST_SHAPE = /^[a-z0-9.-]+$/;
@@ -62,4 +66,10 @@ export function lookupHost(raw, platform) {
 
 export function hostsFor(platform) {
   return Object.keys(HOSTS).filter((h) => HOSTS[h].platform === platform);
+}
+
+// For platforms with exactly one host, ?host= can be omitted.
+export function defaultHostFor(platform) {
+  const hosts = hostsFor(platform);
+  return hosts.length === 1 ? hosts[0] : null;
 }

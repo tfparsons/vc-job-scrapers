@@ -2,6 +2,28 @@
 
 Supersedes the April plan. The April design had its own Claude triage step and a `Triaged` table; that duplicated Stage 2 of the job-hunt pipeline and is gone. This is now a **Stage 0 provider**: it puts a structured email in tfparsons87@gmail.com and the existing `job-sweep` skill takes it from there.
 
+## Status: what was built (2 Sep 2026)
+
+Live end to end since the evening of 2 Sep 2026. The first real email carried 193 roles (day one, everything new). Phases 1 to 4 and 6 below are done; phase 5 (job-sweep extractor) and phase 7 (spikes) remain.
+
+| Piece | Where | Notes |
+|---|---|---|
+| Worker | `https://vc-job-scrapers.tfparsons87.workers.dev` (repo github.com/tfparsons/vc-job-scrapers) | `/healthz`, `/consider?host=`, `/getro?host=`. 17 boards. 29 fixture and unit tests. Deployed with `npm run deploy`; Workers Builds connected for pushes to `main`. |
+| n8n | "VC Boards Sweep", id `AQzbFqr1Pi0uyWMd`, folder VC Job Boards, published | Daily 06:30 London plus a manual trigger. |
+| Airtable | base `appv8Lxbh4kp6DoBv` | Sources rows carry the Worker URLs; Raw Listings gained `Emailed on`; Triaged table gone. |
+
+Changes from this plan as written, all deliberate:
+
+- **Consider's search key is `titlePrefix`, not `query`.** The API silently ignores `query` and returns the same 100 newest jobs for any term. The site's own search box sends `titlePrefix`, a word-prefix match on titles. Found on the first live run.
+- **Getro searches run one at a time per board.** Getro answers a search in about a second alone but degrades and times out under parallel requests. From Cloudflare's edge each search takes about 3 s, so a Getro board takes 20 to 60 s. One retry on a timed-out search.
+- **Location filter is tighter than the keep-list here.** Keep if the location names London, the UK, EMEA or Europe as a whole word; Remote only counts when the listing does not name the US, Canada, the Americas, APAC or a main US hub city. The remote flag alone no longer rescues a US location (Sequoia went from 21 kept to 5). Whole-word matching because "UK" matched "Ukraine".
+- **83North is not scrapeable**, so there is no `/static` endpoint. Its page is one paragraph naming two role titles with no links, companies or dates.
+- **The Worker lives in the tfparsons87@gmail.com Cloudflare account.** The April scaffold had been deployed to a separate tim@nauticusstudios.com account (subdomain `tfparsons.workers.dev`), which is why the Git integration appeared not to work. That copy is stale and can be deleted.
+- **n8n fans out all 17 boards in parallel** rather than a loop, because n8n cloud caps executions at 300 s. The run takes about 75 s to scrape plus one Airtable call per new row.
+- **New rows are selected by `Last seen = today AND Emailed on empty`** rather than `First seen = today`, so the email step never depends on the First seen stamp having run. First seen is stamped by a side branch (rows where it is blank).
+- **Emails are plain text, not HTML**, so the fenced JSON payload survives untouched for the extractor.
+- **The Airtable n8n node returns `{ id, fields: {...} }`**, not flattened fields. Cost one failed dry run; the Code nodes read `fields`.
+
 ## Goal
 
 Cover the VC portfolio job boards that email alerts cover badly or not at all, so on-lane roles (GTM Engineering first, Growth/Product close behind) at London-relevant VC-backed companies reach the Roles Inventory within a day of posting.
@@ -56,16 +78,18 @@ v2 board additions to evaluate once live: Plural, Latitude, Kindred, Cherry, Cre
 [Read active Sources from Airtable base "VC Job Sweeper"]
        |
        v
-[Fan out: one HTTP GET per board to the Worker]
+[Fan out: one HTTP GET per board to the Worker, all in parallel]
    /consider?host=jobs.notion.vc
    /getro?host=talent.seedcamp.com
-   /static?board=83north
        |
-       v   each returns {source, scraped_at, listings[], error}
-[Upsert into Raw Listings keyed on link; set first_seen on insert, last_seen always]
+       v   each returns {source, platform, scraped_at, config, listings[], counts, error}
+[Abnormal-volume guard: under 20 listings or over 5 failed boards -> FAILED email, stop]
        |
        v
-[Select rows where first_seen = today]
+[Upsert into Raw Listings keyed on link; last_seen always; first_seen stamped where blank]
+       |
+       v
+[Select rows where last_seen = today and emailed_on is empty]
        |
        v
 [Compose "VC Boards Sweep - DD MMM YYYY" email: readable block per role + fenced JSON payload]
@@ -74,7 +98,8 @@ v2 board additions to evaluate once live: Plural, Latitude, Kindred, Cherry, Cre
 [Send to tfparsons87@gmail.com]
        |
        v
-[Update Sources: last_scraped, listings_pulled, last_error]
+[Stamp emailed_on; archive rows with first_seen older than 30 days]
+[Update Sources: last_scraped, listings_pulled, last_error]   (parallel branch)
 ```
 
 ### Responsibilities
@@ -97,7 +122,7 @@ martech, growth, lifecycle, crm, hubspot, salesforce, product manager,
 forward deployed, solutions engineer
 ```
 
-**Location keep-list** - keep if location matches any of: `London`, `United Kingdom`, `UK`, `Remote`, `EMEA`, `Europe`, or is **blank**. Blank is kept deliberately: Framer's GTM Engineer had no location and that is the class the alert filter dropped. Consider's `remote` flag counts as Remote.
+**Location** - keep if location is **blank**, or names `London`, `United Kingdom`, `UK`, `England`, `Scotland`, `Wales`, `EMEA` or `Europe` as a whole word, or is Remote (the word, or Consider's `remote` flag) without naming the US, Canada, the Americas, APAC or a main US hub city. Blank is kept deliberately: Framer's GTM Engineer had no location and that is the class the alert filter dropped. Tightened on 2 Sep from the original "any Remote" rule, which let US-remote roles through.
 
 **Recency** - keep if `posted_date` is within 7 days, or if no date is available (flag `posted_date: null`). Getro's relative dates ("4 days") are parsed against `scraped_at`; "1 month" and older are dropped.
 
@@ -107,10 +132,12 @@ Tuning these is a config change, not a code change. Start wide; Stage 1 adjacenc
 
 ### Changes from the April build
 
-- **Delete** the `Triaged` table (`tbl2d8YL3XX1bCXuF`) - done 2 Sep; Airtable converted the Raw Listings link field into a stray `Triaged` text column that still needs deleting by hand.
-- **Sources**: `Board ID` (single line text, reference only - the Worker reads Consider's id from the page) added 2 Sep. Still to do: add `Consider` to the `Platform` single select; set Platform per the coverage table above (Molten, 83North, a16z, Eight Roads = Custom). `Worker endpoint` becomes the full URL n8n calls, e.g. `https://vc-job-scrapers.tfparsons87.workers.dev/consider?host=jobs.notion.vc`.
-- **Raw Listings**: `Link` is the upsert key. Add `Emailed on` (date) so a re-run on the same day cannot double-send.
-- Views: keep two - `Failing sources` (Sources where Last error is not empty) and `Last 30 days` (Raw Listings by First seen). Drop the rest.
+All done 2 Sep 2026:
+
+- **Deleted** the `Triaged` table. A stray `Triaged` text column remains on Raw Listings and is harmless.
+- **Sources**: `Consider` added to `Platform`; Platform set per the coverage table (Molten, 83North, a16z, Eight Roads, Y Combinator = Custom and inactive, with a Notes line saying why); `Worker endpoint` holds the full URL n8n calls, e.g. `https://vc-job-scrapers.tfparsons87.workers.dev/consider?host=jobs.notion.vc`; three blank rows deleted; `Board ID` kept as reference only.
+- **Raw Listings**: `Link` is the upsert key. `Emailed on` (date) added so a re-run on the same day cannot double-send. `JD snippet` is unused (the Worker does not fetch JDs).
+- Views: still to tidy by hand - keep `Failing sources` (Sources where Last error is not empty) and `Last 30 days` (Raw Listings by First seen).
 
 ### Sources (config, Tim edits)
 
@@ -137,41 +164,42 @@ Airtable free tier is 1,200 rows per base. At maybe 30-60 new rows a day this fi
 
 ## n8n workflow
 
-**Trigger:** cron `30 6 * * *` (London) plus manual.
+Built 2 Sep as "VC Boards Sweep" (`AQzbFqr1Pi0uyWMd`). **Trigger:** cron `30 6 * * *` (timezone Europe/London) plus a manual "Run now".
 
-1. **Read Sources** where `Active = true`.
-2. **Fan out** with Loop Over Items, HTTP Request to `Worker endpoint`, 20 s timeout, continue-on-fail.
-3. **Normalise** each listing to the Raw Listings shape: compute Dedupe key, `first_seen = today` (only on insert), `last_seen = today`.
-4. **Upsert** Raw Listings on `Link`.
-5. **Select** rows where `First seen = today` and `Emailed on` is empty.
-6. **Compose email** in a Code node (no LLM; the template is fixed). Format below.
-7. **Send** via the send-email workflow `kMHUPutUOnxMWUzv` or a Gmail node on the tfparsons87 credential. To: tfparsons87@gmail.com. Subject: `VC Boards Sweep - DD MMM YYYY`.
-8. **Stamp** `Emailed on = today` on the sent rows. Update Sources (last scraped, count, error).
-9. **Zero-new days:** still send a two-line email ("0 new roles; 17 boards scraped, 0 failed") so the absence of a sweep is itself a signal, and so job-sweep's per-sender search behaves predictably.
+1. **Read Sources** where `Active = true` and `Worker endpoint` is set.
+2. **Fan out**: one HTTP GET per board, all in parallel (n8n cloud caps an execution at 300 s), 120 s timeout, continue-on-fail. The Worker never returns non-200, so failures are in the body's `error`.
+3. **Normalise** each board response (pairing it back to its Sources row) and **update Sources** (Last scraped, Last error, Listings pulled) on a parallel branch.
+4. **Run summary**: union listings across boards, dedupe on `link`, count failed and partial boards. **Abnormal-volume guard**: under 20 listings or more than 5 failed boards sends "VC Boards Sweep - FAILED - DD MMM YYYY" and stops; nothing is upserted or stamped.
+5. **Upsert** Raw Listings on `Link` with `Last seen = today`, Source link, Dedupe key. A side branch stamps `First seen = today` on any row where it is blank.
+6. **Select** rows where `Last seen = today` and `Emailed on` is empty (so a failed send is retried next day, and a same-day re-run sends nothing twice).
+7. **Compose email** in a Code node (no LLM; fixed template, plain text, ASCII). Format below.
+8. **Send** with the Gmail node on the tfparsons87 credential. To: tfparsons87@gmail.com. Subject: `VC Boards Sweep - DD MMM YYYY`.
+9. **Stamp** `Emailed on = today` on the sent rows, then **archive** rows whose `First seen` is older than 30 days.
+10. **Zero-new days:** still send a one-line email ("0 new roles; 17 boards scraped, 0 failed") with an empty payload, so the absence of a sweep is itself a signal.
 
-**Abnormal-volume guard:** if total listings across all boards is under 20, or more than 5 boards error, send an error-style email instead ("VC Boards Sweep - FAILED - DD MMM YYYY") and do not stamp anything.
+Runtime: about 75 s to scrape (the slowest Getro board sets the pace), then one Airtable call per stamped row. Day one took 7 minutes for 194 rows; normal days will be well under 2 minutes.
 
 ## Email contract
 
 This is the interface between the two systems. We own the template, so it is built to be drift-proof: a readable block per role for Tim, and a **fenced JSON payload** the extractor reads. Anchor-first: every role carries its link. ASCII only, plain hyphens.
 
 ```
-VC Boards Sweep - 03 Sep 2026
-Boards: 17 scraped, 0 failed | New today: 6
+VC Boards Sweep for 03 Sep 2026: 6 new roles; 17 boards scraped, 0 failed.
 
 1. GTM Engineer - Cakewalk
-   Location: London, UK | Posted: 2026-09-02 | Seniority: Mid-Senior Level | Salary: n/a
+   Location: London, UK / Posted: 2026-09-02 / Seniority: Mid-Senior Level / Salary: not stated
    Link: https://talent.seedcamp.com/companies/cakewalk/jobs/91587943-gtm-engineer
-   Source: Seedcamp (Getro)
+   Source: Seedcamp
 
 2. Revenue Operations Manager - Triptease
-   Location: London, England, United Kingdom | Posted: 2026-09-01 | Seniority: n/a | Salary: n/a
+   Location: London, England, United Kingdom / Posted: 2026-09-01 / Seniority: not stated / Salary: not stated
    Link: https://apply.workable.com/j/0B79C6EEB4
-   Source: Notion Capital (Consider)
+   Source: Notion Capital
 
 ...
 
-Failing sources: none
+Failing sources:                      (block only present when a board failed)
+- Dawn Capital: getro: 0 cards on all terms (DOM change?)
 
 --- machine payload (do not edit) ---
 ```json
@@ -208,13 +236,13 @@ Sender identity (resolved 2 Sep, job-sweep v19): the email is self-sent from tfp
 
 ## Phases
 
-1. **Worker scaffold** (Claude Code Session 1): repo, wrangler, `/healthz`, GitHub auto-deploy to `vc-job-scrapers.tfparsons87.workers.dev`.
-2. **Consider endpoint** (Session 2): `/consider?host=` against a fixture, then live against all 8 boards.
-3. **Getro endpoint** (Session 3): `/getro?host=` with the term loop, live against all 9 boards. Plus `/static?board=83north`.
-4. **n8n workflow**: read Sources, fan out, upsert, compose, send. Dry-run to Tim first.
-5. **job-sweep extractor**: senders row, `vcboards` extractor, extract prompt - drafted as job-sweep v19 (2 Sep). Run one sweep with the new sender and check the rows land as `new` with the right `source_label`.
-6. **Airtable tidy**: delete Triaged, add Consider platform, `Emailed on`, archive step.
-7. **Spikes** (optional): a16z, Molten, Eight Roads. Then the v2 board list.
+1. **Worker scaffold** - done 2 Sep. Repo, wrangler, `/healthz` with version and deploy id, deployed to `vc-job-scrapers.tfparsons87.workers.dev`, Workers Builds connected.
+2. **Consider endpoint** - done 2 Sep. Fixture tests plus live on all 8 boards. Search key corrected to `titlePrefix`; bounded pagination while the last job is still recent.
+3. **Getro endpoint** - done 2 Sep. Fixture tests plus live on all 9 boards. Sequential searches, 25 s timeout, one retry. `/static` dropped: 83North has nothing to scrape.
+4. **n8n workflow** - done 2 Sep. Dry-run sent (first attempt tripped the FAILED guard on an Airtable field-shape bug, second attempt sent 193 roles). Published.
+5. **job-sweep extractor** - not started. Senders row, `vcboards` extractor, extract prompt (drafted as job-sweep v19). Run one sweep with the new sender and check the rows land as `new` with the right `source_label`. Brief handed to Cowork 2 Sep.
+6. **Airtable tidy** - done 2 Sep, except the two views, which are a by-hand tidy.
+7. **Spikes** (optional, not started): a16z, Molten, Eight Roads. Then the v2 board list.
 
 ## Cost
 
@@ -227,3 +255,7 @@ Cloudflare free tier (~20 requests/day). Airtable free with the 30-day archive. 
 3. Inbox is the boundary; no direct inventory writes.
 4. Dedicated GitHub repo `vc-job-scrapers` with Cloudflare Git integration; free tier.
 5. 17 boards on two endpoints for v1; five custom boards deferred to spikes.
+6. (2 Sep) Consider searches use `titlePrefix`; `matched_terms` therefore means a title match on Consider and a fuzzy full-text match on Getro. The digest stays a wide gate; Stage 2 judges.
+7. (2 Sep) Remote is kept only when UK/EU-friendly. Tim's call after seeing US-remote roles dominate the Sequoia set.
+8. (2 Sep) Worker deploys to the tfparsons87 Cloudflare account; the Nauticus-account copy is abandoned.
+9. (2 Sep) 83North dropped from v1 as unscrapeable rather than building `/static` for nothing.

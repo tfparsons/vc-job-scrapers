@@ -164,7 +164,7 @@ All done 2 Sep 2026:
 | First seen, Last seen | Stamped by n8n |
 | Emailed on | Date the row went out in a sweep email |
 
-Airtable free tier is 1,200 rows per base. At maybe 30-60 new rows a day this fills in a month or so. Either archive rows older than 30 days on each run (n8n delete step) or move to the paid plan. Archive is the default.
+Airtable is on a paid plan (confirmed 15 Sep 2026), so the row cap is not a constraint. No archive step needed; Raw Listings can grow indefinitely, and the Startup Universe table can hold the full seed list.
 
 ## n8n workflow
 
@@ -251,7 +251,7 @@ Sender identity (resolved 2 Sep, job-sweep v19): the email is self-sent from tfp
 
 ## Cost
 
-Cloudflare free tier (~20 requests/day). Airtable free with the 30-day archive. n8n existing plan. No LLM calls anywhere in this pipeline. Effectively zero.
+Cloudflare free tier (~20 requests/day). Airtable paid plan (already held, no incremental cost). n8n existing plan. No LLM calls anywhere in this pipeline. Effectively zero.
 
 ## Decisions
 

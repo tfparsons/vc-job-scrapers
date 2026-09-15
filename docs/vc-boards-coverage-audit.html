@@ -1,0 +1,315 @@
+<title>VC Boards Coverage Audit</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+:root {
+  color-scheme: light;
+  --bg: #f5f6f8;
+  --surface: #ffffff;
+  --surface-2: #eceef2;
+  --line: #d6dae2;
+  --ink: #141820;
+  --ink-2: #4a5160;
+  --ink-3: #7b8394;
+  --accent: #2a78d6;
+  --reach-1: #1c5cab;   /* scraped now */
+  --reach-2: #3987e5;   /* new boards */
+  --reach-3: #86b6ef;   /* ATS poller */
+  --reach-0: #b9bec9;   /* outside the board pipeline */
+  --good: #0ca30c;
+  --warn: #d03b3b;
+  --tile: #ffffff;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --bg: #14171c;
+    --surface: #1c2027;
+    --surface-2: #262b34;
+    --line: #333945;
+    --ink: #f1f3f7;
+    --ink-2: #b7bdc9;
+    --ink-3: #8891a0;
+    --accent: #3987e5;
+    --reach-1: #6da7ec;
+    --reach-2: #3987e5;
+    --reach-3: #1c5cab;
+    --reach-0: #4a515e;
+    --tile: #1c2027;
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #14171c;
+  --surface: #1c2027;
+  --surface-2: #262b34;
+  --line: #333945;
+  --ink: #f1f3f7;
+  --ink-2: #b7bdc9;
+  --ink-3: #8891a0;
+  --accent: #3987e5;
+  --reach-1: #6da7ec;
+  --reach-2: #3987e5;
+  --reach-3: #1c5cab;
+  --reach-0: #4a515e;
+  --tile: #1c2027;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; background: var(--bg); color: var(--ink);
+  font-family: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
+  font-size: 15px; line-height: 1.55;
+}
+.page { max-width: 920px; margin: 0 auto; padding: 40px 24px 80px; }
+h1, h2, h3 { font-family: "Bricolage Grotesque", "IBM Plex Sans", sans-serif; text-wrap: balance; margin: 0; }
+h1 { font-size: 40px; font-weight: 700; line-height: 1.05; letter-spacing: -0.01em; }
+h2 { font-size: 22px; font-weight: 700; margin-bottom: 6px; }
+h3 { font-size: 16px; font-weight: 700; }
+p { max-width: 68ch; margin: 0 0 12px; }
+.lede { color: var(--ink-2); font-size: 16px; max-width: 70ch; margin-top: 12px; }
+.eyebrow { font-family: "IBM Plex Mono", monospace; font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-3); }
+.mono { font-family: "IBM Plex Mono", monospace; font-variant-numeric: tabular-nums; }
+section { margin-top: 44px; }
+.sub { color: var(--ink-2); max-width: 70ch; }
+
+.tiles { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin-top: 22px; }
+.tile { background: var(--tile); border: 1px solid var(--line); border-radius: 6px; padding: 14px 16px 12px; }
+.tile .n { font-family: "Bricolage Grotesque", sans-serif; font-size: 34px; font-weight: 700; line-height: 1; font-variant-numeric: tabular-nums; }
+.tile .n.accent { color: var(--accent); }
+.tile .l { font-size: 13px; color: var(--ink-2); margin-top: 6px; line-height: 1.35; }
+.tile .d { font-family: "IBM Plex Mono", monospace; font-size: 11px; color: var(--ink-3); margin-top: 6px; }
+@media (max-width: 640px) { .tiles { grid-template-columns: repeat(2, 1fr); } h1 { font-size: 32px; } }
+
+.legend { display: flex; flex-wrap: wrap; gap: 14px 20px; margin: 14px 0 18px; font-size: 13px; color: var(--ink-2); }
+.legend span { display: inline-flex; align-items: center; gap: 7px; }
+.sw { width: 12px; height: 12px; border-radius: 3px; display: inline-block; }
+
+.barlist { display: grid; grid-template-columns: minmax(150px, 210px) 1fr 44px; gap: 8px 12px; align-items: center; }
+.barlist .lab { font-size: 14px; }
+.barlist .lab small { display: block; color: var(--ink-3); font-size: 12px; }
+.barlist .track { height: 18px; background: var(--surface-2); border-radius: 4px; position: relative; }
+.barlist .fill { position: absolute; left: 0; top: 0; bottom: 0; border-radius: 4px 4px 4px 4px; }
+.barlist .val { font-family: "IBM Plex Mono", monospace; font-variant-numeric: tabular-nums; text-align: right; font-size: 14px; }
+@media (max-width: 560px) { .barlist { grid-template-columns: 1fr; } .barlist .val { text-align: left; margin-top: -4px; } }
+
+.ladder { margin-top: 16px; }
+.stack { display: flex; height: 34px; border-radius: 5px; overflow: hidden; gap: 2px; background: var(--bg); }
+.stack div { display: flex; align-items: center; justify-content: center; font-family: "IBM Plex Mono", monospace; font-size: 12px; color: #fff; }
+.stack div.pale { color: var(--ink); }
+.stack div.none { color: var(--ink-2); }
+.ticks { display: flex; justify-content: space-between; font-family: "IBM Plex Mono", monospace; font-size: 11px; color: var(--ink-3); margin-top: 6px; }
+.milestones { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-top: 16px; }
+.ms { border-left: 3px solid var(--reach-2); padding: 2px 0 2px 12px; }
+.ms .k { font-family: "Bricolage Grotesque", sans-serif; font-size: 24px; font-weight: 700; font-variant-numeric: tabular-nums; }
+.ms .t { font-size: 13px; color: var(--ink-2); }
+.ms.now { border-color: var(--reach-1); } .ms.later { border-color: var(--reach-3); }
+@media (max-width: 560px) { .milestones { grid-template-columns: 1fr; } }
+
+.inv { display: grid; grid-template-columns: minmax(130px, 170px) 1fr 28px 190px; gap: 6px 12px; align-items: center; font-size: 14px; }
+.inv .track { height: 16px; background: var(--surface-2); border-radius: 4px; position: relative; }
+.inv .fill { position: absolute; left: 0; top: 0; bottom: 0; border-radius: 4px; }
+.inv .cnt { font-family: "IBM Plex Mono", monospace; font-variant-numeric: tabular-nums; font-size: 13px; text-align: right; }
+.inv .p { font-family: "IBM Plex Mono", monospace; font-size: 11.5px; color: var(--ink-3); line-height: 1.3; }
+.inv .p.has { color: var(--ink-2); }
+.inv .scraped { color: var(--ink-3); }
+@media (max-width: 560px) { .inv { grid-template-columns: 1fr 28px; } .inv .p { grid-column: 1 / -1; margin-top: -2px; } .inv > div:nth-child(4n+1) { grid-column: 1 / -1; } }
+
+.tier { margin-top: 26px; border-top: 1px solid var(--line); padding-top: 18px; }
+.tier-head { display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; }
+.pill { font-family: "IBM Plex Mono", monospace; font-size: 11px; letter-spacing: 0.06em; text-transform: uppercase; padding: 3px 8px; border-radius: 3px; background: var(--surface-2); color: var(--ink-2); }
+.pill.now { background: var(--reach-1); color: #fff; }
+.pill.next { background: var(--reach-2); color: #fff; }
+.pill.build { background: var(--reach-3); color: var(--ink); }
+.tier .why { color: var(--ink-2); margin: 6px 0 10px; }
+ul.src { list-style: none; padding: 0; margin: 0; display: grid; gap: 8px; }
+ul.src li { display: grid; grid-template-columns: 1fr; gap: 2px; padding: 10px 12px; background: var(--surface); border: 1px solid var(--line); border-radius: 5px; }
+ul.src li .t { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; align-items: baseline; }
+ul.src li .t b { font-weight: 600; }
+ul.src li .m { font-family: "IBM Plex Mono", monospace; font-size: 12px; color: var(--ink-3); }
+ul.src li .r { font-size: 13.5px; color: var(--ink-2); }
+ul.plain { margin: 6px 0 0; padding-left: 18px; color: var(--ink-2); }
+ul.plain li { margin-bottom: 4px; }
+.note { background: var(--surface); border: 1px solid var(--line); border-left: 3px solid var(--accent); border-radius: 5px; padding: 12px 14px; margin-top: 16px; }
+.note p { margin: 0; }
+.tip { position: fixed; pointer-events: none; background: var(--ink); color: var(--bg); padding: 6px 9px; border-radius: 4px; font-size: 12px; max-width: 280px; opacity: 0; transition: opacity .12s; z-index: 9; }
+@media (prefers-reduced-motion: reduce) { .tip { transition: none; } }
+a { color: var(--accent); }
+.foot { margin-top: 44px; color: var(--ink-3); font-size: 13px; border-top: 1px solid var(--line); padding-top: 14px; }
+</style>
+
+<div class="page">
+  <div class="eyebrow">Job-hunt pipeline · Stage 0 sourcing · measured 2 Sep 2026</div>
+  <h1 style="margin-top:8px">VC Boards Coverage Audit</h1>
+  <p class="lede">How much of what the pipeline actually wants the 17 scraped VC portfolio boards can see, where the rest of it lives, and which sources to add in what order. Measured against the Roles Inventory, not guessed.</p>
+
+  <div class="tiles">
+    <div class="tile"><div class="n accent">18%</div><div class="l">of GTM-family UK roles found by other channels in the last 90 days were also on a scraped board</div><div class="d">56 of 306 rows</div></div>
+    <div class="tile"><div class="n">44<span style="font-size:18px;color:var(--ink-3)"> / 254</span></div><div class="l">employers on at least one of the 17 boards</div><div class="d">17% of employers</div></div>
+    <div class="tile"><div class="n">43%</div><div class="l">coverage of employers that are VC- or growth-backed startups, the only ones a board could ever carry</div><div class="d">44 of 103</div></div>
+    <div class="tile"><div class="n accent">~58%</div><div class="l">projected after the Tier 1 boards below, before any new scraper is written</div><div class="d">+16 employers</div></div>
+  </div>
+
+  <section>
+    <h2>Where the 254 employers sit</h2>
+    <p class="sub">Every employer with a GTM-family UK or remote role that entered the inventory since early June via LinkedIn alerts, Built In, Jack &amp; Jill, JYMBII or WTTJ, grouped by the mechanism that can reach it. Colour is the mechanism; grey is outside the board pipeline entirely.</p>
+    <div class="legend">
+      <span><i class="sw" style="background:var(--reach-1)"></i>Scraped today</span>
+      <span><i class="sw" style="background:var(--reach-2)"></i>Recoverable with new boards</span>
+      <span><i class="sw" style="background:var(--reach-3)"></i>Needs per-company ATS polling</span>
+      <span><i class="sw" style="background:var(--reach-0)"></i>Only LinkedIn / community will ever carry it</span>
+    </div>
+    <div class="barlist" id="segments">
+      <div class="lab">Large corporate / public<small>Google, AWS, monday.com, Workday, Snowflake</small></div><div class="track"><div class="fill" style="width:100%;background:var(--reach-0)" data-tip="63 employers, 72 rows. No VC board will carry these; LinkedIn alerts already do."></div></div><div class="val">63</div>
+      <div class="lab">On a scraped board<small>Ably, Apollo, Cledara, Omnea, Uncapped, Zinc</small></div><div class="track"><div class="fill" style="width:70%;background:var(--reach-1)" data-tip="44 employers, 57 rows. Already visible to the VC Boards Sweep."></div></div><div class="val">44</div>
+      <div class="lab">Recruiter / agency<small>Artane, Jobgether, La Fosse, hackajob</small></div><div class="track"><div class="fill" style="width:57%;background:var(--reach-0)" data-tip="36 employers, 40 rows. Posted by a third party; the employer is hidden or not VC-listed."></div></div><div class="val">36</div>
+      <div class="lab">Pre-seed / bootstrapped<small>AIApply, Huzzle, Syntasso, Klaris, GTM Base</small></div><div class="track"><div class="fill" style="width:49%;background:var(--reach-0)" data-tip="31 employers, 33 rows. Too early or unfunded to sit on any investor board."></div></div><div class="val">31</div>
+      <div class="lab">Growth / PE-backed<small>Nscale, ClearScore, Attest, CUBE, Hostaway</small></div><div class="track"><div class="fill" style="width:37%;background:var(--reach-3)" data-tip="23 employers, 28 rows. Backers (Warburg, Hg, Schroders, Wellington) run no portfolio boards; reachable only via their own ATS."></div></div><div class="val">23</div>
+      <div class="lab">US-only startup<small>Owner, Nooks, Topsort, Cognition</small></div><div class="track"><div class="fill" style="width:33%;background:var(--reach-0)" data-tip="21 employers, 22 rows. Remote-US postings that matched the location filter loosely; mostly not wanted."></div></div><div class="val">21</div>
+      <div class="lab">VC-backed, no board yet<small>Vitesse, Causaly, Apron, Birdie, Attest</small></div><div class="track"><div class="fill" style="width:32%;background:var(--reach-3)" data-tip="20 employers. Backed by funds with no board (20VC, Episode 1, Next47) or by scraped funds whose boards do not carry them."></div></div><div class="val">20</div>
+      <div class="lab">VC-backed, board available<small>Granola, Humaans, Monta, Encord, Cerrion, Perk</small></div><div class="track"><div class="fill" style="width:25%;background:var(--reach-2)" data-tip="16 employers. Backed by General Catalyst, Lightspeed, Creandum, Cherry, Moonfire, HV, Headline, Crane, Partech or YC, all of which run a board."></div></div><div class="val">16</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>The coverage ladder</h2>
+    <p class="sub">Restricted to the 103 employers a board could ever carry (scraped, board-available, no-board VC-backed, growth/PE). Each step is what one piece of work adds. The last segment is the residue no source reaches.</p>
+    <div class="ladder">
+      <div class="stack">
+        <div style="flex:44;background:var(--reach-1)" data-tip="44 employers on the 17 boards scraped today">44</div>
+        <div style="flex:16;background:var(--reach-2)" data-tip="16 employers recoverable by adding the Tier 1 boards">+16</div>
+        <div style="flex:34;background:var(--reach-3)" class="pale" data-tip="About 34 of the remaining 43 employers use Ashby, Greenhouse, Lever, Workable or Teamtailor, all with public feeds">+34</div>
+        <div style="flex:9;background:var(--surface-2)" class="none" data-tip="Roughly 9 employers with custom careers pages or no public feed">9</div>
+      </div>
+      <div class="ticks"><span>0</span><span>103 fundable employers</span></div>
+      <div class="milestones">
+        <div class="ms now"><div class="k">43%</div><div class="t">Today: 17 boards, two endpoints</div></div>
+        <div class="ms"><div class="k">58%</div><div class="t">After Tier 1: 17 Sources rows, no code</div></div>
+        <div class="ms later"><div class="k">~90%</div><div class="t">After the ATS poller over the Employers table</div></div>
+      </div>
+    </div>
+    <div class="note"><p><b>A board is an opt-in subset of a portfolio.</b> Eleven of the missed employers are backed by funds already scraped: Causaly, Apron, Granola and Birdie (Index), Maze and Uncapped (Seedcamp), tem and Perk (Atomico), Vitesse (Octopus), SenseOn (MMC), Cortea (Dawn). Their boards simply do not carry them. That is why adding boards has diminishing returns and per-company polling is the larger remaining lever.</p></div>
+  </section>
+
+  <section>
+    <h2>Who backs the misses</h2>
+    <p class="sub">Investor mentions across the ~60 funded UK/EU employers not on a scraped board. Blue means the fund runs a public portfolio board on a platform the Worker already parses; grey means no board exists.</p>
+    <div class="legend">
+      <span><i class="sw" style="background:var(--reach-2)"></i>Has a Getro or Consider board</span>
+      <span><i class="sw" style="background:var(--reach-0)"></i>No board, or own platform</span>
+      <span><i class="sw" style="background:var(--reach-1)"></i>Already scraped</span>
+    </div>
+    <div class="inv" id="investors">
+      <div>Y Combinator</div><div class="track"><div class="fill" style="width:100%;background:var(--reach-0)" data-tip="Humaans, Solve Intelligence, Encord, Cerrion, Fleek, Saturn"></div></div><div class="cnt">6</div><div class="p">workatastartup.com · own platform</div>
+      <div class="scraped">Index Ventures</div><div class="track"><div class="fill" style="width:83%;background:var(--reach-1)" data-tip="Causaly, Apron, Granola, Birdie, EDITED - all missed despite Index being scraped"></div></div><div class="cnt">5</div><div class="p scraped">scraped; board does not carry them</div>
+      <div>General Catalyst</div><div class="track"><div class="fill" style="width:50%;background:var(--reach-2)" data-tip="Perk, Goodstack, Integral"></div></div><div class="cnt">3</div><div class="p has">Getro · jobs.generalcatalyst.com</div>
+      <div>a16z</div><div class="track"><div class="fill" style="width:50%;background:var(--reach-0)" data-tip="ElevenLabs, Fleek, Pit"></div></div><div class="cnt">3</div><div class="p">custom Next.js · jobs.a16z.com</div>
+      <div>Partech</div><div class="track"><div class="fill" style="width:50%;background:var(--reach-2)" data-tip="Maze, Shippeo, Blink"></div></div><div class="cnt">3</div><div class="p has">Getro · portfoliojobs.partechpartners.com</div>
+      <div>Lightspeed</div><div class="track"><div class="fill" style="width:33%;background:var(--reach-2)" data-tip="Granola, tem"></div></div><div class="cnt">2</div><div class="p has">Consider · jobs.lsvp.com</div>
+      <div>Creandum</div><div class="track"><div class="fill" style="width:33%;background:var(--reach-2)" data-tip="Cerrion, Monta"></div></div><div class="cnt">2</div><div class="p has">Consider · careers.creandum.com</div>
+      <div>Cherry Ventures</div><div class="track"><div class="fill" style="width:33%;background:var(--reach-2)" data-tip="Cortea, Integral"></div></div><div class="cnt">2</div><div class="p has">Getro · talent.cherry.vc</div>
+      <div>Moonfire</div><div class="track"><div class="fill" style="width:33%;background:var(--reach-2)" data-tip="Humaans, Orchestra"></div></div><div class="cnt">2</div><div class="p has">Getro · positions.moonfire.com</div>
+      <div>HV Capital</div><div class="track"><div class="fill" style="width:33%;background:var(--reach-2)" data-tip="Fleek, Storyblok"></div></div><div class="cnt">2</div><div class="p has">Getro · jobs.hvcapital.com</div>
+      <div>Headline</div><div class="track"><div class="fill" style="width:33%;background:var(--reach-2)" data-tip="Monta, Heidi Health"></div></div><div class="cnt">2</div><div class="p has">Getro · jobs.headline.com</div>
+      <div>Crane Venture Partners</div><div class="track"><div class="fill" style="width:33%;background:var(--reach-2)" data-tip="Encord, SenseOn"></div></div><div class="cnt">2</div><div class="p has">Getro · careers.crane.vc</div>
+      <div>Point72 Ventures</div><div class="track"><div class="fill" style="width:33%;background:var(--reach-2)" data-tip="Heidi Health, Nscale"></div></div><div class="cnt">2</div><div class="p has">Consider-hosted · consider.com/boards/vc/point72-ventures</div>
+      <div>20VC</div><div class="track"><div class="fill" style="width:33%;background:var(--reach-0)" data-tip="Solve Intelligence, Requesty"></div></div><div class="cnt">2</div><div class="p">no board</div>
+      <div>Visionaries Club</div><div class="track"><div class="fill" style="width:33%;background:var(--reach-0)" data-tip="Apron, Solve Intelligence"></div></div><div class="cnt">2</div><div class="p">no board</div>
+      <div>Next47</div><div class="track"><div class="fill" style="width:33%;background:var(--reach-0)" data-tip="Encord, Blink"></div></div><div class="cnt">2</div><div class="p">no board</div>
+      <div>ICONIQ / Spark / NFDG / Schroders / Hg / 10x</div><div class="track"><div class="fill" style="width:33%;background:var(--reach-0)" data-tip="Two mentions each; none runs a public portfolio board"></div></div><div class="cnt">2</div><div class="p">no board</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Priority sources to add</h2>
+    <p class="sub">Ordered by yield per unit of effort. Tier 1 is config only. Tier 2 is a scraper module each. Tier 3 is the one new mechanism worth building, and it is where most of the remaining coverage sits.</p>
+
+    <div class="tier">
+      <div class="tier-head"><span class="pill now">Tier 1 · this week</span><h3>Sources rows on the existing endpoints, zero code</h3></div>
+      <p class="why">Each is one row in the Sources table (Name, URL, Worker endpoint, Platform, Active). Nine come straight from the investor tally; the rest were the strongest London-relevant boards from this morning's board survey. Roughly +16 employers, taking funded-startup coverage from 43% to about 58%.</p>
+      <ul class="src">
+        <li><div class="t"><b>General Catalyst</b><span class="m">/getro?host=jobs.generalcatalyst.com</span></div><div class="r">19k listings; volume board, the term loop and 7-day window do the narrowing. Perk, Goodstack, Integral.</div></li>
+        <li><div class="t"><b>Partech</b><span class="m">/getro?host=portfoliojobs.partechpartners.com</span></div><div class="r">Maze, Shippeo, Blink. Paris-led but strong London and remote-EU portfolio.</div></li>
+        <li><div class="t"><b>Lightspeed</b><span class="m">/consider?host=jobs.lsvp.com</span></div><div class="r">15k listings, 513 companies. Granola, tem. Consider returns 100 per term so volume is not a problem.</div></li>
+        <li><div class="t"><b>Creandum</b><span class="m">/consider?host=careers.creandum.com</span></div><div class="r">Cerrion, Monta. Nordic-heavy but two live GTME-shaped roles in the gap set.</div></li>
+        <li><div class="t"><b>Cherry Ventures</b><span class="m">/getro?host=talent.cherry.vc</span></div><div class="r">Cortea, Integral. Founding GTM Engineer, Head of GTM and RevOps Manager live on the board today.</div></li>
+        <li><div class="t"><b>Moonfire</b><span class="m">/getro?host=positions.moonfire.com</span></div><div class="r">London AI-native seed. Humaans (GTM Engineer live), Orchestra, Flagright, Mindstone.</div></li>
+        <li><div class="t"><b>HV Capital</b><span class="m">/getro?host=jobs.hvcapital.com</span></div><div class="r">Fleek, Storyblok. DACH-led with London portfolio.</div></li>
+        <li><div class="t"><b>Headline</b><span class="m">/getro?host=jobs.headline.com</span></div><div class="r">Monta, Heidi Health.</div></li>
+        <li><div class="t"><b>Crane Venture Partners</b><span class="m">/getro?host=careers.crane.vc</span></div><div class="r">London B2B seed. Encord, SenseOn. Board links out to the company ATS, so links are canonical.</div></li>
+        <li><div class="t"><b>Point72 Ventures</b><span class="m">/consider?host=consider.com (board id point72-ventures)</span></div><div class="r">Heidi Health, Nscale. Hosted on consider.com rather than a vanity domain, so the host allowlist needs the board-id form; the new Board ID column on Sources covers it.</div></li>
+        <li><div class="t"><b>Point Nine, Firstminute, Backed, Outlier, Speedinvest</b><span class="m">/getro?host= jobs.pointnine.com · jobs.firstminute.capital · talent.backed.vc · jobs.outlierventures.io · careers.speedinvest.com</span></div><div class="r">Quality adds from the board survey, not the gap tally: incident.io GTM Engineer (Point Nine), n8n and Wayve (Firstminute), Thought Machine and CloudNC (Backed), Zinc GTM Operations Lead (Outlier). Low volume, London-heavy.</div></li>
+        <li><div class="t"><b>Playfair, GTMfund</b><span class="m">/consider?host= careers.playfair.vc · jobs.gtmfund.com</span></div><div class="r">Playfair is London pre-seed; GTMfund is the GTM-operator fund whose portfolio is sales-tech by construction. Both Consider.</div></li>
+      </ul>
+    </div>
+
+    <div class="tier">
+      <div class="tier-head"><span class="pill next">Tier 2 · spikes</span><h3>One scraper module each, worth a half-session</h3></div>
+      <ul class="src">
+        <li><div class="t"><b>Y Combinator · Work at a Startup</b><span class="m">workatastartup.com/jobs</span></div><div class="r">The single biggest fund in the gap (Humaans, Solve, Encord, Cerrion, Fleek, Saturn). Own platform; returns 406 to a plain fetch, so look for the JSON search endpoint the page calls before resorting to a browser. Filter to UK / remote-Europe or it floods.</div></li>
+        <li><div class="t"><b>a16z</b><span class="m">jobs.a16z.com</span></div><div class="r">ElevenLabs, Pit, Fleek. Custom Next.js aggregator, 19k jobs, US-heavy; already a deferred spike in the plan. Look for __NEXT_DATA__ or the internal API. Lowest priority of the three.</div></li>
+        <li><div class="t"><b>Techstars</b><span class="m">/getro?host=jobs.techstars.com</span></div><div class="r">Technically a Sources row (Getro, 4.8k listings) but global and founder-role heavy, so treat it as an experiment: add, watch a week, keep only if the London yield holds. Cledara GTM Engineer was live on it.</div></li>
+      </ul>
+    </div>
+
+    <div class="tier">
+      <div class="tier-head"><span class="pill build">Tier 3 · build</span><h3>Per-company ATS poller over the Employers table</h3></div>
+      <p class="why">The largest remaining block, roughly 43 of the 103 fundable employers, and the only route to three groups the boards structurally cannot reach. Same Worker, four new endpoints, driven by rows in the Employers table the way Sources drives the boards, feeding the same email contract so job-sweep needs nothing new.</p>
+      <ul class="src">
+        <li><div class="t"><b>Endpoints</b><span class="m">/ashby?slug= · /greenhouse?slug= · /lever?slug= · /workable?slug= · /teamtailor?host=</span></div><div class="r">All public JSON or RSS, no scraping: api.ashbyhq.com/posting-api/job-board/{slug}, boards-api.greenhouse.io/v1/boards/{slug}/jobs (EU boards on job-boards.eu.greenhouse.io), api.lever.co/v0/postings/{slug}, apply.workable.com/api/v1/widget/accounts/{slug}, {careers-site}/jobs.rss. Ashby was the most common ATS in the sweep; Teamtailor second.</div></li>
+        <li><div class="t"><b>Who goes on the list first</b><span class="m">3 groups, ~50 companies</span></div><div class="r">Growth and PE-backed scale-ups with no investor board (Nscale, ClearScore, Attest, CUBE, Unity Advisory, Hostaway, Prevalent, Trackunit). Portfolio companies of scraped funds whose boards do not carry them (Causaly, Apron, Birdie, Uncapped, Vitesse, SenseOn, Maze). Vendor services teams that hire GTME under other titles (Clay, Apollo, HubSpot, Cognism, n8n: Solutions Engineer, Growth Strategist, Forward Deployed).</div></li>
+        <li><div class="t"><b>Then the no-board seed funds' portfolios</b><span class="m">20VC · Visionaries Club · Next47 · Frontline · Eight Roads · Episode 1 · 10x Founders</span></div><div class="r">These are the specialist London and European seed investors you would most expect to run boards, and none do. Their portfolio pages list the companies; each company becomes an Employers row with its ATS slug.</div></li>
+      </ul>
+    </div>
+
+    <div class="tier">
+      <div class="tier-head"><span class="pill">Tier 4 · backstops</span><h3>Cheap weekly tripwires, not daily feeds</h3></div>
+      <ul class="plain">
+        <li><b>Clay community share-jobs RSS</b> (community.clay.com/x/share-jobs/rss.xml): the one machine-readable source for agency-side GTME work; mostly contractor and US-timezone, but it is where Punch! posted a Lead GTM Engineer with your exact stack.</li>
+        <li><b>Cargo GTM board</b> (getcargo.ai/jobs): plain HTML, 974 roles, London filter; holds 0-3 UK roles at a time (HowNow, Ably, LILT this week).</li>
+        <li><b>Adzuna API</b> (free key, UK keyword + location): the cheap net for companies not yet on any list, on "GTM Engineer", "Go-to-Market Engineer", "GTM Systems", "Revenue Systems".</li>
+        <li><b>Glassdoor and Indeed email alerts</b> on the same titles, into the existing sweep as senders; Glassdoor had 7 literal GTME hits of its first 15 for London.</li>
+      </ul>
+    </div>
+
+    <div class="tier">
+      <div class="tier-head"><span class="pill">Not worth it</span><h3>Looked at, leave out</h3></div>
+      <ul class="plain">
+        <li>HubSpot Elite partners (Huble, Six &amp; Flow, BabelQuest, Digital Litmus): real hiring, custom careers pages, roughly £45k roles.</li>
+        <li>US-only volume boards with little UK (Khosla, Redpoint, Stage 2 Capital unless remote-first roles are in scope).</li>
+        <li>First Round (login-gated), Founders Factory (board renders empty), the GTME micro-boards (gtm-engineer-jobs.com, GTME HQ, nRev: zero UK).</li>
+        <li>Members-only communities (Pavilion, RevOps Co-op, WizOps, Modern Sales Pros): US remote and behind login; a proactive-outreach channel, not a feed.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2>How this was measured</h2>
+    <p>Population: every Roles Inventory row with a GTM-family title (gtm, go-to-market, revops, revenue or sales or marketing operations, martech, growth or marketing or lifecycle or solutions engineer, forward deployed, GTM systems) and a UK, remote, EMEA or blank location, first seen since 4 June 2026, that arrived via a non-board channel. 306 rows, 254 employers. Board side: the Worker called once per board with <span class="mono">days=90&amp;loc=all</span>, 508 distinct companies with GTM-family listings. Employer names normalised (legal suffixes, taglines, punctuation) before matching.</p>
+    <p>Caveats that push the true figure up a little: Getro returns 20 cards per search term, newest first, so older listings on busy boards are truncated in a 90-day pull; two alias misses (Ably Realtime, Owner.com) counted as gaps. Investor data is one press search per company; stage and lead investor are as reported, not verified against Companies House. The 43 / 58 / 90 percent ladder assumes a board or ATS feed carries the role when the company is on it, which the opt-in point above shows is optimistic.</p>
+  </section>
+
+  <div class="foot">Data: Roles Inventory (Airtable), VC Job Sweeper Worker, one-pass web research on 2 Sep 2026. Full workings in the project doc gtme-sourcing-research.md.</div>
+</div>
+<div class="tip" id="tip" role="tooltip"></div>
+<script>
+(function () {
+  var tip = document.getElementById('tip');
+  var els = document.querySelectorAll('[data-tip]');
+  function show(e) { tip.textContent = this.getAttribute('data-tip'); tip.style.opacity = '1'; move(e); }
+  function move(e) {
+    var x = e.clientX + 14, y = e.clientY + 14;
+    var w = tip.offsetWidth, h = tip.offsetHeight;
+    if (x + w > window.innerWidth - 8) x = e.clientX - w - 14;
+    if (y + h > window.innerHeight - 8) y = e.clientY - h - 14;
+    tip.style.left = x + 'px'; tip.style.top = y + 'px';
+  }
+  function hide() { tip.style.opacity = '0'; }
+  for (var i = 0; i < els.length; i++) {
+    els[i].addEventListener('mouseenter', show);
+    els[i].addEventListener('mousemove', move);
+    els[i].addEventListener('mouseleave', hide);
+    els[i].setAttribute('tabindex', '0');
+    els[i].addEventListener('focus', function () { tip.textContent = this.getAttribute('data-tip'); tip.style.opacity = '1'; var r = this.getBoundingClientRect(); tip.style.left = r.left + 'px'; tip.style.top = (r.bottom + 6) + 'px'; });
+    els[i].addEventListener('blur', hide);
+  }
+})();
+</script>

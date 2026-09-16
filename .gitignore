@@ -9,3 +9,6 @@ coverage-updates.json
 ats-report.json
 domain-updates.json
 out-serpapi.json
+hq-raw.json
+hq-report.json
+hq-feeds-report.json

@@ -23,7 +23,7 @@ Sources row. To pause everything, deactivate the workflow.
 
 | Endpoint | What it does |
 |---|---|
-| `GET /healthz` | `{"ok": true, "version": "2.3.0", "deploy_id": "...", "secrets": {"adzuna": true, "reed": false}}`. `secrets` says which API keys are set, never their values.. `deploy_id` changes on every deploy. |
+| `GET /healthz` | `{"ok": true, "version": "2.3.0", "deploy_id": "...", "secrets": {"adzuna": true, "reed": false}}`. `secrets` says which API keys are set, never their values. `deploy_id` changes on every deploy. |
 | `GET /consider?host=<board host>` | Consider.com boards. Two requests per board: the board page for cookies and a CSRF token, then one search per term. |
 | `GET /consider?host=consider.com&board=<id>` | Boards hosted on consider.com itself (no vanity domain), e.g. `board=point72-ventures`. The board id is the last path segment of `https://consider.com/boards/vc/<id>/jobs` and is also kept in the Sources row's Board ID column. |
 | `GET /getro?host=<board host>` | Getro boards. One HTML search per term, parsed for JobPosting cards. |

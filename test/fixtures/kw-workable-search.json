@@ -1,0 +1,216 @@
+{
+ "title": "Workable",
+ "totalSize": 470,
+ "nextPageToken": "eyJzZWFyY2hBdCI6IjIwMjYtMDktMTZUMTM6NTk6NTkuOTk5WiIsIm9mZnNldCI6WzM5Ljk5MjAxLDAsMTc4OTQ3NTE4NTMwMCwiNTdiMzY2M2MtODExMy00MzQ4LWE4OTItYmNkYmRkZGFjZTc1Il19",
+ "jobs": [
+  {
+   "department": "Sales",
+   "id": "3fdff0ca-9ce4-4768-be86-45ace4302f6c",
+   "title": "GTM Engineer",
+   "state": "published",
+   "employmentType": "Full-time",
+   "url": "https://jobs.workable.com/view/8TtDuv9bRr3WCGWM9PuAG5/hybrid-gtm-engineer-in-london-at-cledara",
+   "language": "en",
+   "locations": [
+    "London, England, United Kingdom"
+   ],
+   "location": {
+    "city": "London",
+    "subregion": "England",
+    "countryName": "United Kingdom"
+   },
+   "created": "2026-09-10T09:19:01.229Z",
+   "updated": "2026-09-10T09:19:01.229Z",
+   "company": {
+    "id": "fb2f3993-edf8-42e7-a128-0c4c87d4fe2e",
+    "title": "Cledara",
+    "website": "https://www.cledara.com/",
+    "image": "https://workablehr.s3.amazonaws.com/uploads/account/logo/593847/logo",
+    "url": "https://jobs.workable.com/company/x21iccMJHiCSudMez2GJgQ/jobs-at-cledara",
+    "socialSharingImage": "https://workablehr.s3.amazonaws.com/uploads/account/open_graph_logo/593847/social",
+    "socialSharingDescription": "Cledara simplifies all things software for companies. With Cledara, companies can discover, buy, manage and cancel software apps in a simple manner to save time and money."
+   },
+   "isFeatured": false,
+   "workplace": "hybrid"
+  },
+  {
+   "department": "Operations",
+   "id": "883ea881-39e9-415d-98b3-5c3219831453",
+   "title": "Engineer",
+   "state": "published",
+   "employmentType": "Full-time",
+   "url": "https://jobs.workable.com/view/hPNdBgjokF6rZytycQDQSp/engineer-in-park-royal-at-skin-%2B-me",
+   "language": "en",
+   "locations": [
+    "Park Royal, England, United Kingdom"
+   ],
+   "location": {
+    "city": "Park Royal",
+    "subregion": "England",
+    "countryName": "United Kingdom"
+   },
+   "created": "2026-06-17T13:15:42.453Z",
+   "updated": "2026-06-17T13:15:42.453Z",
+   "company": {
+    "id": "31690b32-733f-47ec-9ec8-5ccebece36a5",
+    "title": "Skin + Me",
+    "website": "https://www.skinandme.com/",
+    "image": "https://workablehr.s3.amazonaws.com/uploads/account/logo/456537/logo",
+    "url": "https://jobs.workable.com/company/76T6WeqX3aqjRBNBUxdc1a/jobs-at-skin-%2B-me",
+    "socialSharingImage": "https://workablehr.s3.amazonaws.com/uploads/account/open_graph_logo/456537/social",
+    "socialSharingDescription": ""
+   },
+   "isFeatured": false,
+   "workplace": "on_site"
+  },
+  {
+   "department": "Growth",
+   "id": "4d6c5e30-3c5c-428a-b46e-82c92b7d1d10",
+   "title": "AI Content Engineer",
+   "state": "published",
+   "employmentType": "Full-time",
+   "url": "https://jobs.workable.com/view/ayvJ7vCz5rtyBDWr624ACY/remote-ai-content-engineer-in-london-at-soda-data",
+   "language": "en",
+   "locations": [
+    "TELECOMMUTE",
+    "London, England, United Kingdom"
+   ],
+   "location": {
+    "city": "London",
+    "subregion": "England",
+    "countryName": "United Kingdom"
+   },
+   "created": "2026-09-15T20:35:14.410Z",
+   "updated": "2026-09-15T20:35:14.410Z",
+   "company": {
+    "id": "639a1b79-63d2-430d-ba05-4f3945bd99c3",
+    "title": "Soda Data",
+    "website": "https://www.soda.io/",
+    "image": "https://workablehr.s3.amazonaws.com/uploads/account/logo/705076/logo",
+    "url": "https://jobs.workable.com/company/dimLAGveuhCQSVwm2dafei/jobs-at-soda-data",
+    "socialSharingDescription": ""
+   },
+   "isFeatured": false,
+   "workplace": "remote"
+  },
+  {
+   "department": "Commercial",
+   "id": "6ec4ba28-6f3c-48a7-b900-1adb0cfa0122",
+   "title": "Solutions Engineer Team Lead",
+   "state": "published",
+   "employmentType": "Full-time",
+   "url": "https://jobs.workable.com/view/eFkkBAFKWLudyH1P26Han5/hybrid-solutions-engineer-team-lead-in-london-at-goodfit",
+   "language": "en",
+   "locations": [
+    "London, England, United Kingdom"
+   ],
+   "location": {
+    "city": "London",
+    "subregion": "England",
+    "countryName": "United Kingdom"
+   },
+   "created": "2026-08-28T14:03:47.109Z",
+   "updated": "2026-08-28T14:03:47.109Z",
+   "company": {
+    "id": "2dafe02b-3cfe-47d9-a417-3f86e6a069b2",
+    "title": "GoodFit",
+    "website": "https://www.goodfit.io/careers",
+    "image": "https://workablehr.s3.amazonaws.com/uploads/account/logo/715890/logo",
+    "url": "https://jobs.workable.com/company/6DdrbLx2iybhR2t86dBCa1/jobs-at-goodfit",
+    "socialSharingDescription": ""
+   },
+   "isFeatured": false,
+   "workplace": "hybrid"
+  },
+  {
+   "department": "International Rolling Stock",
+   "id": "73c26303-66c8-4e1e-8925-f6e9605ce848",
+   "title": "Industrial Engineer",
+   "state": "published",
+   "employmentType": "Full-time",
+   "url": "https://jobs.workable.com/view/fi5xE2AYn8gk89c9qFeBWG/hybrid-industrial-engineer-in-london-at-eurostar-international",
+   "language": "en",
+   "locations": [
+    "London, England, United Kingdom"
+   ],
+   "location": {
+    "city": "London",
+    "subregion": "England",
+    "countryName": "United Kingdom"
+   },
+   "created": "2026-09-16T13:21:45.751Z",
+   "updated": "2026-09-16T13:21:45.751Z",
+   "company": {
+    "id": "6d3d8352-8bd3-4a5b-bb0b-efab01beadbe",
+    "title": "Eurostar International",
+    "website": "https://www.eurostar.com",
+    "image": "https://workablehr.s3.amazonaws.com/uploads/account/logo/315921/logo",
+    "url": "https://jobs.workable.com/company/euowLc1sLQt195U8RFwaUS/jobs-at-eurostar-international",
+    "socialSharingImage": "https://workablehr.s3.amazonaws.com/uploads/account/open_graph_logo/315921/social",
+    "socialSharingDescription": "At Eurostar, we strive to make Europe&#39;s most popular travel experience even better than ever. Join us and you&#39;ll be part of a dynamic, connected and cosmopolitan team that feels at home in five countries. "
+   },
+   "isFeatured": false,
+   "workplace": "hybrid"
+  },
+  {
+   "department": "Technology",
+   "id": "c97f8c80-beef-4a08-ba9e-024f660181e4",
+   "title": "Software Engineer - (Typescript & Node)",
+   "state": "published",
+   "employmentType": "Full-time",
+   "url": "https://jobs.workable.com/view/qT9zKdz9PKBvKVjYy9Jwvb/hybrid-software-engineer---(typescript-%26-node)-in-london-at-our-future-health",
+   "language": "en",
+   "locations": [
+    "London, England, United Kingdom"
+   ],
+   "location": {
+    "city": "London",
+    "subregion": "England",
+    "countryName": "United Kingdom"
+   },
+   "created": "2026-09-16T10:29:31.728Z",
+   "updated": "2026-09-16T10:29:31.728Z",
+   "company": {
+    "id": "2b7c8c8e-e532-4adc-88e3-f24ef9c773ad",
+    "title": "Our Future Health",
+    "website": "https://ourfuturehealth.org.uk/",
+    "image": "https://workablehr.s3.amazonaws.com/uploads/account/logo/466874/logo",
+    "url": "https://jobs.workable.com/company/6nsm6vjSazPUMSWi3dYZEe/jobs-at-our-future-health",
+    "socialSharingImage": "https://workablehr.s3.amazonaws.com/uploads/account/open_graph_logo/466874/social",
+    "socialSharingDescription": "Our Future Health will be the UK\u2019s largest-ever health research programme, designed to help people live healthier lives for longer through the discovery and testing of more effective approaches to prevention, earlier detection and treatment of diseases..."
+   },
+   "isFeatured": false,
+   "workplace": "hybrid"
+  },
+  {
+   "department": "Engineering",
+   "id": "990b2fa4-263b-45cb-87e9-43eacbe4d5f7",
+   "title": "Cloud Infrastructure Engineer",
+   "state": "published",
+   "employmentType": "Full-time",
+   "url": "https://jobs.workable.com/view/jU7vMV388a3ztmeZ3M5Mjx/hybrid-cloud-infrastructure-engineer-in-london-at-perlego",
+   "language": "en",
+   "locations": [
+    "London, England, United Kingdom"
+   ],
+   "location": {
+    "city": "London",
+    "subregion": "England",
+    "countryName": "United Kingdom"
+   },
+   "created": "2026-06-17T09:55:47.854Z",
+   "updated": "2026-06-17T09:55:47.854Z",
+   "company": {
+    "id": "17feb185-769c-426a-b1f9-279ee35c929e",
+    "title": "Perlego",
+    "website": "http://perlego.com",
+    "image": "https://workablehr.s3.amazonaws.com/uploads/account/logo/464059/logo",
+    "url": "https://jobs.workable.com/company/3XRvj6bqvhMFM6v1sfKx9s/jobs-at-perlego",
+    "socialSharingImage": "https://workablehr.s3.amazonaws.com/uploads/account/open_graph_logo/464059/social",
+    "socialSharingDescription": "Join us on our mission to make learning accessible to all"
+   },
+   "isFeatured": false,
+   "workplace": "hybrid"
+  }
+ ]
+}

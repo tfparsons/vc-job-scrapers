@@ -1,0 +1,30 @@
+{
+ "results": [
+  {
+   "jobId": 55512345,
+   "employerId": 1,
+   "employerName": "Beta Ltd",
+   "jobTitle": "Marketing Operations Manager",
+   "locationName": "London",
+   "minimumSalary": 60000.0,
+   "maximumSalary": 75000.0,
+   "currency": "GBP",
+   "expirationDate": "28/10/2026",
+   "date": "14/09/2026",
+   "jobDescription": "...",
+   "applications": 3,
+   "jobUrl": "https://www.reed.co.uk/jobs/marketing-operations-manager/55512345"
+  },
+  {
+   "jobId": 55512346,
+   "employerName": "Gamma",
+   "jobTitle": "Sales Operations Analyst",
+   "locationName": "Croydon",
+   "minimumSalary": null,
+   "maximumSalary": null,
+   "date": "01/08/2026",
+   "jobUrl": "https://www.reed.co.uk/jobs/sales-operations-analyst/55512346"
+  }
+ ],
+ "totalResults": 2
+}

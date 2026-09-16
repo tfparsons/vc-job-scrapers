@@ -1,0 +1,41 @@
+{
+ "count": 2,
+ "mean": 60000,
+ "results": [
+  {
+   "id": "4912345678",
+   "title": "GTM Engineer",
+   "created": "2026-09-15T10:12:00Z",
+   "company": {
+    "display_name": "Acme AI"
+   },
+   "location": {
+    "display_name": "London, UK",
+    "area": [
+     "UK",
+     "London"
+    ]
+   },
+   "salary_min": 70000,
+   "salary_max": 90000,
+   "salary_is_predicted": "0",
+   "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/4912345678?se=abc&v=def",
+   "contract_time": "full_time"
+  },
+  {
+   "id": "4912345679",
+   "title": "Senior <strong>Revenue Operations</strong> Manager",
+   "created": "2026-09-10T08:00:00Z",
+   "company": {
+    "display_name": "Recruit Co"
+   },
+   "location": {
+    "display_name": "Manchester, UK"
+   },
+   "salary_min": 55000,
+   "salary_max": 65000,
+   "salary_is_predicted": "1",
+   "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/4912345679?se=x"
+  }
+ ]
+}

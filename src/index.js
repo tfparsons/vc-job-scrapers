@@ -9,6 +9,7 @@ import { scrapeGetro } from "./scrapers/getro.js";
 import { scrapeYc } from "./scrapers/yc.js";
 import { scrapeA16z } from "./scrapers/a16z.js";
 import { scrapeCompanies } from "./scrapers/companies.js";
+import { KEYWORD, RSS_FEEDS, scrapeKeyword, validPhrase } from "./scrapers/keyword.js";
 
 const SCRAPERS = {
   "/consider": { platform: "consider", run: scrapeConsider },
@@ -74,10 +75,13 @@ export default {
 
     if (pathname === "/healthz") {
       const meta = env && env.CF_VERSION_METADATA;
+      // Which API key secrets are set (true/false only, never the values).
+      const has = (k) => !!(env && env[k]);
       return jsonResponse({
         ok: true,
         version: pkg.version,
         deploy_id: meta && meta.id ? meta.id : null,
+        secrets: { adzuna: has("ADZUNA_APP_ID") && has("ADZUNA_APP_KEY"), reed: has("REED_API_KEY") },
       });
     }
 
@@ -85,11 +89,27 @@ export default {
       return jsonResponse({
         service: "vc-job-scrapers",
         version: pkg.version,
-        endpoints: ["/healthz", "/consider?host=<board host>", "/consider?host=consider.com&board=<id>", "/getro?host=<board host>", "/yc", "/a16z", "/companies?host=<board host>", "/ashby?slug=", "/greenhouse?slug=", "/lever?slug=", "/workable?slug=", "/teamtailor?host=", "/recruitee?slug="],
+        endpoints: ["/healthz", "/consider?host=<board host>", "/consider?host=consider.com&board=<id>", "/getro?host=<board host>", "/yc", "/a16z", "/companies?host=<board host>", "/ashby?slug=", "/greenhouse?slug=", "/lever?slug=", "/workable?slug=", "/teamtailor?host=", "/recruitee?slug=", "/adzuna?q=", "/reed?q=", "/workable-search?q=", "/rss?feed=revopscareers&q=", "/rss?feed=clay"],
       });
     }
 
     if (pathname === "/companies") return handleCompanies(url, now);
+
+    // Keyword sources: /adzuna?q=, /reed?q=, /workable-search?q=, /rss?feed=
+    const kwName = pathname.slice(1);
+    if (KEYWORD[kwName]) {
+      const config = readConfig(url.searchParams);
+      const rawQ = url.searchParams.get("q");
+      const q = rawQ ? validPhrase(rawQ) : null;
+      const feed = kwName === "rss" ? (url.searchParams.get("feed") || "").trim().toLowerCase() : null;
+      const source = kwName === "rss" ? feed || null : kwName;
+      const base = { source, platform: kwName, now, config };
+      if (rawQ && !q) return jsonResponse(envelope({ ...base, error: "q must be 2-60 letters, digits, spaces or . & + / -" }));
+      if (KEYWORD[kwName].needsQuery && !q) return jsonResponse(envelope({ ...base, error: "q required: ?q=<job title phrase>" }));
+      if (kwName === "rss" && !RSS_FEEDS.includes(feed)) return jsonResponse(envelope({ ...base, error: `feed not allowed: ${feed || "(missing)"}` }));
+      const body = await neverThrow(base, async () => envelope({ ...base, ...(await scrapeKeyword({ name: kwName, q, feed, env: env || {}, now, config })) }));
+      return jsonResponse(body);
+    }
 
     // Per-company ATS feeds: /ashby?slug=x, /teamtailor?host=x, ... with an
     // optional &source=<company name> for the envelope.

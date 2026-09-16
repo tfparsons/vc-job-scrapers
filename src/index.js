@@ -89,7 +89,7 @@ export default {
       return jsonResponse({
         service: "vc-job-scrapers",
         version: pkg.version,
-        endpoints: ["/healthz", "/consider?host=<board host>", "/consider?host=consider.com&board=<id>", "/getro?host=<board host>", "/yc", "/a16z", "/companies?host=<board host>", "/ashby?slug=", "/greenhouse?slug=", "/lever?slug=", "/workable?slug=", "/teamtailor?host=", "/recruitee?slug=", "/adzuna?q=", "/reed?q=", "/workable-search?q=", "/rss?feed=revopscareers&q=", "/rss?feed=clay"],
+        endpoints: ["/healthz", "/consider?host=<board host>", "/consider?host=consider.com&board=<id>", "/getro?host=<board host>", "/yc", "/a16z", "/companies?host=<board host>", "/ashby?slug=", "/greenhouse?slug=", "/lever?slug=", "/workable?slug=", "/teamtailor?host=", "/recruitee?slug=", "/adzuna?q=", "/reed?q=", "/workable-search?q=", "/rss?feed=revopscareers", "/rss?feed=clay"],
       });
     }
 

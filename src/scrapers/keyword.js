@@ -3,7 +3,7 @@
 //   /adzuna?q=          Adzuna UK search, what_phrase + where=London (key: ADZUNA_APP_ID / ADZUNA_APP_KEY)
 //   /reed?q=            Reed search, London 15 miles, direct employers (key: REED_API_KEY)
 //   /workable-search?q= Jobs by Workable cross-company search, quoted phrase, London, up to 3 pages
-//   /rss?feed=revopscareers&q=  RevOps Careers job feed, United Kingdom + keyword
+//   /rss?feed=revopscareers     RevOps Careers job feed, United Kingdom (no query; titles filtered here)
 //   /rss?feed=clay      Clay community share-jobs RSS (no query; titles filtered on the config terms)
 // A listing is kept when its title contains the phrase or any config term as
 // a whole word; then the shared location and recency filters run.
@@ -17,6 +17,7 @@ const PHRASE = /^[\p{L}\p{N} .&+/-]{2,60}$/u;
 export const validPhrase = (q) => (typeof q === "string" && PHRASE.test(q.trim()) ? q.trim() : null);
 
 const WORKABLE_PAGES = 3;
+const RSS_TIMEOUT_MS = 40000;
 export const RSS_FEEDS = ["revopscareers", "clay"];
 
 async function getText(url, init, fetchImpl) {
@@ -82,11 +83,14 @@ export const KEYWORD = {
     secrets: [],
     async fetch({ q, feed, fetchImpl }) {
       if (feed === "revopscareers") {
+        // One call a day, location only. The site answers in about 11 s, and
+        // 22 s with search_keywords (measured 16 Sep 2026), so a keyword call
+        // per title would be slow and impolite; titles are filtered here.
+        // The feed carries the latest 10 UK roles, roughly one day's worth.
         const u = new URL("https://revopscareers.com/");
         u.searchParams.set("feed", "job_feed");
         u.searchParams.set("search_location", "United Kingdom");
-        if (q) u.searchParams.set("search_keywords", q);
-        return mapRevopsCareers(await getText(u.toString(), {}, fetchImpl));
+        return mapRevopsCareers(await getText(u.toString(), { timeoutMs: RSS_TIMEOUT_MS }, fetchImpl));
       }
       return mapClayCommunity(await getText("https://community.clay.com/x/share-jobs/rss.xml", {}, fetchImpl));
     },

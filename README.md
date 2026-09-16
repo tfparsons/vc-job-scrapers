@@ -23,25 +23,26 @@ Sources row. To pause everything, deactivate the workflow.
 
 | Endpoint | What it does |
 |---|---|
-| `GET /healthz` | `{"ok": true, "version": "2.0.0", "deploy_id": "..."}`. `deploy_id` changes on every deploy. |
+| `GET /healthz` | `{"ok": true, "version": "2.1.0", "deploy_id": "..."}`. `deploy_id` changes on every deploy. |
 | `GET /consider?host=<board host>` | Consider.com boards. Two requests per board: the board page for cookies and a CSRF token, then one search per term. |
 | `GET /consider?host=consider.com&board=<id>` | Boards hosted on consider.com itself (no vanity domain), e.g. `board=point72-ventures`. The board id is the last path segment of `https://consider.com/boards/vc/<id>/jobs` and is also kept in the Sources row's Board ID column. |
 | `GET /getro?host=<board host>` | Getro boards. One HTML search per term, parsed for JobPosting cards. |
 | `GET /yc` | Y Combinator's Work at a Startup. One JSON search per term plus "london" and "united kingdom". 30 results per query, no posted dates. |
 | `GET /a16z` | a16z portfolio jobs. One HTML search per term with `posted=<max_age_days>`, 25 cards per query, ATS links. |
+| `GET /companies?host=<board host>` | The board's full company list (Consider and Getro boards, `&board=<id>` for hosted Consider boards). Not a job scraper: it feeds the Startup Universe coverage check, see below. |
 
 `host` must be on the allowlist in [src/allowlist.js](src/allowlist.js). Anything
 else returns the normal envelope with `error: "host not allowed: ..."`.
 
-### Consider boards (13)
+### Consider boards (12)
 
 `jobs.notion.vc`, `careers.balderton.com`, `jobs.phoenixcourt.vc`,
 `jobs.hoxtonventures.com`, `jobs.anthemis.com`, `jobs.amadeuscapital.com`,
 `careers.highlandeurope.com`, `jobs.sequoiacap.com`, `jobs.lsvp.com`,
-`careers.creandum.com`, `careers.playfair.vc`, `jobs.gtmfund.com`, and
-`consider.com` with `board=point72-ventures`.
+`careers.playfair.vc`, `jobs.gtmfund.com`, and `consider.com` with
+`board=point72-ventures`.
 
-### Getro boards (22)
+### Getro boards (23)
 
 `jobs.dawncapital.com`, `indexventures.getro.com`, `talent.seedcamp.com`,
 `jobs.mmc.vc`, `talent.octopusventures.com`, `opportunities.northzone.com`,
@@ -50,7 +51,8 @@ else returns the normal envelope with `error: "host not allowed: ..."`.
 `talent.cherry.vc`, `positions.moonfire.com`, `jobs.hvcapital.com`,
 `jobs.headline.com`, `careers.crane.vc`, `jobs.pointnine.com`,
 `jobs.firstminute.capital`, `talent.backed.vc`, `jobs.outlierventures.io`,
-`careers.speedinvest.com`, `jobs.techstars.com`
+`careers.speedinvest.com`, `jobs.techstars.com`, `careers.creandum.com` (moved
+from Consider to Getro, September 2026)
 
 ### Single-host platforms (2)
 
@@ -136,6 +138,46 @@ Field rules:
 - `error` is null, a short string, or a `partial:` string when some term
   searches failed but others returned listings. Treat `partial:` as a warning,
   not a failed board.
+
+## Company lists (`/companies`)
+
+Every Consider and Getro board publishes the companies it lists, and both
+platforms expose that list as JSON without auth:
+
+- **Getro**: `GET https://{host}/companies` is a Next.js page whose
+  `__NEXT_DATA__` carries the network id; then
+  `POST https://api.getro.com/api/v2/collections/{id}/search/companies` with
+  `{"hits_per_page": 1000, "page": 0}`. A short page is the last page.
+- **Consider**: the same session as the jobs search (page cookies plus CSRF
+  token), then `POST /api-boards/search-companies`, paged with
+  `meta.sequence` exactly like `search-jobs`.
+
+The response is its own contract, not the listings envelope:
+
+```json
+{
+  "source": "dawn", "platform": "getro", "scraped_at": "2026-09-16T10:00:00.000Z",
+  "companies": [
+    {"name": "Ably", "domain": "ably.com", "location": "London, UK; Boston, MA, USA",
+     "stage": "series_b", "jobs_count": 7, "ats": [], "link": "https://jobs.dawncapital.com/companies/ably-2"}
+  ],
+  "counts": {"total": 42, "fetched": 42},
+  "error": null
+}
+```
+
+`stage` is the platform's own token (Getro `series_b`, Consider `Series B`).
+`ats` is Consider's `jobSources` ids (`ashbyhq`, `greenhouse`, `lever`,
+`workable`, ...), empty on Getro. `location` joins every office the board
+shows with `; `. All 35 boards return in 1 to 4 s each; Techstars is the
+largest at about 2,900 companies.
+
+`scripts/coverage.mjs` runs this over every board, matches Startup Universe
+rows on domain first and normalised name second (names under four characters
+are never matched by name), and writes `Boards` and `Board coverage` on every
+row, filling `Domain`, `HQ` and `London status` from the board where the row
+had none. It needs `AIRTABLE_TOKEN` in the environment or a gitignored `.env`;
+`--dry-run` writes `coverage-updates.json` and changes nothing.
 
 ## Provider config
 
@@ -292,19 +334,22 @@ after, or look for the Cloudflare check on the commit in GitHub.
 
 ```
 src/
-  index.js              router: /healthz, /consider, /getro; query overrides; envelope
+  index.js              router: /healthz, /consider, /getro, /yc, /a16z, /companies; query overrides; envelope
   config.js             TERMS, LOCATION_KEEP, LOCATION_REMOTE_EXCLUDE, MAX_AGE_DAYS, USER_AGENT
   allowlist.js          the 37 hosts and their platform / source slug
   scrapers/consider.js  session (cookies + CSRF), search per term, field mapping
   scrapers/getro.js     split-on-card parser, search per term
   scrapers/yc.js        Work at a Startup search JSON per term
   scrapers/a16z.js      a16z cards per term with posted=<days>
+  scrapers/companies.js board company lists (Getro collections API, Consider search-companies)
   lib/filter.js         dedupe on link, location keep-list, recency, counts
   lib/relative-date.js  "4 days" -> "2026-08-29"
   lib/cookies.js        Set-Cookie headers -> Cookie header
   lib/html.js           entity decoding, tag stripping
   lib/http.js           fetch with User-Agent and timeout; small worker pool
   lib/respond.js        the contract envelope; never-throw wrapper
+scripts/
+  coverage.mjs          Startup Universe board coverage pass (local, needs AIRTABLE_TOKEN)
 test/
   fixtures/             saved board responses
   snapshots/            expected parser output

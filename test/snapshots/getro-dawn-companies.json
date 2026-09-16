@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Ably",
+    "domain": "ably.com",
+    "location": "Mile End, London, UK; Kingston Vale, London SW15, UK; London, UK; Boston, MA, USA; England, UK",
+    "stage": "series_b",
+    "jobs_count": 7,
+    "ats": [],
+    "link": "https://jobs.dawncapital.com/companies/ably-2"
+  },
+  {
+    "name": "AccessFintech",
+    "domain": "accessfintech.com",
+    "location": "Jaffa, Tel Aviv-Yafo, Israel; Tel Aviv-Yafo, Israel; London, UK; New York, NY, USA; Glasgow, DE, USA",
+    "stage": "series_unknown",
+    "jobs_count": 5,
+    "ats": [],
+    "link": "https://jobs.dawncapital.com/companies/accessfintech"
+  },
+  {
+    "name": "Billie",
+    "domain": "billie.io",
+    "location": "Berlin, Germany",
+    "stage": "series_c",
+    "jobs_count": 0,
+    "ats": [],
+    "link": "https://jobs.dawncapital.com/companies/billie-2"
+  },
+  {
+    "name": "Blackwall",
+    "domain": "blackwall.com",
+    "location": "Jaffa, Tel Aviv-Yafo, Israel; Berlin, Germany; Tallinn, Estonia; Harju Hiiu County, Estonia; Saint Petersburg, Russia; Harju County, Estonia",
+    "stage": "series_b",
+    "jobs_count": 18,
+    "ats": [],
+    "link": "https://jobs.dawncapital.com/companies/blackwall-2"
+  },
+  {
+    "name": "BondAval",
+    "domain": "bondaval.com",
+    "location": "Mile End, London, UK; Kingston Vale, London SW15, UK; Toronto, ON, Canada; Newark, NJ, USA; London, UK; Lyngby, Denmark",
+    "stage": "series_a",
+    "jobs_count": 3,
+    "ats": [],
+    "link": "https://jobs.dawncapital.com/companies/bondaval"
+  },
+  {
+    "name": "Brite",
+    "domain": "britepayments.com",
+    "location": "Stockholm, Sweden",
+    "stage": "series_a",
+    "jobs_count": 5,
+    "ats": [],
+    "link": "https://jobs.dawncapital.com/companies/brite-2-10da8470-a3ff-44d2-b2fa-7bd4f7de5422"
+  },
+  {
+    "name": "BRYTER",
+    "domain": "bryter.com",
+    "location": "Berlin, Germany; Frankfurt, Germany; London, UK; New York, NY, USA; New York, USA",
+    "stage": "series_b",
+    "jobs_count": 9,
+    "ats": [],
+    "link": "https://jobs.dawncapital.com/companies/bryter"
+  },
+  {
+    "name": "C TWO, formerly RPA Supervisor",
+    "domain": "ctwo.com",
+    "location": "Bergen, Norway; Vestland, Norway",
+    "stage": "series_a",
+    "jobs_count": 2,
+    "ats": [],
+    "link": "https://jobs.dawncapital.com/companies/c-two-formerly-rpa-supervisor-2"
+  }
+]

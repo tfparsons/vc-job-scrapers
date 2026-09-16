@@ -1,0 +1,712 @@
+{
+ "companies": [
+  {
+   "description": "Quantum Systems is a leading European deep-tech company specialising in unmanned",
+   "domain": "quantum-systems.com",
+   "emailDomains": [
+    "quantum-systems.com"
+   ],
+   "id": "Quantum Systems",
+   "investorSlugs": [
+    "airbus-ventures",
+    "balderton-capital",
+    "notion-capital"
+   ],
+   "investors": [
+    "Airbus Ventures",
+    "Balderton Capital",
+    "Notion Capital"
+   ],
+   "jobSources": [
+    {
+     "id": "recruitee",
+     "label": "Recruitee",
+     "value": "recruitee",
+     "count": 160
+    }
+   ],
+   "markets": [
+    "Aviation & Aerospace",
+    "Manufacturing"
+   ],
+   "marketsLV": [
+    {
+     "id": "Aviation & Aerospace",
+     "label": "Aviation & Aerospace",
+     "value": "Aviation & Aerospace"
+    },
+    {
+     "id": "Manufacturing",
+     "label": "Manufacturing",
+     "value": "Manufacturing"
+    }
+   ],
+   "officeLocations": [
+    "Moorpark, California",
+    "Ukraine",
+    "Berlin, Germany",
+    "Munich, Bavaria, Germany"
+   ],
+   "officeLocationsLV": [
+    {
+     "id": "Moorpark, California",
+     "label": "Moorpark, California",
+     "value": "Moorpark, California"
+    },
+    {
+     "id": "Ukraine",
+     "label": "Ukraine",
+     "value": "Ukraine"
+    },
+    {
+     "id": "Berlin, Berlin, Germany",
+     "label": "Berlin, Germany",
+     "value": "Berlin, Berlin, Germany"
+    },
+    {
+     "id": "Munich, Bavaria, Germany",
+     "label": "Munich, Bavaria, Germany",
+     "value": "Munich, Bavaria, Germany"
+    }
+   ],
+   "skills": [],
+   "skillsLV": [],
+   "staffCount": 586,
+   "name": "Quantum-Systems",
+   "numJobs": 160,
+   "numRemoteJobs": 1,
+   "fractionRemote": 0.00625,
+   "numInternships": 10,
+   "numManagerJobs": 23,
+   "parentSlugs": [
+    "airbus-ventures",
+    "balderton-capital",
+    "notion-capital",
+    "mba-exchange"
+   ],
+   "parents": [
+    "Airbus Ventures",
+    "Balderton Capital",
+    "Notion Capital",
+    "MBA Exchange"
+   ],
+   "slug": "quantum-systems",
+   "stages": [
+    "100-1000 employees",
+    "Growth"
+   ],
+   "stagesLV": [
+    {
+     "id": "100-1000 employees",
+     "label": "100-1000 employees",
+     "value": "100-1000 employees"
+    },
+    {
+     "id": "Growth",
+     "label": "Growth",
+     "value": "Growth"
+    }
+   ],
+   "fundingLV": {
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
+   },
+   "sizeLV": {
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
+   },
+   "isFeatured": false,
+   "isRemoteFriendly": false,
+   "website": {
+    "url": "https://quantum-systems.com/",
+    "label": "quantum-systems.com"
+   }
+  },
+  {
+   "description": "From vulnerability management to penetration testing, secure everything you buil",
+   "domain": "aikido.dev",
+   "emailDomains": [
+    "aikido.dev"
+   ],
+   "id": "Aikido Security",
+   "investorSlugs": [
+    "notion-capital"
+   ],
+   "investors": [
+    "Notion Capital"
+   ],
+   "jobSources": [
+    {
+     "id": "recruitee",
+     "label": "Recruitee",
+     "value": "recruitee",
+     "count": 77
+    }
+   ],
+   "markets": [
+    "Computer & Network Security",
+    "Developer Tools"
+   ],
+   "marketsLV": [
+    {
+     "id": "Computer & Network Security",
+     "label": "Computer & Network Security",
+     "value": "Computer & Network Security"
+    },
+    {
+     "id": "Developer Tools",
+     "label": "Developer Tools",
+     "value": "Developer Tools"
+    }
+   ],
+   "officeLocations": [
+    "Belgium",
+    "San Francisco, California"
+   ],
+   "officeLocationsLV": [
+    {
+     "id": "Belgium",
+     "label": "Belgium",
+     "value": "Belgium"
+    },
+    {
+     "id": "San Francisco, California",
+     "label": "San Francisco, California",
+     "value": "San Francisco, California"
+    }
+   ],
+   "skills": [],
+   "skillsLV": [],
+   "staffCount": 190,
+   "name": "Aikido Security",
+   "numJobs": 77,
+   "numRemoteJobs": 26,
+   "fractionRemote": 0.33766233766233766,
+   "numInternships": 0,
+   "numManagerJobs": 6,
+   "parentSlugs": [
+    "notion-capital"
+   ],
+   "parents": [
+    "Notion Capital"
+   ],
+   "slug": "aikido-security",
+   "stages": [
+    "100-1000 employees",
+    "Growth"
+   ],
+   "stagesLV": [
+    {
+     "id": "100-1000 employees",
+     "label": "100-1000 employees",
+     "value": "100-1000 employees"
+    },
+    {
+     "id": "Growth",
+     "label": "Growth",
+     "value": "Growth"
+    }
+   ],
+   "fundingLV": {
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
+   },
+   "sizeLV": {
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
+   },
+   "isFeatured": false,
+   "isRemoteFriendly": false,
+   "website": {
+    "url": "https://aikido.dev/",
+    "label": "aikido.dev"
+   }
+  },
+  {
+   "description": "Our mission\u00a0is to forge industrial acceleration. We are the manufacturing compan",
+   "domain": "isembard.com",
+   "emailDomains": [
+    "isembard.com"
+   ],
+   "id": "Isembard",
+   "investorSlugs": [
+    "notion-capital",
+    "union-square-ventures"
+   ],
+   "investors": [
+    "Notion Capital",
+    "Union Square Ventures"
+   ],
+   "jobSources": [
+    {
+     "id": "notion",
+     "label": "Notion",
+     "value": "notion",
+     "count": 40
+    }
+   ],
+   "markets": [
+    "Manufacturing"
+   ],
+   "marketsLV": [
+    {
+     "id": "Manufacturing",
+     "label": "Manufacturing",
+     "value": "Manufacturing"
+    }
+   ],
+   "officeLocations": [
+    "London",
+    "Carrollton, Texas"
+   ],
+   "officeLocationsLV": [
+    {
+     "id": "London, Greater London, United Kingdom",
+     "label": "London",
+     "value": "London, Greater London, United Kingdom"
+    },
+    {
+     "id": "Carrollton, Texas",
+     "label": "Carrollton, Texas",
+     "value": "Carrollton, Texas"
+    }
+   ],
+   "skills": [],
+   "skillsLV": [],
+   "staffCount": 31,
+   "name": "Isembard",
+   "numJobs": 40,
+   "numRemoteJobs": 0,
+   "fractionRemote": 0,
+   "numInternships": 2,
+   "numManagerJobs": 3,
+   "parentSlugs": [
+    "notion-capital",
+    "union-square-ventures"
+   ],
+   "parents": [
+    "Notion Capital",
+    "Union Square Ventures"
+   ],
+   "slug": "isembard",
+   "stages": [
+    "10-100 employees",
+    "Series A"
+   ],
+   "stagesLV": [
+    {
+     "id": "10-100 employees",
+     "label": "10-100 employees",
+     "value": "10-100 employees"
+    },
+    {
+     "id": "Series A",
+     "label": "Series A",
+     "value": "Series A"
+    }
+   ],
+   "fundingLV": {
+    "id": "Series A",
+    "label": "Series A",
+    "value": "Series A"
+   },
+   "sizeLV": {
+    "id": "10-100 employees",
+    "label": "10-100 employees",
+    "value": "10-100 employees"
+   },
+   "isFeatured": false,
+   "isRemoteFriendly": false,
+   "website": {
+    "url": "https://isembard.com/",
+    "label": "isembard.com"
+   }
+  },
+  {
+   "description": "Mews is the operating system for hospitality, unifying workflows across revenue,",
+   "domain": "mews.com",
+   "emailDomains": [
+    "mews.com"
+   ],
+   "id": "Mews",
+   "investorSlugs": [
+    "battery-ventures",
+    "dutchtech",
+    "notion-capital"
+   ],
+   "investors": [
+    "Battery Ventures",
+    "Dutchtech",
+    "Notion Capital"
+   ],
+   "jobSources": [
+    {
+     "id": "greenhouse",
+     "label": "Greenhouse",
+     "value": "greenhouse",
+     "count": 32
+    }
+   ],
+   "markets": [
+    "Hospitality"
+   ],
+   "marketsLV": [
+    {
+     "id": "Hospitality",
+     "label": "Hospitality",
+     "value": "Hospitality"
+    }
+   ],
+   "officeLocations": [
+    "London",
+    "Paris, France",
+    "Prague, The Capital, Czech Republic",
+    "Amsterdam",
+    "New York City Area",
+    "Barcelona, Catalonia, Spain",
+    "Sydney, Australia"
+   ],
+   "officeLocationsLV": [
+    {
+     "id": "London, Greater London, United Kingdom",
+     "label": "London",
+     "value": "London, Greater London, United Kingdom"
+    },
+    {
+     "id": "Paris Area, France",
+     "label": "Paris, France",
+     "value": "Paris Area, France"
+    },
+    {
+     "id": "Prague, The Capital, Czech Republic",
+     "label": "Prague, The Capital, Czech Republic",
+     "value": "Prague, The Capital, Czech Republic"
+    },
+    {
+     "id": "Amsterdam Area, Netherlands",
+     "label": "Amsterdam",
+     "value": "Amsterdam Area, Netherlands"
+    },
+    {
+     "id": "Greater New York City Area",
+     "label": "New York City Area",
+     "value": "Greater New York City Area"
+    },
+    {
+     "id": "Barcelona, Catalonia, Spain",
+     "label": "Barcelona, Catalonia, Spain",
+     "value": "Barcelona, Catalonia, Spain"
+    },
+    {
+     "id": "Sydney, Australia",
+     "label": "Sydney, Australia",
+     "value": "Sydney, Australia"
+    }
+   ],
+   "skills": [],
+   "skillsLV": [],
+   "staffCount": 1431,
+   "name": "Mews",
+   "numJobs": 32,
+   "numRemoteJobs": 14,
+   "fractionRemote": 0.4375,
+   "numInternships": 0,
+   "numManagerJobs": 5,
+   "parentSlugs": [
+    "battery-ventures",
+    "dutchtech",
+    "notion-capital"
+   ],
+   "parents": [
+    "Battery Ventures",
+    "Dutchtech",
+    "Notion Capital"
+   ],
+   "slug": "mews",
+   "stages": [
+    "1000+ employees",
+    "Growth"
+   ],
+   "stagesLV": [
+    {
+     "id": "1000+ employees",
+     "label": "1000+ employees",
+     "value": "1000+ employees"
+    },
+    {
+     "id": "Growth",
+     "label": "Growth",
+     "value": "Growth"
+    }
+   ],
+   "fundingLV": {
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
+   },
+   "sizeLV": {
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
+   },
+   "isFeatured": false,
+   "isRemoteFriendly": false,
+   "website": {
+    "url": "https://mews.com/",
+    "label": "mews.com"
+   }
+  },
+  {
+   "description": "Payment processing that enables merchants to receive direct debits as a form of ",
+   "domain": "gocardless.com",
+   "emailDomains": [
+    "gocardless.com"
+   ],
+   "id": "GoCardless",
+   "investorSlugs": [
+    "bain-capital",
+    "bain-ventures",
+    "balderton-capital",
+    "notion-capital"
+   ],
+   "investors": [
+    "Bain Capital",
+    "Bain Ventures",
+    "Balderton Capital",
+    "Notion Capital"
+   ],
+   "jobSources": [
+    {
+     "id": "greenhouse",
+     "label": "Greenhouse",
+     "value": "greenhouse",
+     "count": 25
+    }
+   ],
+   "markets": [
+    "Fintech"
+   ],
+   "marketsLV": [
+    {
+     "id": "Fintech",
+     "label": "FinTech",
+     "value": "Fintech"
+    }
+   ],
+   "officeLocations": [
+    "London",
+    "Paris, France",
+    "Latvia",
+    "Melbourne, Australia",
+    "New York City Area",
+    "Munich, Bavaria, Germany",
+    "San Francisco, California"
+   ],
+   "officeLocationsLV": [
+    {
+     "id": "London, Greater London, United Kingdom",
+     "label": "London",
+     "value": "London, Greater London, United Kingdom"
+    },
+    {
+     "id": "Paris Area, France",
+     "label": "Paris, France",
+     "value": "Paris Area, France"
+    },
+    {
+     "id": "Latvia",
+     "label": "Latvia",
+     "value": "Latvia"
+    },
+    {
+     "id": "Melbourne, Australia",
+     "label": "Melbourne, Australia",
+     "value": "Melbourne, Australia"
+    },
+    {
+     "id": "Greater New York City Area",
+     "label": "New York City Area",
+     "value": "Greater New York City Area"
+    },
+    {
+     "id": "Munich, Bavaria, Germany",
+     "label": "Munich, Bavaria, Germany",
+     "value": "Munich, Bavaria, Germany"
+    },
+    {
+     "id": "San Francisco, California",
+     "label": "San Francisco, California",
+     "value": "San Francisco, California"
+    }
+   ],
+   "skills": [],
+   "skillsLV": [],
+   "staffCount": 833,
+   "name": "GoCardless",
+   "numJobs": 25,
+   "numRemoteJobs": 0,
+   "fractionRemote": 0,
+   "numInternships": 0,
+   "numManagerJobs": 0,
+   "parentSlugs": [
+    "bain-capital",
+    "bain-ventures",
+    "balderton-capital",
+    "notion-capital",
+    "remotely"
+   ],
+   "parents": [
+    "Bain Capital",
+    "Bain Ventures",
+    "Balderton Capital",
+    "Notion Capital",
+    "Remotely"
+   ],
+   "slug": "gocardless",
+   "stages": [
+    "100-1000 employees"
+   ],
+   "stagesLV": [
+    {
+     "id": "100-1000 employees",
+     "label": "100-1000 employees",
+     "value": "100-1000 employees"
+    }
+   ],
+   "sizeLV": {
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
+   },
+   "isFeatured": false,
+   "isRemoteFriendly": false,
+   "website": {
+    "url": "https://gocardless.com/",
+    "label": "gocardless.com"
+   }
+  },
+  {
+   "description": "TechWolf is the #1 AI and data layer for workforce transformation.\nUse accurate,",
+   "domain": "techwolf.com",
+   "emailDomains": [
+    "techwolf.com"
+   ],
+   "id": "TechWolf",
+   "investorSlugs": [
+    "notion-capital"
+   ],
+   "investors": [
+    "Notion Capital"
+   ],
+   "jobSources": [
+    {
+     "id": "recruitee",
+     "label": "Recruitee",
+     "value": "recruitee",
+     "count": 23
+    }
+   ],
+   "markets": [
+    "AI",
+    "Enterprise Software",
+    "SaaS"
+   ],
+   "marketsLV": [
+    {
+     "id": "AI",
+     "label": "AI",
+     "value": "AI"
+    },
+    {
+     "id": "Enterprise Software",
+     "label": "Enterprise Software",
+     "value": "Enterprise Software"
+    },
+    {
+     "id": "SaaS",
+     "label": "SaaS",
+     "value": "SaaS"
+    }
+   ],
+   "officeLocations": [
+    "Brooklyn, New York",
+    "London",
+    "Gent Area, Belgium"
+   ],
+   "officeLocationsLV": [
+    {
+     "id": "Brooklyn, New York",
+     "label": "Brooklyn, New York",
+     "value": "Brooklyn, New York"
+    },
+    {
+     "id": "London, Greater London, United Kingdom",
+     "label": "London",
+     "value": "London, Greater London, United Kingdom"
+    },
+    {
+     "id": "Gent Area, Belgium",
+     "label": "Gent Area, Belgium",
+     "value": "Gent Area, Belgium"
+    }
+   ],
+   "skills": [],
+   "skillsLV": [],
+   "staffCount": 138,
+   "name": "TechWolf",
+   "numJobs": 23,
+   "numRemoteJobs": 0,
+   "fractionRemote": 0,
+   "numInternships": 1,
+   "numManagerJobs": 1,
+   "parentSlugs": [
+    "notion-capital"
+   ],
+   "parents": [
+    "Notion Capital"
+   ],
+   "slug": "techwolf",
+   "stages": [
+    "100-1000 employees",
+    "Growth"
+   ],
+   "stagesLV": [
+    {
+     "id": "100-1000 employees",
+     "label": "100-1000 employees",
+     "value": "100-1000 employees"
+    },
+    {
+     "id": "Growth",
+     "label": "Growth",
+     "value": "Growth"
+    }
+   ],
+   "fundingLV": {
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
+   },
+   "sizeLV": {
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
+   },
+   "isFeatured": false,
+   "isRemoteFriendly": false,
+   "website": {
+    "url": "https://techwolf.com/",
+    "label": "techwolf.com"
+   }
+  }
+ ],
+ "total": 86,
+ "meta": {
+  "size": 200
+ },
+ "errors": []
+}

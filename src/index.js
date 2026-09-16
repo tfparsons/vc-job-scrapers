@@ -1,11 +1,12 @@
 import pkg from "../package.json" with { type: "json" };
 import { TERMS, LOCATION_KEEP, LOCATION_REMOTE_EXCLUDE, MAX_AGE_DAYS } from "./config.js";
-import { lookupHost, defaultHostFor } from "./allowlist.js";
+import { lookupHost, lookupBoardHost, defaultHostFor } from "./allowlist.js";
 import { envelope, jsonResponse, neverThrow } from "./lib/respond.js";
 import { scrapeConsider } from "./scrapers/consider.js";
 import { scrapeGetro } from "./scrapers/getro.js";
 import { scrapeYc } from "./scrapers/yc.js";
 import { scrapeA16z } from "./scrapers/a16z.js";
+import { scrapeCompanies } from "./scrapers/companies.js";
 
 const SCRAPERS = {
   "/consider": { platform: "consider", run: scrapeConsider },
@@ -32,6 +33,37 @@ function readConfig(params) {
   return { terms, location_keep: locationKeep, remote_exclude: remoteExclude, max_age_days: maxAgeDays };
 }
 
+// Boards hosted on the platform's own domain need ?board=<id> to say which one.
+// Returns the board id, or null when it is missing or malformed.
+function readHostedBoard(params) {
+  const raw = (params.get("board") || "").trim().toLowerCase();
+  return /^[a-z0-9-]{1,80}$/.test(raw) ? raw : null;
+}
+
+// /companies?host=<board>: a different contract from the job scrapers, so it
+// has its own envelope: { source, platform, scraped_at, companies, counts, error }.
+async function handleCompanies(url, now) {
+  const rawHost = url.searchParams.get("host");
+  const board = lookupBoardHost(rawHost);
+  const base = { source: board ? board.source : null, platform: board ? board.platform : null, scraped_at: now.toISOString() };
+  const fail = (error) => jsonResponse({ ...base, companies: [], counts: { total: 0, fetched: 0 }, error });
+  if (!board) return fail(`host not allowed: ${rawHost || "(missing)"}`);
+
+  let hostedBoard = null;
+  if (board.hosted) {
+    hostedBoard = readHostedBoard(url.searchParams);
+    if (!hostedBoard) return fail(`board required for ${board.host}: ?board=<id>`);
+    base.source = hostedBoard;
+  }
+
+  try {
+    const result = await scrapeCompanies({ host: board.host, platform: board.platform, board: hostedBoard });
+    return jsonResponse({ ...base, ...result });
+  } catch (err) {
+    return fail(`unhandled: ${err && err.message ? err.message : String(err)}`);
+  }
+}
+
 export default {
   async fetch(request, env) {
     const url = new URL(request.url);
@@ -51,9 +83,11 @@ export default {
       return jsonResponse({
         service: "vc-job-scrapers",
         version: pkg.version,
-        endpoints: ["/healthz", "/consider?host=<board host>", "/consider?host=consider.com&board=<id>", "/getro?host=<board host>", "/yc", "/a16z"],
+        endpoints: ["/healthz", "/consider?host=<board host>", "/consider?host=consider.com&board=<id>", "/getro?host=<board host>", "/yc", "/a16z", "/companies?host=<board host>"],
       });
     }
+
+    if (pathname === "/companies") return handleCompanies(url, now);
 
     const scraper = SCRAPERS[pathname];
     if (!scraper) {
@@ -69,15 +103,13 @@ export default {
       return jsonResponse(envelope({ ...base, error: `host not allowed: ${rawHost || "(missing)"}` }));
     }
 
-    // Boards hosted on the platform's own domain need ?board=<id> to say which one.
     let hostedBoard = null;
     if (board.hosted) {
-      const rawBoard = (url.searchParams.get("board") || "").trim().toLowerCase();
-      if (!/^[a-z0-9-]{1,80}$/.test(rawBoard)) {
+      hostedBoard = readHostedBoard(url.searchParams);
+      if (!hostedBoard) {
         return jsonResponse(envelope({ ...base, error: `board required for ${board.host}: ?board=<id>` }));
       }
-      hostedBoard = rawBoard;
-      base.source = rawBoard;
+      base.source = hostedBoard;
     }
 
     const body = await neverThrow(base, async () => {

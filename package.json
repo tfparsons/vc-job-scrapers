@@ -1,6 +1,6 @@
 {
   "name": "vc-job-scrapers",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "private": true,
   "description": "Cloudflare Worker that scrapes VC portfolio job boards and returns contract JSON. Called by an n8n orchestrator.",
   "type": "module",

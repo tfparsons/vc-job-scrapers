@@ -1,0 +1,68 @@
+[
+  {
+    "name": "Quantum-Systems",
+    "domain": "quantum-systems.com",
+    "location": "Moorpark, California; Ukraine; Berlin, Germany; Munich, Bavaria, Germany",
+    "stage": "Growth",
+    "jobs_count": 160,
+    "ats": [
+      "recruitee"
+    ],
+    "link": "https://jobs.notion.vc/companies/quantum-systems"
+  },
+  {
+    "name": "Aikido Security",
+    "domain": "aikido.dev",
+    "location": "Belgium; San Francisco, California",
+    "stage": "Growth",
+    "jobs_count": 77,
+    "ats": [
+      "recruitee"
+    ],
+    "link": "https://jobs.notion.vc/companies/aikido-security"
+  },
+  {
+    "name": "Isembard",
+    "domain": "isembard.com",
+    "location": "London; Carrollton, Texas",
+    "stage": "Series A",
+    "jobs_count": 40,
+    "ats": [
+      "notion"
+    ],
+    "link": "https://jobs.notion.vc/companies/isembard"
+  },
+  {
+    "name": "Mews",
+    "domain": "mews.com",
+    "location": "London; Paris, France; Prague, The Capital, Czech Republic; Amsterdam; New York City Area; Barcelona, Catalonia, Spain; Sydney, Australia",
+    "stage": "Growth",
+    "jobs_count": 32,
+    "ats": [
+      "greenhouse"
+    ],
+    "link": "https://jobs.notion.vc/companies/mews"
+  },
+  {
+    "name": "GoCardless",
+    "domain": "gocardless.com",
+    "location": "London; Paris, France; Latvia; Melbourne, Australia; New York City Area; Munich, Bavaria, Germany; San Francisco, California",
+    "stage": null,
+    "jobs_count": 25,
+    "ats": [
+      "greenhouse"
+    ],
+    "link": "https://jobs.notion.vc/companies/gocardless"
+  },
+  {
+    "name": "TechWolf",
+    "domain": "techwolf.com",
+    "location": "Brooklyn, New York; London; Gent Area, Belgium",
+    "stage": "Growth",
+    "jobs_count": 23,
+    "ats": [
+      "recruitee"
+    ],
+    "link": "https://jobs.notion.vc/companies/techwolf"
+  }
+]

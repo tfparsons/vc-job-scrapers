@@ -1,0 +1,353 @@
+{
+ "results": {
+  "companies": [
+   {
+    "active_jobs_count": 7,
+    "stage": "series_b",
+    "logo_url": "https://cdn.getro.com/companies/27639e23-73a5-44cb-b042-a80cd84501f4-1763948148",
+    "topics": [
+     "Dev ops & infrastructure"
+    ],
+    "domain": "ably.com",
+    "name": "Ably",
+    "description": "Ably is the definitive realtime experience platform. We power more WebSocket con",
+    "head_count": 3,
+    "locations": [
+     "Mile End, London, UK",
+     "Kingston Vale, London SW15, UK",
+     "London, UK",
+     "Boston, MA, USA",
+     "England, UK"
+    ],
+    "industry_tags": [
+     "Application Software",
+     "Business/Productivity Software",
+     "Chat",
+     "Cloud Computing",
+     "Cloud Data Services",
+     "Cloud Infrastructure",
+     "Hardware",
+     "Information Technology",
+     "Internet",
+     "Internet of Things",
+     "Internet Services",
+     "Messaging",
+     "Messaging and Telecommunications",
+     "Mobile",
+     "PaaS",
+     "Platform",
+     "Real Time",
+     "Realtime",
+     "Software",
+     "Software Development Applications",
+     "Technology",
+     "Technology, Information and Internet"
+    ],
+    "slug": "ably-2",
+    "visible_industry_tags": [
+     "Cloud Computing",
+     "Cloud Data Services",
+     "Cloud Infrastructure",
+     "Internet of Things",
+     "Messaging",
+     "Mobile",
+     "Real Time",
+     "Technology, Information and Internet"
+    ],
+    "id": 35261
+   },
+   {
+    "active_jobs_count": 5,
+    "stage": "series_unknown",
+    "logo_url": "https://cdn.getro.com/companies/0cc764b4-63f2-4d5d-8430-ecd997cf2b4d-1761013201",
+    "topics": [
+     "FinTech"
+    ],
+    "domain": "accessfintech.com",
+    "name": "AccessFintech",
+    "description": "AccessFintech offers risk management services for banks and buyside firms and tr",
+    "head_count": 3,
+    "locations": [
+     "Jaffa, Tel Aviv-Yafo, Israel",
+     "Tel Aviv-Yafo, Israel",
+     "London, UK",
+     "New York, NY, USA",
+     "Glasgow, DE, USA"
+    ],
+    "industry_tags": [
+     "Administrative Services",
+     "Alternatives",
+     "Artificial Intelligence",
+     "Business/Productivity Software",
+     "Cloud",
+     "Collaboration",
+     "Derivatives",
+     "Financial Services",
+     "Financial Software",
+     "Fintech",
+     "Operational Risk",
+     "Operations",
+     "Other Financial Services",
+     "Platform",
+     "Predictive Analytics",
+     "Professional Services",
+     "Project Management",
+     "Risk Management",
+     "Robotics",
+     "Securities",
+     "Software",
+     "Technology",
+     "Technology And Computing"
+    ],
+    "slug": "accessfintech",
+    "visible_industry_tags": [
+     "Financial Services",
+     "Fintech",
+     "Project Management",
+     "Risk Management"
+    ],
+    "id": 82998
+   },
+   {
+    "active_jobs_count": 0,
+    "stage": "series_c",
+    "logo_url": "https://cdn.getro.com/companies/5e5be1fd-74f7-479b-828c-749a289f493f-1787832983",
+    "topics": [
+     "FinTech"
+    ],
+    "domain": "billie.io",
+    "name": "Billie",
+    "description": "Billie is the leading provider of Buy Now, Pay Later (BNPL) payment methods for ",
+    "head_count": 3,
+    "locations": [
+     "Berlin, Germany"
+    ],
+    "industry_tags": [],
+    "slug": "billie-2",
+    "visible_industry_tags": [],
+    "id": 31173
+   },
+   {
+    "active_jobs_count": 18,
+    "stage": "series_b",
+    "logo_url": "https://cdn.getro.com/companies/edd16f45-d189-4313-ac58-342be212da2e-1769566000",
+    "topics": [],
+    "domain": "blackwall.com",
+    "name": "Blackwall",
+    "description": "Blackwall is an AI-enabled security and web infrastructure company focused on pr",
+    "head_count": 3,
+    "locations": [
+     "Jaffa, Tel Aviv-Yafo, Israel",
+     "Berlin, Germany",
+     "Tallinn, Estonia",
+     "Harju Hiiu County, Estonia",
+     "Saint Petersburg, Russia",
+     "Harju County, Estonia"
+    ],
+    "industry_tags": [
+     "Artificial Intelligence (AI)",
+     "Business/Productivity Software",
+     "Cloud",
+     "Cyber Security",
+     "Data & Analytics",
+     "Enterprise Software",
+     "Information Technology",
+     "IT Services and IT Consulting",
+     "Network Management Software",
+     "Network Security",
+     "Platform",
+     "Privacy and Security",
+     "Science and Engineering",
+     "Security",
+     "Software",
+     "Technology"
+    ],
+    "slug": "blackwall-2",
+    "visible_industry_tags": [
+     "Artificial Intelligence (AI)",
+     "Cyber Security",
+     "IT Services and IT Consulting",
+     "Network Security",
+     "Software"
+    ],
+    "id": 3126281
+   },
+   {
+    "active_jobs_count": 3,
+    "stage": "series_a",
+    "logo_url": "https://cdn.getro.com/companies/265616e8-c4da-48fa-b0e2-d523e4ed0579-1760837971",
+    "topics": [],
+    "domain": "bondaval.com",
+    "name": "BondAval",
+    "description": "Bondaval is a digital platform for B2B credit security to replace traditional co",
+    "head_count": 2,
+    "locations": [
+     "Mile End, London, UK",
+     "Kingston Vale, London SW15, UK",
+     "Toronto, ON, Canada",
+     "Newark, NJ, USA",
+     "London, UK",
+     "Lyngby, Denmark"
+    ],
+    "industry_tags": [
+     "B2B",
+     "Credit",
+     "Cybersecurity",
+     "Financial Services",
+     "Financial Software",
+     "Fintech",
+     "Insurance",
+     "Lending and Investments",
+     "Platform",
+     "Specialized Finance",
+     "Technology"
+    ],
+    "slug": "bondaval",
+    "visible_industry_tags": [
+     "B2B",
+     "Credit",
+     "Financial Services",
+     "Fintech"
+    ],
+    "id": 67459
+   },
+   {
+    "active_jobs_count": 5,
+    "stage": "series_a",
+    "logo_url": "https://cdn.getro.com/companies/d29fd141-2ade-4841-b53f-2949042a6fea-1761269640",
+    "topics": [],
+    "domain": "britepayments.com",
+    "name": "Brite",
+    "description": "Brite Payments is a second-generation fintech based in Stockholm. The instant pa",
+    "head_count": 3,
+    "locations": [
+     "Stockholm, Sweden"
+    ],
+    "industry_tags": [
+     "Data Solutions",
+     "E-Commerce",
+     "Financial Services",
+     "Financial Software",
+     "Fintech",
+     "Open Banking",
+     "Payments",
+     "Platform",
+     "Recurring Payments",
+     "Technology"
+    ],
+    "slug": "brite-2-10da8470-a3ff-44d2-b2fa-7bd4f7de5422",
+    "visible_industry_tags": [
+     "Financial Services",
+     "Fintech",
+     "Payments"
+    ],
+    "id": 723429
+   },
+   {
+    "active_jobs_count": 9,
+    "stage": "series_b",
+    "logo_url": "https://cdn.getro.com/companies/12d85098-eced-47a8-a232-be86049d42b5-1761013204",
+    "topics": [
+     "Future of Work"
+    ],
+    "domain": "bryter.com",
+    "name": "BRYTER",
+    "description": "BRYTER is a no-code software platform that automates and helps its users to deve",
+    "head_count": 3,
+    "locations": [
+     "Berlin, Germany",
+     "Frankfurt, Germany",
+     "London, UK",
+     "New York, NY, USA",
+     "New York, USA"
+    ],
+    "industry_tags": [
+     "AI",
+     "Automation",
+     "Automation Software",
+     "Automation/Workflow Software",
+     "Business/Productivity Software",
+     "Compliance",
+     "Developer Tools",
+     "Digital Transformation",
+     "Enterprise Software",
+     "Food & Beverages",
+     "Industrial Automation",
+     "IT Consulting",
+     "Legal Tech",
+     "Legal Technology",
+     "LegalTech",
+     "Manufacturing",
+     "Platform",
+     "Process Automation",
+     "Professional Services",
+     "RegTech",
+     "SaaS",
+     "Science and Engineering",
+     "Software",
+     "Software Development",
+     "Software Development Applications",
+     "Technology",
+     "Travel"
+    ],
+    "slug": "bryter",
+    "visible_industry_tags": [
+     "Compliance",
+     "Enterprise Software",
+     "Industrial Automation",
+     "Legal Tech",
+     "SaaS",
+     "Software",
+     "Software Development"
+    ],
+    "id": 82999
+   },
+   {
+    "active_jobs_count": 2,
+    "stage": "series_a",
+    "logo_url": "https://cdn.getro.com/companies/0b9e3951-d83a-4cc7-a3b9-2b6625915fcf-1778329195",
+    "topics": [],
+    "domain": "ctwo.com",
+    "name": "C TWO, formerly RPA Supervisor",
+    "description": "C TWO is a technology-agnostic automation management platform that orchestrates ",
+    "head_count": 2,
+    "locations": [
+     "Bergen, Norway",
+     "Vestland, Norway"
+    ],
+    "industry_tags": [
+     "Agentic AI",
+     "AI Governance",
+     "Artificial Intelligence",
+     "Automation",
+     "Automation/Workflow Software",
+     "Business/Productivity Software",
+     "Cloud platforms(PaaS)",
+     "CRM",
+     "Enterprise Software",
+     "Information Services",
+     "Information Technology",
+     "Intelligent Automation",
+     "Monitoring",
+     "Performance Management",
+     "Platform",
+     "Robotics",
+     "RPA",
+     "Sales & Marketing",
+     "Software",
+     "Software Development",
+     "Technology"
+    ],
+    "slug": "c-two-formerly-rpa-supervisor-2",
+    "visible_industry_tags": [
+     "CRM",
+     "Information Services",
+     "Software",
+     "Software Development"
+    ],
+    "id": 5035110
+   }
+  ],
+  "count": 42
+ }
+}

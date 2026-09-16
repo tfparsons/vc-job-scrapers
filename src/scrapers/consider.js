@@ -70,7 +70,9 @@ export function mapConsiderJobs(json) {
 
 // `hostedBoard` is set for boards on consider.com itself, e.g. point72-ventures:
 // the session page is /boards/vc/<id>/jobs and the page carries no board object.
-async function fetchSession(origin, hostedBoard, fetchImpl) {
+// Exported for scrapers/companies.js, which reuses the session for a
+// different search path.
+export async function fetchSession(origin, hostedBoard, fetchImpl) {
   const pagePath = hostedBoard ? `/boards/vc/${hostedBoard}/jobs` : "/jobs";
   let res = await fetchWithUA(`${origin}${pagePath}`, { redirect: "manual" }, fetchImpl);
   const jar = parseSetCookies(setCookiesFromResponse(res));
@@ -93,8 +95,8 @@ async function fetchSession(origin, hostedBoard, fetchImpl) {
   return { csrfToken: parsed.csrfToken, board, cookie: cookieHeaderFrom(jar), referer: `${origin}${pagePath}` };
 }
 
-async function postSearch(origin, session, body, fetchImpl) {
-  const res = await fetchWithUA(`${origin}/api-boards/search-jobs`, {
+export async function postSearch(origin, session, body, fetchImpl, path = "/api-boards/search-jobs") {
+  const res = await fetchWithUA(`${origin}${path}`, {
     method: "POST",
     headers: {
       "content-type": "application/json",

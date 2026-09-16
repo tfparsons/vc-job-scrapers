@@ -23,18 +23,30 @@ export function termsInTitle(title, terms) {
   return terms.filter((t) => new RegExp(`(^|[^a-z0-9])${escapeRe(t.toLowerCase())}([^a-z0-9]|$)`).test(text));
 }
 
+// Workable's widget API answers 429 when the daily poll hits it in a burst.
+// Waiting costs no CPU on the Worker, so a 429 gets two slow retries.
+const RETRY_429 = [1500, 3000];
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+
 async function fetchFeed(platform, id, fetchImpl) {
   const feed = FEEDS[platform];
   let lastError = null;
   for (const url of feed.urls(id)) {
     let res;
-    try {
-      res = await fetchWithUA(url, { headers: { accept: "application/json, application/rss+xml, text/xml, */*" } }, fetchImpl);
-    } catch (err) {
-      lastError = err.name === "TimeoutError" ? "timeout" : err.message;
-      continue;
+    let text;
+    for (let attempt = 0; ; attempt++) {
+      try {
+        res = await fetchWithUA(url, { headers: { accept: "application/json, application/rss+xml, text/xml, */*" } }, fetchImpl);
+      } catch (err) {
+        lastError = err.name === "TimeoutError" ? "timeout" : err.message;
+        res = null;
+        break;
+      }
+      text = await res.text();
+      if (res.status !== 429 || attempt >= RETRY_429.length) break;
+      await sleep(RETRY_429[attempt]);
     }
-    const text = await res.text();
+    if (!res) continue;
     if (res.status === 404) { lastError = "HTTP 404"; continue; } // try the next region
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     return feed.map(text);

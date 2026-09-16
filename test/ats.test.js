@@ -135,6 +135,19 @@ test("ats: a feed that answers nothing is reported in error with no listings", a
   assert.equal(out.error, "lever: HTTP 404");
 });
 
+test("ats: a 429 is retried after a pause, then succeeds", async () => {
+  let calls = 0;
+  const fetchImpl = async () => {
+    calls += 1;
+    if (calls === 1) return new Response("slow down", { status: 429 });
+    return new Response(fixture("ats-workable.json"), { status: 200, headers: { "content-type": "application/json" } });
+  };
+  const out = await scrapeAts({ platform: "workable", id: "vortexa", source: "Vortexa", now: NOW, config: CONFIG, fetch: fetchImpl });
+  assert.equal(out.error, null);
+  assert.equal(calls, 2);
+  assert.equal(out.counts.fetched, 6);
+});
+
 test("ats: default filters drop US on-site roles and old ones", async () => {
   const { fetchImpl } = stub([{ match: "apply.workable.com/api/v1/widget/accounts/vortexa", body: fixture("ats-workable.json") }]);
   const config = { terms: ["account", "sales", "engineer", "manager"], location_keep: ["london", "united kingdom", "uk"], remote_exclude: ["united states", "usa", "us"], max_age_days: 7 };

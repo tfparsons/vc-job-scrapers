@@ -7,3 +7,5 @@ node_modules/
 *.log
 coverage-updates.json
 ats-report.json
+domain-updates.json
+out-serpapi.json

@@ -182,6 +182,21 @@ eight or more characters and unique across boards; short names ("Scale",
 or a gitignored `.env`; `--dry-run` writes `coverage-updates.json` and
 changes nothing. Rerunning is a no-op once the table is up to date.
 
+## Domain resolution (`scripts/resolve-domains.mjs`, `scripts/apply-domains.mjs`)
+
+Rows with a name but no domain cannot be matched to boards or probed for an
+ATS. `resolve-domains.mjs` searches Google through SerpApi (`SERPAPI_KEY` in
+the environment or `.env`; the free tier is 250 searches a month, so pass
+`--limit`) and takes the first result that is not a directory or social
+site and whose domain label is the company name; a title-only match is
+accepted only when the title does not read like coverage of the company.
+Output is `{id, company, domain, confidence, evidence}` per row, the same
+shape the web-search batches used, and `apply-domains.mjs` writes it:
+Domain for high and medium results after checking the site answers, a
+dated Notes line for dead or unresolved rows, nothing for rows that were
+never actually searched. Existing domains are never overwritten. Rerun
+`coverage.mjs` and `ats-detect.mjs --all` afterwards.
+
 ## ATS detection (`scripts/ats-detect.mjs`)
 
 For every Startup Universe row with a domain and no ATS yet (London / UK rows

@@ -39,19 +39,31 @@ const registrable = (host) => {
   return parts.length > 2 ? parts.slice(-2).join(".") : host;
 };
 
+// Titles that mark a page as being ABOUT the company rather than BY it.
+const ABOUT_TITLE = /\b(raises|raised|funding|round|series [a-d]|portfolio|acquire[sd]?|acquisition|launches|announce|news|review|profile|crunchbase|linkedin|jobs? at|careers at|investors?)\b/i;
+
+// Prefer a result whose domain label is the company name, anywhere in the
+// top ten; a title match alone is weak (news articles and portfolio pages
+// name the company in the title) and only counts when the title does not
+// read like coverage of the company. First live run, 16 Sep 2026: title-only
+// matches were mostly third-party pages, so they are now medium at best and
+// apply-domains treats them with suspicion.
 function pick(company, results) {
   const key = norm(company);
   if (key.length < 3) return null;
-  for (const r of results || []) {
+  const usable = (results || []).filter((r) => { const h = hostOf(r.link); return h && !THIRD_PARTY.test(h); });
+  for (const r of usable) {
     const host = hostOf(r.link);
-    if (!host || THIRD_PARTY.test(host)) continue;
     const dom = registrable(host);
-    const label = dom.split(".")[0];
-    const title = norm(r.title);
-    const inLabel = norm(label) === key || (key.length >= 5 && norm(label).includes(key)) || (label.length >= 5 && key.includes(norm(label)));
-    const inTitle = title.includes(key);
-    if (inLabel || inTitle) {
-      return { domain: dom, confidence: inLabel ? "high" : "medium", evidence: `Google result "${(r.title || "").slice(0, 80)}" at ${host}${inLabel ? " (name in domain)" : " (name in title)"}` };
+    const label = norm(dom.split(".")[0]);
+    const inLabel = label === key || (key.length >= 5 && label.includes(key)) || (label.length >= 5 && key.includes(label));
+    if (inLabel) return { domain: dom, confidence: "high", evidence: `Google result "${(r.title || "").slice(0, 80)}" at ${host} (name in domain)` };
+  }
+  for (const r of usable) {
+    const host = hostOf(r.link);
+    const title = String(r.title || "");
+    if (norm(title).includes(key) && !ABOUT_TITLE.test(title)) {
+      return { domain: registrable(host), confidence: "medium", evidence: `Google result "${title.slice(0, 80)}" at ${host} (name in title only)` };
     }
   }
   return null;

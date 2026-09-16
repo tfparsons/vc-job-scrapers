@@ -19,10 +19,12 @@
 import { writeFileSync, readFileSync, existsSync } from "node:fs";
 import { HOSTS } from "../src/allowlist.js";
 
+// Accepts KEY=value lines, or a file that is just the bare token.
 if (existsSync(".env")) {
   for (const line of readFileSync(".env", "utf8").split("\n")) {
     const m = line.match(/^\s*([A-Z_]+)\s*=\s*(.*?)\s*$/);
     if (m && !process.env[m[1]]) process.env[m[1]] = m[2].replace(/^["']|["']$/g, "");
+    else if (/^\s*pat[A-Za-z0-9.]{20,}\s*$/.test(line) && !process.env.AIRTABLE_TOKEN) process.env.AIRTABLE_TOKEN = line.trim();
   }
 }
 
@@ -130,14 +132,32 @@ async function fetchBoard(board) {
   return { ...board, ...json };
 }
 
+const fundNamed = (investors, fund) => (FUND_ALIASES[fund] || []).some((a) => wordIn(investors, a));
+
+// Short names ("Scale", "Ramp", "Flow") exist many times over across boards.
+// A name-only match is trusted when the row's investors include one of the
+// boards it was found on, or when the name is long enough to be distinctive.
+const DISTINCTIVE_NAME_LENGTH = 8;
+
 function decide(row, byDomain, byName, scrapedFunds) {
   const domain = normDomain(row.fields[F.domain]);
-  const hit = (domain && byDomain.get(domain)) || byName.get(norm(row.fields[F.company])) || null;
-  if (hit) return { coverage: COVERAGE.on, boards: [...hit.boards].sort().join(", "), hit };
   const investors = String(row.fields[F.investors] || "");
-  if (!investors.trim()) return { coverage: COVERAGE.noVc, boards: "", hit: null };
-  const onScraped = scrapedFunds.some((f) => FUND_ALIASES[f] && FUND_ALIASES[f].some((a) => wordIn(investors, a)));
-  return { coverage: onScraped ? COVERAGE.notListed : COVERAGE.noBoard, boards: "", hit: null };
+  let hit = domain ? byDomain.get(domain) || null : null;
+  let via = hit ? "domain" : null;
+  if (!hit) {
+    const key = norm(row.fields[F.company]);
+    const candidate = byName.get(key);
+    if (candidate && (key.length >= DISTINCTIVE_NAME_LENGTH || [...candidate.boards].some((b) => fundNamed(investors, b)))) {
+      hit = candidate;
+      via = "name";
+    } else if (candidate) {
+      via = "rejected";
+    }
+  }
+  if (hit) return { coverage: COVERAGE.on, boards: [...hit.boards].sort().join(", "), hit, via };
+  if (!investors.trim()) return { coverage: COVERAGE.noVc, boards: "", hit: null, via };
+  const onScraped = scrapedFunds.some((f) => fundNamed(investors, f));
+  return { coverage: onScraped ? COVERAGE.notListed : COVERAGE.noBoard, boards: "", hit: null, via };
 }
 
 function londonStatusFrom(location) {
@@ -182,9 +202,13 @@ async function main() {
   const rows = await listAll(EMPLOYERS_BASE, UNIVERSE, { "returnFieldsByFieldId": "true" });
   const updates = [];
   const tally = {};
+  const via = {};
+  const rejected = [];
   for (const row of rows) {
     const d = decide(row, byDomain, byName, scrapedFunds);
     tally[d.coverage] = (tally[d.coverage] || 0) + 1;
+    if (d.via) via[d.via] = (via[d.via] || 0) + 1;
+    if (d.via === "rejected") rejected.push(row.fields[F.company]);
     const fields = {};
     if ((row.fields[F.coverage] || "") !== d.coverage) fields[F.coverage] = d.coverage;
     if ((row.fields[F.boards] || "") !== d.boards) fields[F.boards] = d.boards;
@@ -201,6 +225,8 @@ async function main() {
   }
 
   console.log("\nCoverage:", tally);
+  console.log("Matched via:", via);
+  if (rejected.length) console.log(`Name matches rejected (no investor overlap, short name): ${rejected.join(", ")}`);
   console.log(`${updates.length} of ${rows.length} rows need an update`);
   const report = updates.map((u) => ({ id: u.id, company: rows.find((r) => r.id === u.id).fields[F.company], ...u.fields }));
   writeFileSync("coverage-updates.json", JSON.stringify(report, null, 2));

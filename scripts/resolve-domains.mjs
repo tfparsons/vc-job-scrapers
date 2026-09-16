@@ -8,7 +8,7 @@
 // web-search batches, so scripts/apply-domains.mjs applies it.
 //
 // Usage:
-//   node scripts/resolve-domains.mjs --limit 240 [--skip <out-dir>]
+//   node scripts/resolve-domains.mjs --limit 10 [--skip <out-dir>]   # pilot first, then scale
 //     --limit  how many SerpApi searches to spend (free tier: 250 a month)
 //     --skip   directory of earlier out-*.json files; rows already resolved
 //              there with a live-search domain are not searched again
@@ -96,6 +96,10 @@ if (SKIP_DIR) {
 const rows = (await listAll(EMPLOYERS_BASE, UNIVERSE, { returnFieldsByFieldId: "true" })).filter((r) => !r.fields[F.domain] && !already.has(r.id));
 console.log(`${rows.length} rows without a domain (after skipping ${already.size} already resolved); spending up to ${LIMIT} searches`);
 
+// Every raw response is kept next to the output so results can be re-scored
+// offline after a picker change, without spending the quota again.
+const RAW = OUT.replace(/\.json$/, "") + "-raw.json";
+const raw = [];
 const out = [];
 let spent = 0;
 for (const row of rows) {
@@ -104,7 +108,9 @@ for (const row of rows) {
   const investor = String(row.fields[F.investors] || "").split(",")[0].trim();
   const q = `"${company}" ${investor || "startup UK"}${investor ? " startup" : ""}`;
   let results;
-  try { results = await search(q); spent += 1; } catch (err) { console.error(`  ${company}: ${err.message}`); if (/run out|limit|exceeded/i.test(err.message)) break; continue; }
+  try { results = await search(q); spent += 1; } catch (err) { console.error(`  ${company}: ${err.message}`); if (/run out|limit|exceeded|throttled/i.test(err.message)) break; continue; }
+  raw.push({ id: row.id, company, q, results: results.map((r) => ({ title: r.title, link: r.link, snippet: r.snippet })) });
+  writeFileSync(RAW, JSON.stringify(raw, null, 1));
   const p = pick(company, results);
   out.push({ id: row.id, company, domain: p ? p.domain : null, confidence: p ? p.confidence : "low", evidence: p ? p.evidence : `no Google result matched the name (top: ${(results[0] && hostOf(results[0].link)) || "none"})` });
   console.log(`  ${company.padEnd(28)} ${p ? p.domain.padEnd(28) + p.confidence : "-"}`);

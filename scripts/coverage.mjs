@@ -145,12 +145,18 @@ function decide(row, byDomain, byName, scrapedFunds) {
   let hit = domain ? byDomain.get(domain) || null : null;
   let via = hit ? "domain" : null;
   if (!hit) {
+    // byName holds one entry per distinct company (domain) sharing the name,
+    // so a homonym on another board never lends its boards to this row.
     const key = norm(row.fields[F.company]);
-    const candidate = byName.get(key);
-    if (candidate && (key.length >= DISTINCTIVE_NAME_LENGTH || [...candidate.boards].some((b) => fundNamed(investors, b)))) {
-      hit = candidate;
+    const candidates = byName.get(key) || [];
+    const overlapping = candidates.filter((c) => [...c.boards].some((b) => fundNamed(investors, b)));
+    if (overlapping.length === 1) {
+      hit = overlapping[0];
       via = "name";
-    } else if (candidate) {
+    } else if (overlapping.length === 0 && candidates.length === 1 && key.length >= DISTINCTIVE_NAME_LENGTH) {
+      hit = candidates[0];
+      via = "name";
+    } else if (candidates.length) {
       via = "rejected";
     }
   }
@@ -181,20 +187,28 @@ async function main() {
     console.log(`  ${r.name.padEnd(24)} ${String(r.counts.fetched).padStart(5)} companies${r.error ? `  ERROR ${r.error}` : ""}`);
   }
 
+  // byDomain: domain -> { boards, company }. byName: normalised name -> one
+  // entry per distinct domain (companies with no domain collapse into one).
   const byDomain = new Map();
   const byName = new Map();
-  const add = (map, key, board, company) => {
-    if (!key) return;
-    const e = map.get(key) || { boards: new Set(), company };
-    e.boards.add(board);
-    if (!e.company.domain && company.domain) e.company = company;
-    map.set(key, e);
-  };
   for (const r of results) {
     for (const c of r.companies) {
-      add(byDomain, normDomain(c.domain), r.name, c);
+      const domain = normDomain(c.domain);
+      let entry = domain ? byDomain.get(domain) : null;
+      if (!entry) {
+        entry = { boards: new Set(), company: { ...c, domain } };
+        if (domain) byDomain.set(domain, entry);
+      }
+      entry.boards.add(r.name);
       const n = norm(c.name);
-      if (n.length >= 4) add(byName, n, r.name, c); // short names ("Star", "Copper") are too ambiguous
+      if (n.length < 4) continue; // "Star", "Copper" are too ambiguous even with a board
+      const list = byName.get(n) || [];
+      if (!list.includes(entry)) {
+        const nameless = !domain && list.find((e) => !e.company.domain);
+        if (nameless) nameless.boards.add(r.name);
+        else list.push(entry);
+      }
+      byName.set(n, list);
     }
   }
   const scrapedFunds = results.filter((r) => !r.error).map((r) => r.name);

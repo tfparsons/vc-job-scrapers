@@ -184,9 +184,9 @@ test("mapPool keeps input order and isolates failures", async () => {
 
 // ---------- allowlist ----------
 
-test("allowlist: 13 consider + 22 getro hosts, lookup is platform-scoped and lowercases", () => {
-  assert.equal(hostsFor("consider").length, 13);
-  assert.equal(hostsFor("getro").length, 22);
+test("allowlist: 12 consider + 23 getro hosts, lookup is platform-scoped and lowercases", () => {
+  assert.equal(hostsFor("consider").length, 12);
+  assert.equal(hostsFor("getro").length, 23);
   assert.equal(Object.keys(HOSTS).length, 37);
   assert.equal(lookupHost("consider.com", "consider").hosted, true);
   assert.equal(defaultHostFor("yc"), "www.workatastartup.com");

@@ -39,7 +39,8 @@ export const HOSTS = {
   "careers.speedinvest.com": { platform: "getro", source: "speedinvest" },
   "jobs.techstars.com": { platform: "getro", source: "techstars" },
   "jobs.lsvp.com": { platform: "consider", source: "lightspeed" },
-  "careers.creandum.com": { platform: "consider", source: "creandum" },
+  // Creandum moved from Consider to Getro (found 16 Sep 2026 when its Consider session stopped parsing).
+  "careers.creandum.com": { platform: "getro", source: "creandum" },
   "careers.playfair.vc": { platform: "consider", source: "playfair" },
   "jobs.gtmfund.com": { platform: "consider", source: "gtmfund" },
 
@@ -61,6 +62,17 @@ export function lookupHost(raw, platform) {
   if (!HOST_SHAPE.test(host)) return null;
   const entry = HOSTS[host];
   if (!entry || entry.platform !== platform) return null;
+  return { host, ...entry };
+}
+
+// For /companies, which serves both board platforms: any Consider or Getro
+// host on the allowlist, with its platform. Null otherwise.
+export function lookupBoardHost(raw) {
+  if (!raw || typeof raw !== "string") return null;
+  const host = raw.trim().toLowerCase();
+  if (!HOST_SHAPE.test(host)) return null;
+  const entry = HOSTS[host];
+  if (!entry || (entry.platform !== "consider" && entry.platform !== "getro")) return null;
   return { host, ...entry };
 }
 

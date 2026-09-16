@@ -16,24 +16,14 @@
 // root (gitignored). It needs data.records:read and data.records:write on the
 // Employers / Opportunities base. Nothing is stored in the repo.
 
-import { writeFileSync, readFileSync, existsSync } from "node:fs";
+import { writeFileSync } from "node:fs";
 import { HOSTS } from "../src/allowlist.js";
+import { loadEnv, airtable, listAll, patchAll, EMPLOYERS_BASE, UNIVERSE, UF as F } from "./lib/airtable.mjs";
 
-// Accepts KEY=value lines, or a file that is just the bare token.
-if (existsSync(".env")) {
-  for (const line of readFileSync(".env", "utf8").split("\n")) {
-    const m = line.match(/^\s*([A-Z_]+)\s*=\s*(.*?)\s*$/);
-    if (m && !process.env[m[1]]) process.env[m[1]] = m[2].replace(/^["']|["']$/g, "");
-    else if (/^\s*pat[A-Za-z0-9.]{20,}\s*$/.test(line) && !process.env.AIRTABLE_TOKEN) process.env.AIRTABLE_TOKEN = line.trim();
-  }
-}
+loadEnv();
 
 const WORKER = process.env.WORKER || "https://vc-job-scrapers.tfparsons87.workers.dev";
-const TOKEN = process.env.AIRTABLE_TOKEN;
 const DRY = process.argv.includes("--dry-run");
-const EMPLOYERS_BASE = "app4AILlddDnxgRpq";
-const UNIVERSE = "tbloPq3sVvuKuqjmm";
-
 // Board display names as they appear in the Sources table, keyed by the
 // allowlist source slug. These are what the Boards column shows.
 const BOARD_NAMES = {
@@ -48,13 +38,6 @@ const BOARD_NAMES = {
   gtmfund: "GTMfund", "point72-ventures": "Point72 Ventures",
 };
 const HOSTED_BOARDS = ["point72-ventures"];
-
-// Universe field ids (stable even if Tim renames a column).
-const F = {
-  company: "fldPNxQkfDG0x7ZQx", domain: "fldhpXyCAzRFcmktq", hq: "fldWLCR4jMPtQ4FbE",
-  londonStatus: "fldLjy0vgIsivz9hI", investors: "fldcHOuuXcr8QurIb",
-  coverage: "fldv2M0Y2Ybhz5UHm", boards: "fldmIeWq1frr0K1Ia", notes: "fldWIpxGaH5EpWUWf",
-};
 
 const COVERAGE = {
   on: "On a scraped board",
@@ -86,30 +69,6 @@ const normDomain = (s) => {
   return /^[a-z0-9.-]+\.[a-z]{2,}$/.test(d) ? d : null;
 };
 const wordIn = (text, token) => new RegExp(`(^|[^a-z0-9])${token.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}([^a-z0-9]|$)`, "i").test(text);
-
-async function airtable(base, table, { method = "GET", params = null, body = null } = {}) {
-  const url = new URL(`https://api.airtable.com/v0/${base}/${table}`);
-  for (const [k, v] of Object.entries(params || {})) url.searchParams.set(k, v);
-  const res = await fetch(url, {
-    method,
-    headers: { authorization: `Bearer ${TOKEN}`, "content-type": "application/json" },
-    body: body ? JSON.stringify(body) : undefined,
-  });
-  const json = await res.json();
-  if (!res.ok) throw new Error(`Airtable ${method} ${table} HTTP ${res.status}: ${JSON.stringify(json).slice(0, 300)}`);
-  return json;
-}
-
-async function listAll(base, table, params) {
-  const records = [];
-  let offset = null;
-  do {
-    const page = await airtable(base, table, { params: { ...params, ...(offset ? { offset } : {}) } });
-    records.push(...page.records);
-    offset = page.offset || null;
-  } while (offset);
-  return records;
-}
 
 // Every Consider / Getro host on the allowlist, plus the hosted boards.
 // /yc and /a16z have no company list, so they are not here.
@@ -176,7 +135,6 @@ function londonStatusFrom(location) {
 }
 
 async function main() {
-  if (!TOKEN) throw new Error("AIRTABLE_TOKEN is not set (environment or .env)");
   const list = boards();
   console.log(`${list.length} boards with a company list`);
 
@@ -247,10 +205,7 @@ async function main() {
   console.log("Planned changes written to coverage-updates.json");
   if (DRY) return;
 
-  for (let i = 0; i < updates.length; i += 10) {
-    await airtable(EMPLOYERS_BASE, UNIVERSE, { method: "PATCH", body: { records: updates.slice(i, i + 10), typecast: true } });
-    if ((i / 10) % 20 === 0) console.log(`  wrote ${Math.min(i + 10, updates.length)}/${updates.length}`);
-  }
+  await patchAll(EMPLOYERS_BASE, UNIVERSE, updates, (n, t) => { if (n % 200 === 0 || n === t) console.log(`  wrote ${n}/${t}`); });
   console.log("Done.");
 }
 

@@ -173,11 +173,39 @@ shows with `; `. All 35 boards return in 1 to 4 s each; Techstars is the
 largest at about 2,900 companies.
 
 `scripts/coverage.mjs` runs this over every board, matches Startup Universe
-rows on domain first and normalised name second (names under four characters
-are never matched by name), and writes `Boards` and `Board coverage` on every
-row, filling `Domain`, `HQ` and `London status` from the board where the row
-had none. It needs `AIRTABLE_TOKEN` in the environment or a gitignored `.env`;
-`--dry-run` writes `coverage-updates.json` and changes nothing.
+rows on domain first and normalised name second, and writes `Boards` and
+`Board coverage` on every row, filling `Domain`, `HQ` and `London status`
+from the board where the row had none. A name-only match is trusted only
+when the row's investors include a board it was found on, or the name is
+eight or more characters and unique across boards; short names ("Scale",
+"Ramp") exist many times over. It needs `AIRTABLE_TOKEN` in the environment
+or a gitignored `.env`; `--dry-run` writes `coverage-updates.json` and
+changes nothing. Rerunning is a no-op once the table is up to date.
+
+## ATS detection (`scripts/ats-detect.mjs`)
+
+For every Startup Universe row with a domain and no ATS yet (London / UK rows
+by default, `--all` for every row), fetch the homepage, follow its careers
+link, try `/careers`, `/jobs`, `/join-us` and friends, and look for ATS host
+signatures in hrefs, iframes, scripts and redirects: Ashby, Greenhouse,
+Lever, Workable, Teamtailor (including custom hosts, spotted by their
+`teamtailor-cdn.com` assets), Recruitee (including the `RTWidget` embed),
+SmartRecruiters, Personio, Pinpoint, BambooHR, Workday, and a bucket of
+others. When a careers page lists roles at its own URLs, the first job page
+is read too, because its apply button usually points at the ATS. When a page
+names the vendor without a slug (an `ashby_embed` div, an API base URL with
+the slug added in JavaScript), the slug is guessed from the domain label and
+company name and accepted only if the public feed answers. Every slug with a
+public feed is verified by calling it, so `Poll` rows can be trusted.
+
+Writes `ATS`, `ATS slug`, `Careers URL`, `Last verified`, and a dated Notes
+line when nothing was found. `None found` means the site was reached and no
+signature was seen; the Notes line says whether a careers page existed.
+Polite: four domains at a time, 12 s per request, at most six requests per
+domain, descriptive User-Agent. About 55% of reachable companies with a
+careers page resolve to a verified slug on the first pass; the rest are
+mostly in-house careers sites, HR-tech firms running their own ATS, or
+companies with nothing open.
 
 ## Provider config
 
@@ -350,6 +378,8 @@ src/
   lib/respond.js        the contract envelope; never-throw wrapper
 scripts/
   coverage.mjs          Startup Universe board coverage pass (local, needs AIRTABLE_TOKEN)
+  ats-detect.mjs        ATS + slug detection per domain, feed-verified (local)
+  lib/airtable.mjs      REST helper and Startup Universe field ids for the scripts
 test/
   fixtures/             saved board responses
   snapshots/            expected parser output

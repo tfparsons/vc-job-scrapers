@@ -23,13 +23,14 @@ Sources row. To pause everything, deactivate the workflow.
 
 | Endpoint | What it does |
 |---|---|
-| `GET /healthz` | `{"ok": true, "version": "2.2.0", "deploy_id": "..."}`. `deploy_id` changes on every deploy. |
+| `GET /healthz` | `{"ok": true, "version": "2.3.0", "deploy_id": "...", "secrets": {"adzuna": true, "reed": false}}`. `secrets` says which API keys are set, never their values.. `deploy_id` changes on every deploy. |
 | `GET /consider?host=<board host>` | Consider.com boards. Two requests per board: the board page for cookies and a CSRF token, then one search per term. |
 | `GET /consider?host=consider.com&board=<id>` | Boards hosted on consider.com itself (no vanity domain), e.g. `board=point72-ventures`. The board id is the last path segment of `https://consider.com/boards/vc/<id>/jobs` and is also kept in the Sources row's Board ID column. |
 | `GET /getro?host=<board host>` | Getro boards. One HTML search per term, parsed for JobPosting cards. |
 | `GET /yc` | Y Combinator's Work at a Startup. One JSON search per term plus "london" and "united kingdom". 30 results per query, no posted dates. |
 | `GET /a16z` | a16z portfolio jobs. One HTML search per term with `posted=<max_age_days>`, 25 cards per query, ATS links. |
 | `GET /companies?host=<board host>` | The board's full company list (Consider and Getro boards, `&board=<id>` for hosted Consider boards). Not a job scraper: it feeds the Startup Universe coverage check, see below. |
+| `GET /adzuna?q=`, `/reed?q=`, `/workable-search?q=`, `/rss?feed=revopscareers`, `/rss?feed=clay` | Whole-market keyword sources. `q` is a job-title phrase; n8n sends one call per Keywords line of the Keyword Sources row. See "Keyword sources" below. |
 | `GET /ashby?slug=`, `/greenhouse?slug=`, `/lever?slug=`, `/workable?slug=`, `/recruitee?slug=`, `/teamtailor?host=` | One company's open roles from its ATS's public feed, filtered like a board. Optional `&source=<company name>`. See "ATS feeds" below. |
 
 `host` must be on the allowlist in [src/allowlist.js](src/allowlist.js). Anything
@@ -173,6 +174,29 @@ Guards: a slug must match `[a-z0-9][a-z0-9._-]*` and is only ever inserted
 into that ATS's own API URL. A Teamtailor host must be `*.teamtailor.com`
 or listed in `TEAMTAILOR_HOSTS` in [src/allowlist.js](src/allowlist.js),
 since that endpoint fetches the host directly.
+
+## Keyword sources
+
+| Endpoint | Source | Key |
+|---|---|---|
+| `/adzuna?q=` | Adzuna UK search: `what_phrase=q`, `where=London`, `max_days_old` = the recency window | `ADZUNA_APP_ID`, `ADZUNA_APP_KEY` |
+| `/reed?q=` | Reed search: London within 15 miles, direct employers only | `REED_API_KEY` (basic-auth username) |
+| `/workable-search?q=` | Jobs by Workable cross-company JSON: quoted phrase, London, up to 3 pages | none |
+| `/rss?feed=revopscareers` | RevOps Careers job feed (`?feed=job_feed&search_location=United Kingdom`), latest 10 UK roles | none |
+| `/rss?feed=clay` | Clay community share-jobs RSS | none |
+
+A listing is kept when its title contains `q` or any config term as a whole
+word, then the shared location and recency filters run; `matched_terms`
+lists what matched. Adzuna salaries are kept only when Adzuna did not
+predict them, and the tracking query is stripped from `redirect_url`. Clay
+posts are free text, so `company` and a location hint are taken from the
+title ("... at Sprinto (Remote, India-based)"). RevOps Careers answers in
+11 to 22 seconds, so it is one location-only call with a 40 s timeout.
+
+Keys are Worker secrets, set with `npx wrangler secret put ADZUNA_APP_ID`
+(the command asks for the value). A missing key gives
+`adzuna: secret not set: ...` in `error` and nothing is fetched; a rejected
+key gives `HTTP 401 (check the API key secret)`.
 
 ## Company lists (`/companies`)
 
@@ -422,6 +446,8 @@ src/
   scrapers/companies.js board company lists (Getro collections API, Consider search-companies)
   scrapers/ats.js       per-company ATS poller: one feed GET, title term match, shared filters
   scrapers/ats-feeds.js the six feed mappers (Ashby, Greenhouse, Lever, Workable, Teamtailor, Recruitee)
+  scrapers/keyword.js   keyword source endpoints: request building, secrets, title filter
+  scrapers/keyword-feeds.js mappers for Adzuna, Reed, Jobs by Workable, RevOps Careers, Clay
   lib/filter.js         dedupe on link, location keep-list, recency, counts
   lib/relative-date.js  "4 days" -> "2026-08-29"
   lib/cookies.js        Set-Cookie headers -> Cookie header

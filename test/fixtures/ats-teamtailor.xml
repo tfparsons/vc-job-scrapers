@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:tt="https://teamtailor.com/locations">
+  <channel>
+    <title>Doctify</title>
+    <description></description>
+    <link>https://doctify.teamtailor.com/jobs</link>
+    <item>
+      <title>Head of Sales</title>
+      <description></description>
+      <pubDate>Thu, 10 Sep 2026 11:33:07 +0100</pubDate>
+      <link>https://doctify.teamtailor.com/jobs/8358903-head-of-sales</link>
+      <remoteStatus>hybrid</remoteStatus>
+      <guid>95da511e-fc03-40d4-bad8-2d3d2a31451e</guid>
+      <tt:locations>
+        <tt:location>
+          <tt:name></tt:name>
+          <tt:address>17 Heneage Street</tt:address>
+          <tt:zip>E1 5LN</tt:zip>
+          <tt:city>London</tt:city>
+          <tt:country>United Kingdom</tt:country>
+        </tt:location>
+      </tt:locations>
+      <tt:department>Sales</tt:department>
+      <tt:role/>
+    </item>
+    <item>
+      <title>Product Owner</title>
+      <description></description>
+      <pubDate>Tue, 25 Aug 2026 13:42:11 +0100</pubDate>
+      <link>https://doctify.teamtailor.com/jobs/8267298-product-owner</link>
+      <remoteStatus>hybrid</remoteStatus>
+      <guid>9abd0773-34fe-4757-99b1-49e1431d23bb</guid>
+      <tt:locations>
+        <tt:location>
+          <tt:name></tt:name>
+          <tt:address>17 Heneage Street</tt:address>
+          <tt:zip>E1 5LN</tt:zip>
+          <tt:city>London</tt:city>
+          <tt:country>United Kingdom</tt:country>
+        </tt:location>
+      </tt:locations>
+      <tt:department>Product</tt:department>
+      <tt:role/>
+    </item>
+    <item>
+      <title>Account Manager</title>
+      <description></description>
+      <pubDate>Fri, 21 Aug 2026 15:17:20 +0100</pubDate>
+      <link>https://doctify.teamtailor.com/jobs/8254982-account-manager</link>
+      <remoteStatus>hybrid</remoteStatus>
+      <guid>964c6524-0e32-4671-8ef4-5cde43f4a89c</guid>
+      <tt:locations>
+        <tt:location>
+          <tt:name></tt:name>
+          <tt:address>17 Heneage Street</tt:address>
+          <tt:zip>E1 5LN</tt:zip>
+          <tt:city>London</tt:city>
+          <tt:country>United Kingdom</tt:country>
+        </tt:location>
+      </tt:locations>
+      <tt:department>Customer Success</tt:department>
+      <tt:role>Account Manager</tt:role>
+    </item>
+    <item>
+      <title>Account Manager (German Speaking)</title>
+      <description></description>
+      <pubDate>Fri, 07 Aug 2026 15:18:36 +0100</pubDate>
+      <link>https://doctify.teamtailor.com/jobs/8191291-account-manager-german-speaking</link>
+      <remoteStatus>hybrid</remoteStatus>
+      <guid>a1145d04-6086-4891-877d-270d983c94e4</guid>
+      <tt:locations>
+        <tt:location>
+          <tt:name></tt:name>
+          <tt:address>17 Heneage Street</tt:address>
+          <tt:zip>E1 5LN</tt:zip>
+          <tt:city>London</tt:city>
+          <tt:country>United Kingdom</tt:country>
+        </tt:location>
+      </tt:locations>
+      <tt:department>Customer Success</tt:department>
+      <tt:role>Account Manager</tt:role>
+    </item>
+    <item>
+      <title>Business Development Manager</title>
+      <description></description>
+      <pubDate>Mon, 27 Jul 2026 11:30:36 +0100</pubDate>
+      <link>https://doctify.teamtailor.com/jobs/8130541-business-development-manager</link>
+      <remoteStatus>hybrid</remoteStatus>
+      <guid>44d3e461-99ee-4b65-874d-42d6a80f3377</guid>
+      <tt:locations>
+        <tt:location>
+          <tt:name/>
+          <tt:address/>
+          <tt:zip/>
+          <tt:city>Riyadh</tt:city>
+          <tt:country>Saudi Arabia</tt:country>
+        </tt:location>
+      </tt:locations>
+      <tt:department>Sales</tt:department>
+      <tt:role>Business Development Manager</tt:role>
+    </item>
+    <item>
+      <title>Sales Development Representative</title>
+      <description></description>
+      <pubDate>Fri, 12 Jun 2026 15:28:03 +0100</pubDate>
+      <link>https://doctify.teamtailor.com/jobs/7903117-sales-development-representative</link>
+      <remoteStatus>hybrid</remoteStatus>
+      <guid>e2496c99-1fdb-42b2-8a3c-89e983fa3281</guid>
+      <tt:locations>
+        <tt:location>
+          <tt:name></tt:name>
+          <tt:address>17 Heneage Street</tt:address>
+          <tt:zip>E1 5LN</tt:zip>
+          <tt:city>London</tt:city>
+          <tt:country>United Kingdom</tt:country>
+        </tt:location>
+      </tt:locations>
+      <tt:department>Sales</tt:department>
+      <tt:role>Sales Development Representative (SDR)</tt:role>
+    </item>
+  </channel>
+</rss>

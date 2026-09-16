@@ -1,0 +1,405 @@
+{
+ "jobs": [
+  {
+   "id": "d0ba41f7-2597-4714-a2df-08bf0a01858a",
+   "title": "Engagement Manager, Mid Market",
+   "department": "Go-to-market",
+   "team": "Engagement",
+   "employmentType": "FullTime",
+   "location": "San Francisco",
+   "shouldDisplayCompensationOnJobPostings": false,
+   "secondaryLocations": [],
+   "publishedAt": "2026-04-01T14:17:28.649+00:00",
+   "isListed": true,
+   "isRemote": true,
+   "workplaceType": "Hybrid",
+   "address": {
+    "postalAddress": {
+     "addressRegion": "California",
+     "addressCountry": "United States",
+     "addressLocality": "San Francisco"
+    }
+   },
+   "jobUrl": "https://jobs.ashbyhq.com/metaview/d0ba41f7-2597-4714-a2df-08bf0a01858a",
+   "applyUrl": "https://jobs.ashbyhq.com/metaview/d0ba41f7-2597-4714-a2df-08bf0a01858a/application",
+   "compensation": {
+    "compensationTierSummary": null,
+    "scrapeableCompensationSalarySummary": null,
+    "compensationTiers": [],
+    "summaryComponents": []
+   }
+  },
+  {
+   "id": "3efdf40c-9971-4a93-a00a-5c0f4f30ab5a",
+   "title": "Engagement Manager, SMB ",
+   "department": "Go-to-market",
+   "team": "Engagement",
+   "employmentType": "FullTime",
+   "location": "San Francisco",
+   "shouldDisplayCompensationOnJobPostings": true,
+   "secondaryLocations": [],
+   "publishedAt": "2026-04-01T14:18:02.459+00:00",
+   "isListed": true,
+   "isRemote": true,
+   "workplaceType": "Hybrid",
+   "address": {
+    "postalAddress": {
+     "addressRegion": "California",
+     "addressCountry": "United States",
+     "addressLocality": "San Francisco"
+    }
+   },
+   "jobUrl": "https://jobs.ashbyhq.com/metaview/3efdf40c-9971-4a93-a00a-5c0f4f30ab5a",
+   "applyUrl": "https://jobs.ashbyhq.com/metaview/3efdf40c-9971-4a93-a00a-5c0f4f30ab5a/application",
+   "compensation": {
+    "compensationTierSummary": "$100K \u2013 $125K \u2022 Offers Equity",
+    "scrapeableCompensationSalarySummary": "$100K - $125K",
+    "compensationTiers": [
+     {
+      "id": "ceeec95e-d9dc-4392-89b3-8ab5d8effa45",
+      "tierSummary": "Base Salary $100K \u2013 $125K \u2022 Offers Equity",
+      "title": null,
+      "additionalInformation": null,
+      "components": [
+       {
+        "id": "ac4dfa17-e586-4f78-9bb8-aa629c8dc5b9",
+        "summary": "Base Salary $100K \u2013 $125K",
+        "compensationType": "Salary",
+        "interval": "1 YEAR",
+        "currencyCode": "USD",
+        "minValue": 100000,
+        "maxValue": 125000
+       },
+       {
+        "id": "7414c389-a095-4032-8d2b-e783a5e91306",
+        "summary": "Offers Equity",
+        "compensationType": "EquityPercentage",
+        "interval": "NONE",
+        "currencyCode": null,
+        "minValue": null,
+        "maxValue": null
+       }
+      ]
+     }
+    ],
+    "summaryComponents": [
+     {
+      "compensationType": "Salary",
+      "interval": "1 YEAR",
+      "currencyCode": "USD",
+      "minValue": 100000,
+      "maxValue": 125000
+     },
+     {
+      "compensationType": "EquityPercentage",
+      "interval": "NONE",
+      "currencyCode": null,
+      "minValue": null,
+      "maxValue": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "aed5b37c-c5b4-4de3-8671-0fa959d868fd",
+   "title": "Technical Recruiter",
+   "department": "People",
+   "team": "People",
+   "employmentType": "FullTime",
+   "location": "San Francisco",
+   "shouldDisplayCompensationOnJobPostings": false,
+   "secondaryLocations": [],
+   "publishedAt": "2025-05-29T03:20:16.057+00:00",
+   "isListed": true,
+   "isRemote": false,
+   "workplaceType": "OnSite",
+   "address": {
+    "postalAddress": {
+     "addressRegion": "California",
+     "addressCountry": "United States",
+     "addressLocality": "San Francisco"
+    }
+   },
+   "jobUrl": "https://jobs.ashbyhq.com/metaview/aed5b37c-c5b4-4de3-8671-0fa959d868fd",
+   "applyUrl": "https://jobs.ashbyhq.com/metaview/aed5b37c-c5b4-4de3-8671-0fa959d868fd/application",
+   "compensation": {
+    "compensationTierSummary": null,
+    "scrapeableCompensationSalarySummary": null,
+    "compensationTiers": [],
+    "summaryComponents": []
+   }
+  },
+  {
+   "id": "0723669b-5630-4f8c-979e-d1a5e8030486",
+   "title": "Account Executive, SMB ",
+   "department": "Go-to-market",
+   "team": "Sales",
+   "employmentType": "FullTime",
+   "location": "San Francisco",
+   "shouldDisplayCompensationOnJobPostings": true,
+   "secondaryLocations": [],
+   "publishedAt": "2026-04-01T14:18:21.343+00:00",
+   "isListed": true,
+   "isRemote": true,
+   "workplaceType": "Hybrid",
+   "address": {
+    "postalAddress": {
+     "addressRegion": "California",
+     "addressCountry": "United States",
+     "addressLocality": "San Francisco"
+    }
+   },
+   "jobUrl": "https://jobs.ashbyhq.com/metaview/0723669b-5630-4f8c-979e-d1a5e8030486",
+   "applyUrl": "https://jobs.ashbyhq.com/metaview/0723669b-5630-4f8c-979e-d1a5e8030486/application",
+   "compensation": {
+    "compensationTierSummary": "$170K \u2013 $220K \u2022 Offers Equity",
+    "scrapeableCompensationSalarySummary": "$170K - $220K",
+    "compensationTiers": [
+     {
+      "id": "dacf2611-4fed-430f-a252-157a9eac5a6d",
+      "tierSummary": "(OTE) $170K \u2013 $220K \u2022 Offers Equity",
+      "title": null,
+      "additionalInformation": null,
+      "components": [
+       {
+        "id": "9e5ba7ba-7a75-4d94-b5a9-c6710f905d73",
+        "summary": "Offers Equity",
+        "compensationType": "EquityPercentage",
+        "interval": "NONE",
+        "currencyCode": null,
+        "minValue": null,
+        "maxValue": null
+       },
+       {
+        "id": "e4278dba-d2a7-4a8d-a49a-587195732dd8",
+        "summary": "(OTE) $170K \u2013 $220K",
+        "compensationType": "Salary",
+        "interval": "1 YEAR",
+        "currencyCode": "USD",
+        "minValue": 170000,
+        "maxValue": 220000
+       }
+      ]
+     }
+    ],
+    "summaryComponents": [
+     {
+      "compensationType": "EquityPercentage",
+      "interval": "NONE",
+      "currencyCode": null,
+      "minValue": null,
+      "maxValue": null
+     },
+     {
+      "compensationType": "Salary",
+      "interval": "1 YEAR",
+      "currencyCode": "USD",
+      "minValue": 170000,
+      "maxValue": 220000
+     }
+    ]
+   }
+  },
+  {
+   "id": "72dc4929-868b-4e1a-bb2e-c67bcb86cbe2",
+   "title": "Account Executive, Mid Market",
+   "department": "Go-to-market",
+   "team": "Sales",
+   "employmentType": "FullTime",
+   "location": "San Francisco",
+   "shouldDisplayCompensationOnJobPostings": true,
+   "secondaryLocations": [],
+   "publishedAt": "2025-05-13T12:25:37.908+00:00",
+   "isListed": true,
+   "isRemote": true,
+   "workplaceType": "Hybrid",
+   "address": {
+    "postalAddress": {
+     "addressRegion": "California",
+     "addressCountry": "United States",
+     "addressLocality": "San Francisco"
+    }
+   },
+   "jobUrl": "https://jobs.ashbyhq.com/metaview/72dc4929-868b-4e1a-bb2e-c67bcb86cbe2",
+   "applyUrl": "https://jobs.ashbyhq.com/metaview/72dc4929-868b-4e1a-bb2e-c67bcb86cbe2/application",
+   "compensation": {
+    "compensationTierSummary": "$230K \u2013 $300K \u2022 Offers Equity",
+    "scrapeableCompensationSalarySummary": "$230K - $300K",
+    "compensationTiers": [
+     {
+      "id": "22a8af45-7297-4bff-9ff2-274737445c22",
+      "tierSummary": "(OTE) $230K \u2013 $300K \u2022 Offers Equity",
+      "title": null,
+      "additionalInformation": null,
+      "components": [
+       {
+        "id": "3b40e2bb-3e8b-4885-8e9f-f8258e3de3e5",
+        "summary": "Offers Equity",
+        "compensationType": "EquityPercentage",
+        "interval": "NONE",
+        "currencyCode": null,
+        "minValue": null,
+        "maxValue": null
+       },
+       {
+        "id": "13755502-96bc-416c-9cc9-a765c19bb66d",
+        "summary": "(OTE) $230K \u2013 $300K",
+        "compensationType": "Salary",
+        "interval": "1 YEAR",
+        "currencyCode": "USD",
+        "minValue": 230000,
+        "maxValue": 300000
+       }
+      ]
+     }
+    ],
+    "summaryComponents": [
+     {
+      "compensationType": "EquityPercentage",
+      "interval": "NONE",
+      "currencyCode": null,
+      "minValue": null,
+      "maxValue": null
+     },
+     {
+      "compensationType": "Salary",
+      "interval": "1 YEAR",
+      "currencyCode": "USD",
+      "minValue": 230000,
+      "maxValue": 300000
+     }
+    ]
+   }
+  },
+  {
+   "id": "8e857bb1-bc1b-4b55-b894-df07d273284f",
+   "title": "Engagement Manager, SMB",
+   "department": "Go-to-market",
+   "team": "Engagement",
+   "employmentType": "FullTime",
+   "location": "London",
+   "shouldDisplayCompensationOnJobPostings": false,
+   "secondaryLocations": [],
+   "publishedAt": "2026-04-15T10:55:23.557+00:00",
+   "isListed": true,
+   "isRemote": true,
+   "workplaceType": "Hybrid",
+   "address": {
+    "postalAddress": {
+     "addressRegion": "England",
+     "addressCountry": "United Kingdom",
+     "addressLocality": "London"
+    }
+   },
+   "jobUrl": "https://jobs.ashbyhq.com/metaview/8e857bb1-bc1b-4b55-b894-df07d273284f",
+   "applyUrl": "https://jobs.ashbyhq.com/metaview/8e857bb1-bc1b-4b55-b894-df07d273284f/application",
+   "compensation": {
+    "compensationTierSummary": null,
+    "scrapeableCompensationSalarySummary": null,
+    "compensationTiers": [],
+    "summaryComponents": []
+   }
+  },
+  {
+   "id": "1223a8c2-5d66-475d-8666-963b468cc8de",
+   "title": "GTM Recruiter",
+   "department": "People",
+   "team": "People",
+   "employmentType": "FullTime",
+   "location": "San Francisco",
+   "shouldDisplayCompensationOnJobPostings": false,
+   "secondaryLocations": [],
+   "publishedAt": "2025-11-27T13:47:49.051+00:00",
+   "isListed": true,
+   "isRemote": false,
+   "workplaceType": "OnSite",
+   "address": {
+    "postalAddress": {
+     "addressRegion": "California",
+     "addressCountry": "United States",
+     "addressLocality": "San Francisco"
+    }
+   },
+   "jobUrl": "https://jobs.ashbyhq.com/metaview/1223a8c2-5d66-475d-8666-963b468cc8de",
+   "applyUrl": "https://jobs.ashbyhq.com/metaview/1223a8c2-5d66-475d-8666-963b468cc8de/application",
+   "compensation": {
+    "compensationTierSummary": null,
+    "scrapeableCompensationSalarySummary": null,
+    "compensationTiers": [],
+    "summaryComponents": []
+   }
+  },
+  {
+   "id": "bb7774bc-752e-461d-9506-9e30388b58c8",
+   "title": "Account Executive, Mid Market",
+   "department": "Go-to-market",
+   "team": "Sales",
+   "employmentType": "FullTime",
+   "location": "New York City",
+   "shouldDisplayCompensationOnJobPostings": true,
+   "secondaryLocations": [],
+   "publishedAt": "2025-11-07T09:21:02.134+00:00",
+   "isListed": true,
+   "isRemote": true,
+   "workplaceType": "Hybrid",
+   "address": {
+    "postalAddress": {
+     "addressRegion": "New York",
+     "addressCountry": "United States",
+     "addressLocality": "New York City"
+    }
+   },
+   "jobUrl": "https://jobs.ashbyhq.com/metaview/bb7774bc-752e-461d-9506-9e30388b58c8",
+   "applyUrl": "https://jobs.ashbyhq.com/metaview/bb7774bc-752e-461d-9506-9e30388b58c8/application",
+   "compensation": {
+    "compensationTierSummary": "$230K \u2013 $300K \u2022 Offers Equity",
+    "scrapeableCompensationSalarySummary": "$230K - $300K",
+    "compensationTiers": [
+     {
+      "id": "34d73393-fd0b-447f-9905-d03b4a066ee1",
+      "tierSummary": "OTE $230K \u2013 $300K \u2022 Offers Equity",
+      "title": null,
+      "additionalInformation": null,
+      "components": [
+       {
+        "id": "6cb1b849-b49b-4c5b-991f-f5dca4126c0d",
+        "summary": "OTE $230K \u2013 $300K",
+        "compensationType": "Salary",
+        "interval": "1 YEAR",
+        "currencyCode": "USD",
+        "minValue": 230000,
+        "maxValue": 300000
+       },
+       {
+        "id": "7f1c4e43-982f-4308-8a2c-8956300bf330",
+        "summary": "Offers Equity",
+        "compensationType": "EquityPercentage",
+        "interval": "NONE",
+        "currencyCode": null,
+        "minValue": null,
+        "maxValue": null
+       }
+      ]
+     }
+    ],
+    "summaryComponents": [
+     {
+      "compensationType": "Salary",
+      "interval": "1 YEAR",
+      "currencyCode": "USD",
+      "minValue": 230000,
+      "maxValue": 300000
+     },
+     {
+      "compensationType": "EquityPercentage",
+      "interval": "NONE",
+      "currencyCode": null,
+      "minValue": null,
+      "maxValue": null
+     }
+    ]
+   }
+  }
+ ],
+ "apiVersion": "1"
+}

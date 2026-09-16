@@ -1,0 +1,146 @@
+[
+ {
+  "categories": {
+   "commitment": "Full time",
+   "department": "Internal Development",
+   "location": "London",
+   "team": "Finance",
+   "allLocations": [
+    "London"
+   ]
+  },
+  "createdAt": 1787837468550,
+  "id": "75311f28-9eb4-4612-b6f8-ee3aed83e682",
+  "text": "FinOps Manager",
+  "country": "GB",
+  "workplaceType": "hybrid",
+  "hostedUrl": "https://jobs.lever.co/valarian/75311f28-9eb4-4612-b6f8-ee3aed83e682",
+  "applyUrl": "https://jobs.lever.co/valarian/75311f28-9eb4-4612-b6f8-ee3aed83e682/apply"
+ },
+ {
+  "categories": {
+   "commitment": "Full time",
+   "department": "Internal Development",
+   "location": "London",
+   "team": "IT",
+   "allLocations": [
+    "London"
+   ]
+  },
+  "createdAt": 1788796393490,
+  "id": "03c4befa-e6b6-48e5-81e7-e83f0ac517d7",
+  "text": "Head of Information Security",
+  "country": "GB",
+  "workplaceType": "hybrid",
+  "hostedUrl": "https://jobs.lever.co/valarian/03c4befa-e6b6-48e5-81e7-e83f0ac517d7",
+  "applyUrl": "https://jobs.lever.co/valarian/03c4befa-e6b6-48e5-81e7-e83f0ac517d7/apply"
+ },
+ {
+  "categories": {
+   "commitment": "Full time",
+   "department": "Product Development",
+   "location": "London",
+   "team": "Engineering",
+   "allLocations": [
+    "London"
+   ]
+  },
+  "createdAt": 1780066160858,
+  "id": "4199857d-92f7-4bbc-9e28-51a75d76e8e1",
+  "text": "Platform Engineer",
+  "country": "GB",
+  "workplaceType": "hybrid",
+  "hostedUrl": "https://jobs.lever.co/valarian/4199857d-92f7-4bbc-9e28-51a75d76e8e1",
+  "applyUrl": "https://jobs.lever.co/valarian/4199857d-92f7-4bbc-9e28-51a75d76e8e1/apply"
+ },
+ {
+  "categories": {
+   "commitment": "Full time",
+   "department": "Product Development",
+   "location": "London",
+   "team": "Engineering",
+   "allLocations": [
+    "London"
+   ]
+  },
+  "createdAt": 1787339589641,
+  "id": "cad40be6-82a4-419e-92f6-bf43608ae701",
+  "text": "Release Engineer",
+  "country": "GB",
+  "workplaceType": "hybrid",
+  "hostedUrl": "https://jobs.lever.co/valarian/cad40be6-82a4-419e-92f6-bf43608ae701",
+  "applyUrl": "https://jobs.lever.co/valarian/cad40be6-82a4-419e-92f6-bf43608ae701/apply"
+ },
+ {
+  "categories": {
+   "commitment": "Full time",
+   "department": "Product Development",
+   "location": "London",
+   "team": "Engineering",
+   "allLocations": [
+    "London"
+   ]
+  },
+  "createdAt": 1780065984956,
+  "id": "70b60f6c-9357-4348-a0fc-b841e5d41f0d",
+  "text": "Senior Infrastructure Engineer",
+  "country": "GB",
+  "workplaceType": "hybrid",
+  "hostedUrl": "https://jobs.lever.co/valarian/70b60f6c-9357-4348-a0fc-b841e5d41f0d",
+  "applyUrl": "https://jobs.lever.co/valarian/70b60f6c-9357-4348-a0fc-b841e5d41f0d/apply"
+ },
+ {
+  "categories": {
+   "commitment": "Full time",
+   "department": "Product Development",
+   "location": "London",
+   "team": "Engineering",
+   "allLocations": [
+    "London"
+   ]
+  },
+  "createdAt": 1779101724625,
+  "id": "872aec4d-d770-4962-a374-b278dcd513e2",
+  "text": "Senior Software Engineer",
+  "country": "GB",
+  "workplaceType": "hybrid",
+  "hostedUrl": "https://jobs.lever.co/valarian/872aec4d-d770-4962-a374-b278dcd513e2",
+  "applyUrl": "https://jobs.lever.co/valarian/872aec4d-d770-4962-a374-b278dcd513e2/apply"
+ },
+ {
+  "categories": {
+   "commitment": "Full time",
+   "department": "Product Development",
+   "location": "London",
+   "team": "Engineering",
+   "allLocations": [
+    "London"
+   ]
+  },
+  "createdAt": 1781601304115,
+  "id": "a64d97fb-b6b2-41ec-a3ca-b0997c1f3cb3",
+  "text": "Software Engineer",
+  "country": "GB",
+  "workplaceType": "hybrid",
+  "hostedUrl": "https://jobs.lever.co/valarian/a64d97fb-b6b2-41ec-a3ca-b0997c1f3cb3",
+  "applyUrl": "https://jobs.lever.co/valarian/a64d97fb-b6b2-41ec-a3ca-b0997c1f3cb3/apply"
+ },
+ {
+  "categories": {
+   "commitment": "Full time",
+   "department": "Internal Development",
+   "location": "London",
+   "team": "IT",
+   "allLocations": [
+    "London"
+   ]
+  },
+  "createdAt": 1788255573613,
+  "id": "fe092bce-ed6e-439b-be8e-cdfaaf434620",
+  "text": "TechOps Engineer",
+  "country": "GB",
+  "workplaceType": "hybrid",
+  "hostedUrl": "https://jobs.lever.co/valarian/fe092bce-ed6e-439b-be8e-cdfaaf434620",
+  "applyUrl": "https://jobs.lever.co/valarian/fe092bce-ed6e-439b-be8e-cdfaaf434620/apply"
+ }
+]

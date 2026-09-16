@@ -1,6 +1,8 @@
 import pkg from "../package.json" with { type: "json" };
 import { TERMS, LOCATION_KEEP, LOCATION_REMOTE_EXCLUDE, MAX_AGE_DAYS } from "./config.js";
-import { lookupHost, lookupBoardHost, defaultHostFor } from "./allowlist.js";
+import { lookupHost, lookupBoardHost, lookupTeamtailorHost, defaultHostFor } from "./allowlist.js";
+import { scrapeAts } from "./scrapers/ats.js";
+import { FEEDS, validSlug } from "./scrapers/ats-feeds.js";
 import { envelope, jsonResponse, neverThrow } from "./lib/respond.js";
 import { scrapeConsider } from "./scrapers/consider.js";
 import { scrapeGetro } from "./scrapers/getro.js";
@@ -83,11 +85,29 @@ export default {
       return jsonResponse({
         service: "vc-job-scrapers",
         version: pkg.version,
-        endpoints: ["/healthz", "/consider?host=<board host>", "/consider?host=consider.com&board=<id>", "/getro?host=<board host>", "/yc", "/a16z", "/companies?host=<board host>"],
+        endpoints: ["/healthz", "/consider?host=<board host>", "/consider?host=consider.com&board=<id>", "/getro?host=<board host>", "/yc", "/a16z", "/companies?host=<board host>", "/ashby?slug=", "/greenhouse?slug=", "/lever?slug=", "/workable?slug=", "/teamtailor?host=", "/recruitee?slug="],
       });
     }
 
     if (pathname === "/companies") return handleCompanies(url, now);
+
+    // Per-company ATS feeds: /ashby?slug=x, /teamtailor?host=x, ... with an
+    // optional &source=<company name> for the envelope.
+    const atsPlatform = pathname.slice(1);
+    if (FEEDS[atsPlatform]) {
+      const config = readConfig(url.searchParams);
+      const key = FEEDS[atsPlatform].key;
+      const raw = url.searchParams.get(key);
+      const id = key === "host" ? lookupTeamtailorHost(raw) : validSlug(raw);
+      const source = (url.searchParams.get("source") || "").trim().slice(0, 120) || id;
+      const base = { source, platform: atsPlatform, now, config };
+      if (!id) {
+        const why = key === "host" ? `host not allowed: ${raw || "(missing)"}` : `${key} required: ?${key}=<${atsPlatform} board id>`;
+        return jsonResponse(envelope({ ...base, error: why }));
+      }
+      const body = await neverThrow(base, async () => envelope({ ...base, ...(await scrapeAts({ platform: atsPlatform, id, source, now, config })) }));
+      return jsonResponse(body);
+    }
 
     const scraper = SCRAPERS[pathname];
     if (!scraper) {

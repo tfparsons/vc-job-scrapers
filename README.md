@@ -23,13 +23,14 @@ Sources row. To pause everything, deactivate the workflow.
 
 | Endpoint | What it does |
 |---|---|
-| `GET /healthz` | `{"ok": true, "version": "2.1.0", "deploy_id": "..."}`. `deploy_id` changes on every deploy. |
+| `GET /healthz` | `{"ok": true, "version": "2.2.0", "deploy_id": "..."}`. `deploy_id` changes on every deploy. |
 | `GET /consider?host=<board host>` | Consider.com boards. Two requests per board: the board page for cookies and a CSRF token, then one search per term. |
 | `GET /consider?host=consider.com&board=<id>` | Boards hosted on consider.com itself (no vanity domain), e.g. `board=point72-ventures`. The board id is the last path segment of `https://consider.com/boards/vc/<id>/jobs` and is also kept in the Sources row's Board ID column. |
 | `GET /getro?host=<board host>` | Getro boards. One HTML search per term, parsed for JobPosting cards. |
 | `GET /yc` | Y Combinator's Work at a Startup. One JSON search per term plus "london" and "united kingdom". 30 results per query, no posted dates. |
 | `GET /a16z` | a16z portfolio jobs. One HTML search per term with `posted=<max_age_days>`, 25 cards per query, ATS links. |
 | `GET /companies?host=<board host>` | The board's full company list (Consider and Getro boards, `&board=<id>` for hosted Consider boards). Not a job scraper: it feeds the Startup Universe coverage check, see below. |
+| `GET /ashby?slug=`, `/greenhouse?slug=`, `/lever?slug=`, `/workable?slug=`, `/recruitee?slug=`, `/teamtailor?host=` | One company's open roles from its ATS's public feed, filtered like a board. Optional `&source=<company name>`. See "ATS feeds" below. |
 
 `host` must be on the allowlist in [src/allowlist.js](src/allowlist.js). Anything
 else returns the normal envelope with `error: "host not allowed: ..."`.
@@ -138,6 +139,40 @@ Field rules:
 - `error` is null, a short string, or a `partial:` string when some term
   searches failed but others returned listings. Treat `partial:` as a warning,
   not a failed board.
+
+## ATS feeds (the per-company poller)
+
+Six endpoints, one per ATS with a public feed, each taking the board id
+Session C stored in Startup Universe's `ATS slug` column:
+
+| Endpoint | Feed |
+|---|---|
+| `/ashby?slug=` | `api.ashbyhq.com/posting-api/job-board/{slug}?includeCompensation=true` |
+| `/greenhouse?slug=` | `boards-api.greenhouse.io/v1/boards/{slug}/jobs`, then the `.eu` API on 404 |
+| `/lever?slug=` | `api.lever.co/v0/postings/{slug}?mode=json`, then `api.eu.lever.co` on 404 |
+| `/workable?slug=` | `apply.workable.com/api/v1/widget/accounts/{slug}` |
+| `/recruitee?slug=` | `{slug}.recruitee.com/api/offers/` |
+| `/teamtailor?host=` | `https://{host}/jobs.rss?per_page=200` |
+
+One GET per call. The feeds have no search, so the term match happens here:
+a role is kept when a configured term appears in its title as a whole word,
+and `matched_terms` lists which. Then the shared location and recency
+filters. Same envelope as the boards, with `platform` = the ATS, `source` =
+the `&source=` the caller passes (n8n sends the company name) or the slug,
+and `link` = the ATS's own job URL, which is canonical. `counts.fetched` is
+the number of open roles on the feed, not term hits.
+
+Field notes: `salary_raw` is Ashby's `compensationTierSummary` (the line the
+board shows) or Lever's `salaryRange` formatted as `GBP 60,000-80,000 /
+year`; the other feeds have no salary. `remote` is Ashby `isRemote`,
+Workable `telecommuting`, Recruitee `remote`, Lever `workplaceType` =
+remote, Teamtailor `remoteStatus` fully remote (hybrid is false). Greenhouse
+and Workable name the company in the feed; the others take it from `source`.
+
+Guards: a slug must match `[a-z0-9][a-z0-9._-]*` and is only ever inserted
+into that ATS's own API URL. A Teamtailor host must be `*.teamtailor.com`
+or listed in `TEAMTAILOR_HOSTS` in [src/allowlist.js](src/allowlist.js),
+since that endpoint fetches the host directly.
 
 ## Company lists (`/companies`)
 
@@ -385,6 +420,8 @@ src/
   scrapers/yc.js        Work at a Startup search JSON per term
   scrapers/a16z.js      a16z cards per term with posted=<days>
   scrapers/companies.js board company lists (Getro collections API, Consider search-companies)
+  scrapers/ats.js       per-company ATS poller: one feed GET, title term match, shared filters
+  scrapers/ats-feeds.js the six feed mappers (Ashby, Greenhouse, Lever, Workable, Teamtailor, Recruitee)
   lib/filter.js         dedupe on link, location keep-list, recency, counts
   lib/relative-date.js  "4 days" -> "2026-08-29"
   lib/cookies.js        Set-Cookie headers -> Cookie header

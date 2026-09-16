@@ -53,6 +53,26 @@ export const HOSTS = {
   "jobs.a16z.com": { platform: "a16z", source: "a16z" },
 };
 
+// Teamtailor careers sites on a company's own host. Any *.teamtailor.com host
+// is accepted without listing; a custom host must be here, since the
+// endpoint fetches https://{host}/jobs.rss and the allowlist is the abuse
+// guard. Slugs for the other ATS endpoints need no allowlist: they are only
+// ever inserted into the ATS's own API URL.
+export const TEAMTAILOR_HOSTS = [
+  "career.spendesk.com",
+  "careers.sanogenetics.com",
+  "careers.screencloud.com",
+  "fishbrain.com",
+];
+
+export function lookupTeamtailorHost(raw) {
+  if (!raw || typeof raw !== "string") return null;
+  const host = raw.trim().toLowerCase();
+  if (!HOST_SHAPE.test(host)) return null;
+  if (/^[a-z0-9-]+(\.[a-z0-9-]+)*\.teamtailor\.com$/.test(host) || TEAMTAILOR_HOSTS.includes(host)) return host;
+  return null;
+}
+
 const HOST_SHAPE = /^[a-z0-9.-]+$/;
 
 // Returns { host, platform, source } or null. `host` is normalised to lowercase.

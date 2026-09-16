@@ -1,0 +1,135 @@
+{
+ "jobs": [
+  {
+   "absolute_url": "https://job-boards.eu.greenhouse.io/dexory/jobs/4652349101",
+   "internal_job_id": 4367878101,
+   "location": {
+    "name": "United States"
+   },
+   "metadata": null,
+   "id": 4652349101,
+   "updated_at": "2026-08-11T11:20:18-04:00",
+   "requisition_id": "140",
+   "title": "Account Executive US (North East Region)",
+   "company_name": "Dexory",
+   "first_published": "2025-08-08T17:35:19-04:00",
+   "language": "en",
+   "application_deadline": null
+  },
+  {
+   "absolute_url": "https://job-boards.eu.greenhouse.io/dexory/jobs/4949429101",
+   "internal_job_id": 4510850101,
+   "location": {
+    "name": "Wallingford, Oxfordshire "
+   },
+   "metadata": null,
+   "id": 4949429101,
+   "updated_at": "2026-08-11T11:20:18-04:00",
+   "requisition_id": "282",
+   "title": "Accounting Lead",
+   "company_name": "Dexory",
+   "first_published": "2026-08-10T06:25:41-04:00",
+   "language": "en",
+   "application_deadline": null
+  },
+  {
+   "absolute_url": "https://job-boards.eu.greenhouse.io/dexory/jobs/4852605101",
+   "internal_job_id": 4462455101,
+   "location": {
+    "name": "Wallingford UK"
+   },
+   "metadata": null,
+   "id": 4852605101,
+   "updated_at": "2026-08-27T09:02:48-04:00",
+   "requisition_id": "239",
+   "title": "Buyer",
+   "company_name": "Dexory",
+   "first_published": "2026-04-28T04:23:22-04:00",
+   "language": "en",
+   "application_deadline": null
+  },
+  {
+   "absolute_url": "https://job-boards.eu.greenhouse.io/dexory/jobs/4927488101",
+   "internal_job_id": 4500954101,
+   "location": {
+    "name": "Wallingford Oxfordshire - Hybrid"
+   },
+   "metadata": null,
+   "id": 4927488101,
+   "updated_at": "2026-09-04T10:48:54-04:00",
+   "requisition_id": "265",
+   "title": "Chief of Staff Execution Lead",
+   "company_name": "Dexory",
+   "first_published": "2026-09-04T10:47:35-04:00",
+   "language": "en",
+   "application_deadline": null
+  },
+  {
+   "absolute_url": "https://job-boards.eu.greenhouse.io/dexory/jobs/4957010101",
+   "internal_job_id": 4514141101,
+   "location": {
+    "name": "Wallingford, Oxfordshire"
+   },
+   "metadata": null,
+   "id": 4957010101,
+   "updated_at": "2026-08-21T06:25:48-04:00",
+   "requisition_id": "289",
+   "title": "CNC Turning Specialist",
+   "company_name": "Dexory",
+   "first_published": "2026-08-21T06:25:48-04:00",
+   "language": "en",
+   "application_deadline": null
+  },
+  {
+   "absolute_url": "https://job-boards.eu.greenhouse.io/dexory/jobs/4928625101",
+   "internal_job_id": 4501613101,
+   "location": {
+    "name": "US Remote & Travel"
+   },
+   "metadata": null,
+   "id": 4928625101,
+   "updated_at": "2026-08-11T11:20:18-04:00",
+   "requisition_id": "268",
+   "title": "Customer Success Manager- US (Mid West and West Coast - Spanish Speaking)",
+   "company_name": "Dexory",
+   "first_published": "2026-07-15T06:54:51-04:00",
+   "language": "en",
+   "application_deadline": null
+  },
+  {
+   "absolute_url": "https://job-boards.eu.greenhouse.io/dexory/jobs/4812528101",
+   "internal_job_id": 4443874101,
+   "location": {
+    "name": "EMEA"
+   },
+   "metadata": null,
+   "id": 4812528101,
+   "updated_at": "2026-08-11T11:20:18-04:00",
+   "requisition_id": "216",
+   "title": "Deployment Engineer ",
+   "company_name": "Dexory",
+   "first_published": "2026-03-16T14:24:21-04:00",
+   "language": "en",
+   "application_deadline": null
+  },
+  {
+   "absolute_url": "https://job-boards.eu.greenhouse.io/dexory/jobs/4764554101",
+   "internal_job_id": 4421522101,
+   "location": {
+    "name": "North America"
+   },
+   "metadata": null,
+   "id": 4764554101,
+   "updated_at": "2026-08-11T11:20:18-04:00",
+   "requisition_id": "192",
+   "title": "Deployment Engineer US",
+   "company_name": "Dexory",
+   "first_published": "2026-01-26T08:12:19-05:00",
+   "language": "en",
+   "application_deadline": null
+  }
+ ],
+ "meta": {
+  "total": 31
+ }
+}

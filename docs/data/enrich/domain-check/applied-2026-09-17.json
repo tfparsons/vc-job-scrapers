@@ -1,0 +1,62 @@
+[
+ {
+  "id": "rec06NP5XH7daHg9z",
+  "company": "Context Scout",
+  "value": "Wrong",
+  "line": "2026-09-17: domain-check: Wrong (medium): contextscout.com's own text is generic recruiting/hiring guide content ('best sites for hiring developers'), unrelated to the DeepTech/SaaS company Episode 1 backed; a WebSearch of Episode 1's portfolio shows that Context Scout (info-retrieval/ML tooling) is listed as RIP, so the domain appears repurposed as an unrelated content site."
+ },
+ {
+  "id": "rec07xt7yn4kueiVR",
+  "company": "Vortexa",
+  "value": "Confirmed",
+  "line": "2026-09-17: domain-check: Confirmed (medium): WebFetch on vortexa.com timed out twice, but a WebSearch surfaced vortexa.com's own pages describing 'Cargo Tracking & Energy Market Intelligence' for waterborne energy trades, which fits the AI/data-intelligence sector tag and the company name."
+ },
+ {
+  "id": "rec08yIQFvgOhIuCN",
+  "company": "Peopleforce",
+  "value": "Confirmed",
+  "line": "2026-09-17: domain-check: Confirmed (high): peopleforce.io's own site calls itself an 'All-in-One HR platform' that helps 'automate 80% of your HR tasks', directly matching the HR SaaS sector and company name."
+ },
+ {
+  "id": "rec09RXgpQ70wymZz",
+  "company": "Birdie",
+  "value": "Confirmed",
+  "line": "2026-09-17: domain-check: Confirmed (high): birdie.care's own site calls itself 'the smart homecare technology partner' for homecare agencies, matching the company name and an Index Ventures-backed care-tech profile."
+ },
+ {
+  "id": "rec0ASQlTey2ca8Un",
+  "company": "Sorair",
+  "value": "Confirmed",
+  "line": "2026-09-17: domain-check: Confirmed (high): sorair.co.uk's own site describes itself as 'the most advanced, hardware-agnostic drone automations platform', matching the company name and Applied AI sector."
+ },
+ {
+  "id": "rec0ApZa6aYjc9tgc",
+  "company": "KRY",
+  "value": "Suspect",
+  "line": "2026-09-17: domain-check: Suspect (medium): The given domain 'livi' is not a resolvable URL; livi.co.uk redirects to kry.co.uk, whose own site says 'Livi is now Kry. New name, same great care' -- confirms the same company but flagged Suspect per the live UK rebrand from Livi back to Kry."
+ },
+ {
+  "id": "rec0FF84a6lEDwCzB",
+  "company": "Deepnote",
+  "value": "Confirmed",
+  "line": "2026-09-17: domain-check: Confirmed (high): deepnote.com's own site calls itself 'the open data workspace', a collaborative notebook/analytics platform, matching the company name directly (sector field was blank)."
+ },
+ {
+  "id": "rec0HDQ79NiEoryRK",
+  "company": "Super Payments",
+  "value": "Confirmed",
+  "line": "2026-09-17: domain-check: Confirmed (high): superpayments.com's own site states 'Every way to get paid, online or in-person' with '0% Processing fees', matching the company name and a payments business."
+ },
+ {
+  "id": "rec0Iza8qokVW7355",
+  "company": "Metaview",
+  "value": "Confirmed",
+  "line": "2026-09-17: domain-check: Confirmed (high): metaview.ai's own site calls itself 'the Agentic Recruiting Platform ... Source, engage, and hire better', matching the company name and a Seedcamp-backed recruiting-tech profile."
+ },
+ {
+  "id": "rec0OQlxqXFmA39dW",
+  "company": "Eolas",
+  "value": "Confirmed",
+  "line": "2026-09-17: domain-check: Confirmed (high): eolasmedical.com's own site says it 'unifies every guideline, policy and protocol into one trusted knowledge layer for UK trusts and health boards', matching the company name and Health and Bio sector."
+ }
+]

@@ -1,0 +1,14 @@
+{
+  "name": "domain",
+  "description": "Official website domain for a Startup Universe company that has none. Same eligibility as the Airtable AI field: blank Domain, not pre-seed or exited.",
+  "base": "app4AILlddDnxgRpq",
+  "table": "tbloPq3sVvuKuqjmm",
+  "filter": "AND({Domain}='', {Stage}!='Pre-seed', {Stage}!='Exited')",
+  "inputs": ["Company", "Investors", "Sector", "Stage"],
+  "output": { "field": "Domain", "type": "domain" },
+  "notes": "Notes",
+  "batchSize": 120,
+  "searchesPerRow": 1,
+  "minConfidence": "medium",
+  "instruction": "Run one WebSearch: the company name in quotes plus its first investor, for example \"Sorair\" Haatch. Find the company's official website. It must be the company's own site, never LinkedIn, Crunchbase, a news article, a job board or an investor's portfolio page, and its title or snippet must contain the company name. If several companies share the name, use the investors to pick the right one. If the company was acquired, give the acquirer's domain and start evidence with \"Exited:\"; if renamed, give the new domain and start evidence with \"Rebranded:\"."
+}

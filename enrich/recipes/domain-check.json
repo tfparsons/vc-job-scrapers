@@ -1,0 +1,14 @@
+{
+  "name": "domain-check",
+  "description": "Does the Domain on a Startup Universe row belong to that company? Judged by reading the site against the company's sector and investors. Catches wrong domains before they feed ATS detection and polling.",
+  "base": "app4AILlddDnxgRpq",
+  "table": "tbloPq3sVvuKuqjmm",
+  "filter": "AND({Domain}!='', {Domain check}='')",
+  "inputs": ["Company", "Domain", "Sector", "Investors", "HQ"],
+  "output": { "field": "Domain check", "type": "select", "options": ["Confirmed", "Suspect", "Wrong", "Unclear"] },
+  "notes": "Notes",
+  "batchSize": 100,
+  "searchesPerRow": 1,
+  "minConfidence": "medium",
+  "instruction": "Open https://<Domain> with WebFetch and read what the site says the company does. Decide whether this site belongs to the company in the entry, given its name, sector and investors. Only use a WebSearch if the site is unreachable or says nothing useful. Answer: Confirmed when the site clearly is this company (name matches and the business fits the sector or investors); Wrong when the site is clearly a different business or an unrelated parked page; Suspect when the name matches but the business does not fit, or the site now belongs to an acquirer or a rebrand; Unclear when the site cannot be read. In evidence, quote the site's own description of itself in a few words and say what matched or did not."
+}

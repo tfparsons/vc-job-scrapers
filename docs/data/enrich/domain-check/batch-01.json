@@ -1,0 +1,82 @@
+[
+ {
+  "id": "rec06NP5XH7daHg9z",
+  "Company": "Context Scout",
+  "Domain": "contextscout.com",
+  "Sector": "DeepTech, SaaS",
+  "Investors": "Episode 1",
+  "HQ": ""
+ },
+ {
+  "id": "rec07xt7yn4kueiVR",
+  "Company": "Vortexa",
+  "Domain": "vortexa.com",
+  "Sector": "AI",
+  "Investors": "Mosaic Ventures, Notion Capital",
+  "HQ": "Houston, Texas; Singapore; London; New York, New York; Dubai Emirate, UAE"
+ },
+ {
+  "id": "rec08yIQFvgOhIuCN",
+  "Company": "Peopleforce",
+  "Domain": "peopleforce.io",
+  "Sector": "HR SaaS",
+  "Investors": "Concept Ventures",
+  "HQ": "London"
+ },
+ {
+  "id": "rec09RXgpQ70wymZz",
+  "Company": "Birdie",
+  "Domain": "birdie.care",
+  "Sector": "",
+  "Investors": "Index Ventures",
+  "HQ": "England, UK; London, UK; altrincham, uk; Mile End, London, UK; Kingston Vale, London SW15, UK"
+ },
+ {
+  "id": "rec0ASQlTey2ca8Un",
+  "Company": "Sorair",
+  "Domain": "sorair.co.uk",
+  "Sector": "Applied AI",
+  "Investors": "Haatch",
+  "HQ": "England, UK; United Kingdom; Buckinghamshire, UK; harwell, didcot ox11, uk; didcot ox11, uk; Harwell Oxford, Didcot OX11 0QB, UK; Mile End, London, UK"
+ },
+ {
+  "id": "rec0ApZa6aYjc9tgc",
+  "Company": "KRY",
+  "Domain": "livi",
+  "Sector": "",
+  "Investors": "Index Ventures",
+  "HQ": ""
+ },
+ {
+  "id": "rec0FF84a6lEDwCzB",
+  "Company": "Deepnote",
+  "Domain": "deepnote.com",
+  "Sector": "",
+  "Investors": "Index Ventures",
+  "HQ": "San Francisco, CA, USA; Prague, Czechia"
+ },
+ {
+  "id": "rec0HDQ79NiEoryRK",
+  "Company": "Super Payments",
+  "Domain": "superpayments.com",
+  "Sector": "",
+  "Investors": "LocalGlobe",
+  "HQ": "London (from job feed)"
+ },
+ {
+  "id": "rec0Iza8qokVW7355",
+  "Company": "Metaview",
+  "Domain": "metaview.ai",
+  "Sector": "",
+  "Investors": "Seedcamp",
+  "HQ": "Mile End, London, UK; Kingston Vale, London SW15, UK; San Francisco, CA, USA; London, UK; England, UK"
+ },
+ {
+  "id": "rec0OQlxqXFmA39dW",
+  "Company": "Eolas",
+  "Domain": "eolasmedical.com",
+  "Sector": "Health and Bio",
+  "Investors": "Ascension, Kindred Capital",
+  "HQ": ""
+ }
+]

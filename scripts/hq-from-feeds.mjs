@@ -30,7 +30,8 @@ const UK = /\b(united kingdom|uk|england|scotland|wales|northern ireland|gb|grea
 
 export function presence(listings) {
   const locs = listings.map((l) => l.location || "").filter(Boolean);
-  const london = locs.filter((l) => LONDON.test(l) && !/\blondon,\s*(on|ontario|ky|oh)\b/i.test(l));
+  // London, Ontario (Trackunit writes it "London, Canada"), Kentucky and Ohio are not London.
+  const london = locs.filter((l) => LONDON.test(l) && !/\blondon,\s*(on|ontario|canada|ca|ky|kentucky|oh|ohio)\b/i.test(l));
   const uk = locs.filter((l) => UK.test(l) && !/\bukraine\b/i.test(l));
   if (london.length) return { status: "London office", evidence: london[0], roles: london.length };
   if (uk.length) return { status: "UK (non-London)", evidence: uk[0], roles: uk.length };
@@ -54,9 +55,13 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 async function main() {
   const rows = await listAll(EMPLOYERS_BASE, UNIVERSE, { returnFieldsByFieldId: "true" });
+  // Rows already checked (a dated feed note) are skipped unless --recheck, so
+  // a rerun only looks at new rows and does not stack duplicate notes.
+  const RECHECK = args.includes("--recheck");
+  const checked = (r) => /feed shows no UK roles|UK presence from \w+ feed/.test(r.fields[F.notes] || "");
   const todo = rows.filter((r) => {
     const s = r.fields[F.londonStatus];
-    return (!s || s === "Unknown") && PLATFORM[r.fields[F.ats]] && r.fields[F.atsSlug];
+    return (!s || s === "Unknown") && PLATFORM[r.fields[F.ats]] && r.fields[F.atsSlug] && (RECHECK || !checked(r));
   }).slice(0, LIMIT);
   console.log(`${todo.length} rows with a verified feed and unknown UK status${DRY ? ", dry run" : ""}`);
 

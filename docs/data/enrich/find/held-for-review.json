@@ -1,0 +1,392 @@
+[
+ {
+  "id": "rec1p9yqccM5pMj5J",
+  "company": "Skippr",
+  "candidate": "skippr.ai",
+  "evidence": "Desc 'Live AI Employees for Onboarding, Support & Sales' fits AI part of sector."
+ },
+ {
+  "id": "rec3RBfD8MxmPX0Tf",
+  "company": "Weav",
+  "candidate": "weav.com",
+  "evidence": "Title 'AI Customer Service Solutions | Weav' matches name exactly."
+ },
+ {
+  "id": "rec90WgVNXPG4fk77",
+  "company": "Warren",
+  "candidate": "warren.co",
+  "evidence": "Desc 'AI Portfolio Manager for Crypto & Stocks' matches name; sector blank."
+ },
+ {
+  "id": "recE9TUAAVwIJ4LcL",
+  "company": "Urban",
+  "candidate": "urban.co",
+  "evidence": "Desc 'Book a massage at home' matches known Urban startup; sector blank."
+ },
+ {
+  "id": "recEEi54IXI1P1Y9e",
+  "company": "Albert",
+  "candidate": "albert.com",
+  "evidence": "Desc 'personal financial assistant... 20 million+ people' matches known Albert app."
+ },
+ {
+  "id": "recEiOmwvzIfxDuSO",
+  "company": "Ezra",
+  "candidate": "helloezra.com",
+  "evidence": "Desc 'enterprise coaching platform trusted by Microsoft' matches known Ezra company."
+ },
+ {
+  "id": "recEv1IFy5TWqeKfa",
+  "company": "Satago",
+  "candidate": "satago.com",
+  "evidence": "Title 'Satago' matches name exactly; known invoice finance fintech."
+ },
+ {
+  "id": "recFvQVX4xIeK3eL3",
+  "company": "Synkka",
+  "candidate": "synkka.ai",
+  "evidence": "Desc 'Growth & Operational Platform for Carriers' matches name; sector blank."
+ },
+ {
+  "id": "recHibsx6KoadFNNz",
+  "company": "Tapaya",
+  "candidate": "tapaya.com",
+  "evidence": "Desc 'payment app that runs anywhere, Tapaya' matches name exactly; sector blank."
+ },
+ {
+  "id": "recJBU0Ka1LEzMKkS",
+  "company": "Kuano",
+  "candidate": "kuano.ai",
+  "evidence": "Title 'Kuano' exact match; known AI drug-discovery startup, sector blank."
+ },
+ {
+  "id": "recO7ONaz3dlqcRxr",
+  "company": "Pomelo",
+  "candidate": "pomelo.la",
+  "evidence": "Desc 'tarjetas de crédito, débito y prepago' matches known LatAm fintech Pomelo."
+ },
+ {
+  "id": "recOmx6uHuIQNRx4E",
+  "company": "Nested",
+  "candidate": "nested.com",
+  "evidence": "Desc 'Nested Estate Agents' matches well-known Nested startup; sector blank."
+ },
+ {
+  "id": "recPuafC88lMSUQ75",
+  "company": "Plural",
+  "candidate": "plural.io",
+  "evidence": "Desc 'Digital Service Personnel... automate tasks' loosely matches Marketplace sector."
+ },
+ {
+  "id": "recQe1ttGhwU6Dr6I",
+  "company": "V&ME",
+  "candidate": "vandme.co.uk",
+  "evidence": "Desc 'Fresh Baby & Kids Food Delivery London | V&Me' matches name exactly."
+ },
+ {
+  "id": "recRn96nZ9Ea7u6zh",
+  "company": "Mixlr",
+  "candidate": "mixlr.com",
+  "evidence": "Desc 'Broadcast Live Audio' matches known Mixlr startup exactly; sector blank."
+ },
+ {
+  "id": "recS1HmFiM9BpZex3",
+  "company": "Moo",
+  "candidate": "moo.com",
+  "evidence": "Desc 'Professional Custom Printing... MOO' matches well-known company; sector blank."
+ },
+ {
+  "id": "recS3SfQv3XmHS6dT",
+  "company": "Andela",
+  "candidate": "andela.com",
+  "evidence": "Desc 'Human Layer Powering Production AI' matches known Andela company; sector blank."
+ },
+ {
+  "id": "recS8mRrXpPNBf95Q",
+  "company": "Diem",
+  "candidate": "diemhq.com",
+  "evidence": "Title 'Diem' with matching HQ-style domain; sector blank, minimal desc."
+ },
+ {
+  "id": "recT5c7eu8uRDzu2F",
+  "company": "Remato",
+  "candidate": "remato.com",
+  "evidence": "Desc 'All-in-One Construction Management Software' matches name exactly; sector blank."
+ },
+ {
+  "id": "recTiwtlrb2PB7zbK",
+  "company": "Burrow",
+  "candidate": "burrow.io",
+  "evidence": "Desc 'Instant Secure Tunnels' fits a VC-backed dev-tool startup; sector blank."
+ },
+ {
+  "id": "recU6BaxZUnlfvS8J",
+  "company": "Replan",
+  "candidate": "replan.tech",
+  "evidence": "Title reads 'Simplify complex supply chain planning with Replan', matching company name; sector unspecified."
+ },
+ {
+  "id": "recUEVnxUfts9WcNR",
+  "company": "Amilis",
+  "candidate": "amilis.co.uk",
+  "evidence": "Title 'Amilis | Clinical Data Infrastructure for Women's Health' matches name, plausible health-tech startup."
+ },
+ {
+  "id": "recUymtimxLkpPLyc",
+  "company": "Tanaza",
+  "candidate": "tanaza.com",
+  "evidence": "Title 'Tanaza - Cloud Management Platform for WiFi Access Points' matches name."
+ },
+ {
+  "id": "recX2GOor19HVctZP",
+  "company": "Erply",
+  "candidate": "erply.com",
+  "evidence": "Title 'Cloud Retail POS & Inventory Management Software - Erply' matches name."
+ },
+ {
+  "id": "recXq86LwRlS7ZXbU",
+  "company": "Check",
+  "candidate": "checkhq.com",
+  "evidence": "Title 'Payroll Infrastructure for Platforms | Check' matches company name Check."
+ },
+ {
+  "id": "recYoSiKKE6Vc3uPO",
+  "company": "Causal",
+  "candidate": "causal.app",
+  "evidence": "Title 'Causal is now part of Lucanet' confirms Causal as real product."
+ },
+ {
+  "id": "recadGlB7me74OHip",
+  "company": "wedo",
+  "candidate": "wedo.com",
+  "evidence": "Title/desc 'WEDO ist die sichere Plattform fur Sitzungen' matches brand name WEDO."
+ },
+ {
+  "id": "recatyDK7v8GfkYsj",
+  "company": "OLIX",
+  "candidate": "olix.co.uk",
+  "evidence": "Title 'Olix | High Quality Security Equipment' matches name, loosely fits Manufacturing."
+ },
+ {
+  "id": "recbJlj0vQH57PmfS",
+  "company": "ExSeed",
+  "candidate": "exseedhealth.com",
+  "evidence": "Domain matches 'ExSeed' brand; content is a home male fertility test (health startup)."
+ },
+ {
+  "id": "reccSsL1dbGtWTHK5",
+  "company": "HURR",
+  "candidate": "hurrcollective.com",
+  "evidence": "Title '...HURR' fashion rental marketplace matches company name."
+ },
+ {
+  "id": "reccadmLD4Lmz6Cc5",
+  "company": "Upkeep",
+  "candidate": "upkeep.com",
+  "evidence": "Description 'UpKeep CMMS Software helps maintenance teams...' matches company name UpKeep."
+ },
+ {
+  "id": "recesBmPPndHSLaH9",
+  "company": "Ona",
+  "candidate": "ona.io",
+  "evidence": "Title 'Ona Data - Features... using data to transform lives' matches name, loosely fits Health & Bio."
+ },
+ {
+  "id": "recgZWe21KDaJQuDa",
+  "company": "IMMIX",
+  "candidate": "immix.io",
+  "evidence": "Title 'Immix (AI Animation Studio)' matches company name exactly."
+ },
+ {
+  "id": "recguUUlVyesCRh1M",
+  "company": "Roblox",
+  "candidate": "about.roblox.com",
+  "evidence": "Title 'AI-powered creation for everyone | Roblox' matches company name exactly."
+ },
+ {
+  "id": "rechGv2NPNplL2BdM",
+  "company": "Picnic",
+  "candidate": "picnic.app",
+  "evidence": "Title 'Picnic | Supermarkt op wielen' matches bare company name Picnic."
+ },
+ {
+  "id": "reciBgA8J9zllKrWT",
+  "company": "Kettel",
+  "candidate": "kettelhomes.com",
+  "evidence": "Title 'Cornovii x Kettel | Register for 2026 - Kettel Homes' matches name."
+ },
+ {
+  "id": "reciU8qCnnqIyXkWv",
+  "company": "JOBDOH",
+  "candidate": "jobdoh.com",
+  "evidence": "Title 'JOBDOH | Fastest way to hire, recruit part-time, temporary, on-demand staff' matches name."
+ },
+ {
+  "id": "reciWqGDDGwtGrPjv",
+  "company": "EDITED",
+  "candidate": "edited.com",
+  "evidence": "Title 'EDITED - Empowering Intelligent Retail' matches company name exactly."
+ },
+ {
+  "id": "recibob5MbzNtK8Eh",
+  "company": "Kerys",
+  "candidate": "kerys.co",
+  "evidence": "Title 'Kerys - Solutions et services pour la finance d'entreprise' matches name."
+ },
+ {
+  "id": "recirpgIK1zQnitLF",
+  "company": "Dessn",
+  "candidate": "dessn.com",
+  "evidence": "Title 'Dessn - Design in production' matches company name, enterprise dev tool."
+ },
+ {
+  "id": "recjmmkPbVOr7A2kQ",
+  "company": "Fuzey",
+  "candidate": "getfuzey.com",
+  "evidence": "Title 'Fuzey | AI Communication Built For Automotive' matches company name exactly."
+ },
+ {
+  "id": "reckI4ohtS9gnYyZ3",
+  "company": "Vidsy",
+  "candidate": "vidsy.co",
+  "evidence": "\"Create High-Performing Video Ads with Vidsy\" matches company name exactly with real content."
+ },
+ {
+  "id": "reclL2zq6stvpwQ0T",
+  "company": "Duffel",
+  "candidate": "duffel.com",
+  "evidence": "\"Duffel - The best API to sell travel\" matches company name with real content."
+ },
+ {
+  "id": "recmt740Pp9Pbo5dY",
+  "company": "Zefir",
+  "candidate": "zefir.com",
+  "evidence": "\"Zefir | WhatsApp & SMS Revenue Platform for Ecommerce\" matches company name plausibly."
+ },
+ {
+  "id": "recnIAgkxc1zp4VwC",
+  "company": "Stream",
+  "candidate": "stream.co",
+  "evidence": "\"Stream | Financial Wellbeing for Employees\" matches company name with real content."
+ },
+ {
+  "id": "recnNeBhP8hUdIIOb",
+  "company": "Scale",
+  "candidate": "scale.com",
+  "evidence": "\"Reliable AI Systems for Critical Decisions | Scale AI\" matches company name exactly."
+ },
+ {
+  "id": "recon6tXAoayPHCM1",
+  "company": "DayJob",
+  "candidate": "dayjob.ai",
+  "evidence": "\"Smarter Job Scheduling for Waste Management Companies | Dayjob\" plausibly matches the name."
+ },
+ {
+  "id": "recopyD4zqysyGGYP",
+  "company": "Sonia",
+  "candidate": "trysonia.com",
+  "evidence": "\"Sonia - A modern therapeutic wellness brand\" loosely fits Mental Health/AI sector."
+ },
+ {
+  "id": "recpY6kn0G4hLxd2J",
+  "company": "Twig",
+  "candidate": "twig.io",
+  "evidence": "\"Twig - AI writing tools that actually support your creativity\" plausibly matches name."
+ },
+ {
+  "id": "recpbBoTC9HJ8vkm7",
+  "company": "Meniga",
+  "candidate": "meniga.com",
+  "evidence": "\"Personalised Digital Banking Solutions - Meniga\" matches company name exactly."
+ },
+ {
+  "id": "recptzj4cGdYL1joH",
+  "company": "Kyra",
+  "candidate": "kyra.com",
+  "evidence": "\"Kyra - Influencer Marketing at Scale\" plausibly matches company name."
+ },
+ {
+  "id": "recqALH9ZnlgeusWk",
+  "company": "Glaize",
+  "candidate": "glaize.co",
+  "evidence": "\"Glaize | Great Nails, No Appointment | As Seen On Dragons Den\" matches company name exactly."
+ },
+ {
+  "id": "recqYq2lOjMLvN48F",
+  "company": "Safi",
+  "candidate": "safi.co",
+  "evidence": "\"Safi AI — AI-Powered Quality Control for PET, HDPE & UBC Recyclers\" plausibly matches the name."
+ },
+ {
+  "id": "recqiTw6phpMPcjNj",
+  "company": "Jiminy",
+  "candidate": "cutimpulsebuying.com",
+  "evidence": "\"Jiminy - Home page...Cut impulse buying, debt, & regret\" matches the company name."
+ },
+ {
+  "id": "recqowU8evcuiLVqb",
+  "company": "GEEIQ",
+  "candidate": "geeiq.com",
+  "evidence": "\"GEEIQ | The Data Platform Behind Brands and Gaming\" matches company name exactly."
+ },
+ {
+  "id": "recqwike2B0sgTa8k",
+  "company": "Huggg",
+  "candidate": "huggg.me",
+  "evidence": "\"Huggg - Better business gift options, no addresses needed\" matches company name exactly."
+ },
+ {
+  "id": "recrBakKJL0FSonNd",
+  "company": "Canveo",
+  "candidate": "getcanveo.com",
+  "evidence": "\"Canveo Digital Contracts | The AI contract review and negotiation platform\" matches company name exactly."
+ },
+ {
+  "id": "recriV2GZZZDMQUR8",
+  "company": "TOGL",
+  "candidate": "togl.co",
+  "evidence": "\"Fleet charging & flexibility software | TOGL\" matches company name exactly with real content."
+ },
+ {
+  "id": "recruSsFzqtIJkJl3",
+  "company": "Apex",
+  "candidate": "apex.ai",
+  "evidence": "\"Apex.AI | Software that moves\" is a plausible autonomous-software tech startup matching the name."
+ },
+ {
+  "id": "recweX1u8gLVIgreJ",
+  "company": "Ginmon",
+  "candidate": "ginmon.de",
+  "evidence": "\"Ginmon | Digitaler Vermögensverwalter\" matches company name exactly with real content."
+ },
+ {
+  "id": "recx8WG5RBKz0hh6U",
+  "company": "Hopin",
+  "candidate": "hopin.com",
+  "evidence": "\"Hopin is now RingCentral Events\" confirms Hopin's identity at this domain."
+ },
+ {
+  "id": "recxRMvfKkhaIBM5V",
+  "company": "Lassie",
+  "candidate": "lassie.co",
+  "evidence": "\"Djurförsäkring – Din digitala djurförsäkring | Lassie\" (digital pet insurance) matches company name."
+ },
+ {
+  "id": "recyPWaroHZy3gmB5",
+  "company": "Plain",
+  "candidate": "plain.com",
+  "evidence": "\"Plain — The AI Support Stack Built for B2B\" matches company name exactly with real content."
+ },
+ {
+  "id": "recypcdcvTChBobcd",
+  "company": "Vaire",
+  "candidate": "vaire.co",
+  "evidence": "\"Near-zero energy computing - Vaire\" matches company name exactly with real content."
+ },
+ {
+  "id": "reczajeNTOvMqw5uT",
+  "company": "Boost",
+  "candidate": "boost.ai",
+  "evidence": "\"Conversational AI Platform for Enterprise | boost.ai\" is a plausible tech startup matching the name."
+ }
+]

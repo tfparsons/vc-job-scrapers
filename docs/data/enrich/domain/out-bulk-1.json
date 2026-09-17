@@ -1,0 +1,848 @@
+[
+ {
+  "id": "rec0uOn3uj0ffU7q1",
+  "value": "amihan.gg",
+  "confidence": "high",
+  "evidence": "Title 'Amihan Entertainment' matches company; desc confirms game studio."
+ },
+ {
+  "id": "rec19MH9RjlH2hRnc",
+  "value": "filecoin.io",
+  "confidence": "high",
+  "evidence": "Title 'World's Largest Decentralized Storage Network' matches DePIN/Storage sector."
+ },
+ {
+  "id": "rec1F9SmtW6pWypxQ",
+  "value": null,
+  "confidence": "low",
+  "evidence": "No candidate matches; all are unrelated K-12, credit union, or agency businesses."
+ },
+ {
+  "id": "rec1dh42IypdwR8Lt",
+  "value": "scrt.network",
+  "confidence": "high",
+  "evidence": "Desc 'Confidential Computing Layer of Web3' matches Privacy sector exactly."
+ },
+ {
+  "id": "rec1p9yqccM5pMj5J",
+  "value": "skippr.ai",
+  "confidence": "low",
+  "evidence": "Candidate skippr.ai held for review (short generic name): Desc 'Live AI Employees for Onboarding, Support & Sales' fits AI part of sector."
+ },
+ {
+  "id": "rec21vQeg6Zlu5AmJ",
+  "value": null,
+  "confidence": "low",
+  "evidence": "No candidate describes a database API service; all unrelated businesses."
+ },
+ {
+  "id": "rec27YLIzmn3650s8",
+  "value": "wattstack.io",
+  "confidence": "medium",
+  "evidence": "Title 'Universal Stack for Energy Devices' matches name; sector blank."
+ },
+ {
+  "id": "rec2HT43tY3JuSgsq",
+  "value": "nexcade.ai",
+  "confidence": "high",
+  "evidence": "Desc 'AI agents that do real freight forwarding work' matches AI, Enterprise sector."
+ },
+ {
+  "id": "rec2SanyzGSdRwQoR",
+  "value": "berachain.com",
+  "confidence": "medium",
+  "evidence": "Both guess and clearbit agree on this domain for the known Berachain project."
+ },
+ {
+  "id": "rec2dEMZRN0aFUCi7",
+  "value": "anathem.ai",
+  "confidence": "medium",
+  "evidence": "Desc 'AI for Front Line Workers' matches name; sector blank."
+ },
+ {
+  "id": "rec2ohnjepsAOjyVR",
+  "value": "grndhouse.com",
+  "confidence": "medium",
+  "evidence": "Title 'Strength Training for Busy People | GRNDHOUSE' matches name exactly."
+ },
+ {
+  "id": "rec30lUxXRlCA6r1Q",
+  "value": "wirewax.app",
+  "confidence": "medium",
+  "evidence": "Title 'WIREWAX Studio' matches company name exactly; sector blank."
+ },
+ {
+  "id": "rec33cR9wTAszq6xX",
+  "value": "sesame.com",
+  "confidence": "high",
+  "evidence": "Desc 'Sesame builds personal agents' matches AI/ML sector and name."
+ },
+ {
+  "id": "rec3RBfD8MxmPX0Tf",
+  "value": "weav.com",
+  "confidence": "low",
+  "evidence": "Candidate weav.com held for review (short generic name): Title 'AI Customer Service Solutions | Weav' matches name exactly."
+ },
+ {
+  "id": "rec3t5uev3MRhF70s",
+  "value": null,
+  "confidence": "low",
+  "evidence": "farm-stand.com is an unrelated skincare shop; farmstand.io is empty."
+ },
+ {
+  "id": "rec4Ew336ONrYCdzI",
+  "value": "intelligence.ai",
+  "confidence": "medium",
+  "evidence": "Desc 'world's most realistic model evaluations, trusted by frontier labs' fits AI startup."
+ },
+ {
+  "id": "rec4IfTlyZ0jQKmjh",
+  "value": null,
+  "confidence": "low",
+  "evidence": "Both candidates return HTTP errors with no content."
+ },
+ {
+  "id": "rec4ZFaW4AC5gf7KB",
+  "value": null,
+  "confidence": "low",
+  "evidence": "Only candidate is an unrelated Indonesian gambling site."
+ },
+ {
+  "id": "rec4f8SbbBvyhW7rD",
+  "value": "smokeless.world",
+  "confidence": "high",
+  "evidence": "Desc 'fully-automated nicotine reduction system' matches Healthcare, Hardware sector."
+ },
+ {
+  "id": "rec5AbmvNVn7EmOrr",
+  "value": null,
+  "confidence": "low",
+  "evidence": "Candidates are vague or unrelated (design, crypto card issuer with no sector fit)."
+ },
+ {
+  "id": "rec5p9Xx1LEWjOpTG",
+  "value": null,
+  "confidence": "low",
+  "evidence": "barricadehq.com is a website blocker, not server security; other candidate empty."
+ },
+ {
+  "id": "rec6D6FZeQwuDGqBR",
+  "value": null,
+  "confidence": "low",
+  "evidence": "Only candidate returns HTTP 503 with no content."
+ },
+ {
+  "id": "rec7DAwsF6yw5IUwF",
+  "value": "knowunity.de",
+  "confidence": "high",
+  "evidence": "Desc 'täglicher KI-Begleiter... Schulalltag' matches Education sector and name."
+ },
+ {
+  "id": "rec8pLYk8Um6sjzaI",
+  "value": null,
+  "confidence": "low",
+  "evidence": "Only candidate page is empty with no confirming content."
+ },
+ {
+  "id": "rec90WgVNXPG4fk77",
+  "value": "warren.co",
+  "confidence": "low",
+  "evidence": "Candidate warren.co held for review (short generic name): Desc 'AI Portfolio Manager for Crypto & Stocks' matches name; sector blank."
+ },
+ {
+  "id": "rec945KlWeMXmIaxg",
+  "value": null,
+  "confidence": "low",
+  "evidence": "Only candidate is a parked domain-for-sale page."
+ },
+ {
+  "id": "recBGFkkjKJbLg7ED",
+  "value": "karakuri.ai",
+  "confidence": "medium",
+  "evidence": "Title 'KARAKURI' matches name exactly; real AI customer-service company."
+ },
+ {
+  "id": "recBQbFXJfT9ybnQa",
+  "value": null,
+  "confidence": "low",
+  "evidence": "Only candidate page is empty with no content."
+ },
+ {
+  "id": "recDKFXlZ9U5YAqMU",
+  "value": null,
+  "confidence": "low",
+  "evidence": "Only candidate page is empty with no content."
+ },
+ {
+  "id": "recDQKtZ7vBH0PE4U",
+  "value": null,
+  "confidence": "low",
+  "evidence": "sorted.ai is a parked domain for sale; sorted.org.nz returns an error."
+ },
+ {
+  "id": "recDlGT9IaqsXhOts",
+  "value": null,
+  "confidence": "low",
+  "evidence": "Candidates are an unrelated auction site and a crypto exchange with no clear fit."
+ },
+ {
+  "id": "recDrAdS3kFWWmQuG",
+  "value": null,
+  "confidence": "low",
+  "evidence": "All candidates return HTTP errors or are empty, no confirming content."
+ },
+ {
+  "id": "recDvPuotXGWcZxHE",
+  "value": "authologic.com",
+  "confidence": "high",
+  "evidence": "Desc 'Automate KYC, KYB & AML' matches Cybersecurity, Fintech sector exactly."
+ },
+ {
+  "id": "recDz230oif4b3qwe",
+  "value": "emergent.energy",
+  "confidence": "medium",
+  "evidence": "Desc 'solar is for everyone... social housing' fits Ascension's impact focus."
+ },
+ {
+  "id": "recE9TUAAVwIJ4LcL",
+  "value": "urban.co",
+  "confidence": "low",
+  "evidence": "Candidate urban.co held for review (short generic name): Desc 'Book a massage at home' matches known Urban startup; sector blank."
+ },
+ {
+  "id": "recE9a3PzP6gh8Ebo",
+  "value": null,
+  "confidence": "low",
+  "evidence": "workwithdata.io is a job board, not an Applied AI company; mismatched business."
+ },
+ {
+  "id": "recEBF4tK1yKP2ktU",
+  "value": null,
+  "confidence": "low",
+  "evidence": "Candidates are unrelated Belgian/Dutch agencies; none confirm Ascension's company."
+ },
+ {
+  "id": "recEBtT6rI7d82aog",
+  "value": null,
+  "confidence": "low",
+  "evidence": "All candidates are parked-for-sale or unrelated grocery chain."
+ },
+ {
+  "id": "recECBK6OFA9183xq",
+  "value": null,
+  "confidence": "low",
+  "evidence": "Candidates are domain-for-sale listings or unconfirmed eCommerce site."
+ },
+ {
+  "id": "recEEi54IXI1P1Y9e",
+  "value": "albert.com",
+  "confidence": "low",
+  "evidence": "Candidate albert.com held for review (short generic name): Desc 'personal financial assistant... 20 million+ people' matches known Albert app."
+ },
+ {
+  "id": "recEIHTgMb23wmcmk",
+  "value": "thursday.com",
+  "confidence": "medium",
+  "evidence": "Title 'Thursday Events, Everyone Single' matches known dating startup; sector blank."
+ },
+ {
+  "id": "recENY5Vfg7MgYV0G",
+  "value": "brightflag.com",
+  "confidence": "high",
+  "evidence": "Desc 'Legal spend management: e-billing and matter management' matches Legal tech sector."
+ },
+ {
+  "id": "recEiOmwvzIfxDuSO",
+  "value": "helloezra.com",
+  "confidence": "low",
+  "evidence": "Candidate helloezra.com held for review (short generic name): Desc 'enterprise coaching platform trusted by Microsoft' matches known Ezra company."
+ },
+ {
+  "id": "recEv1IFy5TWqeKfa",
+  "value": "satago.com",
+  "confidence": "low",
+  "evidence": "Candidate satago.com held for review (short generic name): Title 'Satago' matches name exactly; known invoice finance fintech."
+ },
+ {
+  "id": "recEvezZux38b2qJq",
+  "value": null,
+  "confidence": "low",
+  "evidence": "All candidates return HTTP 403 with no confirming title or desc."
+ },
+ {
+  "id": "recEyBic6rU2EAGCB",
+  "value": null,
+  "confidence": "low",
+  "evidence": "Candidates show unrelated intranet page, 'coming soon', or vague content."
+ },
+ {
+  "id": "recFXdvk6C3yejTJ3",
+  "value": null,
+  "confidence": "low",
+  "evidence": "Only candidate page is empty with no content."
+ },
+ {
+  "id": "recFZm9owr8cakZ9T",
+  "value": "lowcarbonmaterials.com",
+  "confidence": "high",
+  "evidence": "Desc 'Construction Innovation Partner... Carbon Negative Additives' matches Climate Equity sector."
+ },
+ {
+  "id": "recFbIk0G08woySRo",
+  "value": null,
+  "confidence": "low",
+  "evidence": "gojilabs.com is an agency not the company; other candidates unrelated or errored."
+ },
+ {
+  "id": "recFvQVX4xIeK3eL3",
+  "value": "synkka.ai",
+  "confidence": "low",
+  "evidence": "Candidate synkka.ai held for review (short generic name): Desc 'Growth & Operational Platform for Carriers' matches name; sector blank."
+ },
+ {
+  "id": "recFvpq7QVSfkknNE",
+  "value": "ineffable.ai",
+  "confidence": "medium",
+  "evidence": "Desc 'AI research company... make first contact with superintelligence' matches name."
+ },
+ {
+  "id": "recG3IyzKyH2Ni1JW",
+  "value": "temporal.io",
+  "confidence": "medium",
+  "evidence": "Desc 'Build invincible apps with Temporal' matches well-known company; sector blank."
+ },
+ {
+  "id": "recG7UlmPg5pd79wg",
+  "value": "portal.one",
+  "confidence": "medium",
+  "evidence": "Desc 'central AI agent platform' matches name PortalOne; sector blank."
+ },
+ {
+  "id": "recGKrQn7y3ftvFk6",
+  "value": null,
+  "confidence": "low",
+  "evidence": "Only candidate page is empty with no content."
+ },
+ {
+  "id": "recH9N4Pk2Nc4mJ3H",
+  "value": null,
+  "confidence": "low",
+  "evidence": "kerneldatarecovery.com is a data-recovery tool, not RevOps/AI; mismatched business."
+ },
+ {
+  "id": "recHXujEnKBXZOb9L",
+  "value": "becausemarket.com",
+  "confidence": "medium",
+  "evidence": "Desc 'Because: Personal Care, Discreetly Delivered' matches name; sector blank."
+ },
+ {
+  "id": "recHfXOjbgfzEYT1s",
+  "value": null,
+  "confidence": "low",
+  "evidence": "Only candidate returns HTTP 404 with no content."
+ },
+ {
+  "id": "recHibsx6KoadFNNz",
+  "value": "tapaya.com",
+  "confidence": "low",
+  "evidence": "Candidate tapaya.com held for review (short generic name): Desc 'payment app that runs anywhere, Tapaya' matches name exactly; sector blank."
+ },
+ {
+  "id": "recHr53lOUewcFFaw",
+  "value": "rensource.energy",
+  "confidence": "high",
+  "evidence": "Desc 'Africa's commercial and industrial energy partner... solar' matches Energy sector."
+ },
+ {
+  "id": "recHrgyMyGvND1fAu",
+  "value": null,
+  "confidence": "low",
+  "evidence": "Candidates are Turkish news, rings, and aesthetics clinics; none match."
+ },
+ {
+  "id": "recHudl2DmwXjArJo",
+  "value": "bonfire.com",
+  "confidence": "medium",
+  "evidence": "Desc 'Design your own custom merch' matches name; well known startup, sector blank."
+ },
+ {
+  "id": "recHyGl4eDgpNTOBd",
+  "value": null,
+  "confidence": "low",
+  "evidence": "Only candidate page is empty with no content."
+ },
+ {
+  "id": "recI3AejHfmg0bEwE",
+  "value": "covariant.ai",
+  "confidence": "medium",
+  "evidence": "Title 'Covariant' matches name exactly; known robotics AI company, sector blank."
+ },
+ {
+  "id": "recI7F6yiYmxQ6emQ",
+  "value": null,
+  "confidence": "low",
+  "evidence": "No candidate confirms a matching business; titles are empty or unrelated."
+ },
+ {
+  "id": "recIM5B9oI7EVSuQ5",
+  "value": null,
+  "confidence": "low",
+  "evidence": "botherwise.com is a differently-named sustainability firm; others empty/errored."
+ },
+ {
+  "id": "recINxIfue5Y9j2Tg",
+  "value": "astelia.io",
+  "confidence": "medium",
+  "evidence": "Desc 'AI-Native Exposure Management' fits real tech startup; sector blank."
+ },
+ {
+  "id": "recIWoAeDhnVCJEZ1",
+  "value": null,
+  "confidence": "low",
+  "evidence": "Both candidates are empty pages with no content."
+ },
+ {
+  "id": "recIXPlKTzYwXurxV",
+  "value": null,
+  "confidence": "low",
+  "evidence": "rize.io is a time-tracking tool unrelated to Anthemis's fintech focus; risk of collision."
+ },
+ {
+  "id": "recIdEjnHklFuayyq",
+  "value": "agentbay.ai",
+  "confidence": "medium",
+  "evidence": "Desc 'Build your own AI agent' partially matches Commerce/AI sector."
+ },
+ {
+  "id": "recIfZUTL3rlOiKzo",
+  "value": null,
+  "confidence": "low",
+  "evidence": "Candidates are an unrelated wedding venue and an errored page."
+ },
+ {
+  "id": "recImXDrGTDKqxZeX",
+  "value": "crowddatasystems.com",
+  "confidence": "medium",
+  "evidence": "Title 'CDS' with exact domain-name match; sector blank, minimal desc."
+ },
+ {
+  "id": "recIqwWAzut3SwAYl",
+  "value": null,
+  "confidence": "low",
+  "evidence": "No candidate clearly matches FinTech; media platform and climate-risk tool don't align."
+ },
+ {
+  "id": "recItqHux9hE4048O",
+  "value": "garnerhealth.com",
+  "confidence": "medium",
+  "evidence": "Desc 'Doctor Quality Analytics' matches known Garner Health company; sector blank."
+ },
+ {
+  "id": "recJBU0Ka1LEzMKkS",
+  "value": "kuano.ai",
+  "confidence": "low",
+  "evidence": "Candidate kuano.ai held for review (short generic name): Title 'Kuano' exact match; known AI drug-discovery startup, sector blank."
+ },
+ {
+  "id": "recKZbOJDAbLyPzN4",
+  "value": null,
+  "confidence": "low",
+  "evidence": "Neither candidate describes a multiplayer game engine."
+ },
+ {
+  "id": "recLKL9dAqPgunFuw",
+  "value": null,
+  "confidence": "low",
+  "evidence": "Only candidate is a parked domain for sale."
+ },
+ {
+  "id": "recLXwLDW1tqDosIm",
+  "value": null,
+  "confidence": "low",
+  "evidence": "No candidate matches known 'Thread' menswear styling business."
+ },
+ {
+  "id": "recMS96jyyHukTMG5",
+  "value": "lunasaspace.com",
+  "confidence": "high",
+  "evidence": "Title 'Lúnasa Advancing Space Infastructure' matches Aerospace sector and name."
+ },
+ {
+  "id": "recMesOOWFYDOEQvb",
+  "value": null,
+  "confidence": "low",
+  "evidence": "magnifyworld.com is an AR/VR summit site, not Healthtech; mismatched business."
+ },
+ {
+  "id": "recMl4Y8rmfDI8LHp",
+  "value": null,
+  "confidence": "low",
+  "evidence": "No candidate describes a Fintech business; real estate and longevity clinic mismatches."
+ },
+ {
+  "id": "recMsUqBXe57dP54U",
+  "value": null,
+  "confidence": "low",
+  "evidence": "Both candidates are empty or errored with no content."
+ },
+ {
+  "id": "recNJuEZr77obnzi2",
+  "value": null,
+  "confidence": "low",
+  "evidence": "goodfit.com is a dental technology company, mismatched business type."
+ },
+ {
+  "id": "recNwOFJRtzivNu6S",
+  "value": null,
+  "confidence": "low",
+  "evidence": "All three candidates are empty pages with no content."
+ },
+ {
+  "id": "recO7ONaz3dlqcRxr",
+  "value": "pomelo.la",
+  "confidence": "low",
+  "evidence": "Candidate pomelo.la held for review (short generic name): Desc 'tarjetas de crédito, débito y prepago' matches known LatAm fintech Pomelo."
+ },
+ {
+  "id": "recOALk1S1ZzFasf8",
+  "value": null,
+  "confidence": "low",
+  "evidence": "Only candidate is an unrelated US employer association."
+ },
+ {
+  "id": "recOQqyCUKYHXrEaf",
+  "value": "getondevice.com",
+  "confidence": "high",
+  "evidence": "Desc 'hybrid inference engine for moving cloud-based LLM traffic on-device' matches AI Infrastructure sector."
+ },
+ {
+  "id": "recOSgGYyvJWjBZS3",
+  "value": null,
+  "confidence": "low",
+  "evidence": "No candidate describes a DePIN business; parked domains and unrelated Wi-Fi scorer."
+ },
+ {
+  "id": "recOmx6uHuIQNRx4E",
+  "value": "nested.com",
+  "confidence": "low",
+  "evidence": "Candidate nested.com held for review (short generic name): Desc 'Nested Estate Agents' matches well-known Nested startup; sector blank."
+ },
+ {
+  "id": "recOqLX1QYn0kJIx7",
+  "value": "toothpickdentalstaff.com",
+  "confidence": "medium",
+  "evidence": "Title references dental staffing, matching Toothpick's known business; sector blank."
+ },
+ {
+  "id": "recOrYI7fLzH9QQpU",
+  "value": "oradian.com",
+  "confidence": "high",
+  "evidence": "Desc 'AI-Native Core Banking Software for Emerging Markets' matches Fintech sector."
+ },
+ {
+  "id": "recOtwOs4wGLBDN4u",
+  "value": "seldon.io",
+  "confidence": "high",
+  "evidence": "Desc 'Take Control of ML and AI Complexity' matches AI Infrastructure sector."
+ },
+ {
+  "id": "recOxoWty7Vm9YYMO",
+  "value": "quantive.co",
+  "confidence": "medium",
+  "evidence": "Title 'Quantive' matches name exactly; sector blank."
+ },
+ {
+  "id": "recP7iGj5WpqjndPM",
+  "value": "finmile.co",
+  "confidence": "medium",
+  "evidence": "Desc 'AI workers for logistics and field operations - Finmile' matches name."
+ },
+ {
+  "id": "recPAhUfUM7Y1ALFA",
+  "value": "nextmatter.com",
+  "confidence": "high",
+  "evidence": "Desc 'AI orchestration for financial services' fits Enterprise Productivity sector and name."
+ },
+ {
+  "id": "recPJwmtDuINdfco9",
+  "value": "propertyworks.com",
+  "confidence": "medium",
+  "evidence": "Desc 'Occupant-Driven Lease Management' matches name; sector blank."
+ },
+ {
+  "id": "recPMhMv0blCRiZ3b",
+  "value": null,
+  "confidence": "low",
+  "evidence": "All candidates are unrelated utility, school district, directory, or government sites."
+ },
+ {
+  "id": "recPRGbIre0P3K8Mx",
+  "value": null,
+  "confidence": "low",
+  "evidence": "rideosoftware.com is an unrelated Barcelona app agency; rideos.io page is empty."
+ },
+ {
+  "id": "recPS9iugvaODxQ8a",
+  "value": "happl.com",
+  "confidence": "high",
+  "evidence": "Desc 'Global Employee Benefits Platform... AI to reduce admin' matches Future of Work sector."
+ },
+ {
+  "id": "recPUMW46ECKbc5mp",
+  "value": null,
+  "confidence": "low",
+  "evidence": "No candidate matches; university, arcade cabinets, clinic, and unrelated 'Sesami' site."
+ },
+ {
+  "id": "recPa9ntret4H9OQL",
+  "value": null,
+  "confidence": "low",
+  "evidence": "Only candidate page is empty with no content."
+ },
+ {
+  "id": "recPbvShWte4lDxJ9",
+  "value": null,
+  "confidence": "low",
+  "evidence": "Only candidate page is empty with no content."
+ },
+ {
+  "id": "recPf2FBFPb7REObz",
+  "value": "armadainteractive.com",
+  "confidence": "medium",
+  "evidence": "Desc 'Helsinki-based gaming startup' matches name exactly, though sector says Fintech."
+ },
+ {
+  "id": "recPib6LbplP6gBhw",
+  "value": "fraugster.com",
+  "confidence": "medium",
+  "evidence": "Desc 'Unified AI platform... fraud protection' matches known Fraugster startup; sector blank."
+ },
+ {
+  "id": "recPuafC88lMSUQ75",
+  "value": "plural.io",
+  "confidence": "low",
+  "evidence": "Candidate plural.io held for review (short generic name): Desc 'Digital Service Personnel... automate tasks' loosely matches Marketplace sector."
+ },
+ {
+  "id": "recPv6ASR8rgspcr9",
+  "value": "circles.life",
+  "confidence": "medium",
+  "evidence": "Desc describes known Circles.Life telecom startup; sector 'Other' is vague."
+ },
+ {
+  "id": "recPxPZQv8Km8g7hd",
+  "value": "timetricsrisk.com",
+  "confidence": "medium",
+  "evidence": "Desc 'Strategic Risk Solutions... KPI data analytics' fits Anthemis's risk/insurtech focus."
+ },
+ {
+  "id": "recPxwsiBQDH1tynv",
+  "value": "flagship.ai",
+  "confidence": "medium",
+  "evidence": "Desc 'Retail Visual Merchandising Platform' matches name exactly; sector blank."
+ },
+ {
+  "id": "recQLjg5HJPdulRju",
+  "value": "branchtrack.com",
+  "confidence": "medium",
+  "evidence": "Desc 'Experiential Learning Platform' matches name exactly; sector blank."
+ },
+ {
+  "id": "recQNalQnMKmT7z3P",
+  "value": null,
+  "confidence": "low",
+  "evidence": "two.co is parked for sale; two.health is an unrelated digital health network."
+ },
+ {
+  "id": "recQOfm1BhQwhzpPt",
+  "value": "tably.com",
+  "confidence": "high",
+  "evidence": "Desc 'all-in-one data tool... 500+ connectors' matches Enterprise sector and name."
+ },
+ {
+  "id": "recQXUGkA8rDDVBkw",
+  "value": null,
+  "confidence": "low",
+  "evidence": "No candidate confirms a matching business; polytechnic and errored pages."
+ },
+ {
+  "id": "recQcDbeABZbDR67F",
+  "value": "daybridge.com",
+  "confidence": "medium",
+  "evidence": "Desc 'One calendar for work and life' matches name exactly; sector blank."
+ },
+ {
+  "id": "recQe1ttGhwU6Dr6I",
+  "value": "vandme.co.uk",
+  "confidence": "low",
+  "evidence": "Candidate vandme.co.uk held for review (short generic name): Desc 'Fresh Baby & Kids Food Delivery London | V&Me' matches name exactly."
+ },
+ {
+  "id": "recQw4yP2kGdGUMJc",
+  "value": "revyze.fr",
+  "confidence": "high",
+  "evidence": "Desc 'Apprends en scrollant' matches name and EdTech sector."
+ },
+ {
+  "id": "recR0x8lsxrryQlhr",
+  "value": null,
+  "confidence": "low",
+  "evidence": "All candidates show only generic 'Home' titles with no confirming content."
+ },
+ {
+  "id": "recRDKIVfjXTY7nL4",
+  "value": null,
+  "confidence": "low",
+  "evidence": "hometouch.co is an unrelated luxury crockery site; others empty."
+ },
+ {
+  "id": "recRE2Z15T8lXe7pf",
+  "value": null,
+  "confidence": "low",
+  "evidence": "auryx.co.uk is a hosting holding page; auryx.app is empty."
+ },
+ {
+  "id": "recRHogtFX1KaywAm",
+  "value": "countly.com",
+  "confidence": "medium",
+  "evidence": "Desc 'First-party Digital Analytics And Customer Engagement' matches name exactly; sector blank."
+ },
+ {
+  "id": "recROimSmlCfFP9Qn",
+  "value": "lifesupplies.com",
+  "confidence": "medium",
+  "evidence": "Desc 'Premium Oral Care' matches name exactly; sector blank."
+ },
+ {
+  "id": "recRPVqqRQNcHxL8M",
+  "value": null,
+  "confidence": "low",
+  "evidence": "Only candidate page is empty with no content."
+ },
+ {
+  "id": "recRRXhYnpZ3vTSbN",
+  "value": null,
+  "confidence": "low",
+  "evidence": "Only candidate page is empty with no content."
+ },
+ {
+  "id": "recRUPupj8UViH3fQ",
+  "value": null,
+  "confidence": "low",
+  "evidence": "Both candidates are effectively empty with no confirming description."
+ },
+ {
+  "id": "recRWl74OmXIoQdtz",
+  "value": "localistico.com",
+  "confidence": "high",
+  "evidence": "Desc 'local marketing and analytics platform for brick-and-mortar' matches sector exactly."
+ },
+ {
+  "id": "recRasfslM9JkRpaf",
+  "value": "getcalliper.com",
+  "confidence": "high",
+  "evidence": "Desc 'collaborative analytics platform... monitor health of your company' matches Data Analytics sector."
+ },
+ {
+  "id": "recRbuyc9Ww1do5j9",
+  "value": null,
+  "confidence": "low",
+  "evidence": "No candidate confirms a matching Passion Capital startup; agency/branding sites unrelated."
+ },
+ {
+  "id": "recRkLswkoPw7eqp1",
+  "value": null,
+  "confidence": "low",
+  "evidence": "Only page is Shell's historical note on an acquired/defunct Limejump; other is parked."
+ },
+ {
+  "id": "recRloRiJaXoPxiWS",
+  "value": null,
+  "confidence": "low",
+  "evidence": "Candidates are unrelated IVF clinic, city government, and unconfirmed AI directory."
+ },
+ {
+  "id": "recRn96nZ9Ea7u6zh",
+  "value": "mixlr.com",
+  "confidence": "low",
+  "evidence": "Candidate mixlr.com held for review (short generic name): Desc 'Broadcast Live Audio' matches known Mixlr startup exactly; sector blank."
+ },
+ {
+  "id": "recRvnYWpl4zkFvq4",
+  "value": "patientsknowbest.com",
+  "confidence": "medium",
+  "evidence": "Desc 'World's Largest Personal Health Record' matches known company exactly."
+ },
+ {
+  "id": "recS1HmFiM9BpZex3",
+  "value": "moo.com",
+  "confidence": "low",
+  "evidence": "Candidate moo.com held for review (short generic name): Desc 'Professional Custom Printing... MOO' matches well-known company; sector blank."
+ },
+ {
+  "id": "recS1uoaZXIOZT1lo",
+  "value": null,
+  "confidence": "low",
+  "evidence": "All candidates are parked, empty, or a differently-named India company."
+ },
+ {
+  "id": "recS3SfQv3XmHS6dT",
+  "value": "andela.com",
+  "confidence": "low",
+  "evidence": "Candidate andela.com held for review (short generic name): Desc 'Human Layer Powering Production AI' matches known Andela company; sector blank."
+ },
+ {
+  "id": "recS8mRrXpPNBf95Q",
+  "value": "diemhq.com",
+  "confidence": "low",
+  "evidence": "Candidate diemhq.com held for review (short generic name): Title 'Diem' with matching HQ-style domain; sector blank, minimal desc."
+ },
+ {
+  "id": "recS97GDEhAlhqgpl",
+  "value": null,
+  "confidence": "low",
+  "evidence": "No candidate matches Cultural Economy sector; museum, manufacturer, and unrelated verticals."
+ },
+ {
+  "id": "recSE6Kqf29dpKqPV",
+  "value": null,
+  "confidence": "low",
+  "evidence": "Only candidate returns HTTP 403 with no content."
+ },
+ {
+  "id": "recT5c7eu8uRDzu2F",
+  "value": "remato.com",
+  "confidence": "low",
+  "evidence": "Candidate remato.com held for review (short generic name): Desc 'All-in-One Construction Management Software' matches name exactly; sector blank."
+ },
+ {
+  "id": "recTbfi9AygIQOSJj",
+  "value": "landinsight.co",
+  "confidence": "medium",
+  "evidence": "Desc 'Environmental Risk Data | Land Insight' matches name exactly; sector blank."
+ },
+ {
+  "id": "recTfI3Fwb0vs7l0d",
+  "value": null,
+  "confidence": "low",
+  "evidence": "Only candidate page is empty with no content."
+ },
+ {
+  "id": "recTiwtlrb2PB7zbK",
+  "value": "burrow.io",
+  "confidence": "low",
+  "evidence": "Candidate burrow.io held for review (short generic name): Desc 'Instant Secure Tunnels' fits a VC-backed dev-tool startup; sector blank."
+ },
+ {
+  "id": "recTjDtFyGNEO06S2",
+  "value": "honestmobile.com",
+  "confidence": "medium",
+  "evidence": "Desc 'mobile done right... SIM-only plans' matches name exactly; sector blank."
+ },
+ {
+  "id": "recTkp19D3i1PVY0N",
+  "value": "voxmind.ai",
+  "confidence": "medium",
+  "evidence": "Desc 'Deepfake-Resistant Advanced Voice Biometrics' matches name exactly; sector blank."
+ }
+]

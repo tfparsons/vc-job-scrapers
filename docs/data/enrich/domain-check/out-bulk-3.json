@@ -1,0 +1,2018 @@
+[
+ {
+  "id": "recLXKqt20YpkDZlD",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Best 3PL Fulfilment Search & Selection' matches Fulfilment.com, content fits the stated sector."
+ },
+ {
+  "id": "recLZtJL34Km9dyKt",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Pharosyn | Optimizing Pharma Decision-Making' matches Pharosyn, content fits the stated sector."
+ },
+ {
+  "id": "recLa7kS7lehkxkMv",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Nueworx | End-User IT Delivery, in' matches Nueworx, content fits the stated sector."
+ },
+ {
+  "id": "recLaV4YTyuGAteJn",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'HyperGTM | 1:1 Account-Based Marketing at' matches hyperGTM, content fits the stated sector."
+ },
+ {
+  "id": "recLcbvInrv3AsWc0",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Ethical Flower Delivery | Next Day' matches Arena Flowers, content fits the stated sector."
+ },
+ {
+  "id": "recLdTB0wvVwrQAMh",
+  "value": "Confirmed",
+  "confidence": "medium",
+  "evidence": "Title/desc are exactly '/dev/agents', matching the company name, but page has almost no other content."
+ },
+ {
+  "id": "recLeZIheCHgSRlgH",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Home of Reasoning as a Service®' matches Imandra, content fits the stated sector."
+ },
+ {
+  "id": "recLepCcFIyWyjh5F",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Title 'Identity Intelligence Platform...' never mentions 'Icite'; can't confirm this is the same company."
+ },
+ {
+  "id": "recLh79s2ab86Vh1b",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Unison Innovations' matches Unison, content fits the stated sector."
+ },
+ {
+  "id": "recLjiTERi79yUeIM",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Landlord Software for Making Tax Digital' matches Hammock, content fits the stated sector."
+ },
+ {
+  "id": "recLlinBNCRVbWmsq",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Pepper – The system for distributors’' matches Pepper, content fits the stated sector."
+ },
+ {
+  "id": "recLoTFG2SqGdhkMm",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'The original real-time website analytics –' matches GoSquared, content fits the stated sector."
+ },
+ {
+  "id": "recLqhsAhZ4y7oi8o",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Cost-efficient LLM inference for the best' matches Doubleword, content fits the stated sector."
+ },
+ {
+  "id": "recLsPIeEau9xJ9W8",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Docker: Accelerated Container Application Development' matches Docker, content fits the stated sector."
+ },
+ {
+  "id": "recLuvIy4B9G8vMlC",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Captur — Real-time Image AI and' matches Captur, content fits the stated sector."
+ },
+ {
+  "id": "recLxG9PtS0YBCJAc",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Title and description are both empty; nothing to verify against Koii."
+ },
+ {
+  "id": "recLxTgqpjt8LGUDz",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Fy | Wall Art, Canvas Prints' matches Fy!, content fits the stated sector."
+ },
+ {
+  "id": "recLyEanlxJYX71S4",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Title is just 'Big things will be here soon', a coming-soon placeholder with no company info."
+ },
+ {
+  "id": "recM0GrqyViG3UXEW",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Dust - Multiplayer AI for human-agent' matches Dust, content fits the stated sector."
+ },
+ {
+  "id": "recM0aWMrixMa3LiN",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'La Fraise | Pilotage...devis dentaires' matches company name and dental admin business."
+ },
+ {
+  "id": "recM1JgrEE3aRCl6B",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Outbrain Direct Response to Maximize Your' matches Outbrain, content fits the stated sector."
+ },
+ {
+  "id": "recM27aqQ9DzROrH3",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'The Index Operating System - PANTA' matches; landed panta.ai is same brand, shorter domain."
+ },
+ {
+  "id": "recM6hbZgt5AC2Qfd",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Study Abroad Application Platform - ApplyBoard' matches ApplyBoard, content fits the stated sector."
+ },
+ {
+  "id": "recM84FvdSG181Viy",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Cradle | Engineer better proteins' matches company and Health/Bio sector (protein engineering AI)."
+ },
+ {
+  "id": "recM8guTi0tL5sLAJ",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Business Travel Software + 5* Customer' matches Roomex, content fits the stated sector."
+ },
+ {
+  "id": "recM9SH4lmxLPig8E",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Dataiku: The Platform for AI Success' matches Dataiku, content fits the stated sector."
+ },
+ {
+  "id": "recM9vtVR8AF0c7hb",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Norvana — Connected Health Intelligence' matches; landed prod.norvana.ai is a subdomain of same domain."
+ },
+ {
+  "id": "recMAnATOhoA71tcu",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Zaro | Make your company AI-ready' matches Zaro, content fits the stated sector."
+ },
+ {
+  "id": "recMBd4Lum6OcnHvE",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Kayrros - The leading environmental intelligence' matches Kayrros, content fits the stated sector."
+ },
+ {
+  "id": "recMBhyNhAYEsH0Y5",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'AI-Native Treasury Platform | Atlar' matches Atlar, content fits the stated sector."
+ },
+ {
+  "id": "recMF145xRdsoUAuq",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Security Data Pipelines for Enterprise Teams' matches Monad, content fits the stated sector."
+ },
+ {
+  "id": "recMFaQQycuPCRMW9",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'EasyHealth | Proactive care...' matches; landed easyhealth.com is the same brand, shortened domain."
+ },
+ {
+  "id": "recMGIaVspD8YdzFL",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Yonder Rewards Cards | Dining, Travel' matches Yonder, content fits the stated sector."
+ },
+ {
+  "id": "recMH73ih4Cmpw3pU",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Period & Cycle Tracker for iOS' matches Clue, content fits the stated sector."
+ },
+ {
+  "id": "recMI3rUtXkXdYYzi",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title/desc 'Supercell'/'Visit Supercell.com' match the well-known games company, no sector to contradict."
+ },
+ {
+  "id": "recMJwBLqX5Mt5il9",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Built AI · The AI-native operating' matches Built AI, content fits the stated sector."
+ },
+ {
+  "id": "recML1x4FIK5rK1HR",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Conceivable Life Sciences | AI-Powered Automated' matches Conceivable, content fits the stated sector."
+ },
+ {
+  "id": "recML3aUw3fih2Cr5",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Flatpeak - The Infrastructure Layer for' matches Flatpeak, content fits the stated sector."
+ },
+ {
+  "id": "recMLA2ZpHNdmzdDr",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Qapita: Equity Management Software | Cap' matches Qapita, content fits the stated sector."
+ },
+ {
+  "id": "recMLd4ia7eFbP7Ko",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Home · Appwrite' matches Appwrite, content fits the stated sector."
+ },
+ {
+  "id": "recMNTSp5T0gXEkEg",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Chiral | Home' matches Chiral, content fits the stated sector."
+ },
+ {
+  "id": "recMNmf6z41SJMkVx",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'TypeScript AI Framework for Agents and' matches Mastra, content fits the stated sector."
+ },
+ {
+  "id": "recMPP8kAjRIXYsOv",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Current Health' matches Current Health, content fits the stated sector."
+ },
+ {
+  "id": "recMPTqMI0167HrhT",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'The co-pilot for your product team' matches Four/Four, content fits the stated sector."
+ },
+ {
+  "id": "recMPWAkFi60xrZNQ",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Topograph - data and documents for' matches topograph, content fits the stated sector."
+ },
+ {
+  "id": "recMRl66dz84yL1Pr",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Paypercut | One Checkout for Online' matches Paypercut, content fits the stated sector."
+ },
+ {
+  "id": "recMTXJaKXIIOujZl",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Moment · The AI Partner for' matches Moment, content fits the stated sector."
+ },
+ {
+  "id": "recMUfri4u0R8RaII",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Fractile - Radically Accelerate Frontier Model Inference' matches name and Compute Stack sector; landed fractile.ai is same brand."
+ },
+ {
+  "id": "recMeBxWgT19gwKZW",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'AppsFlyer | Modern Marketing Cloud' matches AppsFlyer, content fits the stated sector."
+ },
+ {
+  "id": "recMhjvg1p9oJB9EB",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Intryc: Close the Loop on Customer' matches Intryc, content fits the stated sector."
+ },
+ {
+  "id": "recMoa5Ob9vjjd99q",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'flatfair | Rental solutions & protection' matches flatfair, content fits the stated sector."
+ },
+ {
+  "id": "recMoj8nnA6hdsral",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Sano Genetics' matches Sano Genetics, content fits the stated sector."
+ },
+ {
+  "id": "recMsVm9FjstHWMyN",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Stotles: Win public sector contracts &' matches Stotles, content fits the stated sector."
+ },
+ {
+  "id": "recMsrmAUEYfZ8SfM",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Welcome - Ember Sword' matches Ember Sword, content fits the stated sector."
+ },
+ {
+  "id": "recMzmKexIhxw6Gdw",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Savvy Wealth | RIA Platform for' matches Savvy, content fits the stated sector."
+ },
+ {
+  "id": "recN2iTvzF1Wk78Uq",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'zeroheight - Design System Platform for' matches ZeroHeight, content fits the stated sector."
+ },
+ {
+  "id": "recN4MBc4kBKvQ4za",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Hifi Finance' matches Hifi, content fits the stated sector."
+ },
+ {
+  "id": "recN4OstDRC6s5LWB",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Andel | Drug Affordability Revolution' matches Andel, content fits the stated sector."
+ },
+ {
+  "id": "recN4Xkp6fCrUmI44",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Home - Lumi' and desc on upskilling/training fit the EdTech sector."
+ },
+ {
+  "id": "recN6GVu3VDw4ahZ1",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Webiny – The Open-Source AI-Programmable CMS' matches Webiny, content fits the stated sector."
+ },
+ {
+  "id": "recN8VYZ8hT4zFRck",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'AI-Powered IT Support — Remote, Onsite,' matches Supportwave, content fits the stated sector."
+ },
+ {
+  "id": "recN8iFFsdt8Q2rn9",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Metronome | Usage-Based Billing Platform' matches Metronome, content fits the stated sector."
+ },
+ {
+  "id": "recN9NUIOXo9XtFsO",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'SensorFlow | Smart Hotel Automation &' matches SensorFlow, content fits the stated sector."
+ },
+ {
+  "id": "recNA2YIkHTRXbjMM",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "German title 'Autonome Industrierobotik von RobCo' names RobCo, fits Industrials/Robotics; landed rob.co is shortened domain."
+ },
+ {
+  "id": "recNCacUu7XoLqReR",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Revel – Great hardware deserves great' matches Revel, content fits the stated sector."
+ },
+ {
+  "id": "recNCuUUbyKHHeLv7",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Energy Prices, Decoded. | General Index' matches General Index, content fits the stated sector."
+ },
+ {
+  "id": "recNELujCRmSjxKIJ",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Desc explicitly names 'Risk Ledger' and describes supply-chain security, matching Cyber/SaaS sector."
+ },
+ {
+  "id": "recNF1ivq1ZI2fRB8",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Weave - AI to measure engineers' matches Weave, content fits the stated sector."
+ },
+ {
+  "id": "recNF3SOSB5KmN2Lw",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Domain circuitmind.io and 'AI Powered Electronics Design | PCB Schematic' match CircuitMind's known product, though brand name absent from title."
+ },
+ {
+  "id": "recNFAhsXJ4AtnGYO",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Draftwise' plus desc on contract drafting AI is an exact name match."
+ },
+ {
+  "id": "recNI0RL7TlT4ezUN",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Jack & Jill — where remarkable' matches Jack & Jill, content fits the stated sector."
+ },
+ {
+  "id": "recNJEZgnrYxx1UOL",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'AI-Powered Spend Analytics & Procurement Platform' matches Spendkey, content fits the stated sector."
+ },
+ {
+  "id": "recNL7tvhcSyu4OzC",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'The Agentic Product Management System |' matches Productboard, content fits the stated sector."
+ },
+ {
+  "id": "recNOLQbL1sz6cr3x",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'fraudfinder' matches exactly; desc on A2P fraud detection is consistent."
+ },
+ {
+  "id": "recNQbiJSPgq5aQgd",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Unibuddy | Student-to-student recruitment at scale' matches Unibuddy, content fits the stated sector."
+ },
+ {
+  "id": "recNRGccvXon1SqMd",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Peony Data Room — AI-Powered Q&A,' matches Peony, content fits the stated sector."
+ },
+ {
+  "id": "recNSdldBOObFVbWN",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Book a Professional Vacation Photographer | Smiler' matches name and Marketplaces & Commerce sector; landed smiler.co is same brand."
+ },
+ {
+  "id": "recNU1pGg6p0muxEF",
+  "value": "Suspect",
+  "confidence": "high",
+  "evidence": "Landed to adapter.com with title 'Adapter | The cognition API...' — no mention of 'Sota', looks like a different-branded product."
+ },
+ {
+  "id": "recNWjYpX1ImrDXTc",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Community Wolf — The data infrastructure' matches Community Wolf, content fits the stated sector."
+ },
+ {
+  "id": "recNZB9BKyXrkvI74",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Domain goodeggs.com and 'Organic Grocery Delivery... meal-kits' match the known Good Eggs grocery business."
+ },
+ {
+  "id": "recNZSvev0ZzGzWHc",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'LiveFlow | The Agentic Accounting Platform' matches Liveflow, content fits the stated sector."
+ },
+ {
+  "id": "recNdBqhKU7Uex7pL",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Embedded Protection for Global Digital Brands' matches Cover Genius, content fits the stated sector."
+ },
+ {
+  "id": "recNeBeZhQmYGRrCB",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Homepage — Ogre.ai' matches Ogre AI, content fits the stated sector."
+ },
+ {
+  "id": "recNfM7eQUof351q7",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Asset Reality | Seized Assets. Solved.' matches Asset Reality, content fits the stated sector."
+ },
+ {
+  "id": "recNgK8igXTy8sYqk",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Building Atlas: Retrofit Planning Software for' matches Building Atlas, content fits the stated sector."
+ },
+ {
+  "id": "recNjIWaGgTGAFW3o",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Cyber Insurance | Active Insurance &' matches Coalition, content fits the stated sector."
+ },
+ {
+  "id": "recNnMmGQKqVk78CX",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Europe's Largest Dropshipping SaaS Platform |' matches Virtualstock, content fits the stated sector."
+ },
+ {
+  "id": "recNnRqbZLhYIONkQ",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'GLP-1 Weight Loss Medication Online –' matches Sunlight, content fits the stated sector."
+ },
+ {
+  "id": "recNs3YoOWR91XTPA",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Cheers - Simplifying contracts for business' matches Cheers, content fits the stated sector."
+ },
+ {
+  "id": "recNwuFztTzXGqzhs",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Hirundo | Machine Unlearning Platform' matches Hirundo, content fits the stated sector."
+ },
+ {
+  "id": "recNyhPVx9IoU6mlD",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Phaidra | AI agents for AI' matches Phaidra, content fits the stated sector."
+ },
+ {
+  "id": "recNzJqb7w89RPHJK",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'omni:us Insurance AI No-Touch Claim Automation,' matches Omni:us, content fits the stated sector."
+ },
+ {
+  "id": "recO4iEC55D2AtvHY",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Domain wearegroov.io and desc 'SME's - flexible funding options' match Lending/Commerce Platform sector despite generic title."
+ },
+ {
+  "id": "recOD8tPNQDHD7OSt",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Fabric — the AI workspace that' matches Fabric, content fits the stated sector."
+ },
+ {
+  "id": "recOH5WQV7ibbKe2z",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Aide Health — Empowering patients with' matches Aide, content fits the stated sector."
+ },
+ {
+  "id": "recOM2QYOHqxiBfgC",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Brightwave' matches exactly; desc on AI-agent compliance infra is plausible for Fintech/Analytics."
+ },
+ {
+  "id": "recONMv8Sn6uNGOeY",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'gridfield - AI Supercomputing Clusters' matches Gridfield, content fits the stated sector."
+ },
+ {
+  "id": "recOQUnYHwsQ3gDUi",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Navan: The #1 Corporate Travel Management' matches Navan, content fits the stated sector."
+ },
+ {
+  "id": "recOVRxeuPYc7OwVV",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'V7 Go' is V7 Labs' own product name on domain v7labs.com, matching the Intelligence/enterprise AI sector."
+ },
+ {
+  "id": "recOX8x9wr7AMDfEx",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Restaurant Management Software | AI-Powered Operations' matches Nory, content fits the stated sector."
+ },
+ {
+  "id": "recOYWZtXtllQC3Jc",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Preply: Learn with the best online' matches Preply, content fits the stated sector."
+ },
+ {
+  "id": "recOYaS5rMK0e0Le4",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Sohar - Insurance verification solutions' matches company and Healthcare infrastructure sector."
+ },
+ {
+  "id": "recOgtkOCA9w3GPjb",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'CoachHub - The Digital Coaching Platform' matches CoachHub, content fits the stated sector."
+ },
+ {
+  "id": "recOlKEbTdWKz0Zjz",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Due - The Nation s #1' matches Due, content fits the stated sector."
+ },
+ {
+  "id": "recOlaJiFThcH1eOa",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'The modern standard in fincrime compliance' matches Flagright, content fits the stated sector."
+ },
+ {
+  "id": "recOsXsMNlRyIf35H",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Timeseer.ai ⎮ Introducing the Industrial Data' matches Timeseer.ai, content fits the stated sector."
+ },
+ {
+  "id": "recOsiFB1k4FT3Am0",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'First-Mile Commodity Intelligence — Treefera' matches Treefera, content fits the stated sector."
+ },
+ {
+  "id": "recOzpJLmCF7ahvxL",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Market Intelligence for the AI Era' matches Currence, content fits the stated sector."
+ },
+ {
+  "id": "recP1Bt2ZCBbH1R2R",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Topia | Global Mobility Platform for' matches Topia, content fits the stated sector."
+ },
+ {
+  "id": "recP6v2D93ScMapUm",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Endomag - Redefining Breast Cancer Surgery' matches Endomag, content fits the stated sector."
+ },
+ {
+  "id": "recPApkPkMv6oFfVe",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Phasecraft | Quantum Algorithms for Real-World' matches Phasecraft, content fits the stated sector."
+ },
+ {
+  "id": "recPAuHEPjXnTKweZ",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'JustPark - The Parking App |' matches JustPark, content fits the stated sector."
+ },
+ {
+  "id": "recPDWsWHb9prtOKT",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Hostaway - Airbnb & Vacation Rental' matches Hostaway, content fits the stated sector."
+ },
+ {
+  "id": "recPFGrIGPZ57RFp0",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'StarkWare | Bringing Scalability, Security and' matches StarkWare, content fits the stated sector."
+ },
+ {
+  "id": "recPHFQX4o3yxuClR",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Dental Lab Software - GreatLab.io' matches GreatLab, content fits the stated sector."
+ },
+ {
+  "id": "recPJouOztD9ZbBdA",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'SimpleClosure | Business Dissolution Done Right' matches SimpleClosure, content fits the stated sector."
+ },
+ {
+  "id": "recPMFctG2hH7zGYN",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Capitolis - Homepage' matches Capitolis, content fits the stated sector."
+ },
+ {
+  "id": "recPO8sf5h0cSHHpA",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Home - Mialgae' matches MiAlgae, content fits the stated sector."
+ },
+ {
+  "id": "recPPp9jn5V4ehqSD",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Digital banking development platform built for' matches Plumery, content fits the stated sector."
+ },
+ {
+  "id": "recPRfzhp4vqJ3D5r",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Tacto – Die KI für den' matches Tacto, content fits the stated sector."
+ },
+ {
+  "id": "recPUzCEJ0rkiYm1p",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Landed idlayr.com and title 'Mobile Identity Solutions... | IDlayr' matches the company's current post-rebrand name."
+ },
+ {
+  "id": "recPXAeyAxvEOtwwk",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Track Titan | Simply Faster' matches Track Titan, content fits the stated sector."
+ },
+ {
+  "id": "recPXMCj0Po9EZInY",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Pesto | AI-first ERP for Food' matches Pesto, content fits the stated sector."
+ },
+ {
+  "id": "recPYQwZiQw2dhi6G",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Temporal infrastructure - Embed complete meeting' matches Cronofy, content fits the stated sector."
+ },
+ {
+  "id": "recPZXnh1GqWwlsQX",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Upskilling platform for AI adoption |' matches Multiverse, content fits the stated sector."
+ },
+ {
+  "id": "recPZtuxOEThV8VaK",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Online Payment Processing Solution | GoCardless' matches GoCardless, content fits the stated sector."
+ },
+ {
+  "id": "recPa8adw1J3BUcBS",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Stardust' and desc on Sunlight Reflection Technology match the Energy/Space sector."
+ },
+ {
+  "id": "recPaL8PPfI9EFtq1",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'The AI presentation workspace' matches Pitch, content fits the stated sector."
+ },
+ {
+  "id": "recPbJMvcOWRFcEIc",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'The engine of superintelligence | Nscale' matches Nscale, content fits the stated sector."
+ },
+ {
+  "id": "recPhfLzm1jesRJnY",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Secure the AI-Era SDLC | Boost' matches Boost Security, content fits the stated sector."
+ },
+ {
+  "id": "recPmWmoWtAdrjqwa",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'REKKI - Office robots built for' matches REKKI, content fits the stated sector."
+ },
+ {
+  "id": "recPqaD7rdPmIlW4w",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Firm Management Software for Architects and' matches Monograph, content fits the stated sector."
+ },
+ {
+  "id": "recPqiEpQvHj3COxq",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Gather | The Delightful Virtual Office' matches Gather, content fits the stated sector."
+ },
+ {
+  "id": "recPrqTCg3aRZXzgo",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Machenta – Instant Robot Learning' matches Machenta, content fits the stated sector."
+ },
+ {
+  "id": "recPstG6bY0nP4pu5",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'The AI database developers love |' matches Weaviate, content fits the stated sector."
+ },
+ {
+  "id": "recQ1IGSZ1ak0vvkB",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Reproductive Health Benefits for Employers |' matches Fertifa, content fits the stated sector."
+ },
+ {
+  "id": "recQ2AhycncNNnpQR",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'CPQ Tool & CPQ AI Platform' matches Scope, content fits the stated sector."
+ },
+ {
+  "id": "recQ3jffCNyO1E3QT",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Dash Games' is an exact name match; sector 'Social mobile games' plausible despite truncated desc."
+ },
+ {
+  "id": "recQ6LASuS9Yxl611",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Haruko - Digital Asset and Crypto' matches Haruko, content fits the stated sector."
+ },
+ {
+  "id": "recQDqYLxAC68Lxp0",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Brinc | Venture Accelerator & Private' matches BRINC, content fits the stated sector."
+ },
+ {
+  "id": "recQEyxq7t9ijb01v",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'inforcer | Sell, Secure & Support' matches inforcer, content fits the stated sector."
+ },
+ {
+  "id": "recQHkFCte8sVPfmS",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Keith - AI supercharged solicitors' matches Keith, content fits the stated sector."
+ },
+ {
+  "id": "recQHlG6CEmGOdKhO",
+  "value": "Suspect",
+  "confidence": "high",
+  "evidence": "Landed to recursion.com with title 'Pioneering AI Drug Discovery | Recursion' — Exscientia merged into Recursion, a different company."
+ },
+ {
+  "id": "recQJPi2K7ve0eReY",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Compound22 | Specification-Led Supply & Manufacture' matches Compound 22, content fits the stated sector."
+ },
+ {
+  "id": "recQN1cbaYwuGCWCU",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Multiomic Health - AI-Enabled Precision Medicine' matches Multiomic Health, content fits the stated sector."
+ },
+ {
+  "id": "recQNds1A4QOCq95i",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Argil - Anyone can tell a' matches Argil, content fits the stated sector."
+ },
+ {
+  "id": "recQNhcpuaeUVpj0K",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Flapping Airplanes' matches Flapping Airplanes, content fits the stated sector."
+ },
+ {
+  "id": "recQW921lS41X7AMH",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'AI-Native Compensation Management Software | Pave' matches Pave, content fits the stated sector."
+ },
+ {
+  "id": "recQdUOoeNleunpep",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Home - Adagene' matches AdaGene, content fits the stated sector."
+ },
+ {
+  "id": "recQe194SCvx5lHBm",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Lightyear: low cost investing...' matches; landed lightyear.com is the same brand's shorter domain."
+ },
+ {
+  "id": "recQkhL046Qcrv3f9",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'MAIA Technology | A single platform' matches MAIA Technology, content fits the stated sector."
+ },
+ {
+  "id": "recQlEX6vzTVpcofw",
+  "value": "Suspect",
+  "confidence": "high",
+  "evidence": "Landed to interdigital.com, title 'Video Lab | InterDigital.com' — no mention of Deep Render, reads as the acquirer's site."
+ },
+ {
+  "id": "recQtytAy2UHcR9HX",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'The Best Restaurant Meal Kits, Delivered' matches Dishpatch, content fits the stated sector."
+ },
+ {
+  "id": "recR5Ii27Oo7x5I4o",
+  "value": "Suspect",
+  "confidence": "high",
+  "evidence": "Landed to oaknorth.co.uk, title 'Partnering With Us | OakNorth Bank' — a different company, not Fluidly."
+ },
+ {
+  "id": "recR8pD1j4orBW3Q7",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Hoop | Forget nothing. Follow through' matches Hoop, content fits the stated sector."
+ },
+ {
+  "id": "recRAUubgEcfprK6X",
+  "value": "Suspect",
+  "confidence": "high",
+  "evidence": "Title 'ClickUp Acquires Qatalog' explicitly confirms Qatalog was acquired; page is now ClickUp's."
+ },
+ {
+  "id": "recRB6IQPaRhDC5Jv",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'FARFETCH UK | The Global Destination' matches Farfetch, content fits the stated sector."
+ },
+ {
+  "id": "recRH0v1ulQoocsW6",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Landed fifthdimensionai.com, same brand domain variant; desc 'Decision Intelligence for Real Assets' matches AI & Infra sector."
+ },
+ {
+  "id": "recRJXGpUT11HGfsr",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Agreena - growing a sustainable future' matches Agreena, content fits the stated sector."
+ },
+ {
+  "id": "recRKAQHHVZCcculQ",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Crypto Wallet for Solana, Ethereum, DeFi' matches Zerion, content fits the stated sector."
+ },
+ {
+  "id": "recRLGMJNurBihFIO",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Title is just 'Access Restricted' with empty description, no content to verify against Silvur."
+ },
+ {
+  "id": "recRRCV5lZMOntTr7",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Homepage - DebtStream' matches DebtStream, content fits the stated sector."
+ },
+ {
+  "id": "recRRtJAHnlSO7gNW",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'OutThink | AI Cybersecurity Human Risk' matches OutThink, content fits the stated sector."
+ },
+ {
+  "id": "recRSk1lvQ8Vw1hYf",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Klarna UK - A secure, flexible' matches Klarna, content fits the stated sector."
+ },
+ {
+  "id": "recRUes7oqY60mB4h",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Home - Safe Intelligence' matches Safe Intelligence, content fits the stated sector."
+ },
+ {
+  "id": "recRUmNFIF56gHzBq",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Patients.app' matches patients.app, content fits the stated sector."
+ },
+ {
+  "id": "recRYH81rgqb3kN9U",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'نظام دفع المرتبات الرقمي - قبّض' matches Dopay, content fits the stated sector."
+ },
+ {
+  "id": "recRdCDp2BlIYUyBy",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'All-in-one HR software for people, payroll' matches HiBob, content fits the stated sector."
+ },
+ {
+  "id": "recRgkogggmY4ADks",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Automated Cyber Investigation Platform - Binalyze AIR' names Binalyze; landed binalyze.ai is the same brand."
+ },
+ {
+  "id": "recRgtGtdu44bmHQv",
+  "value": "Confirmed",
+  "confidence": "medium",
+  "evidence": "Title 'Adzact' is an exact name match but description is empty, giving little to verify the B2B Ad Platform sector."
+ },
+ {
+  "id": "recRhnVmzRKb55zzs",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Title and description are both empty; nothing to confirm against Infranomics."
+ },
+ {
+  "id": "recRpf5kq18BtSUCA",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Transcend | The only real-time data' matches Transcend, content fits the stated sector."
+ },
+ {
+  "id": "recRqpHrJlyH94UWy",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'New-to-Nature Protein Design & Manufacturing -' matches Constructive Bio, content fits the stated sector."
+ },
+ {
+  "id": "recRuSeeWRtBoiIWs",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'AI Applicant Tracking System (ATS) for' matches Talkpush, content fits the stated sector."
+ },
+ {
+  "id": "recRvDgII5jPoTzDX",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Vehicle Logistics... Gotmoves' matches name and Logistics sector; landed gotmoves.com is the same brand."
+ },
+ {
+  "id": "recRxiF7EGjorAhlB",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Virtual World Creation Platform | Emperia' matches Emperia, content fits the stated sector."
+ },
+ {
+  "id": "recS0u0HsEzVayF4q",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Poolside' and desc 'foundation model company' match the known AI company."
+ },
+ {
+  "id": "recS5m8OepS8Dzg0h",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Kitt | London Managed Workplaces' matches Kitt, content fits the stated sector."
+ },
+ {
+  "id": "recS6vgb5QUrftLkI",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Transforming investment distribution | Fundpath' matches Fundpath, content fits the stated sector."
+ },
+ {
+  "id": "recSAOXAAbEMOHma2",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Nurture — Human Skills for a' matches Nurture, content fits the stated sector."
+ },
+ {
+  "id": "recSCMCYLUKsC4Ta6",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'AI-powered option assessment platform for utilities' matches Continuum Industries, content fits the stated sector."
+ },
+ {
+  "id": "recSEXEQVzyQusVbc",
+  "value": "Wrong",
+  "confidence": "medium",
+  "evidence": "Title 'Bundled Page' with empty description looks like a generic technical/default page, not Scoota's real site."
+ },
+ {
+  "id": "recSFeoguuUm5oTPI",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Beautiful ATS & HR tool for' matches Homerun, content fits the stated sector."
+ },
+ {
+  "id": "recSKwximuTW2K2jF",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Teal | Modern Income Verification Infrastructure' matches Teal, content fits the stated sector."
+ },
+ {
+  "id": "recSNcuNgiQVaaVsB",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Institutional-Grade Tokenization Infrastructure | Ctrl Alt' matches Ctrl Alt, content fits the stated sector."
+ },
+ {
+  "id": "recSOQDOZj7fg76im",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'bryo.ai - Faster and better quotes' matches Bryo, content fits the stated sector."
+ },
+ {
+  "id": "recSSQFFUPOslHoM8",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'ABEX - Algorithmic Best Execution for' matches ABEX, content fits the stated sector."
+ },
+ {
+  "id": "recSVQAZMMBqCCjKo",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Maximize Revenue with Usage Based Billing' matches M3ter, content fits the stated sector."
+ },
+ {
+  "id": "recSYj0fSrv7fAAV3",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Dream Games' and desc 'leading mobile gaming company' match exactly."
+ },
+ {
+  "id": "recSZEpxCmSrX5JqX",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'The Rewards, Incentives and Gift Card' matches Tillo, content fits the stated sector."
+ },
+ {
+  "id": "recSblnz0vObsnlUZ",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'AI Document Processing For Transactional Workflows' matches Rossum, content fits the stated sector."
+ },
+ {
+  "id": "recScnGiLrdqKEgLs",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Finteum | Intraday Liquidity Trading for' matches Finteum, content fits the stated sector."
+ },
+ {
+  "id": "recSfbOgDxrTWtGce",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Mutt Motorcycles' matches Mutt Motorcycles, content fits the stated sector."
+ },
+ {
+  "id": "recSiJAJFKTv59nYY",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Strapi - Open-Source TypeScript Headless CMS' matches Strapi, content fits the stated sector."
+ },
+ {
+  "id": "recSp8SXpnnHccLZ5",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Dosen' and desc on employee training/copilot match the Employee Alignment Platform sector."
+ },
+ {
+  "id": "recSpJ5WeIbpIPESh",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'No-code open source database & application' matches Baserow, content fits the stated sector."
+ },
+ {
+  "id": "recSpW2PiRQh2MgRU",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Jump - Portage Salarial - Freelance' matches Jump, content fits the stated sector."
+ },
+ {
+  "id": "recSqwYOqbH5h994N",
+  "value": "Suspect",
+  "confidence": "high",
+  "evidence": "Landed to pazi.ai, title 'Pazi — AI Agents That Build...' — different brand name, not Pythagora."
+ },
+ {
+  "id": "recSsnHttpPlHVCqH",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Averro by Cyb3r Operations | Third-party' matches Cyb3r Operations, content fits the stated sector."
+ },
+ {
+  "id": "recSujiD6RYxPdqW9",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Saafehouse — Modern Cash and Asset' matches Saafehouse, content fits the stated sector."
+ },
+ {
+  "id": "recSwnkOiyRnYoQTR",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Games - Supersolid' matches Supersolid, content fits the stated sector."
+ },
+ {
+  "id": "recT6qWKtLDaSJJhy",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Replai - Agentic intelligence for enterprise' matches Replai, content fits the stated sector."
+ },
+ {
+  "id": "recT8nIr2P7yCZVU8",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Credit Products for Global Payment Ecosystem' matches SAPI, content fits the stated sector."
+ },
+ {
+  "id": "recT9euwTQ6zsUoFI",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Shapeways - Industrial 3D Printing &' matches Shapeways, content fits the stated sector."
+ },
+ {
+  "id": "recTDiaz5lI22t5tb",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Warden AI | Audit and Certify' matches WardenAI, content fits the stated sector."
+ },
+ {
+  "id": "recTHxzaBQBvEtwYY",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Integrated Finance | Banking & Card' matches Integrated Finance, content fits the stated sector."
+ },
+ {
+  "id": "recTIfXvSnitFQW33",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Balancing risk in a changing climate' matches Kettle, content fits the stated sector."
+ },
+ {
+  "id": "recTK4ydTbRdhLyh5",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Tech-Produkte flexibel mieten mit Grover' matches Grover, content fits the stated sector."
+ },
+ {
+  "id": "recTNqgn1Pwz8aRlT",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'The Token Company | LLM Token' matches The Token Company, content fits the stated sector."
+ },
+ {
+  "id": "recTOaqRefH9kuPs5",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title '#1 Golf GPS App & Golf' matches Hole19, content fits the stated sector."
+ },
+ {
+  "id": "recTVNyZuuf7Qhzgt",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Bioprocessing Data Analytics Platform | BioRaptor' matches Bioraptor, content fits the stated sector."
+ },
+ {
+  "id": "recTbCYqEajZyFitN",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'AlphaGen Therapeutics' is the same company as AlphaGenTx; desc on radioligand therapies matches Pharma sector."
+ },
+ {
+  "id": "recTch4zoVNn8KDCW",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Unison — Federated RWE' matches Unison, content fits the stated sector."
+ },
+ {
+  "id": "recTjpskI5DzNyYjM",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Artian AI Reliable Agentic AI Workflows' matches Artian, content fits the stated sector."
+ },
+ {
+  "id": "recTjxbGsQ6YTPDrp",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Curly Hair Care Products | Afrocenchix' matches Afrocenchix, content fits the stated sector."
+ },
+ {
+  "id": "recTkFTviidtgEFN9",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Handshake, manage agreements faster' and desc on retailer/supplier agreements match B2B Software sector."
+ },
+ {
+  "id": "recTrAuVYzrQicWyu",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Choco | The Complete Growth Platform' matches Choco, content fits the stated sector."
+ },
+ {
+  "id": "recTrVyF5v1G3xGbz",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Novu - Connect your AI agents' matches Novu, content fits the stated sector."
+ },
+ {
+  "id": "recTreAFjgdmWiZLg",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Arrival - One Bill. All Utilities.' matches Arrival, content fits the stated sector."
+ },
+ {
+  "id": "recTsdaiuFuI25CYh",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Energy Market Intelligence for Investors |' matches Modo Energy, content fits the stated sector."
+ },
+ {
+  "id": "recTudv47obu6XCwO",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'DataSapien DataSapien | Device Native AI' matches DataSapien, content fits the stated sector."
+ },
+ {
+  "id": "recTwshDN6NHQsWh0",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'SupplyCompass' matches Supplycompass, content fits the stated sector."
+ },
+ {
+  "id": "recU2FZeVQZefvWXt",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Bindbridge' exact match; desc on protein degradation in plants fits Deep Tech sector."
+ },
+ {
+  "id": "recU2GZ2AJehypANE",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Found, don't follow | Entrepreneurs First' matches the well-known founder accelerator; domain joinef.com confirms."
+ },
+ {
+  "id": "recU2gzix4l8jqfh5",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Nivelo | Operating System for Payroll' matches Nivelo, content fits the stated sector."
+ },
+ {
+  "id": "recU33axv0nWlBYkv",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Latent Labs' is an exact match for the known protein-design AI company (Health and Bio)."
+ },
+ {
+  "id": "recU3AmxXxCNmikZy",
+  "value": "Suspect",
+  "confidence": "high",
+  "evidence": "Landed to brandwatch.com, title 'Enterprise Consumer Research Platform | Brandwatch' — a different company, not Qriously."
+ },
+ {
+  "id": "recU3hRJdcQoMHsGB",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Homepage - Skin Analytics' matches Skin Analytics, content fits the stated sector."
+ },
+ {
+  "id": "recUBzehIqdChc3Ge",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Ferry - AI for Industrial Workflows' matches Ferry, content fits the stated sector."
+ },
+ {
+  "id": "recUHqHLd61ouBEtU",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'LabGenius Therapeutics' matches; landed labgeniustx.com is the same brand's Therapeutics-branded domain."
+ },
+ {
+  "id": "recUJjsAYu0FMDtd6",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Spotify – Web Player'; landed open.spotify.com is the same company's player subdomain."
+ },
+ {
+  "id": "recUJscWCxEorsoO1",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'b-ONE' is a phonetic match for B1 Medical; desc on orthopedic patient/healthcare web features fits Med Tech."
+ },
+ {
+  "id": "recUKTzotFFkXOS1z",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Marketplace-First Product Information Management Software |' matches Listabl, content fits the stated sector."
+ },
+ {
+  "id": "recUMgnxsWHI0iQn7",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Wevat-Tax-free shopping made simple in France' matches Wevat, content fits the stated sector."
+ },
+ {
+  "id": "recUPoQjdWLLduvVl",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Sweatcoin: Healthier planet. Healthier, wealthier you' matches Sweatcoin, content fits the stated sector."
+ },
+ {
+  "id": "recUReg4woA0L1C9F",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Ankorstore | Wholesale Marketplace Home to' matches Ankorstore, content fits the stated sector."
+ },
+ {
+  "id": "recUTqIXmGWfQ6D5A",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Home - kWh Analytics' matches kWh Analytics, content fits the stated sector."
+ },
+ {
+  "id": "recUXRAVTNVbv2qjp",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'BallerTV - Watch Live Youth Sports' matches BallerTV, content fits the stated sector."
+ },
+ {
+  "id": "recUXcCyLnok4tkgd",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Mojo | Your expert for better sex' matches name; landed mymojo.com is the same brand."
+ },
+ {
+  "id": "recUbrV30CsZ5Flot",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Analog IP the way you want' matches Agile Analog, content fits the stated sector."
+ },
+ {
+  "id": "recUc6WhMmH0vrxOY",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Liveblocks | Realtime and sync for' matches Liveblocks, content fits the stated sector."
+ },
+ {
+  "id": "recUgouGRfgpCD5ub",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Eatron Technologies - Smarter Batteries, Safer' matches Eatron Technologies, content fits the stated sector."
+ },
+ {
+  "id": "recUiOpzuc6x0F64I",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Plush | AI-Powered Fashion Search and' matches Plush, content fits the stated sector."
+ },
+ {
+  "id": "recUmFTKueAblqJZl",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'The Global Leader in Identity Verification' matches Veriff, content fits the stated sector."
+ },
+ {
+  "id": "recUsfRfeSGwaAdsx",
+  "value": "Confirmed",
+  "confidence": "medium",
+  "evidence": "Title 'Ahauz' is an exact name match but description is empty, leaving little to verify."
+ },
+ {
+  "id": "recUuoXjpuehsnAHC",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'PointFive | The AI Efficiency OS' matches PointFive, content fits the stated sector."
+ },
+ {
+  "id": "recUvyPBpt3YZyyBu",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Sourcerie: The Operating System for Customer' matches Sourcerie, content fits the stated sector."
+ },
+ {
+  "id": "recUwZfdj8dYg3rHR",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'ExpoCart | The one stop shop' matches Expocart, content fits the stated sector."
+ },
+ {
+  "id": "recUyB52aIgQMKIjd",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Symbe' and desc 'Intelligent Business Case Platform' match the Collaborative business case sector exactly."
+ },
+ {
+  "id": "recUyl3Tp1PXZcU1e",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'SparkLayer - The powerful B2B eCommerce' matches Sparklayer, content fits the stated sector."
+ },
+ {
+  "id": "recUzOpn5ODMRKf0O",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Legacy Enterprises, in the age of' matches Doczen, content fits the stated sector."
+ },
+ {
+  "id": "recUzXdpJf4MGyXuI",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'bonify: Bonität & SCHUFA im Griff.' matches Bonify, content fits the stated sector."
+ },
+ {
+  "id": "recV3yPqunHF6GyUQ",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Financial Infrastructure for Insurance | Vitesse' matches Vitesse, content fits the stated sector."
+ },
+ {
+  "id": "recV67ZWk5VUNJLT4",
+  "value": "Suspect",
+  "confidence": "high",
+  "evidence": "Title 'Apperio is now part of PERSUIT' explicitly confirms Apperio was acquired by a different company."
+ },
+ {
+  "id": "recV6lPrfjklRIKPG",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'BioOrbit | Scaling Protein Crystallisation in Microgravity' matches name and Spacetech/Biotech sector; landed bioorbit.com same brand."
+ },
+ {
+  "id": "recV8P7Cm8Px3TMor",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Rec Room' matches Rec Room, content fits the stated sector."
+ },
+ {
+  "id": "recVCMvvnsb9K1Uxm",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Home - Levellr' matches Levellr, content fits the stated sector."
+ },
+ {
+  "id": "recVErImnDk4wBsSK",
+  "value": "Confirmed",
+  "confidence": "medium",
+  "evidence": "Title still names 'enfore' but lands on newpos.ai, a different domain, suggesting a rebrand."
+ },
+ {
+  "id": "recVFTWKQoUL3oqdu",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'StudioSpace - The Agency Marketplace |' matches Studiospace, content fits the stated sector."
+ },
+ {
+  "id": "recVFZcIrfeqLVGs1",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Accounting software for every small business' matches FreeAgent, content fits the stated sector."
+ },
+ {
+  "id": "recVFj2LnRTGSWIiW",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Sonrai | Decision-Ready Evidence from Biomedical' matches Sonrai Analytics, content fits the stated sector."
+ },
+ {
+  "id": "recVN1X8Wrnrb2jqx",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Launch your WhatsApp storefront | Wassist' matches Wassist, content fits the stated sector."
+ },
+ {
+  "id": "recVRUY5LnlAK9cN4",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Title and description are both empty; nothing to confirm against ComplyStream."
+ },
+ {
+  "id": "recVT9CeEK8usrhOT",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'DeSci Labs – Empowering Researchers from' matches DeSci Labs, content fits the stated sector."
+ },
+ {
+  "id": "recVUjxEtHTcYWWB8",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Outpost Bio' and desc on AI for human microbiology match exactly."
+ },
+ {
+  "id": "recVZBzlezCU8urV4",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Desc 'off-the-shelf cancer vaccines' matches Infinitopes' known focus even though the name isn't on the page."
+ },
+ {
+  "id": "recVZIMZ9jXk8pXTY",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Discount Codes & Voucher Codes for' matches My Voucher Codes, content fits the stated sector."
+ },
+ {
+  "id": "recVacOBtL0EwgotX",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Tessaract | Legal Practice Management Software' matches Tessaract, content fits the stated sector."
+ },
+ {
+  "id": "recVhCO4n6Nb0g0Kf",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Home - AccessFintech' matches Access Fintech, content fits the stated sector."
+ },
+ {
+  "id": "recVlwb36XBSet7T3",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Employee Communication Software for HR Teams' matches ChangeEngine, content fits the stated sector."
+ },
+ {
+  "id": "recVm2I7mp9iPwmrb",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Conduct | AI Operating System for' matches Conduct, content fits the stated sector."
+ },
+ {
+  "id": "recVoDMGXv1CtR8vD",
+  "value": "Suspect",
+  "confidence": "high",
+  "evidence": "Landed to complimind.co.uk, title 'CompliMind | Building Compliance Made Simple' — a different brand name, not INNEX."
+ },
+ {
+  "id": "recVqkwKPRzbUIpBz",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Enterprise Intelligence Platform | Starburst' matches Starburst, content fits the stated sector."
+ },
+ {
+  "id": "recVwFwL72e80vyMx",
+  "value": "Confirmed",
+  "confidence": "medium",
+  "evidence": "Title is just 'Peace.com' with empty description, an exact domain/name match but no other content to verify."
+ },
+ {
+  "id": "recW1RyZ8Ls2LT2tg",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Home | Atria AI' matches Atria AI, content fits the stated sector."
+ },
+ {
+  "id": "recW388CrjgCUCJPN",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Wayve | Building Embodied AI For' matches Wayve, content fits the stated sector."
+ },
+ {
+  "id": "recW5CrRjqy7Ujm2f",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Title and description are both empty; nothing to confirm against Catch."
+ },
+ {
+  "id": "recW6Our6faJECXUj",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Nopan - We Make Account And' matches Nopan, content fits the stated sector."
+ },
+ {
+  "id": "recW7lkafi0ObEY2E",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'REalyse is the leader in the' matches REalyse, content fits the stated sector."
+ },
+ {
+  "id": "recWGRbDKuqgxPtmB",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'UnlikelyAI' matches name; desc on hallucination-free AI fits the Intelligence sector."
+ },
+ {
+  "id": "recWVbje0C1SQ6xkY",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Edgefolio - Digitising Fund Distribution' matches Edgefolio, content fits the stated sector."
+ },
+ {
+  "id": "recWW5eFqhZNRst2p",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Desc on open banking payments network matches the well-known TrueLayer business and FinTech sector, though title is empty."
+ },
+ {
+  "id": "recWXLbw5ZPr5uMr0",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'The AI Backend QA Engineer ·' matches Kerno, content fits the stated sector."
+ },
+ {
+  "id": "recWXqYSiGrgbUKgX",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Next generation food wholesalers | Collectiv' matches COLLECTIVfood, content fits the stated sector."
+ },
+ {
+  "id": "recWYPLI7wRlRoAWs",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Vooma' and desc on automating logistics quoting match exactly."
+ },
+ {
+  "id": "recWYla2dWYMKfvaa",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Firebolt: The Analytical Database for Engineers' matches Firebolt, content fits the stated sector."
+ },
+ {
+  "id": "recWYpZWUZkWXNVbc",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Faculty AI - Frontier AI for' matches Faculty, content fits the stated sector."
+ },
+ {
+  "id": "recWasJJ5t45yQX1Z",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Ochre Bio' and desc on liver-health therapies match the Healthtech sector exactly."
+ },
+ {
+  "id": "recWcQFGqqzoYmJ9t",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Focal Point | Designed for Procurement' matches FocalPoint, content fits the stated sector."
+ },
+ {
+  "id": "recWdNk608K0y8gG5",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Uncovr - Automatically turn your surgical' matches Uncovr, content fits the stated sector."
+ },
+ {
+  "id": "recWdfHf4o3dHSkoc",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Graphy - Make Beautiful Graphs Online' matches Graphy, content fits the stated sector."
+ },
+ {
+  "id": "recWe8Xv0FT2vtDLQ",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Rensair HVAC:Hacked - Rensair' matches Rensair, content fits the stated sector."
+ },
+ {
+  "id": "recWfiWsGs5golblp",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'vabble' and desc 'Convert invoices into cash' match FinTech/Supply Chain sector."
+ },
+ {
+  "id": "recWfnATGZspQ5VvS",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Albatross — The AI platform for' matches Albatross AI, content fits the stated sector."
+ },
+ {
+  "id": "recWh3P3ZhyLtJFpq",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Worldover · AI operating system for' matches Worldover, content fits the stated sector."
+ },
+ {
+  "id": "recWjiH3PrpAkI4GK",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'DataSnipper | The Agentic Platform for' matches DataSnipper, content fits the stated sector."
+ },
+ {
+  "id": "recWsxxdmPvz5pzZW",
+  "value": "Suspect",
+  "confidence": "medium",
+  "evidence": "Domain springbank.vc and desc 'we invest in the infrastructure...' read like an investment fund, not a bank."
+ },
+ {
+  "id": "recWto0PH5DhG0XsW",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Cheap International Calls and Unlimited Calling' matches Rebtel, content fits the stated sector."
+ },
+ {
+  "id": "recWyYuHmO5vCTuDC",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Plumerai' and desc on video intelligence for cameras match exactly."
+ },
+ {
+  "id": "recX2rCxzufBvnHch",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'ScreenCloud – Digital Signage Software' matches; landed screencloud.com is the same brand's domain."
+ },
+ {
+  "id": "recX30C3f5XX9g6dY",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Popp – Powering candidate conversations in' matches Popp, content fits the stated sector."
+ },
+ {
+  "id": "recX627NWKUXKKXwh",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Opereit | AI agents that audit,' matches Opereit, content fits the stated sector."
+ },
+ {
+  "id": "recXBzXft5695vEcf",
+  "value": "Confirmed",
+  "confidence": "medium",
+  "evidence": "Landed to metadataworks.ai, same brand as the domain name, but title is just 'Home' with no description to verify further."
+ },
+ {
+  "id": "recXEBynTLbkFYdVH",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Portfolio Management Software for PMOs and' matches P3MO, content fits the stated sector."
+ },
+ {
+  "id": "recXFg5f6lyvFWBTg",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Our Immersive Gaming Experiences | Indoor Gaming & Arcade' matches Immersive Gamebox's known VR arcade business."
+ },
+ {
+  "id": "recXG5bNAhz1Uvc7l",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Quest Portal - The Tabletop RPG' matches Quest Portal, content fits the stated sector."
+ },
+ {
+  "id": "recXGBSbjrXBBYHTC",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Material Evolution | Ultra-Low Carbon Cement Solutions' matches name and Materials sector; landed .com is same brand."
+ },
+ {
+  "id": "recXITTR1LYakhiU4",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Sikoia | AI Customer Verification for' matches Sikoia, content fits the stated sector."
+ },
+ {
+  "id": "recXJSdUswCsjrTq3",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Mindstone - Empower Your Team with' matches Mindstone, content fits the stated sector."
+ },
+ {
+  "id": "recXQGK1pqBRvcwBa",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Numan | Weight Loss | Blood' matches Numan, content fits the stated sector."
+ },
+ {
+  "id": "recXReCAVN3tNeYjr",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Misti AI | Physical Observability' matches Misti AI, content fits the stated sector."
+ },
+ {
+  "id": "recXXIPZ9tJdAKTTT",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Adaptive ML' and desc on tuning/serving LLMs match exactly."
+ },
+ {
+  "id": "recXbAYc0Y2vOJcwR",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Title and description are both empty; nothing to confirm against Privyr."
+ },
+ {
+  "id": "recXc2zROBl3CoMbB",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Arcube | Launch New Ancillaries with' matches Arcube, content fits the stated sector."
+ },
+ {
+  "id": "recXeD40ljj0gskgz",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Home - Opply' matches Opply, content fits the stated sector."
+ },
+ {
+  "id": "recXfAU6uwC68fh5S",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Shellworks | Plastic-Free Material Innovation' matches; landed shellworks.com is the same brand's shortened domain."
+ },
+ {
+  "id": "recXfFxsXvUpAR6Lf",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Printify: Build your eCommerce business in' matches Printify, content fits the stated sector."
+ },
+ {
+  "id": "recXfLz4WnDTag5PQ",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'SeeChange | Retail Loss Prevention Software' matches SeeChange, content fits the stated sector."
+ },
+ {
+  "id": "recXgdOOvjfxKn3aS",
+  "value": "Confirmed",
+  "confidence": "medium",
+  "evidence": "Title 'Ephla Bio' is an exact name match but description is empty, giving nothing further to verify."
+ },
+ {
+  "id": "recXgtvA5KLXOzQzV",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'The AI-Native Biopharmaceutical Company | Manas' matches Manas AI, content fits the stated sector."
+ },
+ {
+  "id": "recXhKUcFU6iLlzKU",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'MPIRIQ. We connect care with research.' matches name and Health & Bio sector; landed .de is same brand."
+ },
+ {
+  "id": "recXhx5wa0POdAUUA",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Scribe | Private markets, automated.' matches Scribe, content fits the stated sector."
+ },
+ {
+  "id": "recXiVZumSkMYJydw",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Billie | #1 Plattform für B2B-Zahlungen' matches Billie, content fits the stated sector."
+ },
+ {
+  "id": "recXj54ooUhGK84Zx",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Website Builder – Easily Create Your' matches Squarespace, content fits the stated sector."
+ },
+ {
+  "id": "recXnaHcJdxePmd6s",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'High Interest Savings Account Platform |' matches Flagstone, content fits the stated sector."
+ },
+ {
+  "id": "recXntSFJKa9JUAFq",
+  "value": "Suspect",
+  "confidence": "high",
+  "evidence": "Landed to novutech.com.br, Portuguese title 'novütech' — a differently-branded company, not alt.bank."
+ },
+ {
+  "id": "recXt2c6oPmPgVVNl",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'All-In-One Hotel Management System' matches Amenitiz's known hotel-software business, though brand name is absent."
+ },
+ {
+  "id": "recXtVP78a7UE1105",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Jack Fertility | Home-to-Lab Sperm Test' matches Jack Fertility, content fits the stated sector."
+ },
+ {
+  "id": "recXvD1aSNenaSg6V",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Plaid: Enabling all companies to build' matches Plaid, content fits the stated sector."
+ },
+ {
+  "id": "recXyKLoEOYmHo96i",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Desc 'repair shop management software... Invoices, POS, CRM' matches Shopmonkey's known auto-shop software exactly, despite empty title."
+ },
+ {
+  "id": "recXyPWhc0KhnPX2X",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'BigchainDB The blockchain database.' matches BigchainDB, content fits the stated sector."
+ },
+ {
+  "id": "recY0AG7wjunKiojH",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Jobs in London, the UK &' matches Adzuna, content fits the stated sector."
+ },
+ {
+  "id": "recY0XiAuwkW8x5ls",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Agentic document generation platform' matches Templafy, content fits the stated sector."
+ },
+ {
+  "id": "recY1bACHjEzZq6EU",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Cable – Automated Control Testing for' matches Cable, content fits the stated sector."
+ },
+ {
+  "id": "recY21azNDsiIcKRn",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Greenspark: Impact-as-a-Service for Sustainable Business' matches Greenspark, content fits the stated sector."
+ },
+ {
+  "id": "recY2temLQeVcGM4T",
+  "value": "Confirmed",
+  "confidence": "high",
+  "evidence": "Title 'Kluster | Agentic Revenue Forecasting for' matches Kluster, content fits the stated sector."
+ }
+]

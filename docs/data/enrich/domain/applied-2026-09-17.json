@@ -1,0 +1,2540 @@
+[
+ {
+  "id": "rec0uOn3uj0ffU7q1",
+  "company": "Amihan Entertainment",
+  "value": "amihan.gg",
+  "line": "2026-09-17: domain: amihan.gg (high): Title 'Amihan Entertainment' matches company; desc confirms game studio."
+ },
+ {
+  "id": "rec19MH9RjlH2hRnc",
+  "company": "Filecoin",
+  "value": "filecoin.io",
+  "line": "2026-09-17: domain: filecoin.io (high): Title 'World's Largest Decentralized Storage Network' matches DePIN/Storage sector."
+ },
+ {
+  "id": "rec1F9SmtW6pWypxQ",
+  "company": "Amplify",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): No candidate matches; all are unrelated K-12, credit union, or agency businesses."
+ },
+ {
+  "id": "rec1dh42IypdwR8Lt",
+  "company": "Secret Network",
+  "value": "scrt.network",
+  "line": "2026-09-17: domain: scrt.network (high): Desc 'Confidential Computing Layer of Web3' matches Privacy sector exactly."
+ },
+ {
+  "id": "rec1p9yqccM5pMj5J",
+  "company": "Skippr",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Candidate skippr.ai held for review (short generic name): Desc 'Live AI Employees for Onboarding, Support & Sales' fits AI part of sector."
+ },
+ {
+  "id": "rec21vQeg6Zlu5AmJ",
+  "company": "Orchestrate",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): No candidate describes a database API service; all unrelated businesses."
+ },
+ {
+  "id": "rec27YLIzmn3650s8",
+  "company": "WattStack",
+  "value": "wattstack.io",
+  "line": "2026-09-17: domain: wattstack.io (medium): Title 'Universal Stack for Energy Devices' matches name; sector blank."
+ },
+ {
+  "id": "rec2HT43tY3JuSgsq",
+  "company": "Nexcade",
+  "value": "nexcade.ai",
+  "line": "2026-09-17: domain: nexcade.ai (high): Desc 'AI agents that do real freight forwarding work' matches AI, Enterprise sector."
+ },
+ {
+  "id": "rec2SanyzGSdRwQoR",
+  "company": "Berachain",
+  "value": "berachain.com",
+  "line": "2026-09-17: domain: berachain.com (medium): Both guess and clearbit agree on this domain for the known Berachain project."
+ },
+ {
+  "id": "rec2dEMZRN0aFUCi7",
+  "company": "Anathem",
+  "value": "anathem.ai",
+  "line": "2026-09-17: domain: anathem.ai (medium): Desc 'AI for Front Line Workers' matches name; sector blank."
+ },
+ {
+  "id": "rec2ohnjepsAOjyVR",
+  "company": "GRNDHOUSE",
+  "value": "grndhouse.com",
+  "line": "2026-09-17: domain: grndhouse.com (medium): Title 'Strength Training for Busy People | GRNDHOUSE' matches name exactly."
+ },
+ {
+  "id": "rec30lUxXRlCA6r1Q",
+  "company": "WireWax",
+  "value": "wirewax.app",
+  "line": "2026-09-17: domain: wirewax.app (medium): Title 'WIREWAX Studio' matches company name exactly; sector blank."
+ },
+ {
+  "id": "rec33cR9wTAszq6xX",
+  "company": "Sesame AI",
+  "value": "sesame.com",
+  "line": "2026-09-17: domain: sesame.com (high): Desc 'Sesame builds personal agents' matches AI/ML sector and name."
+ },
+ {
+  "id": "rec3RBfD8MxmPX0Tf",
+  "company": "Weav",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Candidate weav.com held for review (short generic name): Title 'AI Customer Service Solutions | Weav' matches name exactly."
+ },
+ {
+  "id": "rec3t5uev3MRhF70s",
+  "company": "Farmstand",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): farm-stand.com is an unrelated skincare shop; farmstand.io is empty."
+ },
+ {
+  "id": "rec4Ew336ONrYCdzI",
+  "company": "Intelligence",
+  "value": "intelligence.ai",
+  "line": "2026-09-17: domain: intelligence.ai (medium): Desc 'world's most realistic model evaluations, trusted by frontier labs' fits AI startup."
+ },
+ {
+  "id": "rec4IfTlyZ0jQKmjh",
+  "company": "Libertus Capital",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Both candidates return HTTP errors with no content."
+ },
+ {
+  "id": "rec4ZFaW4AC5gf7KB",
+  "company": "Cluster HQ",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Only candidate is an unrelated Indonesian gambling site."
+ },
+ {
+  "id": "rec4f8SbbBvyhW7rD",
+  "company": "Smokeless World",
+  "value": "smokeless.world",
+  "line": "2026-09-17: domain: smokeless.world (high): Desc 'fully-automated nicotine reduction system' matches Healthcare, Hardware sector."
+ },
+ {
+  "id": "rec5AbmvNVn7EmOrr",
+  "company": "Swipe",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Candidates are vague or unrelated (design, crypto card issuer with no sector fit)."
+ },
+ {
+  "id": "rec5p9Xx1LEWjOpTG",
+  "company": "Barricade",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): barricadehq.com is a website blocker, not server security; other candidate empty."
+ },
+ {
+  "id": "rec6D6FZeQwuDGqBR",
+  "company": "Maru",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Only candidate returns HTTP 503 with no content."
+ },
+ {
+  "id": "rec7DAwsF6yw5IUwF",
+  "company": "Knowunity",
+  "value": "knowunity.de",
+  "line": "2026-09-17: domain: knowunity.de (high): Desc 'täglicher KI-Begleiter... Schulalltag' matches Education sector and name."
+ },
+ {
+  "id": "rec8pLYk8Um6sjzaI",
+  "company": "Tuza",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Only candidate page is empty with no confirming content."
+ },
+ {
+  "id": "rec90WgVNXPG4fk77",
+  "company": "Warren",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Candidate warren.co held for review (short generic name): Desc 'AI Portfolio Manager for Crypto & Stocks' matches name; sector blank."
+ },
+ {
+  "id": "rec945KlWeMXmIaxg",
+  "company": "LIV",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Only candidate is a parked domain-for-sale page."
+ },
+ {
+  "id": "recBGFkkjKJbLg7ED",
+  "company": "Karakuri",
+  "value": "karakuri.ai",
+  "line": "2026-09-17: domain: karakuri.ai (medium): Title 'KARAKURI' matches name exactly; real AI customer-service company."
+ },
+ {
+  "id": "recBQbFXJfT9ybnQa",
+  "company": "Ready Player Me",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Only candidate page is empty with no content."
+ },
+ {
+  "id": "recDKFXlZ9U5YAqMU",
+  "company": "Pave Financial",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Only candidate page is empty with no content."
+ },
+ {
+  "id": "recDQKtZ7vBH0PE4U",
+  "company": "Sorted",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): sorted.ai is a parked domain for sale; sorted.org.nz returns an error."
+ },
+ {
+  "id": "recDlGT9IaqsXhOts",
+  "company": "Liquid",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Candidates are an unrelated auction site and a crypto exchange with no clear fit."
+ },
+ {
+  "id": "recDrAdS3kFWWmQuG",
+  "company": "Hedera",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): All candidates return HTTP errors or are empty, no confirming content."
+ },
+ {
+  "id": "recDvPuotXGWcZxHE",
+  "company": "Authologic",
+  "value": "authologic.com",
+  "line": "2026-09-17: domain: authologic.com (high): Desc 'Automate KYC, KYB & AML' matches Cybersecurity, Fintech sector exactly."
+ },
+ {
+  "id": "recDz230oif4b3qwe",
+  "company": "Emergent Energy",
+  "value": "emergent.energy",
+  "line": "2026-09-17: domain: emergent.energy (medium): Desc 'solar is for everyone... social housing' fits Ascension's impact focus."
+ },
+ {
+  "id": "recE9TUAAVwIJ4LcL",
+  "company": "Urban",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Candidate urban.co held for review (short generic name): Desc 'Book a massage at home' matches known Urban startup; sector blank."
+ },
+ {
+  "id": "recE9a3PzP6gh8Ebo",
+  "company": "Work With Data",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): workwithdata.io is a job board, not an Applied AI company; mismatched business."
+ },
+ {
+  "id": "recEBF4tK1yKP2ktU",
+  "company": "We Are Digital",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Candidates are unrelated Belgian/Dutch agencies; none confirm Ascension's company."
+ },
+ {
+  "id": "recEBtT6rI7d82aog",
+  "company": "Súper",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): All candidates are parked-for-sale or unrelated grocery chain."
+ },
+ {
+  "id": "recECBK6OFA9183xq",
+  "company": "Pickr",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Candidates are domain-for-sale listings or unconfirmed eCommerce site."
+ },
+ {
+  "id": "recEEi54IXI1P1Y9e",
+  "company": "Albert",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Candidate albert.com held for review (short generic name): Desc 'personal financial assistant... 20 million+ people' matches known Albert app."
+ },
+ {
+  "id": "recEIHTgMb23wmcmk",
+  "company": "Thursday",
+  "value": "thursday.com",
+  "line": "2026-09-17: domain: thursday.com (medium): Title 'Thursday Events, Everyone Single' matches known dating startup; sector blank."
+ },
+ {
+  "id": "recENY5Vfg7MgYV0G",
+  "company": "Brightflag",
+  "value": "brightflag.com",
+  "line": "2026-09-17: domain: brightflag.com (high): Desc 'Legal spend management: e-billing and matter management' matches Legal tech sector."
+ },
+ {
+  "id": "recEiOmwvzIfxDuSO",
+  "company": "Ezra",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Candidate helloezra.com held for review (short generic name): Desc 'enterprise coaching platform trusted by Microsoft' matches known Ezra company."
+ },
+ {
+  "id": "recEv1IFy5TWqeKfa",
+  "company": "Satago",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Candidate satago.com held for review (short generic name): Title 'Satago' matches name exactly; known invoice finance fintech."
+ },
+ {
+  "id": "recEvezZux38b2qJq",
+  "company": "Accelex",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): All candidates return HTTP 403 with no confirming title or desc."
+ },
+ {
+  "id": "recEyBic6rU2EAGCB",
+  "company": "Greendeck",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Candidates show unrelated intranet page, 'coming soon', or vague content."
+ },
+ {
+  "id": "recFXdvk6C3yejTJ3",
+  "company": "Hesta Health",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Only candidate page is empty with no content."
+ },
+ {
+  "id": "recFZm9owr8cakZ9T",
+  "company": "Low Carbon Materials",
+  "value": "lowcarbonmaterials.com",
+  "line": "2026-09-17: domain: lowcarbonmaterials.com (high): Desc 'Construction Innovation Partner... Carbon Negative Additives' matches Climate Equity sector."
+ },
+ {
+  "id": "recFbIk0G08woySRo",
+  "company": "Goji",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): gojilabs.com is an agency not the company; other candidates unrelated or errored."
+ },
+ {
+  "id": "recFvQVX4xIeK3eL3",
+  "company": "Synkka",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Candidate synkka.ai held for review (short generic name): Desc 'Growth & Operational Platform for Carriers' matches name; sector blank."
+ },
+ {
+  "id": "recFvpq7QVSfkknNE",
+  "company": "Ineffable",
+  "value": "ineffable.ai",
+  "line": "2026-09-17: domain: ineffable.ai (medium): Desc 'AI research company... make first contact with superintelligence' matches name."
+ },
+ {
+  "id": "recG3IyzKyH2Ni1JW",
+  "company": "Temporal",
+  "value": "temporal.io",
+  "line": "2026-09-17: domain: temporal.io (medium): Desc 'Build invincible apps with Temporal' matches well-known company; sector blank."
+ },
+ {
+  "id": "recG7UlmPg5pd79wg",
+  "company": "PortalOne",
+  "value": "portal.one",
+  "line": "2026-09-17: domain: portal.one (medium): Desc 'central AI agent platform' matches name PortalOne; sector blank."
+ },
+ {
+  "id": "recGKrQn7y3ftvFk6",
+  "company": "Narrative",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Only candidate page is empty with no content."
+ },
+ {
+  "id": "recH9N4Pk2Nc4mJ3H",
+  "company": "Kernel",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): kerneldatarecovery.com is a data-recovery tool, not RevOps/AI; mismatched business."
+ },
+ {
+  "id": "recHXujEnKBXZOb9L",
+  "company": "Because",
+  "value": "becausemarket.com",
+  "line": "2026-09-17: domain: becausemarket.com (medium): Desc 'Because: Personal Care, Discreetly Delivered' matches name; sector blank."
+ },
+ {
+  "id": "recHfXOjbgfzEYT1s",
+  "company": "Pace",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Only candidate returns HTTP 404 with no content."
+ },
+ {
+  "id": "recHibsx6KoadFNNz",
+  "company": "Tapaya",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Candidate tapaya.com held for review (short generic name): Desc 'payment app that runs anywhere, Tapaya' matches name exactly; sector blank."
+ },
+ {
+  "id": "recHr53lOUewcFFaw",
+  "company": "Rensource",
+  "value": "rensource.energy",
+  "line": "2026-09-17: domain: rensource.energy (high): Desc 'Africa's commercial and industrial energy partner... solar' matches Energy sector."
+ },
+ {
+  "id": "recHrgyMyGvND1fAu",
+  "company": "Enso",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Candidates are Turkish news, rings, and aesthetics clinics; none match."
+ },
+ {
+  "id": "recHudl2DmwXjArJo",
+  "company": "Bonfire",
+  "value": "bonfire.com",
+  "line": "2026-09-17: domain: bonfire.com (medium): Desc 'Design your own custom merch' matches name; well known startup, sector blank."
+ },
+ {
+  "id": "recHyGl4eDgpNTOBd",
+  "company": "MindGreens",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Only candidate page is empty with no content."
+ },
+ {
+  "id": "recI3AejHfmg0bEwE",
+  "company": "Covariant.ai",
+  "value": "covariant.ai",
+  "line": "2026-09-17: domain: covariant.ai (medium): Title 'Covariant' matches name exactly; known robotics AI company, sector blank."
+ },
+ {
+  "id": "recI7F6yiYmxQ6emQ",
+  "company": "Power (Data",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): No candidate confirms a matching business; titles are empty or unrelated."
+ },
+ {
+  "id": "recIM5B9oI7EVSuQ5",
+  "company": "Bother",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): botherwise.com is a differently-named sustainability firm; others empty/errored."
+ },
+ {
+  "id": "recINxIfue5Y9j2Tg",
+  "company": "Astelia",
+  "value": "astelia.io",
+  "line": "2026-09-17: domain: astelia.io (medium): Desc 'AI-Native Exposure Management' fits real tech startup; sector blank."
+ },
+ {
+  "id": "recIWoAeDhnVCJEZ1",
+  "company": "Trussle",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Both candidates are empty pages with no content."
+ },
+ {
+  "id": "recIXPlKTzYwXurxV",
+  "company": "Rize",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): rize.io is a time-tracking tool unrelated to Anthemis's fintech focus; risk of collision."
+ },
+ {
+  "id": "recIdEjnHklFuayyq",
+  "company": "AgentBay",
+  "value": "agentbay.ai",
+  "line": "2026-09-17: domain: agentbay.ai (medium): Desc 'Build your own AI agent' partially matches Commerce/AI sector."
+ },
+ {
+  "id": "recIfZUTL3rlOiKzo",
+  "company": "Sprive",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Candidates are an unrelated wedding venue and an errored page."
+ },
+ {
+  "id": "recImXDrGTDKqxZeX",
+  "company": "Crowd Data Systems",
+  "value": "crowddatasystems.com",
+  "line": "2026-09-17: domain: crowddatasystems.com (medium): Title 'CDS' with exact domain-name match; sector blank, minimal desc."
+ },
+ {
+  "id": "recIqwWAzut3SwAYl",
+  "company": "Unwritten",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): No candidate clearly matches FinTech; media platform and climate-risk tool don't align."
+ },
+ {
+  "id": "recItqHux9hE4048O",
+  "company": "Garner Health",
+  "value": "garnerhealth.com",
+  "line": "2026-09-17: domain: garnerhealth.com (medium): Desc 'Doctor Quality Analytics' matches known Garner Health company; sector blank."
+ },
+ {
+  "id": "recJBU0Ka1LEzMKkS",
+  "company": "Kuano",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Candidate kuano.ai held for review (short generic name): Title 'Kuano' exact match; known AI drug-discovery startup, sector blank."
+ },
+ {
+  "id": "recKZbOJDAbLyPzN4",
+  "company": "Ambient",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Neither candidate describes a multiplayer game engine."
+ },
+ {
+  "id": "recLKL9dAqPgunFuw",
+  "company": "Vidya Health",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Only candidate is a parked domain for sale."
+ },
+ {
+  "id": "recLXwLDW1tqDosIm",
+  "company": "Thread",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): No candidate matches known 'Thread' menswear styling business."
+ },
+ {
+  "id": "recMS96jyyHukTMG5",
+  "company": "Lunasa Space",
+  "value": "lunasaspace.com",
+  "line": "2026-09-17: domain: lunasaspace.com (high): Title 'Lúnasa Advancing Space Infastructure' matches Aerospace sector and name."
+ },
+ {
+  "id": "recMesOOWFYDOEQvb",
+  "company": "Magnify",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): magnifyworld.com is an AR/VR summit site, not Healthtech; mismatched business."
+ },
+ {
+  "id": "recMl4Y8rmfDI8LHp",
+  "company": "Reya",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): No candidate describes a Fintech business; real estate and longevity clinic mismatches."
+ },
+ {
+  "id": "recMsUqBXe57dP54U",
+  "company": "LingoLabs",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Both candidates are empty or errored with no content."
+ },
+ {
+  "id": "recNJuEZr77obnzi2",
+  "company": "GoodFit",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): goodfit.com is a dental technology company, mismatched business type."
+ },
+ {
+  "id": "recNwOFJRtzivNu6S",
+  "company": "Limbo",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): All three candidates are empty pages with no content."
+ },
+ {
+  "id": "recO7ONaz3dlqcRxr",
+  "company": "Pomelo",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Candidate pomelo.la held for review (short generic name): Desc 'tarjetas de crédito, débito y prepago' matches known LatAm fintech Pomelo."
+ },
+ {
+  "id": "recOALk1S1ZzFasf8",
+  "company": "Aseon",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Only candidate is an unrelated US employer association."
+ },
+ {
+  "id": "recOQqyCUKYHXrEaf",
+  "company": "OnDevice",
+  "value": "getondevice.com",
+  "line": "2026-09-17: domain: getondevice.com (high): Desc 'hybrid inference engine for moving cloud-based LLM traffic on-device' matches AI Infrastructure sector."
+ },
+ {
+  "id": "recOSgGYyvJWjBZS3",
+  "company": "ROVR",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): No candidate describes a DePIN business; parked domains and unrelated Wi-Fi scorer."
+ },
+ {
+  "id": "recOmx6uHuIQNRx4E",
+  "company": "Nested",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Candidate nested.com held for review (short generic name): Desc 'Nested Estate Agents' matches well-known Nested startup; sector blank."
+ },
+ {
+  "id": "recOqLX1QYn0kJIx7",
+  "company": "Toothpick",
+  "value": "toothpickdentalstaff.com",
+  "line": "2026-09-17: domain: toothpickdentalstaff.com (medium): Title references dental staffing, matching Toothpick's known business; sector blank."
+ },
+ {
+  "id": "recOrYI7fLzH9QQpU",
+  "company": "Oradian",
+  "value": "oradian.com",
+  "line": "2026-09-17: domain: oradian.com (high): Desc 'AI-Native Core Banking Software for Emerging Markets' matches Fintech sector."
+ },
+ {
+  "id": "recOtwOs4wGLBDN4u",
+  "company": "Seldon",
+  "value": "seldon.io",
+  "line": "2026-09-17: domain: seldon.io (high): Desc 'Take Control of ML and AI Complexity' matches AI Infrastructure sector."
+ },
+ {
+  "id": "recOxoWty7Vm9YYMO",
+  "company": "Quantive",
+  "value": "quantive.co",
+  "line": "2026-09-17: domain: quantive.co (medium): Title 'Quantive' matches name exactly; sector blank."
+ },
+ {
+  "id": "recP7iGj5WpqjndPM",
+  "company": "Fin Mile",
+  "value": "finmile.co",
+  "line": "2026-09-17: domain: finmile.co (medium): Desc 'AI workers for logistics and field operations - Finmile' matches name."
+ },
+ {
+  "id": "recPAhUfUM7Y1ALFA",
+  "company": "Next Matter",
+  "value": "nextmatter.com",
+  "line": "2026-09-17: domain: nextmatter.com (high): Desc 'AI orchestration for financial services' fits Enterprise Productivity sector and name."
+ },
+ {
+  "id": "recPJwmtDuINdfco9",
+  "company": "Property.Works",
+  "value": "propertyworks.com",
+  "line": "2026-09-17: domain: propertyworks.com (medium): Desc 'Occupant-Driven Lease Management' matches name; sector blank."
+ },
+ {
+  "id": "recPMhMv0blCRiZ3b",
+  "company": "Burbank",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): All candidates are unrelated utility, school district, directory, or government sites."
+ },
+ {
+  "id": "recPRGbIre0P3K8Mx",
+  "company": "rideOS",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): rideosoftware.com is an unrelated Barcelona app agency; rideos.io page is empty."
+ },
+ {
+  "id": "recPS9iugvaODxQ8a",
+  "company": "Happl",
+  "value": "happl.com",
+  "line": "2026-09-17: domain: happl.com (high): Desc 'Global Employee Benefits Platform... AI to reduce admin' matches Future of Work sector."
+ },
+ {
+  "id": "recPUMW46ECKbc5mp",
+  "company": "Arca",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): No candidate matches; university, arcade cabinets, clinic, and unrelated 'Sesami' site."
+ },
+ {
+  "id": "recPa9ntret4H9OQL",
+  "company": "FlexionAI",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Only candidate page is empty with no content."
+ },
+ {
+  "id": "recPbvShWte4lDxJ9",
+  "company": "Rohlik",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Only candidate page is empty with no content."
+ },
+ {
+  "id": "recPf2FBFPb7REObz",
+  "company": "Armada Interactive",
+  "value": "armadainteractive.com",
+  "line": "2026-09-17: domain: armadainteractive.com (medium): Desc 'Helsinki-based gaming startup' matches name exactly, though sector says Fintech."
+ },
+ {
+  "id": "recPib6LbplP6gBhw",
+  "company": "Fraugster",
+  "value": "fraugster.com",
+  "line": "2026-09-17: domain: fraugster.com (medium): Desc 'Unified AI platform... fraud protection' matches known Fraugster startup; sector blank."
+ },
+ {
+  "id": "recPuafC88lMSUQ75",
+  "company": "Plural",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Candidate plural.io held for review (short generic name): Desc 'Digital Service Personnel... automate tasks' loosely matches Marketplace sector."
+ },
+ {
+  "id": "recPv6ASR8rgspcr9",
+  "company": "Circles",
+  "value": "circles.life",
+  "line": "2026-09-17: domain: circles.life (medium): Desc describes known Circles.Life telecom startup; sector 'Other' is vague."
+ },
+ {
+  "id": "recPxPZQv8Km8g7hd",
+  "company": "Timetric",
+  "value": "timetricsrisk.com",
+  "line": "2026-09-17: domain: timetricsrisk.com (medium): Desc 'Strategic Risk Solutions... KPI data analytics' fits Anthemis's risk/insurtech focus."
+ },
+ {
+  "id": "recPxwsiBQDH1tynv",
+  "company": "Flagship",
+  "value": "flagship.ai",
+  "line": "2026-09-17: domain: flagship.ai (medium): Desc 'Retail Visual Merchandising Platform' matches name exactly; sector blank."
+ },
+ {
+  "id": "recQLjg5HJPdulRju",
+  "company": "Branchtrack",
+  "value": "branchtrack.com",
+  "line": "2026-09-17: domain: branchtrack.com (medium): Desc 'Experiential Learning Platform' matches name exactly; sector blank."
+ },
+ {
+  "id": "recQNalQnMKmT7z3P",
+  "company": "Two",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): two.co is parked for sale; two.health is an unrelated digital health network."
+ },
+ {
+  "id": "recQOfm1BhQwhzpPt",
+  "company": "Tably",
+  "value": "tably.com",
+  "line": "2026-09-17: domain: tably.com (high): Desc 'all-in-one data tool... 500+ connectors' matches Enterprise sector and name."
+ },
+ {
+  "id": "recQXUGkA8rDDVBkw",
+  "company": "Tema",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): No candidate confirms a matching business; polytechnic and errored pages."
+ },
+ {
+  "id": "recQcDbeABZbDR67F",
+  "company": "Daybridge",
+  "value": "daybridge.com",
+  "line": "2026-09-17: domain: daybridge.com (medium): Desc 'One calendar for work and life' matches name exactly; sector blank."
+ },
+ {
+  "id": "recQe1ttGhwU6Dr6I",
+  "company": "V&ME",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Candidate vandme.co.uk held for review (short generic name): Desc 'Fresh Baby & Kids Food Delivery London | V&Me' matches name exactly."
+ },
+ {
+  "id": "recQw4yP2kGdGUMJc",
+  "company": "Revyze",
+  "value": "revyze.fr",
+  "line": "2026-09-17: domain: revyze.fr (high): Desc 'Apprends en scrollant' matches name and EdTech sector."
+ },
+ {
+  "id": "recR0x8lsxrryQlhr",
+  "company": "Laminar",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): All candidates show only generic 'Home' titles with no confirming content."
+ },
+ {
+  "id": "recRDKIVfjXTY7nL4",
+  "company": "HomeTouch",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): hometouch.co is an unrelated luxury crockery site; others empty."
+ },
+ {
+  "id": "recRE2Z15T8lXe7pf",
+  "company": "Auryx",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): auryx.co.uk is a hosting holding page; auryx.app is empty."
+ },
+ {
+  "id": "recRHogtFX1KaywAm",
+  "company": "Countly",
+  "value": "countly.com",
+  "line": "2026-09-17: domain: countly.com (medium): Desc 'First-party Digital Analytics And Customer Engagement' matches name exactly; sector blank."
+ },
+ {
+  "id": "recROimSmlCfFP9Qn",
+  "company": "Life Supplies",
+  "value": "lifesupplies.com",
+  "line": "2026-09-17: domain: lifesupplies.com (medium): Desc 'Premium Oral Care' matches name exactly; sector blank."
+ },
+ {
+  "id": "recRPVqqRQNcHxL8M",
+  "company": "Modern Intelligence",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Only candidate page is empty with no content."
+ },
+ {
+  "id": "recRRXhYnpZ3vTSbN",
+  "company": "Loveshark",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Only candidate page is empty with no content."
+ },
+ {
+  "id": "recRUPupj8UViH3fQ",
+  "company": "AskVinny",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Both candidates are effectively empty with no confirming description."
+ },
+ {
+  "id": "recRWl74OmXIoQdtz",
+  "company": "Localistico",
+  "value": "localistico.com",
+  "line": "2026-09-17: domain: localistico.com (high): Desc 'local marketing and analytics platform for brick-and-mortar' matches sector exactly."
+ },
+ {
+  "id": "recRasfslM9JkRpaf",
+  "company": "Calliper",
+  "value": "getcalliper.com",
+  "line": "2026-09-17: domain: getcalliper.com (high): Desc 'collaborative analytics platform... monitor health of your company' matches Data Analytics sector."
+ },
+ {
+  "id": "recRbuyc9Ww1do5j9",
+  "company": "Emblematic",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): No candidate confirms a matching Passion Capital startup; agency/branding sites unrelated."
+ },
+ {
+  "id": "recRkLswkoPw7eqp1",
+  "company": "Limejump",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Only page is Shell's historical note on an acquired/defunct Limejump; other is parked."
+ },
+ {
+  "id": "recRloRiJaXoPxiWS",
+  "company": "Novai",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Candidates are unrelated IVF clinic, city government, and unconfirmed AI directory."
+ },
+ {
+  "id": "recRn96nZ9Ea7u6zh",
+  "company": "Mixlr",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Candidate mixlr.com held for review (short generic name): Desc 'Broadcast Live Audio' matches known Mixlr startup exactly; sector blank."
+ },
+ {
+  "id": "recRvnYWpl4zkFvq4",
+  "company": "Patients Know Best",
+  "value": "patientsknowbest.com",
+  "line": "2026-09-17: domain: patientsknowbest.com (medium): Desc 'World's Largest Personal Health Record' matches known company exactly."
+ },
+ {
+  "id": "recS1HmFiM9BpZex3",
+  "company": "Moo",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Candidate moo.com held for review (short generic name): Desc 'Professional Custom Printing... MOO' matches well-known company; sector blank."
+ },
+ {
+  "id": "recS1uoaZXIOZT1lo",
+  "company": "Rentify",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): All candidates are parked, empty, or a differently-named India company."
+ },
+ {
+  "id": "recS3SfQv3XmHS6dT",
+  "company": "Andela",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Candidate andela.com held for review (short generic name): Desc 'Human Layer Powering Production AI' matches known Andela company; sector blank."
+ },
+ {
+  "id": "recS8mRrXpPNBf95Q",
+  "company": "Diem",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Candidate diemhq.com held for review (short generic name): Title 'Diem' with matching HQ-style domain; sector blank, minimal desc."
+ },
+ {
+  "id": "recS97GDEhAlhqgpl",
+  "company": "Moca",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): No candidate matches Cultural Economy sector; museum, manufacturer, and unrelated verticals."
+ },
+ {
+  "id": "recSE6Kqf29dpKqPV",
+  "company": "Twice",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Only candidate returns HTTP 403 with no content."
+ },
+ {
+  "id": "recT5c7eu8uRDzu2F",
+  "company": "Remato",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Candidate remato.com held for review (short generic name): Desc 'All-in-One Construction Management Software' matches name exactly; sector blank."
+ },
+ {
+  "id": "recTbfi9AygIQOSJj",
+  "company": "Land Insight",
+  "value": "landinsight.co",
+  "line": "2026-09-17: domain: landinsight.co (medium): Desc 'Environmental Risk Data | Land Insight' matches name exactly; sector blank."
+ },
+ {
+  "id": "recTfI3Fwb0vs7l0d",
+  "company": "Sesame Labs",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Only candidate page is empty with no content."
+ },
+ {
+  "id": "recTiwtlrb2PB7zbK",
+  "company": "Burrow",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Candidate burrow.io held for review (short generic name): Desc 'Instant Secure Tunnels' fits a VC-backed dev-tool startup; sector blank."
+ },
+ {
+  "id": "recTjDtFyGNEO06S2",
+  "company": "Honest Mobile",
+  "value": "honestmobile.com",
+  "line": "2026-09-17: domain: honestmobile.com (medium): Desc 'mobile done right... SIM-only plans' matches name exactly; sector blank."
+ },
+ {
+  "id": "recTkp19D3i1PVY0N",
+  "company": "Voxmind",
+  "value": "voxmind.ai",
+  "line": "2026-09-17: domain: voxmind.ai (medium): Desc 'Deepfake-Resistant Advanced Voice Biometrics' matches name exactly; sector blank."
+ },
+ {
+  "id": "recU6BaxZUnlfvS8J",
+  "company": "Replan",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Candidate replan.tech held for review (short generic name): Title reads 'Simplify complex supply chain planning with Replan', matching company name; sector unspecified."
+ },
+ {
+  "id": "recUDHkycX801ArMS",
+  "company": "Eterna Regeneratives",
+  "value": "eternaregeneratives.co",
+  "line": "2026-09-17: domain: eternaregeneratives.co (medium): Title 'Eterna Regeneratives - Regenerative biomaterials' matches company name exactly."
+ },
+ {
+  "id": "recUEVnxUfts9WcNR",
+  "company": "Amilis",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Candidate amilis.co.uk held for review (short generic name): Title 'Amilis | Clinical Data Infrastructure for Women's Health' matches name, plausible health-tech startup."
+ },
+ {
+  "id": "recUGqRwSn77TxX3v",
+  "company": "Neo4j",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Empty title/description; no content to confirm Neo4j identity."
+ },
+ {
+  "id": "recUHUmCI8rEeV1aO",
+  "company": "Greg",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): All three domains return HTTP 403 with no title/description."
+ },
+ {
+  "id": "recUI3IQFa2AwZxIT",
+  "company": "Pinipa",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Domain sells Italian menswear ('Pini Parma Pure Italian Style'), unrelated business."
+ },
+ {
+  "id": "recUVMdpA0hcD5Mwr",
+  "company": "CultureAI",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): cultureai.ai returns HTTP 404, no content available."
+ },
+ {
+  "id": "recUcHIsTqTGRTPDs",
+  "company": "Pinata Farms",
+  "value": "pinatafarm.com",
+  "line": "2026-09-17: domain: pinatafarm.com (medium): Title 'Pinata Farms - The best meme generator' matches company name."
+ },
+ {
+  "id": "recUm3zU9FWNHDsvU",
+  "company": "Night Zookeeper",
+  "value": "nightzookeeper.com",
+  "line": "2026-09-17: domain: nightzookeeper.com (medium): Title 'Night Zookeeper | Reading & Writing Program for Kids' matches name exactly."
+ },
+ {
+  "id": "recUs30z8vkbRbwYr",
+  "company": "Lodgify",
+  "value": "lodgify.com",
+  "line": "2026-09-17: domain: lodgify.com (medium): Site blocks scraping (HTTP 403) but domain is exact match, found by both guess and Clearbit."
+ },
+ {
+  "id": "recUvbGTwhWTU7Zv1",
+  "company": "Claimer",
+  "value": "claimer.com",
+  "line": "2026-09-17: domain: claimer.com (high): Title 'Claimer - R&D Tax Credit Software for Advisors' matches name and Tax/Automation sector."
+ },
+ {
+  "id": "recUymtimxLkpPLyc",
+  "company": "Tanaza",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Candidate tanaza.com held for review (short generic name): Title 'Tanaza - Cloud Management Platform for WiFi Access Points' matches name."
+ },
+ {
+  "id": "recUzlHDxVnpa8rA8",
+  "company": "Stablepharma",
+  "value": "stablepharma.com",
+  "line": "2026-09-17: domain: stablepharma.com (medium): Title 'Fridge Free Vaccines and Pharmaceuticals - Stablepharma' matches name exactly."
+ },
+ {
+  "id": "recV2QOYiWNFbfZU8",
+  "company": "Comtravo",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): No candidate shows 'Comtravo'; navan.com is an unrelated rebranded company."
+ },
+ {
+  "id": "recV6JJI8XpnlLgKb",
+  "company": "Beyond Aero",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): beyondaero.com sells bicycles ('Cycling | Gravel | Triathlon'), unrelated to hydrogen aviation."
+ },
+ {
+  "id": "recVG68LNffNPAEfV",
+  "company": "Tessian",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): All Tessian candidates have empty titles/descriptions; no confirming content."
+ },
+ {
+  "id": "recVPnv9zK5JBAhGU",
+  "company": "Adazza",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): adazza.com title and description are both empty despite dual-method match."
+ },
+ {
+  "id": "recVnc5XqPUUcsxek",
+  "company": "Drop",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Neither candidate matches a baking app/hardware company named Drop."
+ },
+ {
+  "id": "recVtbXhh2bvAX7ku",
+  "company": "Autopaid",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): autopaid.co.uk returns HTTP 525 with no content."
+ },
+ {
+  "id": "recVw5HklnOy2b7fe",
+  "company": "Mendeley",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): mendeley.io looks like a third-party download aggregator, not an official product site."
+ },
+ {
+  "id": "recVyaPFx2DJf5TCa",
+  "company": "Verb",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): No candidate (Verbling, Verbal Commits, Verbraucherzentrale) matches company 'Verb'."
+ },
+ {
+  "id": "recWKCrP0zbN7mK1N",
+  "company": "Flexa",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): None of Flexa's candidates (commerce, health, energy) matches 'Economic Empowerment' sector."
+ },
+ {
+  "id": "recWh3tiucDu0OTLJ",
+  "company": "Inicio AI",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): inicioai.com has empty title/description, no confirming content."
+ },
+ {
+  "id": "recWwxWMghB1Qreik",
+  "company": "Mavrx",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): No Mavrx candidate shows real matching business content."
+ },
+ {
+  "id": "recX2GOor19HVctZP",
+  "company": "Erply",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Candidate erply.com held for review (short generic name): Title 'Cloud Retail POS & Inventory Management Software - Erply' matches name."
+ },
+ {
+  "id": "recX3FFYpSWadpxD4",
+  "company": "OrangeWood",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): orangewoodguitars.com sells guitars, unrelated to Robotics/AI sector."
+ },
+ {
+  "id": "recX49dEDKmtg1bjX",
+  "company": "Birdi",
+  "value": "birdi.io",
+  "line": "2026-09-17: domain: birdi.io (high): Title 'Birdi | The Geospatial AI Workspace for Teams' matches name and satellite/analytics sector."
+ },
+ {
+  "id": "recX5EGpToynfuSUs",
+  "company": "Altitude",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): No Altitude candidate matches Web3/Fintech; all are sporting goods or parked domains."
+ },
+ {
+  "id": "recX5Qj9wKMnMV7KC",
+  "company": "SE3",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): se3.app is a Bangladeshi sports betting site, unrelated business."
+ },
+ {
+  "id": "recX5zY4uqTHxeEt1",
+  "company": "Labstep",
+  "value": "labstep.com",
+  "line": "2026-09-17: domain: labstep.com (medium): Title 'Labstep: Leverage the Full Power of Your Research' matches name."
+ },
+ {
+  "id": "recX8itshC6ie2pFQ",
+  "company": "Artifact",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): No candidate matches 'Artifact' with Hardware/AI business; real estate and accounting unrelated."
+ },
+ {
+  "id": "recXFji9GtyKeNzdg",
+  "company": "Bezos.ai",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): No candidate shows 'Bezos.ai' branding with confirming content."
+ },
+ {
+  "id": "recXQ7tYDpvasFquj",
+  "company": "Kalo",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): No Kalo candidate matches; calorie tables, appliances, and agriculture are unrelated."
+ },
+ {
+  "id": "recXTPIYyBFvUEeEv",
+  "company": "Equify",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): No Equify candidate matches HR/Equity business; horse feed and PE firm unrelated."
+ },
+ {
+  "id": "recXdIpDLdOBy93hu",
+  "company": "NumberEight",
+  "value": "numbereight.ai",
+  "line": "2026-09-17: domain: numbereight.ai (medium): Title 'NumberEight | Unlock new revenue with ID-less audience intelligence' matches name."
+ },
+ {
+  "id": "recXq86LwRlS7ZXbU",
+  "company": "Check",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Candidate checkhq.com held for review (short generic name): Title 'Payroll Infrastructure for Platforms | Check' matches company name Check."
+ },
+ {
+  "id": "recY4gtVJf8NtV5IU",
+  "company": "Cowbell Cyber",
+  "value": "cowbell.insure",
+  "line": "2026-09-17: domain: cowbell.insure (high): Title 'Cowbell - AI-Native Specialty Insurance' matches name and Insurance & Risk Management sector."
+ },
+ {
+  "id": "recYNaQAGVIZILh13",
+  "company": "HotelRunner",
+  "value": "hotelrunner.com",
+  "line": "2026-09-17: domain: hotelrunner.com (medium): Title 'HotelRunner | A Sales-First Approach to Hospitality' matches name exactly."
+ },
+ {
+  "id": "recYjaaIvjSg67gDQ",
+  "company": "Globechain",
+  "value": "globechain.com",
+  "line": "2026-09-17: domain: globechain.com (medium): Title 'Globechain the ESG Reuse Marketplace' matches name exactly."
+ },
+ {
+  "id": "recYoSiKKE6Vc3uPO",
+  "company": "Causal",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Candidate causal.app held for review (short generic name): Title 'Causal is now part of Lucanet' confirms Causal as real product."
+ },
+ {
+  "id": "recZ1e2SuJZvBsuj4",
+  "company": "Trickest",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): trickest.app has empty title/description, no confirming content."
+ },
+ {
+  "id": "recZ6QuzuY2k2rhrs",
+  "company": "Sano",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): sano.co.uk shows only generic marketing text, no confirming business detail."
+ },
+ {
+  "id": "recZNdMi0YLQWTA8N",
+  "company": "xAI",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): No xAI candidate content matches company; domains for sale or unrelated."
+ },
+ {
+  "id": "recZZmkHTZtef9T5u",
+  "company": "home",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): No 'home' candidate matches Vertical SaaS business with confirming content."
+ },
+ {
+  "id": "recaKyJuG6xg9pSsc",
+  "company": "Factual",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): No Factual candidate shows the company; mortgage data firm and NGO are unrelated."
+ },
+ {
+  "id": "recaNKfBUh0tEz23i",
+  "company": "Scriptic",
+  "value": "scriptic.com",
+  "line": "2026-09-17: domain: scriptic.com (high): Title 'Scriptic - BAFTA Nominated Game Studio' matches name and Gaming sector."
+ },
+ {
+  "id": "recaVLDoqDtVhdLcK",
+  "company": "Sugar",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): No Sugar candidate matches; shopping agent, recipes, and domain sale unrelated."
+ },
+ {
+  "id": "recacsHg7gVXBwMep",
+  "company": "Wealthkernel",
+  "value": "wealthkernel.com",
+  "line": "2026-09-17: domain: wealthkernel.com (medium): Title 'WealthKernel - Powering Digital Investing' matches name exactly."
+ },
+ {
+  "id": "recadGlB7me74OHip",
+  "company": "wedo",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Candidate wedo.com held for review (short generic name): Title/desc 'WEDO ist die sichere Plattform fur Sitzungen' matches brand name WEDO."
+ },
+ {
+  "id": "recaeW8oGVDjHqPwi",
+  "company": "Pointy",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Pointy was acquired by Google; no independent company domain among candidates."
+ },
+ {
+  "id": "recaiCxhpijd0u9s5",
+  "company": "Fronted",
+  "value": "fronted.com",
+  "line": "2026-09-17: domain: fronted.com (medium): Title 'Scale your company with global hiring done right | Fronted' matches name."
+ },
+ {
+  "id": "recatyDK7v8GfkYsj",
+  "company": "OLIX",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Candidate olix.co.uk held for review (short generic name): Title 'Olix | High Quality Security Equipment' matches name, loosely fits Manufacturing."
+ },
+ {
+  "id": "recawU1StbdgKJwv9",
+  "company": "SteadyPay",
+  "value": "steadypay.co",
+  "line": "2026-09-17: domain: steadypay.co (medium): Title 'SteadyPay: Instant GBP50-500 Loan with No Interest' matches name exactly."
+ },
+ {
+  "id": "recb6mrImcnCs9SAa",
+  "company": "Simbe Robotics",
+  "value": "simberobotics.com",
+  "line": "2026-09-17: domain: simberobotics.com (high): Title 'Simbe | The Leader in Physical AI and Robotics for Retail' matches name and sector."
+ },
+ {
+  "id": "recbCZshqMSIOjH5c",
+  "company": "Spill",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): No Spill candidate matches Healthy Ageing sector; entertainment and gaming sites unrelated."
+ },
+ {
+  "id": "recbE38NpNSJTnGgs",
+  "company": "Membrane",
+  "value": "membrane.io",
+  "line": "2026-09-17: domain: membrane.io (medium): Title 'Membrane: build automation tools and simplify interaction with APIs' matches name."
+ },
+ {
+  "id": "recbJlj0vQH57PmfS",
+  "company": "ExSeed",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Candidate exseedhealth.com held for review (short generic name): Domain matches 'ExSeed' brand; content is a home male fertility test (health startup)."
+ },
+ {
+  "id": "recbXjHrXCEoLi2w0",
+  "company": "ReBorn",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): No ReBorn candidate shows matching confirmed business content."
+ },
+ {
+  "id": "recbhsBbLCwClmxtJ",
+  "company": "deepdots",
+  "value": "deepdots.com",
+  "line": "2026-09-17: domain: deepdots.com (high): Title 'Deepdots. Analyze customer feedback with AI.' matches name and sector exactly."
+ },
+ {
+  "id": "recbovVFNIn4ke5Xk",
+  "company": "James Finance",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): james-finance.nl has no description; jamesfinance.co.uk shows unrelated rebrand name 'Ulsa'."
+ },
+ {
+  "id": "recc5Jta38DmQkr9Q",
+  "company": "KareInn",
+  "value": "kareinn.com",
+  "line": "2026-09-17: domain: kareinn.com (medium): Title 'Digital Care Management & Care Home Planning Software | KareInn' matches name."
+ },
+ {
+  "id": "recc7zuIkMzlSPqC4",
+  "company": "Uncommon Therapeutics",
+  "value": "uncommontherapeutics.com",
+  "line": "2026-09-17: domain: uncommontherapeutics.com (medium): Title 'uncommon therapeutics' matches distinctive company name exactly, plausible biotech startup."
+ },
+ {
+  "id": "reccJnDHFWZLNRWkQ",
+  "company": "API Context",
+  "value": "apicontext.com",
+  "line": "2026-09-17: domain: apicontext.com (high): Title 'APIContext - Full Customer Journey Simulation' matches name and Data Infrastructure sector."
+ },
+ {
+  "id": "reccLLQnWWqs2jJCo",
+  "company": "Vochlea",
+  "value": "vochlea.com",
+  "line": "2026-09-17: domain: vochlea.com (medium): Title 'Vochlea Music | Bridging the gap between mind and music' matches name."
+ },
+ {
+  "id": "reccOAczdthQnZrvE",
+  "company": "Shift Bioscience",
+  "value": "shiftbioscience.com",
+  "line": "2026-09-17: domain: shiftbioscience.com (medium): Title 'Home - Shift Bioscience' matches distinctive company name exactly."
+ },
+ {
+  "id": "reccSsL1dbGtWTHK5",
+  "company": "HURR",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Candidate hurrcollective.com held for review (short generic name): Title '...HURR' fashion rental marketplace matches company name."
+ },
+ {
+  "id": "reccWtxHOClTRYuJ5",
+  "company": "Multiomic",
+  "value": "multiomic.health",
+  "line": "2026-09-17: domain: multiomic.health (medium): Title 'Multiomic Health - AI-Enabled Precision Medicine' matches name, loosely fits Healthy Ageing."
+ },
+ {
+  "id": "reccadmLD4Lmz6Cc5",
+  "company": "Upkeep",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Candidate upkeep.com held for review (short generic name): Description 'UpKeep CMMS Software helps maintenance teams...' matches company name UpKeep."
+ },
+ {
+  "id": "recclp4H3ZMsz3ocs",
+  "company": "Finster",
+  "value": "finster.ai",
+  "line": "2026-09-17: domain: finster.ai (medium): Title 'Finster AI | AI-Native Finance Platform' matches company name."
+ },
+ {
+  "id": "reccoH5FI0JdKQEWp",
+  "company": "Decisional AI",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): decisionalai.com has empty title/description, no confirming content."
+ },
+ {
+  "id": "recd3P7B5JiXMcUAH",
+  "company": "TravelNest",
+  "value": "travelnest.com",
+  "line": "2026-09-17: domain: travelnest.com (high): Title 'Your home for hosting - Travelnest' matches name and Holiday rental sector exactly."
+ },
+ {
+  "id": "recd3VF2uDBLsbPRI",
+  "company": "Charlie HR",
+  "value": "charliehr.com",
+  "line": "2026-09-17: domain: charliehr.com (medium): Description 'With Charlie, you can automate your HR tasks' matches company name Charlie HR."
+ },
+ {
+  "id": "recd9OpHQ9QqpPoKa",
+  "company": "HealthTech",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): No candidate matches a specific company named 'HealthTech'; all appear unrelated or generic."
+ },
+ {
+  "id": "recdGzWMl2WyM0qYZ",
+  "company": "Shadowbox",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): No Shadowbox candidate matches a tech startup; studios/theatre/personal sites are unrelated."
+ },
+ {
+  "id": "recdH95KmGUNnLjeV",
+  "company": "Included Games",
+  "value": "included.games",
+  "line": "2026-09-17: domain: included.games (medium): Description 'Included Games is a mobile game development company' matches name exactly."
+ },
+ {
+  "id": "recdOgXRvBqNt9hFj",
+  "company": "Smarkets",
+  "value": "smarkets.com",
+  "line": "2026-09-17: domain: smarkets.com (medium): Domain is Smarkets' well-known betting exchange address, found by both guess and Clearbit."
+ },
+ {
+  "id": "recdaIaUUHGhBkfFj",
+  "company": "ManaMind",
+  "value": "manamind.ai",
+  "line": "2026-09-17: domain: manamind.ai (medium): Title 'ManaMind - Autonomous AI Quality Assurance for Video Games' matches name."
+ },
+ {
+  "id": "recdmdFFwL0WCUdBS",
+  "company": "Rally Rd.",
+  "value": "rallyrd.com",
+  "line": "2026-09-17: domain: rallyrd.com (medium): Title 'Rally | Alternative Asset Investment' matches company name Rally Rd."
+ },
+ {
+  "id": "recdxug0r8FjOokFt",
+  "company": "Spotahome",
+  "value": "spotahome.com",
+  "line": "2026-09-17: domain: spotahome.com (medium): Title '...Spotahome' matches company name, real rental marketplace content."
+ },
+ {
+  "id": "recdyr2rC2OI72qbq",
+  "company": "datainsurance",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): datainsurance.app is a generic domain-parking info page, not a real company site."
+ },
+ {
+  "id": "rece3uGfGnsi5yNUn",
+  "company": "Superconductive",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): greatexpectations.io title never mentions 'Superconductive', the actual company name."
+ },
+ {
+  "id": "receIyiucOOFp9uqF",
+  "company": "Airstoc",
+  "value": "airstoc.com",
+  "line": "2026-09-17: domain: airstoc.com (high): Title 'Drone Aerial Videos and Photos - Airstoc' matches name and B2B Marketplace sector."
+ },
+ {
+  "id": "receMnWyc9UDxCqQC",
+  "company": "Buildingeye",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): agencycounter.com never mentions 'Buildingeye', despite similar civic-data business focus."
+ },
+ {
+  "id": "recePC8qyaRRePW1m",
+  "company": "MindsDB",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): No MindsDB candidate shows the company name with confirming content."
+ },
+ {
+  "id": "receXjQoRZAx1nrUM",
+  "company": "Provable",
+  "value": "provable.com",
+  "line": "2026-09-17: domain: provable.com (medium): Title 'Provable | Provable equips developers to build secure, private applications' matches name."
+ },
+ {
+  "id": "receXnicnu8jAzr7c",
+  "company": "SigmaOS",
+  "value": "sigmaos.com",
+  "line": "2026-09-17: domain: sigmaos.com (high): Title 'SigmaOS | A smarter way to browse the internet' matches name and Productivity sector."
+ },
+ {
+  "id": "receaQiaoBYZORAo2",
+  "company": "StackAuth",
+  "value": "stackauth.com",
+  "line": "2026-09-17: domain: stackauth.com (high): Title 'About StackAuth - Stack Auth' matches name and Authentication sector."
+ },
+ {
+  "id": "recei11Tt48vPU59T",
+  "company": "ResPaid",
+  "value": "respaid.com",
+  "line": "2026-09-17: domain: respaid.com (high): Title 'Respaid | Collect Overdue Invoices Without Losing Clients' matches name and Finance/Collections sector."
+ },
+ {
+  "id": "receiXDSmDHO6NaEy",
+  "company": "Newfront",
+  "value": "newfront.com",
+  "line": "2026-09-17: domain: newfront.com (medium): Title 'Modern Business Insurance Company... Newfront' matches company name exactly."
+ },
+ {
+  "id": "receq6qEwRiTfOAeb",
+  "company": "Pillar",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): No Pillar candidate matches Fintech sector with confirming company name content."
+ },
+ {
+  "id": "recesBmPPndHSLaH9",
+  "company": "Ona",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Candidate ona.io held for review (short generic name): Title 'Ona Data - Features... using data to transform lives' matches name, loosely fits Health & Bio."
+ },
+ {
+  "id": "recf17TzRz4PtaUYp",
+  "company": "Autonomous Minds",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): milo.ai does not match company name 'Autonomous Minds' at all."
+ },
+ {
+  "id": "recf4rGDpSqDcHNiY",
+  "company": "UnifiedCRM",
+  "value": "unifiedcrm.ai",
+  "line": "2026-09-17: domain: unifiedcrm.ai (medium): Domain matches name exactly; page title 'Unified' suggests live branded site."
+ },
+ {
+  "id": "recf9TJmMVihBBBox",
+  "company": "ZigZag",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): No ZigZag candidate matches a returns/logistics startup; rolling papers and shopping apps unrelated."
+ },
+ {
+  "id": "recfBVBXtz5CzQWwh",
+  "company": "IOTA",
+  "value": "iota.org",
+  "line": "2026-09-17: domain: iota.org (high): Title 'IOTA | Built to Make a Difference... decentralized blockchain infrastructure' matches name and DePIN/IoT sector."
+ },
+ {
+  "id": "recfDOgUyI0K3VRZd",
+  "company": "Sourceful",
+  "value": "sourceful.com",
+  "line": "2026-09-17: domain: sourceful.com (medium): Title 'Sourceful | Visual AI for Brand Design' matches company name exactly."
+ },
+ {
+  "id": "recfDzOWuU3DUGVtK",
+  "company": "Vitrolabs",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): All Vitrolabs candidates return 404 or empty content."
+ },
+ {
+  "id": "recfHqE4898VYOeis",
+  "company": "Luna",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): No Luna candidate matches Productivity/Consumer sector; photo editor and flooring unrelated."
+ },
+ {
+  "id": "recfV9eTjwPMcn9Gi",
+  "company": "Passbase",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): parallelmarkets.com never mentions 'Passbase', the actual company name."
+ },
+ {
+  "id": "recfVTIvoywiyeQ9b",
+  "company": "Metamarkets",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): metamarkets.space is an unrelated escort listings site; others are empty."
+ },
+ {
+  "id": "recffDXc0GsMUQEcm",
+  "company": "Basekit",
+  "value": "basekit.com",
+  "line": "2026-09-17: domain: basekit.com (medium): Title 'White-label website builder & e-commerce software | BaseKit' matches name."
+ },
+ {
+  "id": "recfkTwDzpRRJ1SMb",
+  "company": "eDRV",
+  "value": "edrv.io",
+  "line": "2026-09-17: domain: edrv.io (high): Title 'AI-Powered EV Charging Operations with eDRV AIOps Platform' matches name and EV charging sector."
+ },
+ {
+  "id": "recgS2zo2JFC1eeNk",
+  "company": "Immortal Game",
+  "value": "immortalgames.io",
+  "line": "2026-09-17: domain: immortalgames.io (medium): Title 'Immortal Games | The best template for game developers' matches name, loosely fits Gaming/Web3."
+ },
+ {
+  "id": "recgZWe21KDaJQuDa",
+  "company": "IMMIX",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Candidate immix.io held for review (short generic name): Title 'Immix (AI Animation Studio)' matches company name exactly."
+ },
+ {
+  "id": "recgfkoubHPbVjmrt",
+  "company": "Tapdaq",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Tapdaq was acquired by Unity in 2020; unity.com is the acquirer, not Tapdaq's own site."
+ },
+ {
+  "id": "recgqLz2b269YrGYm",
+  "company": "DataSync",
+  "value": "datasync.ca",
+  "line": "2026-09-17: domain: datasync.ca (medium): Title 'Home - Data Sync' matches company name, real digital solutions content."
+ },
+ {
+  "id": "recgsNV5eVga941oC",
+  "company": "Atomic",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): No Atomic candidate matches a specific fintech startup; ski gear and games unrelated."
+ },
+ {
+  "id": "recguUUlVyesCRh1M",
+  "company": "Roblox",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Candidate about.roblox.com held for review (short generic name): Title 'AI-powered creation for everyone | Roblox' matches company name exactly."
+ },
+ {
+  "id": "rech6acOZLVmIhyLk",
+  "company": "Robeaute",
+  "value": "robeaute.com",
+  "line": "2026-09-17: domain: robeaute.com (medium): Title 'Robeaute | We are redefining brain therapies with microrobotics' matches name."
+ },
+ {
+  "id": "rech7Mp6A1gD8hXXA",
+  "company": "Sparkles",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): No Sparkles candidate matches DevOps/Deployment sector; bakery, e-commerce, cleaning unrelated."
+ },
+ {
+  "id": "rechEnWt5Vp9VBMWV",
+  "company": "Mrs Wordsmith",
+  "value": "mrswordsmith.com",
+  "line": "2026-09-17: domain: mrswordsmith.com (medium): Title 'Mrs Wordsmith | Award-Winning Vocabulary & Reading Games for Kids' matches name."
+ },
+ {
+  "id": "rechGv2NPNplL2BdM",
+  "company": "Picnic",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Candidate picnic.app held for review (short generic name): Title 'Picnic | Supermarkt op wielen' matches bare company name Picnic."
+ },
+ {
+  "id": "rechK3yZafTymUwba",
+  "company": "Onfleet",
+  "value": "onfleet.com",
+  "line": "2026-09-17: domain: onfleet.com (high): Title 'Last Mile Delivery Software for Dispatch and Route Management' matches name and Logistics sector."
+ },
+ {
+  "id": "rechPSsC8tPAXlJtH",
+  "company": "FarmDrive",
+  "value": "farmdrive.co",
+  "line": "2026-09-17: domain: farmdrive.co (medium): Title 'FarmDrive' matches company name exactly, found by both guess and Clearbit."
+ },
+ {
+  "id": "rechV1CC9Vhwkarh1",
+  "company": "Airscape",
+  "value": "airscape.app",
+  "line": "2026-09-17: domain: airscape.app (medium): Title 'Airscape Technology' matches company name, tech content about connectivity."
+ },
+ {
+  "id": "rechZnYVrjXQgD2Si",
+  "company": "Tray",
+  "value": "tray.ai",
+  "line": "2026-09-17: domain: tray.ai (high): Title 'Tray.ai - The AI-ready integration and automation platform' matches name and Automation sector."
+ },
+ {
+  "id": "rechhbMrzRdPvKtox",
+  "company": "CarThrottle",
+  "value": "carthrottle.com",
+  "line": "2026-09-17: domain: carthrottle.com (medium): Title 'Car Throttle | The internet's car community' matches company name exactly."
+ },
+ {
+  "id": "rechm5PHv5AIFMsYh",
+  "company": "APEXX",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): No APEXX candidate shows confirming Fintech content under the company name."
+ },
+ {
+  "id": "rechwbvHCYUgNWSZi",
+  "company": "Tyk",
+  "value": "tyk.io",
+  "line": "2026-09-17: domain: tyk.io (high): Title 'API Management Platform & API Gateway | Tyk.io' matches name and Cloud/data infra sector."
+ },
+ {
+  "id": "rechwzuhPGyo3qFnA",
+  "company": "Reach Robotics",
+  "value": "reachrobotics.com",
+  "line": "2026-09-17: domain: reachrobotics.com (medium): Title 'Reach Robotics | Robotic Manipulators For Harsh Environments' matches name exactly."
+ },
+ {
+  "id": "rechz6WLMQCZu33Cm",
+  "company": "unrd",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): No unrd candidate shows confirming content matching the company name."
+ },
+ {
+  "id": "reciBgA8J9zllKrWT",
+  "company": "Kettel",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Candidate kettelhomes.com held for review (short generic name): Title 'Cornovii x Kettel | Register for 2026 - Kettel Homes' matches name."
+ },
+ {
+  "id": "reciFpuUILP6uXGdH",
+  "company": "Fence",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): No Fence candidate matches a tech startup; all are fencing/education businesses."
+ },
+ {
+  "id": "reciKwJrOXirGeaR0",
+  "company": "Cortea",
+  "value": "cortea.ai",
+  "line": "2026-09-17: domain: cortea.ai (high): Title 'AI audit agents for professional audit firms | Cortea' matches name and Agentic audit sector."
+ },
+ {
+  "id": "reciU8qCnnqIyXkWv",
+  "company": "JOBDOH",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Candidate jobdoh.com held for review (short generic name): Title 'JOBDOH | Fastest way to hire, recruit part-time, temporary, on-demand staff' matches name."
+ },
+ {
+  "id": "reciWqGDDGwtGrPjv",
+  "company": "EDITED",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Candidate edited.com held for review (short generic name): Title 'EDITED - Empowering Intelligent Retail' matches company name exactly."
+ },
+ {
+  "id": "recibgbsYyep9UW4z",
+  "company": "Haydn",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): No Haydn candidate matches Finance/Automation sector; cinema, media desk, hardware unrelated."
+ },
+ {
+  "id": "recibob5MbzNtK8Eh",
+  "company": "Kerys",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Candidate kerys.co held for review (short generic name): Title 'Kerys - Solutions et services pour la finance d'entreprise' matches name."
+ },
+ {
+  "id": "recif10mkj4ytJe2h",
+  "company": "tessl.io",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): tesslio.com has empty title/description, no confirming content."
+ },
+ {
+  "id": "recirZClzLx77Qsbv",
+  "company": "Verve",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): verve.com is general ad-tech, not clearly a 'youth brand discovery platform'."
+ },
+ {
+  "id": "recirpgIK1zQnitLF",
+  "company": "Dessn",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Candidate dessn.com held for review (short generic name): Title 'Dessn - Design in production' matches company name, enterprise dev tool."
+ },
+ {
+  "id": "recj5y8rtMcFcJ98e",
+  "company": "Primo Data",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): primodata.org returns HTTP 402 with no content."
+ },
+ {
+  "id": "recj9pCit6UBa9SIb",
+  "company": "PickLive",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): picklive.com title and description are both empty despite dual-method match."
+ },
+ {
+  "id": "recjHm1wdWeT6BFDh",
+  "company": "C TWO",
+  "value": "ctwo.com",
+  "line": "2026-09-17: domain: ctwo.com (high): Title 'C TWO: Agentic Management Platform' matches name and Enterprise AI sector."
+ },
+ {
+  "id": "recjIWSQe1Y2QRpzk",
+  "company": "Near Buy",
+  "value": "nearbuy.com",
+  "line": "2026-09-17: domain: nearbuy.com (medium): Title 'Deals in New Delhi - nearbuy.com' matches company name Near Buy."
+ },
+ {
+  "id": "recjW3iXrWe6znr2T",
+  "company": "Boxfish",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): No Boxfish candidate matches 'Audience targeting AI'; content is financial-document AI instead."
+ },
+ {
+  "id": "recjWfXzknXiFR3Ti",
+  "company": "Omi",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): No Omi candidate matches 'Digital twins' sector with confirming company name content."
+ },
+ {
+  "id": "recjbUhV0nG9pUKv4",
+  "company": "Visionable",
+  "value": "visionable.com",
+  "line": "2026-09-17: domain: visionable.com (medium): Title 'Visionable | Advanced Visual Collaboration' matches company name exactly."
+ },
+ {
+  "id": "recjcFWl9vlH4gSSU",
+  "company": "Bloomsbury",
+  "value": "bloomsbury.ai",
+  "line": "2026-09-17: domain: bloomsbury.ai (medium): Title 'Bloomsbury AI' matches company name; known London NLP startup."
+ },
+ {
+  "id": "recjm6qmdxE8CAIla",
+  "company": "Verifly",
+  "value": "myverifly.com",
+  "line": "2026-09-17: domain: myverifly.com (medium): Title 'VeriFLY' matches company name Verifly, historically a drone insurance app."
+ },
+ {
+  "id": "recjmmkPbVOr7A2kQ",
+  "company": "Fuzey",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Candidate getfuzey.com held for review (short generic name): Title 'Fuzey | AI Communication Built For Automotive' matches company name exactly."
+ },
+ {
+  "id": "recjpO50Cghqyrza4",
+  "company": "kitch",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): No candidate is Kitch; results are KitchenAid, a blog, a law firm, and a meal-kit company."
+ },
+ {
+  "id": "recjyxYxkuxXhVhR4",
+  "company": "Numerai",
+  "value": "numer.ai",
+  "line": "2026-09-17: domain: numer.ai (high): \"Numerai...Predict the stock market with AI to power our hedge fund\" matches fintech name exactly."
+ },
+ {
+  "id": "reck7ZXK4gJImw93p",
+  "company": "Capdesk",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): All candidates return HTTP 403 or are blank; no content confirms Capdesk."
+ },
+ {
+  "id": "reckC20y913o23C80",
+  "company": "Reliant",
+  "value": "reliant.ai",
+  "line": "2026-09-17: domain: reliant.ai (high): \"Reliant AI - Complex research made simple\" fits Knowledge/LLMs; others are Reliant Energy/Mission unrelated."
+ },
+ {
+  "id": "reckEHWlLEOFRRscx",
+  "company": "Concert Bio",
+  "value": "concert.bio",
+  "line": "2026-09-17: domain: concert.bio (medium): \"Concert Bio...Optimising greenhouse crop performance via the plant microbiome\" matches name exactly."
+ },
+ {
+  "id": "reckI4ohtS9gnYyZ3",
+  "company": "Vidsy",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Candidate vidsy.co held for review (short generic name): \"Create High-Performing Video Ads with Vidsy\" matches company name exactly with real content."
+ },
+ {
+  "id": "reckNIZi3vrjU26yO",
+  "company": "Fygo",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): fygo.ai/.co/.io have empty titles; fygostudio.com is an unrelated French production company."
+ },
+ {
+  "id": "reckUPebUxrUtJ0fd",
+  "company": "Bulbshare",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Only candidate is smg.com \"Ignite Communities\", an unrelated platform, not named Bulbshare."
+ },
+ {
+  "id": "reckUtpr17uD2zHBp",
+  "company": "Hosel",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Candidates are Hoselink garden hoses and a golf app; none reference Hosel."
+ },
+ {
+  "id": "reckl5fG4vYSNsv0P",
+  "company": "Volta",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Candidates are fitness, AI compute, lawn care, and campus health sites; none match XR/Events Volta."
+ },
+ {
+  "id": "reckvkfH6fAC1BtCg",
+  "company": "Montonio",
+  "value": "montonio.com",
+  "line": "2026-09-17: domain: montonio.com (medium): \"Payments and Shipping to Convert Every Customer | Montonio\" matches name exactly."
+ },
+ {
+  "id": "reckvqMIXVkqDu9VA",
+  "company": "Automatic",
+  "value": "automatic.co",
+  "line": "2026-09-17: domain: automatic.co (medium): \"Automatic.co — Agentic AI Automation for the Enterprise\" is a plausible tech startup matching the name."
+ },
+ {
+  "id": "reckxpdDQm4qawE81",
+  "company": "Learnerbly",
+  "value": "learnerbly.com",
+  "line": "2026-09-17: domain: learnerbly.com (high): \"Learning that moves people forward | Learnerbly\" matches employee learning platform sector exactly."
+ },
+ {
+  "id": "recl4ad2mg9QazTxV",
+  "company": ".txt",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): txt.fyi/txt.com are empty, txt.me is for sale, txt.co is an unrelated ad agency."
+ },
+ {
+  "id": "reclCG1eMFJzxBpSL",
+  "company": "Thalamos",
+  "value": "thalamos.co.uk",
+  "line": "2026-09-17: domain: thalamos.co.uk (medium): \"Homepage - Thalamos...reduce the administrative burden of the Mental Health Act\" matches name."
+ },
+ {
+  "id": "reclL2zq6stvpwQ0T",
+  "company": "Duffel",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Candidate duffel.com held for review (short generic name): \"Duffel - The best API to sell travel\" matches company name with real content."
+ },
+ {
+  "id": "reclRnntF4yfKN1Wt",
+  "company": "Coinfloor",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): coincorner.com is a different company name; coinfloor.co is a generic business directory page."
+ },
+ {
+  "id": "reclYcuW60hZGJmcp",
+  "company": "Mokn",
+  "value": "mokn.io",
+  "line": "2026-09-17: domain: mokn.io (high): \"MokN...end credential threats\" matches Cybersecurity sector and the Mokn name exactly."
+ },
+ {
+  "id": "recldIlmqzJaHlJnF",
+  "company": "Qflow",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): qflow.com \"QFlow Systems, LLC\" is a US govt workflow vendor, likely a different company from Ascension/MMC's Qflow."
+ },
+ {
+  "id": "reclgMxIEMi4PKc99",
+  "company": "Reinfer",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): reinfer.com \"INICIO - Reinfer\" is an unrelated Spanish business in Las Palmas."
+ },
+ {
+  "id": "recliWtuhuqRDe6mG",
+  "company": "James",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Candidates are a musician, a virtual concierge, a university, and a jeweler; none match Credit risk ML."
+ },
+ {
+  "id": "reclmt9QAMBWubRWO",
+  "company": "Colossal",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Candidates are an AI OS brand, an art magazine, and Colossal Biosciences; none confirm Consumer-sector Colossal."
+ },
+ {
+  "id": "reclvtPaKVwcPUUb9",
+  "company": "Elwood",
+  "value": "elwood.io",
+  "line": "2026-09-17: domain: elwood.io (high): \"Elwood | Digital Asset Trading Platform\" matches the Digital asset platform sector exactly."
+ },
+ {
+  "id": "recm15H97GMH7i2Wz",
+  "company": "Workstream",
+  "value": "workstream.us",
+  "line": "2026-09-17: domain: workstream.us (medium): \"HR and Payroll for hourly businesses | Workstream\" matches company name with real content."
+ },
+ {
+  "id": "recmDASRHL7hPjLdN",
+  "company": "Vinaya",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Candidates are Vinayak ingredients/water treatment firms and a university; none match Vinaya."
+ },
+ {
+  "id": "recmEmhETmg7xF3d7",
+  "company": "ZeroTier",
+  "value": "zerotier.com",
+  "line": "2026-09-17: domain: zerotier.com (high): \"ZeroTier | Next-Generation Connectivity and Cybersecurity\" matches sector and name exactly."
+ },
+ {
+  "id": "recmf4XHwqgmSe7gZ",
+  "company": "Ordercast",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): ordercast.com reads like a generic \"VentureOS network\" placeholder, not genuine Ordercast content."
+ },
+ {
+  "id": "recmmFrhdd6sdGq7R",
+  "company": "SentiSum",
+  "value": "sentisum.com",
+  "line": "2026-09-17: domain: sentisum.com (medium): \"AI-native CX Intelligence Software | SentiSum\" matches company name with real content."
+ },
+ {
+  "id": "recmt740Pp9Pbo5dY",
+  "company": "Zefir",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Candidate zefir.com held for review (short generic name): \"Zefir | WhatsApp & SMS Revenue Platform for Ecommerce\" matches company name plausibly."
+ },
+ {
+  "id": "recnIAgkxc1zp4VwC",
+  "company": "Stream",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Candidate stream.co held for review (short generic name): \"Stream | Financial Wellbeing for Employees\" matches company name with real content."
+ },
+ {
+  "id": "recnNeBhP8hUdIIOb",
+  "company": "Scale",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Candidate scale.com held for review (short generic name): \"Reliable AI Systems for Critical Decisions | Scale AI\" matches company name exactly."
+ },
+ {
+  "id": "recnUdkfGO4tB7JcE",
+  "company": "Reliably",
+  "value": "reliably.com",
+  "line": "2026-09-17: domain: reliably.com (high): \"Build and scale your resilience engineering capability\" fits Compute Stack sector and name."
+ },
+ {
+  "id": "recnw6ZpULEPIoWrF",
+  "company": "Dataseat",
+  "value": "dataseat.com",
+  "line": "2026-09-17: domain: dataseat.com (medium): \"Dataseat Mobile DSP\" matches company name exactly with real content; sector is generic \"Other\"."
+ },
+ {
+  "id": "reco25ABfXRDrbd7Y",
+  "company": "Kima",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Candidates are a coach, health approvals, a pet-care app, and a blocked TV site; none match Infrastructure Kima."
+ },
+ {
+  "id": "reco6oGI3iiDDYlG5",
+  "company": "Untap",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Candidates are Untappd, Untapped Cities, Untapped.gg, and a screen-time app; none confirm Ascension's Untap."
+ },
+ {
+  "id": "reco8Kg4BUROeGoCR",
+  "company": "Sofia",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Candidates are a Colombian training portal, a dating site, and domains for sale; none match Sofia."
+ },
+ {
+  "id": "recoJX55CFAkrhPSR",
+  "company": "cto.new",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): cto.new's page title is \"Claude\", not the company name; ctonew.com is for sale."
+ },
+ {
+  "id": "recoj4OOxvIgtuUZW",
+  "company": "Alvie",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Candidates are cowboy boots, Italian fashion, a Spanish aesthetics distributor, and a marketing platform; none fit Healthy Ageing."
+ },
+ {
+  "id": "recon6tXAoayPHCM1",
+  "company": "DayJob",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Candidate dayjob.ai held for review (short generic name): \"Smarter Job Scheduling for Waste Management Companies | Dayjob\" plausibly matches the name."
+ },
+ {
+  "id": "recoozOGOr9WugdK2",
+  "company": "Inkitt",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Candidates are tattoo studios and domains for sale; none match Writing platform Inkitt."
+ },
+ {
+  "id": "recopyD4zqysyGGYP",
+  "company": "Sonia",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Candidate trysonia.com held for review (short generic name): \"Sonia - A modern therapeutic wellness brand\" loosely fits Mental Health/AI sector."
+ },
+ {
+  "id": "recovfTznCTInXATN",
+  "company": "Levro",
+  "value": "levro.com",
+  "line": "2026-09-17: domain: levro.com (high): \"Levro | Global Banking and Payments\" matches Fintech/Banking sector exactly."
+ },
+ {
+  "id": "recozNkEqYU8NL5MI",
+  "company": "User Replay",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): userreplay.com and userreplay.co.uk both return empty titles and descriptions."
+ },
+ {
+  "id": "recp7BXnJ0o7rY968",
+  "company": "Snowplow",
+  "value": "snowplow.io",
+  "line": "2026-09-17: domain: snowplow.io (high): \"Customer Context Layer | Snowplow\" matches Cloud & data infrastructure sector exactly."
+ },
+ {
+  "id": "recpI5y43RdLgP3D8",
+  "company": "Bloom",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): bloom.io is a CRM workspace, bloom.ai just says \"AI for Life\"; neither confirms Enterprise AI Bloom."
+ },
+ {
+  "id": "recpY6kn0G4hLxd2J",
+  "company": "Twig",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Candidate twig.io held for review (short generic name): \"Twig - AI writing tools that actually support your creativity\" plausibly matches name."
+ },
+ {
+  "id": "recpajg6gdc1bbY4Z",
+  "company": "Gaia AI",
+  "value": "gaiaai.app",
+  "line": "2026-09-17: domain: gaiaai.app (medium): \"Gaia AI — an AI teammate that gets things done\" loosely fits the DeAI sector."
+ },
+ {
+  "id": "recpbBoTC9HJ8vkm7",
+  "company": "Meniga",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Candidate meniga.com held for review (short generic name): \"Personalised Digital Banking Solutions - Meniga\" matches company name exactly."
+ },
+ {
+  "id": "recpcNDTPPam3LDhN",
+  "company": "Charco Neurotech",
+  "value": "charconeurotech.com",
+  "line": "2026-09-17: domain: charconeurotech.com (high): \"Charco Neurotech...Non-Invasive Wearable Device for People with Parkinson's\" matches name and sector."
+ },
+ {
+  "id": "recpqeanWkgJI439x",
+  "company": "Elementl",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): dagster.io never mentions \"Elementl\"; other elementl.* candidates are empty."
+ },
+ {
+  "id": "recptzj4cGdYL1joH",
+  "company": "Kyra",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Candidate kyra.com held for review (short generic name): \"Kyra - Influencer Marketing at Scale\" plausibly matches company name."
+ },
+ {
+  "id": "recpvmaz9gz9xlpu0",
+  "company": "HealthKey",
+  "value": "healthkey.ai",
+  "line": "2026-09-17: domain: healthkey.ai (medium): \"HealthKey - Patient Registries Powered by a Complete Personal Health Record\" matches name exactly."
+ },
+ {
+  "id": "recpxgYlWZo6zFifG",
+  "company": "Atreides",
+  "value": "atreides.io",
+  "line": "2026-09-17: domain: atreides.io (high): \"Atreides | Intelligence Platform for Mission Decisions\" matches B2B SaaS, AI/ML sector."
+ },
+ {
+  "id": "recq2jRURczpTs3JX",
+  "company": "Tova",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Candidates are a meal kit company, a Russian catalog, a task app, and a health app; none mention water risk."
+ },
+ {
+  "id": "recqALH9ZnlgeusWk",
+  "company": "Glaize",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Candidate glaize.co held for review (short generic name): \"Glaize | Great Nails, No Appointment | As Seen On Dragons Den\" matches company name exactly."
+ },
+ {
+  "id": "recqJVMofmajn7pOv",
+  "company": "Greenjets",
+  "value": "greenjets.com",
+  "line": "2026-09-17: domain: greenjets.com (medium): Title \"Greenjets\" matches company name exactly, though description is empty."
+ },
+ {
+  "id": "recqKQnbJfWlXj1nm",
+  "company": "Adaptyv",
+  "value": "adaptyvbio.com",
+  "line": "2026-09-17: domain: adaptyvbio.com (high): \"Adaptyv Bio — The Automated Lab for Agentic Biology\" matches Biotech sector and name."
+ },
+ {
+  "id": "recqOxDILlauQ8mMf",
+  "company": "MapMortar",
+  "value": "mapmortar.io",
+  "line": "2026-09-17: domain: mapmortar.io (medium): \"MapMortar | Real Estate Capital Planning...decarbonisation across large real estate portfolios\" matches name."
+ },
+ {
+  "id": "recqWfm2DSBtgV6L6",
+  "company": "Rosita",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Candidates are a US cod liver oil brand, an Italian racking company, a Polish mason, and an AI content tool; none confirm Seedcamp's Rosita."
+ },
+ {
+  "id": "recqYq2lOjMLvN48F",
+  "company": "Safi",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Candidate safi.co held for review (short generic name): \"Safi AI — AI-Powered Quality Control for PET, HDPE & UBC Recyclers\" plausibly matches the name."
+ },
+ {
+  "id": "recqaFaKjtz2jlkRi",
+  "company": "Nanoplume",
+  "value": "nanoplume.com",
+  "line": "2026-09-17: domain: nanoplume.com (medium): \"NANOPLUME | Reinventing Insulation...bio-based aerogels\" matches company name exactly."
+ },
+ {
+  "id": "recqiTw6phpMPcjNj",
+  "company": "Jiminy",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Candidate cutimpulsebuying.com held for review (short generic name): \"Jiminy - Home page...Cut impulse buying, debt, & regret\" matches the company name."
+ },
+ {
+  "id": "recqinYWVYeeSH1PY",
+  "company": "Cudo",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): cudoo.com is a differently-spelled eLearning site; other candidates are unrelated or blocked."
+ },
+ {
+  "id": "recqk1LTTIpW1HwyD",
+  "company": "AllFocal Optics",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): allfocaloptics.com returns an empty title and description."
+ },
+ {
+  "id": "recqlTxt1mgsTfFRY",
+  "company": "The Climate Corporation",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): climatecorporation.com is blocked (HTTP 403); likely the unrelated famous Climate Corporation, not an Anthemis startup."
+ },
+ {
+  "id": "recqlbzpZmUVl6Og3",
+  "company": "Wine In Black",
+  "value": "wine-in-black.de",
+  "line": "2026-09-17: domain: wine-in-black.de (medium): \"Wine in Black | Hochwertige Weine und Champagner kaufen\" matches company name exactly."
+ },
+ {
+  "id": "recqn3hRz12gUBuLd",
+  "company": "CRU Kafe",
+  "value": "crukafe.com",
+  "line": "2026-09-17: domain: crukafe.com (medium): \"CRU Kafe | Organic Coffee Pods\" matches company name exactly with real content."
+ },
+ {
+  "id": "recqowU8evcuiLVqb",
+  "company": "GEEIQ",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Candidate geeiq.com held for review (short generic name): \"GEEIQ | The Data Platform Behind Brands and Gaming\" matches company name exactly."
+ },
+ {
+  "id": "recqqEY5LQQY2y1pB",
+  "company": "Integral Ad Science",
+  "value": "integralads.com",
+  "line": "2026-09-17: domain: integralads.com (high): \"Integral Ad Science | Global Media Measurement & Optimization\" matches AdTech sector and name."
+ },
+ {
+  "id": "recqr999fBlRCXx6j",
+  "company": "Volant",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Candidates are an Italian deals site, a fashion brand, a flight tracker, and cold air intakes; none match Aerospace Volant."
+ },
+ {
+  "id": "recqsqX3gB4QiQ8Qz",
+  "company": "Interstellar Lab",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): interstellarlabs.company describes a generic \"product studio\", not Spacetech/Agritech hardware; interstellarlab.com is blocked."
+ },
+ {
+  "id": "recqwJEDZVsAiUbGD",
+  "company": "Parla",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Candidates are Czech/Austrian parliament news sites and thin/unrelated Parla pages; none confirm the startup."
+ },
+ {
+  "id": "recqwike2B0sgTa8k",
+  "company": "Huggg",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Candidate huggg.me held for review (short generic name): \"Huggg - Better business gift options, no addresses needed\" matches company name exactly."
+ },
+ {
+  "id": "recqy54mhlHgj9cyx",
+  "company": "Skew",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): skewed.com is a differently-named sustainability firm; skew.co appears to be a parked portfolio placeholder."
+ },
+ {
+  "id": "recqzpwADgx6PF3Cf",
+  "company": "Zemanta",
+  "value": "zemanta.com",
+  "line": "2026-09-17: domain: zemanta.com (medium): \"Zemanta - Programmatic Ad Technology Built for Performance\" matches company name exactly."
+ },
+ {
+  "id": "recr4EcpCeg7IQoXv",
+  "company": "Pathfinder",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): pathfinder.ai has only a bare title \"Pathfinder\" with no description confirming e-commerce marketing AI."
+ },
+ {
+  "id": "recr89nasybBaJApw",
+  "company": "Pact Coffee",
+  "value": "pactcoffee.com",
+  "line": "2026-09-17: domain: pactcoffee.com (high): \"The UK's Best Coffee Delivery & Subscription Service | Pact Coffee\" matches Consumer & product sector."
+ },
+ {
+  "id": "recrBakKJL0FSonNd",
+  "company": "Canveo",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Candidate getcanveo.com held for review (short generic name): \"Canveo Digital Contracts | The AI contract review and negotiation platform\" matches company name exactly."
+ },
+ {
+  "id": "recrFJj40bW3nlt7L",
+  "company": "BiOS",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Candidates are a skincare brand, a biotech news site, and a Colombian bioinformatics center; none confirm BiOS."
+ },
+ {
+  "id": "recrH3Z8SZe0sqw6W",
+  "company": "Prewarp",
+  "value": "prewarp.co",
+  "line": "2026-09-17: domain: prewarp.co (medium): \"PreWarp — Wholesale Analytics for Fashion Brands\" matches company name exactly with real content."
+ },
+ {
+  "id": "recrPvT2o7XQ37vgo",
+  "company": "Jarvis",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): jarvis.com/.io/.app/.hq are thin, for-sale, or blank; none confirm an Ascension-backed Jarvis."
+ },
+ {
+  "id": "recriV2GZZZDMQUR8",
+  "company": "TOGL",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Candidate togl.co held for review (short generic name): \"Fleet charging & flexibility software | TOGL\" matches company name exactly with real content."
+ },
+ {
+  "id": "recrplojHkG9oiu8c",
+  "company": "Crowd.dev",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Candidates are a GitHub repo mirror and blank/blocked pages; none is a genuine crowd.dev homepage."
+ },
+ {
+  "id": "recrt01GZlpKMpRik",
+  "company": "Flattr",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): flattr.com now shows \"404 Service No Longer Exists\"; not a current official website."
+ },
+ {
+  "id": "recruRXsfHkt6tzqM",
+  "company": "Secret Spa",
+  "value": "secretspa.co.uk",
+  "line": "2026-09-17: domain: secretspa.co.uk (medium): \"Mobile Beauty London - At-Home Hair, Nails & Massage | Secret Spa\" matches company name exactly."
+ },
+ {
+  "id": "recruSsFzqtIJkJl3",
+  "company": "Apex",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Candidate apex.ai held for review (short generic name): \"Apex.AI | Software that moves\" is a plausible autonomous-software tech startup matching the name."
+ },
+ {
+  "id": "recsUBjq0aRtzQNpf",
+  "company": "IceGuard",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): iceguard.io has only a bare title; other candidates are Bulgarian floor heating and ice-warning signage firms."
+ },
+ {
+  "id": "recsUWPfKIFmtM1bf",
+  "company": "Native",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Candidates are Native Instruments, Native deodorant, NativePath supplements, and a design agency; none confirm Native."
+ },
+ {
+  "id": "recspklVYFswjnpBS",
+  "company": "Scoop",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): scoop.ai has only a bare title; Scoop.it, ScoopWhoop and ScoopEarth are unrelated media businesses."
+ },
+ {
+  "id": "rectG7iWxogmIl9aH",
+  "company": "Truck Track",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): eventralog.com is a differently-named logistics company (Eventra); other candidates are blocked, blank, or unrelated (TrackNet)."
+ },
+ {
+  "id": "recvHAsNBX0vnGi3K",
+  "company": "Scoville",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Candidates are a Japanese digital agency, a hot-sauce app, and blank pages; none confirm Seedcamp's Scoville."
+ },
+ {
+  "id": "recvNxEkXu5yPx5JI",
+  "company": "Pollen",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): pollen.com is allergy forecasts, pollen.tech shows unrelated \"Lily AI\" content, pollen.energy is battery swapping; none confirm Pollen."
+ },
+ {
+  "id": "recw0iFZ2x2tkN4Md",
+  "company": "Starship",
+  "value": "starship.xyz",
+  "line": "2026-09-17: domain: starship.xyz (high): \"Starship Technologies: Autonomous robot delivery\" matches Robotics sector exactly."
+ },
+ {
+  "id": "recw1WrI8ghKzmhfG",
+  "company": "Saltroad",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Candidates are a brewery, a speech-therapist marketplace, and a domain for sale; none confirm Saltroad."
+ },
+ {
+  "id": "recw52wVEy8AqbZdI",
+  "company": "Car & Classic",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Both carandclassic.com and .co.uk return HTTP 403 with no confirming content."
+ },
+ {
+  "id": "recw9d9dXNbSODibg",
+  "company": "Flow",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Candidates are 1-800-Flowers, Flowcode, Flowlu, and a DeFi network; none confirm Seedcamp's Flow."
+ },
+ {
+  "id": "recwA7RunzEDmIEvm",
+  "company": "Duego",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): duegooddeeds.com is an unrelated charity site; duego.app returns HTTP 404."
+ },
+ {
+  "id": "recwWaI25XcGDNYUQ",
+  "company": "Chilli Connect",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Only candidate is unity.com, which never mentions Chilli Connect by name."
+ },
+ {
+  "id": "recweX1u8gLVIgreJ",
+  "company": "Ginmon",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Candidate ginmon.de held for review (short generic name): \"Ginmon | Digitaler Vermögensverwalter\" matches company name exactly with real content."
+ },
+ {
+  "id": "recwkJkGLcI7BFolC",
+  "company": "Unframe",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): unframe.com describes a photography culture project, inconsistent with the AI sector; other candidates are unrelated South African/Polish/Dutch businesses."
+ },
+ {
+  "id": "recwmQeJWJrzLnMCN",
+  "company": "Vespucci",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Candidates are a Hungarian tailor, a hiking tour company, a helmet retailer, and an OSM editor; none confirm Vespucci."
+ },
+ {
+  "id": "recwtsdhWj3CpME0v",
+  "company": "Lulu",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): lulu.com is the large US self-publishing platform, likely a name collision with Passion Capital's smaller Lulu."
+ },
+ {
+  "id": "recx8WG5RBKz0hh6U",
+  "company": "Hopin",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Candidate hopin.com held for review (short generic name): \"Hopin is now RingCentral Events\" confirms Hopin's identity at this domain."
+ },
+ {
+  "id": "recxJj0K85u5hkMXf",
+  "company": "Recruitment Smart",
+  "value": "recruitmentsmart.com",
+  "line": "2026-09-17: domain: recruitmentsmart.com (medium): \"AI Recruitment Software: Source, Screen & Interview | Recruitment Smart\" matches company name exactly."
+ },
+ {
+  "id": "recxQE9eb0KScydXC",
+  "company": "Windsor",
+  "value": "windsor.ai",
+  "line": "2026-09-17: domain: windsor.ai (medium): \"Windsor.ai No-Code Data Integration Platform for BI, Databases & AI Tools\" loosely fits AI/ML, Media sector."
+ },
+ {
+  "id": "recxRMvfKkhaIBM5V",
+  "company": "Lassie",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Candidate lassie.co held for review (short generic name): \"Djurförsäkring – Din digitala djurförsäkring | Lassie\" (digital pet insurance) matches company name."
+ },
+ {
+  "id": "recxXeFWYK3MjCPqO",
+  "company": "Think Orbital",
+  "value": "thinkorbital.com",
+  "line": "2026-09-17: domain: thinkorbital.com (high): \"ThinkOrbital We build space\" matches company name and Spacetech sector."
+ },
+ {
+  "id": "recxbDnualOAG5sFh",
+  "company": "ForeAI",
+  "value": "foreai.co",
+  "line": "2026-09-17: domain: foreai.co (high): \"fore ai...Your Autonomous QA Agent\" matches Testing/Automation sector exactly."
+ },
+ {
+  "id": "recxcKimIDSySdTDi",
+  "company": "Mporium",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): mporium.com returns no title/description; mporiumdeluxe.com is an unrelated fashion brand and mymporium.com is a parked domain."
+ },
+ {
+  "id": "recxlmaAXLZkGkfml",
+  "company": "Paid",
+  "value": "paid.ai",
+  "line": "2026-09-17: domain: paid.ai (high): \"Paid | The Monetization Platform for AI Agents\" matches Financial Systems sector and name."
+ },
+ {
+  "id": "recxmj805mtfWwRHu",
+  "company": "JimJams",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Candidates are chocolate spreads, a clothing shop, and a pyjama retailer; none confirm an Ascension-backed JimJams."
+ },
+ {
+  "id": "recxtwam9FZqlf6qg",
+  "company": "Branch",
+  "value": "branch.co",
+  "line": "2026-09-17: domain: branch.co (high): \"Branch International...Branch is the world[’s]\" (emerging-market lending) matches Retail Banking & Consumer Finance."
+ },
+ {
+  "id": "recy0wJJvpfwbMuCh",
+  "company": "Dispatchr",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): dispatchr.ai/.app and getdispatchr.com describe three different, inconsistent products; too ambiguous to pick one."
+ },
+ {
+  "id": "recy2QMcXUs10Bfyd",
+  "company": "duvo.ai",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): duvoai.com returns no title or description."
+ },
+ {
+  "id": "recy4cr1ySGvZrMUr",
+  "company": "Koffie Financial",
+  "value": "getkoffie.com",
+  "line": "2026-09-17: domain: getkoffie.com (medium): Title \"Koffie — Landing Page\" matches company name, though content is thin."
+ },
+ {
+  "id": "recy5M1XinkwbkNxA",
+  "company": "Etheros",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Candidates are a staffing agency, an ISP edge-AI platform, and a for-sale-style page; none confirm Healthtech Etheros."
+ },
+ {
+  "id": "recyIGgHSGQCzcM9Z",
+  "company": "RideTandem",
+  "value": "ridetandem.com",
+  "line": "2026-09-17: domain: ridetandem.com (medium): \"Efficient, Reliable Employee Shuttle Services | RideTandem\" matches company name exactly."
+ },
+ {
+  "id": "recyOuPUAh7cWNp3B",
+  "company": "Switchee",
+  "value": "switchee.com",
+  "line": "2026-09-17: domain: switchee.com (medium): \"Switchee | Data-driven property insights for housing providers\" matches company name exactly."
+ },
+ {
+  "id": "recyPWaroHZy3gmB5",
+  "company": "Plain",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Candidate plain.com held for review (short generic name): \"Plain — The AI Support Stack Built for B2B\" matches company name exactly with real content."
+ },
+ {
+  "id": "recybQPi5oazQOs8n",
+  "company": "SwapSwap",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): swapswap.net returns HTTP 500 and swapswap.com has no title or description."
+ },
+ {
+  "id": "recyg89A9wetq4nYZ",
+  "company": "Monolith AI",
+  "value": "monolithai.com",
+  "line": "2026-09-17: domain: monolithai.com (medium): \"AI Software: Engineering Product Development | Monolith\" matches company name exactly."
+ },
+ {
+  "id": "recyhOUQIQn5Ot15m",
+  "company": "Lopay",
+  "value": "lopay.com",
+  "line": "2026-09-17: domain: lopay.com (high): \"Lopay | Take payments your way\" matches Fintech sector and name exactly."
+ },
+ {
+  "id": "recyhnh1EWUXsD6L9",
+  "company": "Dashbird",
+  "value": "dashbird.io",
+  "line": "2026-09-17: domain: dashbird.io (medium): \"Monitoring for serverless - Dashbird\" matches company name exactly with real content."
+ },
+ {
+  "id": "recypcdcvTChBobcd",
+  "company": "Vaire",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Candidate vaire.co held for review (short generic name): \"Near-zero energy computing - Vaire\" matches company name exactly with real content."
+ },
+ {
+  "id": "recyr2DieXFxO5Mio",
+  "company": "Lisk",
+  "value": "lisk.com",
+  "line": "2026-09-17: domain: lisk.com (high): \"Modern Money Operations | Lisk...multisigs\" (crypto treasury tooling) matches Infrastructure sector."
+ },
+ {
+  "id": "recz2h4jT6gHv0o2V",
+  "company": "Ben",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Candidates are BentoBox, a personal bio page, and a domain for sale; none confirm Seedcamp's Ben."
+ },
+ {
+  "id": "recz6aCbG8jryWFPX",
+  "company": "RUKA Hair",
+  "value": "rukahair.com",
+  "line": "2026-09-17: domain: rukahair.com (medium): \"Ruka - More Curls. More Coils. More You. Ruka Hair\" matches company name exactly."
+ },
+ {
+  "id": "reczCUkYjgMVNLWt1",
+  "company": "Built",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Candidates are Built In (job media), BuiltWith (tech profiler), and Built protein bars; none confirm Index's Built."
+ },
+ {
+  "id": "reczIahentgGZ8kLE",
+  "company": "Cohere",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Candidates are Coherent Market Insights, Cohere Health, Coherent Corp, and old cobrowsing tool Cohere.io; none is the real Cohere AI domain."
+ },
+ {
+  "id": "reczIg2irXOIUWk1l",
+  "company": "Nuclia",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): nucli.cat is an unrelated Catalan law firm; progress.com never mentions Nuclia by name."
+ },
+ {
+  "id": "reczN2rzeX7a9wukH",
+  "company": "Agamon Health",
+  "value": "agamonhealth.com",
+  "line": "2026-09-17: domain: agamonhealth.com (high): \"Agamon...bring more patients back for radiology follow-ups\" matches Data-driven health sector exactly."
+ },
+ {
+  "id": "reczQsasZtsIO55we",
+  "company": "Tizaro",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): tizaro.co.uk returns no title or description."
+ },
+ {
+  "id": "reczU9ztCYyFu164Z",
+  "company": "Nordigen",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): nordigen.io returns no title or description."
+ },
+ {
+  "id": "reczXjBsp1L0IDE8t",
+  "company": "Aparito",
+  "value": "aparito.com",
+  "line": "2026-09-17: domain: aparito.com (medium): \"Digitizing clinical trials | Aparito\" matches company name exactly with real content."
+ },
+ {
+  "id": "reczYi3gngqGIeSaQ",
+  "company": "Hopkins",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Candidates are Johns Hopkins Athletics, an executive search firm, and an architecture practice; none confirm a Connect Ventures startup."
+ },
+ {
+  "id": "reczajeNTOvMqw5uT",
+  "company": "Boost",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): Candidate boost.ai held for review (short generic name): \"Conversational AI Platform for Enterprise | boost.ai\" is a plausible tech startup matching the name."
+ },
+ {
+  "id": "reczb4GbxmGngbj5V",
+  "company": "Panacea",
+  "value": "panacea.ai",
+  "line": "2026-09-17: domain: panacea.ai (medium): \"Panacea is an AI-native recruitment agency\" is a plausible tech startup matching the name."
+ },
+ {
+  "id": "reczgVjmsjiP6CSgZ",
+  "company": "Bebo",
+  "value": "bebo.com",
+  "line": "2026-09-17: domain: bebo.com (high): \"Bebo is closed. A letter from Michael Birch\" confirms the real Balderton-backed Bebo (Consumer)."
+ },
+ {
+  "id": "reczhnxbwyQIISToN",
+  "company": "StackSync",
+  "value": "stacksync.com",
+  "line": "2026-09-17: domain: stacksync.com (high): \"Stacksync: real-time, two-way data sync platform\" matches Integration/CRM sector exactly."
+ },
+ {
+  "id": "reczkfGUQfljS621o",
+  "company": "Circa 5000",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): circa5000.com returns no title/description; circasports.com is an unrelated betting site."
+ },
+ {
+  "id": "reczokiLgGocCGXox",
+  "company": "HubBox",
+  "value": null,
+  "line": "2026-09-17: domain: no confident answer (low): hubbox.io is a Turkish IoT firm and hubbox.co.uk is a burger restaurant; neither is Ascension's HubBox."
+ }
+]

@@ -1,0 +1,920 @@
+[
+ {
+  "id": "rec0QgAISsdLAr2hw",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage could not be read by script (site answers HTTP 404)."
+ },
+ {
+  "id": "rec0VUTOigDZil7bg",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage could not be read by script (site answers HTTP 402)."
+ },
+ {
+  "id": "rec1KY1HpNwhcF1bE",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage could not be read by script (site answers HTTP 404)."
+ },
+ {
+  "id": "rec1pRYsnykSGFKF9",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage did not answer a scripted fetch (ENOTFOUND)."
+ },
+ {
+  "id": "rec1tScgPfRnwsVLY",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage could not be read by script (site answers HTTP 403)."
+ },
+ {
+  "id": "rec2HmB6u7JhEQX0H",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage could not be read by script (site answers HTTP 403)."
+ },
+ {
+  "id": "rec2hd3jJ3FMvHElg",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage could not be read by script (site answers HTTP 403)."
+ },
+ {
+  "id": "rec3RNopAulij0N5E",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage did not answer a scripted fetch (ENOTFOUND)."
+ },
+ {
+  "id": "rec3xZhsObSEV6e6W",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage could not be read by script (site answers HTTP 403)."
+ },
+ {
+  "id": "rec4AJoz1U9RVRnDp",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage could not be read by script (site answers HTTP 403)."
+ },
+ {
+  "id": "rec4Dk46edeIxGBZI",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage did not answer a scripted fetch (ERR_SSL_TLSV1_ALERT_INTERNAL_ERROR)."
+ },
+ {
+  "id": "rec4WyKI3JYBtNmqK",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage could not be read by script (site answers HTTP 403)."
+ },
+ {
+  "id": "rec4cTTpWbGFS6Zu7",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage could not be read by script (site answers HTTP 403)."
+ },
+ {
+  "id": "rec4vYKCfLIVC0PW6",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage did not answer a scripted fetch (ENOTFOUND)."
+ },
+ {
+  "id": "rec5KaySnwmcaadZV",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage did not answer a scripted fetch (ENOTFOUND)."
+ },
+ {
+  "id": "rec5yo6LZ9VYZEWmy",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage could not be read by script (site answers HTTP 403)."
+ },
+ {
+  "id": "rec6H1NrUdCkvslHr",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage could not be read by script (site answers HTTP 403)."
+ },
+ {
+  "id": "rec6pkFQFh5NCUaFB",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage could not be read by script (site answers HTTP 525)."
+ },
+ {
+  "id": "rec72RWE49t5AKqFA",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage could not be read by script (site answers HTTP 403)."
+ },
+ {
+  "id": "rec7WDEE9vl9tTXT8",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage could not be read by script (site answers HTTP 404)."
+ },
+ {
+  "id": "rec7qAYp1HLOwezoe",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage could not be read by script (site answers HTTP 522)."
+ },
+ {
+  "id": "rec8OPZpL2AB7cxN6",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage could not be read by script (site answers HTTP 403)."
+ },
+ {
+  "id": "rec9DzOAV8o4Q34ua",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage could not be read by script (site answers HTTP 403)."
+ },
+ {
+  "id": "rec9LX4lbRniEzeqw",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage could not be read by script (site answers HTTP 403)."
+ },
+ {
+  "id": "rec9Sjswd3FGbfZHV",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage did not answer a scripted fetch (ENOTFOUND)."
+ },
+ {
+  "id": "rec9ZQOPWuWlOzUOL",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage could not be read by script (site answers HTTP 503)."
+ },
+ {
+  "id": "rec9ZtIHvyN84Ftxh",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage could not be read by script (site answers HTTP 403)."
+ },
+ {
+  "id": "recA3umCYzsTd8j2u",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage could not be read by script (site answers HTTP 404)."
+ },
+ {
+  "id": "recAQJxScf6Z0Vsrk",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage could not be read by script (site answers HTTP 403)."
+ },
+ {
+  "id": "recAgCvVydHOLoSQy",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage could not be read by script (site answers HTTP 403)."
+ },
+ {
+  "id": "recB6VU3983B12KdD",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage could not be read by script (site answers HTTP 403)."
+ },
+ {
+  "id": "recBAcBWKWjtuGapP",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage could not be read by script (site answers HTTP 403)."
+ },
+ {
+  "id": "recBDAQ9sIzuqVygv",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage did not answer a scripted fetch (ENOTFOUND)."
+ },
+ {
+  "id": "recCKFiRQZKTSOskL",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage could not be read by script (site answers HTTP 403)."
+ },
+ {
+  "id": "recCSxkYtSP2Nus3M",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage could not be read by script (site answers HTTP 403)."
+ },
+ {
+  "id": "recCd7vi6cMKrD2qe",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage did not answer a scripted fetch (ENOTFOUND)."
+ },
+ {
+  "id": "recChIs8iHOsPwulY",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage could not be read by script (site answers HTTP 403)."
+ },
+ {
+  "id": "recCyYS6yFOyEaLqL",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage could not be read by script (site answers HTTP 404)."
+ },
+ {
+  "id": "recD0Vbn4VieUpwXv",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage did not answer a scripted fetch (ENOTFOUND)."
+ },
+ {
+  "id": "recD7j7UEutQhwCdE",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage did not answer a scripted fetch (ERR_SSL_SSL/TLS_ALERT_HANDSHAKE_FAILURE)."
+ },
+ {
+  "id": "recDUKJtYoeVAe4AY",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage could not be read by script (site answers HTTP 402)."
+ },
+ {
+  "id": "recDXU56Yv2NmrbYt",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage could not be read by script (site answers HTTP 429)."
+ },
+ {
+  "id": "recDsWAItIxViANij",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage could not be read by script (site answers HTTP 403)."
+ },
+ {
+  "id": "recE0u712sGl2sp4k",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage could not be read by script (site answers HTTP 503)."
+ },
+ {
+  "id": "recE1FQnAW0GteVy7",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage did not answer a scripted fetch (ENOTFOUND)."
+ },
+ {
+  "id": "recEFO3CiXiT5MD0N",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage could not be read by script (site answers HTTP 429)."
+ },
+ {
+  "id": "recEqm9QTVOczDKwt",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage could not be read by script (site answers HTTP 404)."
+ },
+ {
+  "id": "recEvhwUor85BhC5E",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage could not be read by script (site answers HTTP 403)."
+ },
+ {
+  "id": "recFFxuA51K2oxRg2",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage did not answer a scripted fetch (ERR_SSL_TLSV1_ALERT_INTERNAL_ERROR)."
+ },
+ {
+  "id": "recFH2tY1xtAe5P9u",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage could not be read by script (site answers HTTP 403)."
+ },
+ {
+  "id": "recFLxqja8WmtBcn2",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage did not answer a scripted fetch (ENOTFOUND)."
+ },
+ {
+  "id": "recFmYQegOWVtWfKB",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage did not answer a scripted fetch (ENOTFOUND)."
+ },
+ {
+  "id": "recGLpzoDaVN9jvdm",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage could not be read by script (site answers HTTP 429)."
+ },
+ {
+  "id": "recGxFOW48zqOqgUI",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage could not be read by script (site answers HTTP 403)."
+ },
+ {
+  "id": "recHKoUzGcW8tJmSl",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage did not answer a scripted fetch (UNABLE_TO_VERIFY_LEAF_SIGNATURE)."
+ },
+ {
+  "id": "recHQjjnWyulyUBGr",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage did not answer a scripted fetch (UNABLE_TO_GET_ISSUER_CERT_LOCALLY)."
+ },
+ {
+  "id": "recHocWaEjjIPT6jY",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage could not be read by script (site answers HTTP 403)."
+ },
+ {
+  "id": "recIeZZzScj2EnM8Q",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage could not be read by script (site answers HTTP 403)."
+ },
+ {
+  "id": "recIjFZ1Qm5h8NE3z",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage did not answer a scripted fetch (ERR_SSL_TLSV1_ALERT_INTERNAL_ERROR)."
+ },
+ {
+  "id": "recKT4wIVUmHdjWlX",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage could not be read by script (site answers HTTP 403)."
+ },
+ {
+  "id": "recKU1UzvmSMfBjhd",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage could not be read by script (site answers HTTP 403)."
+ },
+ {
+  "id": "recKUNeFqEcjSI8v4",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage could not be read by script (site answers HTTP 403)."
+ },
+ {
+  "id": "recKlbqBqf5gkXrbz",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage did not answer a scripted fetch (ENOTFOUND)."
+ },
+ {
+  "id": "recKr5dgqpPvRXyNt",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage did not answer a scripted fetch (DEPTH_ZERO_SELF_SIGNED_CERT)."
+ },
+ {
+  "id": "recKsYAVODxiU3XdP",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage could not be read by script (site answers HTTP 402)."
+ },
+ {
+  "id": "recLFdizJ69kHTSOb",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage did not answer a scripted fetch (ENOTFOUND)."
+ },
+ {
+  "id": "recLl9voAlMBygNGg",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage did not answer a scripted fetch (ERR_SSL_SSL/TLS_ALERT_HANDSHAKE_FAILURE)."
+ },
+ {
+  "id": "recM8ROJolEpv7w5b",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage did not answer a scripted fetch (UNABLE_TO_VERIFY_LEAF_SIGNATURE)."
+ },
+ {
+  "id": "recMbngFsmgEkKLkg",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage did not answer a scripted fetch (UND_ERR_CONNECT_TIMEOUT)."
+ },
+ {
+  "id": "recN9bG9Q1Iq1yqai",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage could not be read by script (site answers HTTP 522)."
+ },
+ {
+  "id": "recNH4M3HNY65c5JD",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage could not be read by script (site answers HTTP 429)."
+ },
+ {
+  "id": "recOf65n77rQFdEi2",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage could not be read by script (site answers HTTP 403)."
+ },
+ {
+  "id": "recOxdq0zxbyvnbTv",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage could not be read by script (site answers HTTP 522)."
+ },
+ {
+  "id": "recP5puTgxuS4ajqm",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage could not be read by script (site answers HTTP 403)."
+ },
+ {
+  "id": "recPSJ7afwFHKL44y",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage did not answer a scripted fetch (ECONNRESET)."
+ },
+ {
+  "id": "recPyaNeTxZMaOosR",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage could not be read by script (site answers HTTP 404)."
+ },
+ {
+  "id": "recQPjKO4fFs71uXR",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage did not answer a scripted fetch (ENOTFOUND)."
+ },
+ {
+  "id": "recQw90ctMeanFAc1",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage did not answer a scripted fetch (ENOTFOUND)."
+ },
+ {
+  "id": "recQxo1Yt4sJZjQ8S",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage could not be read by script (site answers HTTP 403)."
+ },
+ {
+  "id": "recRPvUNBCqSTFjRB",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage did not answer a scripted fetch (DEPTH_ZERO_SELF_SIGNED_CERT)."
+ },
+ {
+  "id": "recRnKqZu0hyfnL9i",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage did not answer a scripted fetch (ENOTFOUND)."
+ },
+ {
+  "id": "recSdmf9mCtbcpgg3",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage could not be read by script (site answers HTTP 403)."
+ },
+ {
+  "id": "recUdSFmVbw6z9HbW",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage could not be read by script (site answers HTTP 404)."
+ },
+ {
+  "id": "recUlckWnNXzdbb46",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage could not be read by script (site answers HTTP 403)."
+ },
+ {
+  "id": "recVyleBHoELJebJr",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage could not be read by script (site answers HTTP 403)."
+ },
+ {
+  "id": "recWVBnCJ1aBK1Wyp",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage could not be read by script (site answers HTTP 429)."
+ },
+ {
+  "id": "recWWwMwXCa7UnAt2",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage did not answer a scripted fetch (ENOTFOUND)."
+ },
+ {
+  "id": "recWcb3z1y321iAVM",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage could not be read by script (site answers HTTP 403)."
+ },
+ {
+  "id": "recWnDn45nuw6OAdJ",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage could not be read by script (site answers HTTP 403)."
+ },
+ {
+  "id": "recXVKBqiP24VwKOA",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage did not answer a scripted fetch (UND_ERR_CONNECT_TIMEOUT)."
+ },
+ {
+  "id": "recXWIZDNae2I7ZjY",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage did not answer a scripted fetch (ENOTFOUND)."
+ },
+ {
+  "id": "recXwxZuHVeukyTjk",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage could not be read by script (site answers HTTP 403)."
+ },
+ {
+  "id": "recYrbMWbGCFCL4WQ",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage could not be read by script (site answers HTTP 403)."
+ },
+ {
+  "id": "recYvmgsiRECEpcQ6",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage could not be read by script (site answers HTTP 403)."
+ },
+ {
+  "id": "reca7HsJKsAh2S5If",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage did not answer a scripted fetch (ENOTFOUND)."
+ },
+ {
+  "id": "recasTPszDLgJlvm2",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage did not answer a scripted fetch (ERR_SSL_TLSV1_ALERT_INTERNAL_ERROR)."
+ },
+ {
+  "id": "recfKkRiEskXKrvCK",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage could not be read by script (site answers HTTP 403)."
+ },
+ {
+  "id": "recfPaw9CIGSjLMmZ",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage could not be read by script (site answers HTTP 403)."
+ },
+ {
+  "id": "recfqkhoC1OnnCYg3",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage did not answer a scripted fetch (ENOTFOUND)."
+ },
+ {
+  "id": "recg12tpHbnMLwosi",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage could not be read by script (site answers HTTP 403)."
+ },
+ {
+  "id": "recgRYQQ9MPLFYeVd",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage could not be read by script (site answers HTTP 403)."
+ },
+ {
+  "id": "rechT0iYSxsnC2ooz",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage could not be read by script (site answers HTTP 403)."
+ },
+ {
+  "id": "rechWJIrBETju3dGz",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage could not be read by script (site answers HTTP 403)."
+ },
+ {
+  "id": "rechiZbDFP41PpY3S",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage did not answer a scripted fetch (UND_ERR_CONNECT_TIMEOUT)."
+ },
+ {
+  "id": "rechvIxyZOnct2hdC",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage could not be read by script (site answers HTTP 429)."
+ },
+ {
+  "id": "reciW3YlSM8ADTdO8",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage did not answer a scripted fetch (ENOTFOUND)."
+ },
+ {
+  "id": "recjGREsdIfIxgXf3",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage could not be read by script (site answers HTTP 403)."
+ },
+ {
+  "id": "recjGvmCh2F5aesde",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage could not be read by script (site answers HTTP 403)."
+ },
+ {
+  "id": "reckA18J4AfcF75Mz",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage could not be read by script (site answers HTTP 404)."
+ },
+ {
+  "id": "reckq2p4gdeil3hav",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage did not answer a scripted fetch (ERR_SSL_SSL/TLS_ALERT_HANDSHAKE_FAILURE)."
+ },
+ {
+  "id": "reclf5DdfGGZ1ROFl",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage could not be read by script (site answers HTTP 403)."
+ },
+ {
+  "id": "reclhQrgj55uEb4An",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage did not answer a scripted fetch (UND_ERR_CONNECT_TIMEOUT)."
+ },
+ {
+  "id": "recmprysmSpuIO7jG",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage could not be read by script (site answers HTTP 429)."
+ },
+ {
+  "id": "recn0G28E4tccdFY9",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage did not answer a scripted fetch (CERT_HAS_EXPIRED)."
+ },
+ {
+  "id": "recnnvCRZBIWoNu2E",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage could not be read by script (site answers HTTP 429)."
+ },
+ {
+  "id": "reco1JLFQOiannZo7",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage could not be read by script (site answers HTTP 403)."
+ },
+ {
+  "id": "recpe2cQvi25MYCQB",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage did not answer a scripted fetch (ERR_SSL_TLSV1_UNRECOGNIZED_NAME)."
+ },
+ {
+  "id": "recq0YEztWgh3kxu3",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage did not answer a scripted fetch (DEPTH_ZERO_SELF_SIGNED_CERT)."
+ },
+ {
+  "id": "recq2eOKA2vD24hM7",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage could not be read by script (site answers HTTP 404)."
+ },
+ {
+  "id": "recq4rHfFstVean99",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage did not answer a scripted fetch (ENOTFOUND)."
+ },
+ {
+  "id": "recq8JtdPkGi33Njp",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage could not be read by script (site answers HTTP 403)."
+ },
+ {
+  "id": "recqbmE93fj2NJckA",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage did not answer a scripted fetch (ERR_SSL_TLSV1_ALERT_INTERNAL_ERROR)."
+ },
+ {
+  "id": "recqbqrLwj2AfIDxX",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage did not answer a scripted fetch (ERR_SSL_TLSV1_ALERT_INTERNAL_ERROR)."
+ },
+ {
+  "id": "recqlJwQ34zJmvYc3",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage could not be read by script (site answers HTTP 403)."
+ },
+ {
+  "id": "recrgC1auLTGVHXTw",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage did not answer a scripted fetch (ECONNRESET)."
+ },
+ {
+  "id": "recrund46Ierajw1e",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage could not be read by script (site answers HTTP 403)."
+ },
+ {
+  "id": "recs4uu5jC16q4HXR",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage could not be read by script (site answers HTTP 404)."
+ },
+ {
+  "id": "recs9pQfN1WG6AGTe",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage did not answer a scripted fetch (ERR_SSL_SSL/TLS_ALERT_HANDSHAKE_FAILURE)."
+ },
+ {
+  "id": "recsCo0YqjBcxNIdV",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage did not answer a scripted fetch (ENOTFOUND)."
+ },
+ {
+  "id": "recsNR1JeLfCF5cSf",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage did not answer a scripted fetch (ENOTFOUND)."
+ },
+ {
+  "id": "recsNsHu7mzeYbAIF",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage could not be read by script (site answers HTTP 403)."
+ },
+ {
+  "id": "recsWyGUr38WlUiQY",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage did not answer a scripted fetch (ENOTFOUND)."
+ },
+ {
+  "id": "recsXq6ORTuioUdj4",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage did not answer a scripted fetch (ENOTFOUND)."
+ },
+ {
+  "id": "recsc7j6ghE7XsHKd",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage did not answer a scripted fetch (ENOTFOUND)."
+ },
+ {
+  "id": "recsd0v7QfWO1COOA",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage did not answer a scripted fetch (ERR_SSL_SSL/TLS_ALERT_HANDSHAKE_FAILURE)."
+ },
+ {
+  "id": "recsrNPPc4EtOGGsu",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage did not answer a scripted fetch (ENOTFOUND)."
+ },
+ {
+  "id": "rectHA8sQmp7IhgL9",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage did not answer a scripted fetch (CERT_HAS_EXPIRED)."
+ },
+ {
+  "id": "rectJShY1vdZNstaX",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage could not be read by script (site answers HTTP 403)."
+ },
+ {
+  "id": "recuLHaxkzuhxuXTp",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage did not answer a scripted fetch (ENOTFOUND)."
+ },
+ {
+  "id": "recuLlNDBn9f1Dr4C",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage did not answer a scripted fetch (ENOTFOUND)."
+ },
+ {
+  "id": "recusbu57s64NBndb",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage did not answer a scripted fetch (ENOTFOUND)."
+ },
+ {
+  "id": "recutbp23XyaAuA3c",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage did not answer a scripted fetch (ENOTFOUND)."
+ },
+ {
+  "id": "recuxoTH4F3jwZlaJ",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage did not answer a scripted fetch (ENOTFOUND)."
+ },
+ {
+  "id": "recvmmFhAvKpkyHvp",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage did not answer a scripted fetch (CERT_HAS_EXPIRED)."
+ },
+ {
+  "id": "recwVEfU8jaNmMWLg",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage did not answer a scripted fetch (ENOTFOUND)."
+ },
+ {
+  "id": "recwb70UF7FStYGlC",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage could not be read by script (site answers HTTP 403)."
+ },
+ {
+  "id": "recwn3dtTCtMtW08Y",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage could not be read by script (site answers HTTP 403)."
+ },
+ {
+  "id": "recxFQl0BgdxchZv3",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage could not be read by script (site answers HTTP 403)."
+ },
+ {
+  "id": "recy24Stqww2SHRkw",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage did not answer a scripted fetch (ENOTFOUND)."
+ },
+ {
+  "id": "recy9J4xiZZV7YwuV",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage did not answer a scripted fetch (ENOTFOUND)."
+ },
+ {
+  "id": "recylcXhkvELGu2RG",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage could not be read by script (site answers HTTP 429)."
+ },
+ {
+  "id": "reczZ0MT9KfZtzHXw",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage could not be read by script (site answers HTTP 404)."
+ },
+ {
+  "id": "reczj2DpvyyfLnBQp",
+  "value": "Unclear",
+  "confidence": "medium",
+  "evidence": "Homepage did not answer a scripted fetch (ERR_TLS_CERT_ALTNAME_INVALID)."
+ }
+]

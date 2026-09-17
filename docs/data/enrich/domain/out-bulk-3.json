@@ -1,0 +1,848 @@
+[
+ {
+  "id": "recjpO50Cghqyrza4",
+  "value": null,
+  "confidence": "low",
+  "evidence": "No candidate is Kitch; results are KitchenAid, a blog, a law firm, and a meal-kit company."
+ },
+ {
+  "id": "recjyxYxkuxXhVhR4",
+  "value": "numer.ai",
+  "confidence": "high",
+  "evidence": "\"Numerai...Predict the stock market with AI to power our hedge fund\" matches fintech name exactly."
+ },
+ {
+  "id": "reck7ZXK4gJImw93p",
+  "value": null,
+  "confidence": "low",
+  "evidence": "All candidates return HTTP 403 or are blank; no content confirms Capdesk."
+ },
+ {
+  "id": "reckC20y913o23C80",
+  "value": "reliant.ai",
+  "confidence": "high",
+  "evidence": "\"Reliant AI - Complex research made simple\" fits Knowledge/LLMs; others are Reliant Energy/Mission unrelated."
+ },
+ {
+  "id": "reckEHWlLEOFRRscx",
+  "value": "concert.bio",
+  "confidence": "medium",
+  "evidence": "\"Concert Bio...Optimising greenhouse crop performance via the plant microbiome\" matches name exactly."
+ },
+ {
+  "id": "reckI4ohtS9gnYyZ3",
+  "value": "vidsy.co",
+  "confidence": "low",
+  "evidence": "Candidate vidsy.co held for review (short generic name): \"Create High-Performing Video Ads with Vidsy\" matches company name exactly with real content."
+ },
+ {
+  "id": "reckNIZi3vrjU26yO",
+  "value": null,
+  "confidence": "low",
+  "evidence": "fygo.ai/.co/.io have empty titles; fygostudio.com is an unrelated French production company."
+ },
+ {
+  "id": "reckUPebUxrUtJ0fd",
+  "value": null,
+  "confidence": "low",
+  "evidence": "Only candidate is smg.com \"Ignite Communities\", an unrelated platform, not named Bulbshare."
+ },
+ {
+  "id": "reckUtpr17uD2zHBp",
+  "value": null,
+  "confidence": "low",
+  "evidence": "Candidates are Hoselink garden hoses and a golf app; none reference Hosel."
+ },
+ {
+  "id": "reckl5fG4vYSNsv0P",
+  "value": null,
+  "confidence": "low",
+  "evidence": "Candidates are fitness, AI compute, lawn care, and campus health sites; none match XR/Events Volta."
+ },
+ {
+  "id": "reckvkfH6fAC1BtCg",
+  "value": "montonio.com",
+  "confidence": "medium",
+  "evidence": "\"Payments and Shipping to Convert Every Customer | Montonio\" matches name exactly."
+ },
+ {
+  "id": "reckvqMIXVkqDu9VA",
+  "value": "automatic.co",
+  "confidence": "medium",
+  "evidence": "\"Automatic.co — Agentic AI Automation for the Enterprise\" is a plausible tech startup matching the name."
+ },
+ {
+  "id": "reckxpdDQm4qawE81",
+  "value": "learnerbly.com",
+  "confidence": "high",
+  "evidence": "\"Learning that moves people forward | Learnerbly\" matches employee learning platform sector exactly."
+ },
+ {
+  "id": "recl4ad2mg9QazTxV",
+  "value": null,
+  "confidence": "low",
+  "evidence": "txt.fyi/txt.com are empty, txt.me is for sale, txt.co is an unrelated ad agency."
+ },
+ {
+  "id": "reclCG1eMFJzxBpSL",
+  "value": "thalamos.co.uk",
+  "confidence": "medium",
+  "evidence": "\"Homepage - Thalamos...reduce the administrative burden of the Mental Health Act\" matches name."
+ },
+ {
+  "id": "reclL2zq6stvpwQ0T",
+  "value": "duffel.com",
+  "confidence": "low",
+  "evidence": "Candidate duffel.com held for review (short generic name): \"Duffel - The best API to sell travel\" matches company name with real content."
+ },
+ {
+  "id": "reclRnntF4yfKN1Wt",
+  "value": null,
+  "confidence": "low",
+  "evidence": "coincorner.com is a different company name; coinfloor.co is a generic business directory page."
+ },
+ {
+  "id": "reclYcuW60hZGJmcp",
+  "value": "mokn.io",
+  "confidence": "high",
+  "evidence": "\"MokN...end credential threats\" matches Cybersecurity sector and the Mokn name exactly."
+ },
+ {
+  "id": "recldIlmqzJaHlJnF",
+  "value": null,
+  "confidence": "low",
+  "evidence": "qflow.com \"QFlow Systems, LLC\" is a US govt workflow vendor, likely a different company from Ascension/MMC's Qflow."
+ },
+ {
+  "id": "reclgMxIEMi4PKc99",
+  "value": null,
+  "confidence": "low",
+  "evidence": "reinfer.com \"INICIO - Reinfer\" is an unrelated Spanish business in Las Palmas."
+ },
+ {
+  "id": "recliWtuhuqRDe6mG",
+  "value": null,
+  "confidence": "low",
+  "evidence": "Candidates are a musician, a virtual concierge, a university, and a jeweler; none match Credit risk ML."
+ },
+ {
+  "id": "reclmt9QAMBWubRWO",
+  "value": null,
+  "confidence": "low",
+  "evidence": "Candidates are an AI OS brand, an art magazine, and Colossal Biosciences; none confirm Consumer-sector Colossal."
+ },
+ {
+  "id": "reclvtPaKVwcPUUb9",
+  "value": "elwood.io",
+  "confidence": "high",
+  "evidence": "\"Elwood | Digital Asset Trading Platform\" matches the Digital asset platform sector exactly."
+ },
+ {
+  "id": "recm15H97GMH7i2Wz",
+  "value": "workstream.us",
+  "confidence": "medium",
+  "evidence": "\"HR and Payroll for hourly businesses | Workstream\" matches company name with real content."
+ },
+ {
+  "id": "recmDASRHL7hPjLdN",
+  "value": null,
+  "confidence": "low",
+  "evidence": "Candidates are Vinayak ingredients/water treatment firms and a university; none match Vinaya."
+ },
+ {
+  "id": "recmEmhETmg7xF3d7",
+  "value": "zerotier.com",
+  "confidence": "high",
+  "evidence": "\"ZeroTier | Next-Generation Connectivity and Cybersecurity\" matches sector and name exactly."
+ },
+ {
+  "id": "recmf4XHwqgmSe7gZ",
+  "value": null,
+  "confidence": "low",
+  "evidence": "ordercast.com reads like a generic \"VentureOS network\" placeholder, not genuine Ordercast content."
+ },
+ {
+  "id": "recmmFrhdd6sdGq7R",
+  "value": "sentisum.com",
+  "confidence": "medium",
+  "evidence": "\"AI-native CX Intelligence Software | SentiSum\" matches company name with real content."
+ },
+ {
+  "id": "recmt740Pp9Pbo5dY",
+  "value": "zefir.com",
+  "confidence": "low",
+  "evidence": "Candidate zefir.com held for review (short generic name): \"Zefir | WhatsApp & SMS Revenue Platform for Ecommerce\" matches company name plausibly."
+ },
+ {
+  "id": "recnIAgkxc1zp4VwC",
+  "value": "stream.co",
+  "confidence": "low",
+  "evidence": "Candidate stream.co held for review (short generic name): \"Stream | Financial Wellbeing for Employees\" matches company name with real content."
+ },
+ {
+  "id": "recnNeBhP8hUdIIOb",
+  "value": "scale.com",
+  "confidence": "low",
+  "evidence": "Candidate scale.com held for review (short generic name): \"Reliable AI Systems for Critical Decisions | Scale AI\" matches company name exactly."
+ },
+ {
+  "id": "recnUdkfGO4tB7JcE",
+  "value": "reliably.com",
+  "confidence": "high",
+  "evidence": "\"Build and scale your resilience engineering capability\" fits Compute Stack sector and name."
+ },
+ {
+  "id": "recnw6ZpULEPIoWrF",
+  "value": "dataseat.com",
+  "confidence": "medium",
+  "evidence": "\"Dataseat Mobile DSP\" matches company name exactly with real content; sector is generic \"Other\"."
+ },
+ {
+  "id": "reco25ABfXRDrbd7Y",
+  "value": null,
+  "confidence": "low",
+  "evidence": "Candidates are a coach, health approvals, a pet-care app, and a blocked TV site; none match Infrastructure Kima."
+ },
+ {
+  "id": "reco6oGI3iiDDYlG5",
+  "value": null,
+  "confidence": "low",
+  "evidence": "Candidates are Untappd, Untapped Cities, Untapped.gg, and a screen-time app; none confirm Ascension's Untap."
+ },
+ {
+  "id": "reco8Kg4BUROeGoCR",
+  "value": null,
+  "confidence": "low",
+  "evidence": "Candidates are a Colombian training portal, a dating site, and domains for sale; none match Sofia."
+ },
+ {
+  "id": "recoJX55CFAkrhPSR",
+  "value": null,
+  "confidence": "low",
+  "evidence": "cto.new's page title is \"Claude\", not the company name; ctonew.com is for sale."
+ },
+ {
+  "id": "recoj4OOxvIgtuUZW",
+  "value": null,
+  "confidence": "low",
+  "evidence": "Candidates are cowboy boots, Italian fashion, a Spanish aesthetics distributor, and a marketing platform; none fit Healthy Ageing."
+ },
+ {
+  "id": "recon6tXAoayPHCM1",
+  "value": "dayjob.ai",
+  "confidence": "low",
+  "evidence": "Candidate dayjob.ai held for review (short generic name): \"Smarter Job Scheduling for Waste Management Companies | Dayjob\" plausibly matches the name."
+ },
+ {
+  "id": "recoozOGOr9WugdK2",
+  "value": null,
+  "confidence": "low",
+  "evidence": "Candidates are tattoo studios and domains for sale; none match Writing platform Inkitt."
+ },
+ {
+  "id": "recopyD4zqysyGGYP",
+  "value": "trysonia.com",
+  "confidence": "low",
+  "evidence": "Candidate trysonia.com held for review (short generic name): \"Sonia - A modern therapeutic wellness brand\" loosely fits Mental Health/AI sector."
+ },
+ {
+  "id": "recovfTznCTInXATN",
+  "value": "levro.com",
+  "confidence": "high",
+  "evidence": "\"Levro | Global Banking and Payments\" matches Fintech/Banking sector exactly."
+ },
+ {
+  "id": "recozNkEqYU8NL5MI",
+  "value": null,
+  "confidence": "low",
+  "evidence": "userreplay.com and userreplay.co.uk both return empty titles and descriptions."
+ },
+ {
+  "id": "recp7BXnJ0o7rY968",
+  "value": "snowplow.io",
+  "confidence": "high",
+  "evidence": "\"Customer Context Layer | Snowplow\" matches Cloud & data infrastructure sector exactly."
+ },
+ {
+  "id": "recpI5y43RdLgP3D8",
+  "value": null,
+  "confidence": "low",
+  "evidence": "bloom.io is a CRM workspace, bloom.ai just says \"AI for Life\"; neither confirms Enterprise AI Bloom."
+ },
+ {
+  "id": "recpY6kn0G4hLxd2J",
+  "value": "twig.io",
+  "confidence": "low",
+  "evidence": "Candidate twig.io held for review (short generic name): \"Twig - AI writing tools that actually support your creativity\" plausibly matches name."
+ },
+ {
+  "id": "recpajg6gdc1bbY4Z",
+  "value": "gaiaai.app",
+  "confidence": "medium",
+  "evidence": "\"Gaia AI — an AI teammate that gets things done\" loosely fits the DeAI sector."
+ },
+ {
+  "id": "recpbBoTC9HJ8vkm7",
+  "value": "meniga.com",
+  "confidence": "low",
+  "evidence": "Candidate meniga.com held for review (short generic name): \"Personalised Digital Banking Solutions - Meniga\" matches company name exactly."
+ },
+ {
+  "id": "recpcNDTPPam3LDhN",
+  "value": "charconeurotech.com",
+  "confidence": "high",
+  "evidence": "\"Charco Neurotech...Non-Invasive Wearable Device for People with Parkinson's\" matches name and sector."
+ },
+ {
+  "id": "recpqeanWkgJI439x",
+  "value": null,
+  "confidence": "low",
+  "evidence": "dagster.io never mentions \"Elementl\"; other elementl.* candidates are empty."
+ },
+ {
+  "id": "recptzj4cGdYL1joH",
+  "value": "kyra.com",
+  "confidence": "low",
+  "evidence": "Candidate kyra.com held for review (short generic name): \"Kyra - Influencer Marketing at Scale\" plausibly matches company name."
+ },
+ {
+  "id": "recpvmaz9gz9xlpu0",
+  "value": "healthkey.ai",
+  "confidence": "medium",
+  "evidence": "\"HealthKey - Patient Registries Powered by a Complete Personal Health Record\" matches name exactly."
+ },
+ {
+  "id": "recpxgYlWZo6zFifG",
+  "value": "atreides.io",
+  "confidence": "high",
+  "evidence": "\"Atreides | Intelligence Platform for Mission Decisions\" matches B2B SaaS, AI/ML sector."
+ },
+ {
+  "id": "recq2jRURczpTs3JX",
+  "value": null,
+  "confidence": "low",
+  "evidence": "Candidates are a meal kit company, a Russian catalog, a task app, and a health app; none mention water risk."
+ },
+ {
+  "id": "recqALH9ZnlgeusWk",
+  "value": "glaize.co",
+  "confidence": "low",
+  "evidence": "Candidate glaize.co held for review (short generic name): \"Glaize | Great Nails, No Appointment | As Seen On Dragons Den\" matches company name exactly."
+ },
+ {
+  "id": "recqJVMofmajn7pOv",
+  "value": "greenjets.com",
+  "confidence": "medium",
+  "evidence": "Title \"Greenjets\" matches company name exactly, though description is empty."
+ },
+ {
+  "id": "recqKQnbJfWlXj1nm",
+  "value": "adaptyvbio.com",
+  "confidence": "high",
+  "evidence": "\"Adaptyv Bio — The Automated Lab for Agentic Biology\" matches Biotech sector and name."
+ },
+ {
+  "id": "recqOxDILlauQ8mMf",
+  "value": "mapmortar.io",
+  "confidence": "medium",
+  "evidence": "\"MapMortar | Real Estate Capital Planning...decarbonisation across large real estate portfolios\" matches name."
+ },
+ {
+  "id": "recqWfm2DSBtgV6L6",
+  "value": null,
+  "confidence": "low",
+  "evidence": "Candidates are a US cod liver oil brand, an Italian racking company, a Polish mason, and an AI content tool; none confirm Seedcamp's Rosita."
+ },
+ {
+  "id": "recqYq2lOjMLvN48F",
+  "value": "safi.co",
+  "confidence": "low",
+  "evidence": "Candidate safi.co held for review (short generic name): \"Safi AI — AI-Powered Quality Control for PET, HDPE & UBC Recyclers\" plausibly matches the name."
+ },
+ {
+  "id": "recqaFaKjtz2jlkRi",
+  "value": "nanoplume.com",
+  "confidence": "medium",
+  "evidence": "\"NANOPLUME | Reinventing Insulation...bio-based aerogels\" matches company name exactly."
+ },
+ {
+  "id": "recqiTw6phpMPcjNj",
+  "value": "cutimpulsebuying.com",
+  "confidence": "low",
+  "evidence": "Candidate cutimpulsebuying.com held for review (short generic name): \"Jiminy - Home page...Cut impulse buying, debt, & regret\" matches the company name."
+ },
+ {
+  "id": "recqinYWVYeeSH1PY",
+  "value": null,
+  "confidence": "low",
+  "evidence": "cudoo.com is a differently-spelled eLearning site; other candidates are unrelated or blocked."
+ },
+ {
+  "id": "recqk1LTTIpW1HwyD",
+  "value": null,
+  "confidence": "low",
+  "evidence": "allfocaloptics.com returns an empty title and description."
+ },
+ {
+  "id": "recqlTxt1mgsTfFRY",
+  "value": null,
+  "confidence": "low",
+  "evidence": "climatecorporation.com is blocked (HTTP 403); likely the unrelated famous Climate Corporation, not an Anthemis startup."
+ },
+ {
+  "id": "recqlbzpZmUVl6Og3",
+  "value": "wine-in-black.de",
+  "confidence": "medium",
+  "evidence": "\"Wine in Black | Hochwertige Weine und Champagner kaufen\" matches company name exactly."
+ },
+ {
+  "id": "recqn3hRz12gUBuLd",
+  "value": "crukafe.com",
+  "confidence": "medium",
+  "evidence": "\"CRU Kafe | Organic Coffee Pods\" matches company name exactly with real content."
+ },
+ {
+  "id": "recqowU8evcuiLVqb",
+  "value": "geeiq.com",
+  "confidence": "low",
+  "evidence": "Candidate geeiq.com held for review (short generic name): \"GEEIQ | The Data Platform Behind Brands and Gaming\" matches company name exactly."
+ },
+ {
+  "id": "recqqEY5LQQY2y1pB",
+  "value": "integralads.com",
+  "confidence": "high",
+  "evidence": "\"Integral Ad Science | Global Media Measurement & Optimization\" matches AdTech sector and name."
+ },
+ {
+  "id": "recqr999fBlRCXx6j",
+  "value": null,
+  "confidence": "low",
+  "evidence": "Candidates are an Italian deals site, a fashion brand, a flight tracker, and cold air intakes; none match Aerospace Volant."
+ },
+ {
+  "id": "recqsqX3gB4QiQ8Qz",
+  "value": null,
+  "confidence": "low",
+  "evidence": "interstellarlabs.company describes a generic \"product studio\", not Spacetech/Agritech hardware; interstellarlab.com is blocked."
+ },
+ {
+  "id": "recqwJEDZVsAiUbGD",
+  "value": null,
+  "confidence": "low",
+  "evidence": "Candidates are Czech/Austrian parliament news sites and thin/unrelated Parla pages; none confirm the startup."
+ },
+ {
+  "id": "recqwike2B0sgTa8k",
+  "value": "huggg.me",
+  "confidence": "low",
+  "evidence": "Candidate huggg.me held for review (short generic name): \"Huggg - Better business gift options, no addresses needed\" matches company name exactly."
+ },
+ {
+  "id": "recqy54mhlHgj9cyx",
+  "value": null,
+  "confidence": "low",
+  "evidence": "skewed.com is a differently-named sustainability firm; skew.co appears to be a parked portfolio placeholder."
+ },
+ {
+  "id": "recqzpwADgx6PF3Cf",
+  "value": "zemanta.com",
+  "confidence": "medium",
+  "evidence": "\"Zemanta - Programmatic Ad Technology Built for Performance\" matches company name exactly."
+ },
+ {
+  "id": "recr4EcpCeg7IQoXv",
+  "value": null,
+  "confidence": "low",
+  "evidence": "pathfinder.ai has only a bare title \"Pathfinder\" with no description confirming e-commerce marketing AI."
+ },
+ {
+  "id": "recr89nasybBaJApw",
+  "value": "pactcoffee.com",
+  "confidence": "high",
+  "evidence": "\"The UK's Best Coffee Delivery & Subscription Service | Pact Coffee\" matches Consumer & product sector."
+ },
+ {
+  "id": "recrBakKJL0FSonNd",
+  "value": "getcanveo.com",
+  "confidence": "low",
+  "evidence": "Candidate getcanveo.com held for review (short generic name): \"Canveo Digital Contracts | The AI contract review and negotiation platform\" matches company name exactly."
+ },
+ {
+  "id": "recrFJj40bW3nlt7L",
+  "value": null,
+  "confidence": "low",
+  "evidence": "Candidates are a skincare brand, a biotech news site, and a Colombian bioinformatics center; none confirm BiOS."
+ },
+ {
+  "id": "recrH3Z8SZe0sqw6W",
+  "value": "prewarp.co",
+  "confidence": "medium",
+  "evidence": "\"PreWarp — Wholesale Analytics for Fashion Brands\" matches company name exactly with real content."
+ },
+ {
+  "id": "recrPvT2o7XQ37vgo",
+  "value": null,
+  "confidence": "low",
+  "evidence": "jarvis.com/.io/.app/.hq are thin, for-sale, or blank; none confirm an Ascension-backed Jarvis."
+ },
+ {
+  "id": "recriV2GZZZDMQUR8",
+  "value": "togl.co",
+  "confidence": "low",
+  "evidence": "Candidate togl.co held for review (short generic name): \"Fleet charging & flexibility software | TOGL\" matches company name exactly with real content."
+ },
+ {
+  "id": "recrplojHkG9oiu8c",
+  "value": null,
+  "confidence": "low",
+  "evidence": "Candidates are a GitHub repo mirror and blank/blocked pages; none is a genuine crowd.dev homepage."
+ },
+ {
+  "id": "recrt01GZlpKMpRik",
+  "value": null,
+  "confidence": "low",
+  "evidence": "flattr.com now shows \"404 Service No Longer Exists\"; not a current official website."
+ },
+ {
+  "id": "recruRXsfHkt6tzqM",
+  "value": "secretspa.co.uk",
+  "confidence": "medium",
+  "evidence": "\"Mobile Beauty London - At-Home Hair, Nails & Massage | Secret Spa\" matches company name exactly."
+ },
+ {
+  "id": "recruSsFzqtIJkJl3",
+  "value": "apex.ai",
+  "confidence": "low",
+  "evidence": "Candidate apex.ai held for review (short generic name): \"Apex.AI | Software that moves\" is a plausible autonomous-software tech startup matching the name."
+ },
+ {
+  "id": "recsUBjq0aRtzQNpf",
+  "value": null,
+  "confidence": "low",
+  "evidence": "iceguard.io has only a bare title; other candidates are Bulgarian floor heating and ice-warning signage firms."
+ },
+ {
+  "id": "recsUWPfKIFmtM1bf",
+  "value": null,
+  "confidence": "low",
+  "evidence": "Candidates are Native Instruments, Native deodorant, NativePath supplements, and a design agency; none confirm Native."
+ },
+ {
+  "id": "recspklVYFswjnpBS",
+  "value": null,
+  "confidence": "low",
+  "evidence": "scoop.ai has only a bare title; Scoop.it, ScoopWhoop and ScoopEarth are unrelated media businesses."
+ },
+ {
+  "id": "rectG7iWxogmIl9aH",
+  "value": null,
+  "confidence": "low",
+  "evidence": "eventralog.com is a differently-named logistics company (Eventra); other candidates are blocked, blank, or unrelated (TrackNet)."
+ },
+ {
+  "id": "recvHAsNBX0vnGi3K",
+  "value": null,
+  "confidence": "low",
+  "evidence": "Candidates are a Japanese digital agency, a hot-sauce app, and blank pages; none confirm Seedcamp's Scoville."
+ },
+ {
+  "id": "recvNxEkXu5yPx5JI",
+  "value": null,
+  "confidence": "low",
+  "evidence": "pollen.com is allergy forecasts, pollen.tech shows unrelated \"Lily AI\" content, pollen.energy is battery swapping; none confirm Pollen."
+ },
+ {
+  "id": "recw0iFZ2x2tkN4Md",
+  "value": "starship.xyz",
+  "confidence": "high",
+  "evidence": "\"Starship Technologies: Autonomous robot delivery\" matches Robotics sector exactly."
+ },
+ {
+  "id": "recw1WrI8ghKzmhfG",
+  "value": null,
+  "confidence": "low",
+  "evidence": "Candidates are a brewery, a speech-therapist marketplace, and a domain for sale; none confirm Saltroad."
+ },
+ {
+  "id": "recw52wVEy8AqbZdI",
+  "value": null,
+  "confidence": "low",
+  "evidence": "Both carandclassic.com and .co.uk return HTTP 403 with no confirming content."
+ },
+ {
+  "id": "recw9d9dXNbSODibg",
+  "value": null,
+  "confidence": "low",
+  "evidence": "Candidates are 1-800-Flowers, Flowcode, Flowlu, and a DeFi network; none confirm Seedcamp's Flow."
+ },
+ {
+  "id": "recwA7RunzEDmIEvm",
+  "value": null,
+  "confidence": "low",
+  "evidence": "duegooddeeds.com is an unrelated charity site; duego.app returns HTTP 404."
+ },
+ {
+  "id": "recwWaI25XcGDNYUQ",
+  "value": null,
+  "confidence": "low",
+  "evidence": "Only candidate is unity.com, which never mentions Chilli Connect by name."
+ },
+ {
+  "id": "recweX1u8gLVIgreJ",
+  "value": "ginmon.de",
+  "confidence": "low",
+  "evidence": "Candidate ginmon.de held for review (short generic name): \"Ginmon | Digitaler Vermögensverwalter\" matches company name exactly with real content."
+ },
+ {
+  "id": "recwkJkGLcI7BFolC",
+  "value": null,
+  "confidence": "low",
+  "evidence": "unframe.com describes a photography culture project, inconsistent with the AI sector; other candidates are unrelated South African/Polish/Dutch businesses."
+ },
+ {
+  "id": "recwmQeJWJrzLnMCN",
+  "value": null,
+  "confidence": "low",
+  "evidence": "Candidates are a Hungarian tailor, a hiking tour company, a helmet retailer, and an OSM editor; none confirm Vespucci."
+ },
+ {
+  "id": "recwtsdhWj3CpME0v",
+  "value": null,
+  "confidence": "low",
+  "evidence": "lulu.com is the large US self-publishing platform, likely a name collision with Passion Capital's smaller Lulu."
+ },
+ {
+  "id": "recx8WG5RBKz0hh6U",
+  "value": "hopin.com",
+  "confidence": "low",
+  "evidence": "Candidate hopin.com held for review (short generic name): \"Hopin is now RingCentral Events\" confirms Hopin's identity at this domain."
+ },
+ {
+  "id": "recxJj0K85u5hkMXf",
+  "value": "recruitmentsmart.com",
+  "confidence": "medium",
+  "evidence": "\"AI Recruitment Software: Source, Screen & Interview | Recruitment Smart\" matches company name exactly."
+ },
+ {
+  "id": "recxQE9eb0KScydXC",
+  "value": "windsor.ai",
+  "confidence": "medium",
+  "evidence": "\"Windsor.ai No-Code Data Integration Platform for BI, Databases & AI Tools\" loosely fits AI/ML, Media sector."
+ },
+ {
+  "id": "recxRMvfKkhaIBM5V",
+  "value": "lassie.co",
+  "confidence": "low",
+  "evidence": "Candidate lassie.co held for review (short generic name): \"Djurförsäkring – Din digitala djurförsäkring | Lassie\" (digital pet insurance) matches company name."
+ },
+ {
+  "id": "recxXeFWYK3MjCPqO",
+  "value": "thinkorbital.com",
+  "confidence": "high",
+  "evidence": "\"ThinkOrbital We build space\" matches company name and Spacetech sector."
+ },
+ {
+  "id": "recxbDnualOAG5sFh",
+  "value": "foreai.co",
+  "confidence": "high",
+  "evidence": "\"fore ai...Your Autonomous QA Agent\" matches Testing/Automation sector exactly."
+ },
+ {
+  "id": "recxcKimIDSySdTDi",
+  "value": null,
+  "confidence": "low",
+  "evidence": "mporium.com returns no title/description; mporiumdeluxe.com is an unrelated fashion brand and mymporium.com is a parked domain."
+ },
+ {
+  "id": "recxlmaAXLZkGkfml",
+  "value": "paid.ai",
+  "confidence": "high",
+  "evidence": "\"Paid | The Monetization Platform for AI Agents\" matches Financial Systems sector and name."
+ },
+ {
+  "id": "recxmj805mtfWwRHu",
+  "value": null,
+  "confidence": "low",
+  "evidence": "Candidates are chocolate spreads, a clothing shop, and a pyjama retailer; none confirm an Ascension-backed JimJams."
+ },
+ {
+  "id": "recxtwam9FZqlf6qg",
+  "value": "branch.co",
+  "confidence": "high",
+  "evidence": "\"Branch International...Branch is the world[’s]\" (emerging-market lending) matches Retail Banking & Consumer Finance."
+ },
+ {
+  "id": "recy0wJJvpfwbMuCh",
+  "value": null,
+  "confidence": "low",
+  "evidence": "dispatchr.ai/.app and getdispatchr.com describe three different, inconsistent products; too ambiguous to pick one."
+ },
+ {
+  "id": "recy2QMcXUs10Bfyd",
+  "value": null,
+  "confidence": "low",
+  "evidence": "duvoai.com returns no title or description."
+ },
+ {
+  "id": "recy4cr1ySGvZrMUr",
+  "value": "getkoffie.com",
+  "confidence": "medium",
+  "evidence": "Title \"Koffie — Landing Page\" matches company name, though content is thin."
+ },
+ {
+  "id": "recy5M1XinkwbkNxA",
+  "value": null,
+  "confidence": "low",
+  "evidence": "Candidates are a staffing agency, an ISP edge-AI platform, and a for-sale-style page; none confirm Healthtech Etheros."
+ },
+ {
+  "id": "recyIGgHSGQCzcM9Z",
+  "value": "ridetandem.com",
+  "confidence": "medium",
+  "evidence": "\"Efficient, Reliable Employee Shuttle Services | RideTandem\" matches company name exactly."
+ },
+ {
+  "id": "recyOuPUAh7cWNp3B",
+  "value": "switchee.com",
+  "confidence": "medium",
+  "evidence": "\"Switchee | Data-driven property insights for housing providers\" matches company name exactly."
+ },
+ {
+  "id": "recyPWaroHZy3gmB5",
+  "value": "plain.com",
+  "confidence": "low",
+  "evidence": "Candidate plain.com held for review (short generic name): \"Plain — The AI Support Stack Built for B2B\" matches company name exactly with real content."
+ },
+ {
+  "id": "recybQPi5oazQOs8n",
+  "value": null,
+  "confidence": "low",
+  "evidence": "swapswap.net returns HTTP 500 and swapswap.com has no title or description."
+ },
+ {
+  "id": "recyg89A9wetq4nYZ",
+  "value": "monolithai.com",
+  "confidence": "medium",
+  "evidence": "\"AI Software: Engineering Product Development | Monolith\" matches company name exactly."
+ },
+ {
+  "id": "recyhOUQIQn5Ot15m",
+  "value": "lopay.com",
+  "confidence": "high",
+  "evidence": "\"Lopay | Take payments your way\" matches Fintech sector and name exactly."
+ },
+ {
+  "id": "recyhnh1EWUXsD6L9",
+  "value": "dashbird.io",
+  "confidence": "medium",
+  "evidence": "\"Monitoring for serverless - Dashbird\" matches company name exactly with real content."
+ },
+ {
+  "id": "recypcdcvTChBobcd",
+  "value": "vaire.co",
+  "confidence": "low",
+  "evidence": "Candidate vaire.co held for review (short generic name): \"Near-zero energy computing - Vaire\" matches company name exactly with real content."
+ },
+ {
+  "id": "recyr2DieXFxO5Mio",
+  "value": "lisk.com",
+  "confidence": "high",
+  "evidence": "\"Modern Money Operations | Lisk...multisigs\" (crypto treasury tooling) matches Infrastructure sector."
+ },
+ {
+  "id": "recz2h4jT6gHv0o2V",
+  "value": null,
+  "confidence": "low",
+  "evidence": "Candidates are BentoBox, a personal bio page, and a domain for sale; none confirm Seedcamp's Ben."
+ },
+ {
+  "id": "recz6aCbG8jryWFPX",
+  "value": "rukahair.com",
+  "confidence": "medium",
+  "evidence": "\"Ruka - More Curls. More Coils. More You. Ruka Hair\" matches company name exactly."
+ },
+ {
+  "id": "reczCUkYjgMVNLWt1",
+  "value": null,
+  "confidence": "low",
+  "evidence": "Candidates are Built In (job media), BuiltWith (tech profiler), and Built protein bars; none confirm Index's Built."
+ },
+ {
+  "id": "reczIahentgGZ8kLE",
+  "value": null,
+  "confidence": "low",
+  "evidence": "Candidates are Coherent Market Insights, Cohere Health, Coherent Corp, and old cobrowsing tool Cohere.io; none is the real Cohere AI domain."
+ },
+ {
+  "id": "reczIg2irXOIUWk1l",
+  "value": null,
+  "confidence": "low",
+  "evidence": "nucli.cat is an unrelated Catalan law firm; progress.com never mentions Nuclia by name."
+ },
+ {
+  "id": "reczN2rzeX7a9wukH",
+  "value": "agamonhealth.com",
+  "confidence": "high",
+  "evidence": "\"Agamon...bring more patients back for radiology follow-ups\" matches Data-driven health sector exactly."
+ },
+ {
+  "id": "reczQsasZtsIO55we",
+  "value": null,
+  "confidence": "low",
+  "evidence": "tizaro.co.uk returns no title or description."
+ },
+ {
+  "id": "reczU9ztCYyFu164Z",
+  "value": null,
+  "confidence": "low",
+  "evidence": "nordigen.io returns no title or description."
+ },
+ {
+  "id": "reczXjBsp1L0IDE8t",
+  "value": "aparito.com",
+  "confidence": "medium",
+  "evidence": "\"Digitizing clinical trials | Aparito\" matches company name exactly with real content."
+ },
+ {
+  "id": "reczYi3gngqGIeSaQ",
+  "value": null,
+  "confidence": "low",
+  "evidence": "Candidates are Johns Hopkins Athletics, an executive search firm, and an architecture practice; none confirm a Connect Ventures startup."
+ },
+ {
+  "id": "reczajeNTOvMqw5uT",
+  "value": "boost.ai",
+  "confidence": "low",
+  "evidence": "Candidate boost.ai held for review (short generic name): \"Conversational AI Platform for Enterprise | boost.ai\" is a plausible tech startup matching the name."
+ },
+ {
+  "id": "reczb4GbxmGngbj5V",
+  "value": "panacea.ai",
+  "confidence": "medium",
+  "evidence": "\"Panacea is an AI-native recruitment agency\" is a plausible tech startup matching the name."
+ },
+ {
+  "id": "reczgVjmsjiP6CSgZ",
+  "value": "bebo.com",
+  "confidence": "high",
+  "evidence": "\"Bebo is closed. A letter from Michael Birch\" confirms the real Balderton-backed Bebo (Consumer)."
+ },
+ {
+  "id": "reczhnxbwyQIISToN",
+  "value": "stacksync.com",
+  "confidence": "high",
+  "evidence": "\"Stacksync: real-time, two-way data sync platform\" matches Integration/CRM sector exactly."
+ },
+ {
+  "id": "reczkfGUQfljS621o",
+  "value": null,
+  "confidence": "low",
+  "evidence": "circa5000.com returns no title/description; circasports.com is an unrelated betting site."
+ },
+ {
+  "id": "reczokiLgGocCGXox",
+  "value": null,
+  "confidence": "low",
+  "evidence": "hubbox.io is a Turkish IoT firm and hubbox.co.uk is a burger restaurant; neither is Ascension's HubBox."
+ }
+]

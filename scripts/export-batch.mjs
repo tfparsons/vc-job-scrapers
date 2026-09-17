@@ -36,9 +36,12 @@ const NEEDS = {
 if (!NEEDS[NEED]) { console.error(`unknown --need ${NEED}; known: ${Object.keys(NEEDS).join(", ")}`); process.exit(1); }
 
 mkdirSync(OUT, { recursive: true });
+// An answer counts only if the row was actually searched: entries an agent
+// wrote as "not searched" or from memory go back into the queue.
+const NOT_SEARCHED = /prior knowledge|general knowledge|from memory|not searched|budget exhausted|unverified live/i;
 const done = new Set();
 for (const f of readdirSync(OUT).filter((n) => /^out-.*\.json$/.test(n))) {
-  for (const r of JSON.parse(readFileSync(join(OUT, f), "utf8"))) if (r.id) done.add(r.id);
+  for (const r of JSON.parse(readFileSync(join(OUT, f), "utf8"))) if (r.id && r.evidence && !NOT_SEARCHED.test(r.evidence)) done.add(r.id);
 }
 
 const rows = await listAll(EMPLOYERS_BASE, UNIVERSE, { returnFieldsByFieldId: "true" });

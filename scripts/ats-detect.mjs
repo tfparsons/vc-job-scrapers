@@ -14,6 +14,7 @@
 //   node scripts/ats-detect.mjs --dry-run       # report only
 //   node scripts/ats-detect.mjs --limit 20      # first N rows (for a look)
 //   node scripts/ats-detect.mjs --recheck       # include rows already checked
+//   node scripts/ats-detect.mjs --ids recA,recB # just these rows
 //
 // Polite: 4 domains at a time, 12 s per request, a descriptive User-Agent,
 // at most six requests per domain.
@@ -28,6 +29,8 @@ const DRY = args.includes("--dry-run");
 const ALL = args.includes("--all");
 const RECHECK = args.includes("--recheck");
 const LIMIT = args.includes("--limit") ? Number(args[args.indexOf("--limit") + 1]) : Infinity;
+// --ids rec1,rec2: only these rows, whatever their UK status or ATS (implies --recheck).
+const IDS = args.includes("--ids") ? new Set(args[args.indexOf("--ids") + 1].split(",").map((s) => s.trim()).filter(Boolean)) : null;
 const UA = "VC-Job-Scrapers/2.1 (personal job search tool; github.com/tfparsons/vc-job-scrapers)";
 const CONCURRENCY = 4;
 const TIMEOUT_MS = 12000;
@@ -215,6 +218,7 @@ async function main() {
   const rows = await listAll(EMPLOYERS_BASE, UNIVERSE, { returnFieldsByFieldId: "true" });
   const todo = rows.filter((r) => {
     if (!r.fields[F.domain]) return false;
+    if (IDS) return IDS.has(r.id);
     if (!ALL && !UK_STATUSES.has(r.fields[F.londonStatus])) return false;
     const ats = r.fields[F.ats];
     return RECHECK || !ats || ats === "Not checked";

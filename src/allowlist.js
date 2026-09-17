@@ -60,8 +60,10 @@ export const HOSTS = {
 // ever inserted into the ATS's own API URL.
 export const TEAMTAILOR_HOSTS = [
   "career.spendesk.com",
+  "careers.askattest.com",
   "careers.sanogenetics.com",
   "careers.screencloud.com",
+  "careers.trackunit.com",
   "fishbrain.com",
 ];
 

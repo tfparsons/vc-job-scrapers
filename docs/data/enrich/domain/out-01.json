@@ -1,0 +1,352 @@
+[
+ {
+  "id": "rec0ASQlTey2ca8Un",
+  "company": "Sorair",
+  "domain": "sorair.co.uk",
+  "confidence": "medium",
+  "evidence": "Search surfaced sorair.co.uk homepage titled 'Sorair Technologies - Leading Autonomous Surveillance Company', an autonomous-security startup backed by Haatch/Pi Labs; partial name match (Sorair vs Sorair Technologies)."
+ },
+ {
+  "id": "rec0DfpPrPxSeT7p0",
+  "company": "Henrie",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "No company named 'Henrie' found associated with Haatch in search results; only unrelated people/companies named Henrie/Henriod turned up."
+ },
+ {
+  "id": "rec0OQlxqXFmA39dW",
+  "company": "Eolas",
+  "domain": "eolasmedical.com",
+  "confidence": "medium",
+  "evidence": "Search found eolasmedical.com as the site for 'Eolas Medical', an AI clinical-knowledge platform backed by Ascension since pre-seed; partial name match (Eolas vs Eolas Medical)."
+ },
+ {
+  "id": "rec0QgAISsdLAr2hw",
+  "company": "Vatic",
+  "domain": "vatic.health",
+  "confidence": "medium",
+  "evidence": "Third-party sources (Crunchbase, CBInsights, MobiHealthNews) identify vatic.health as Vatic/Vatic Health (formerly Senseutics), the Hoxton Ventures-backed saliva-test startup; company entered administration in Nov 2022 (collapsed), so this is its last known official domain."
+ },
+ {
+  "id": "rec0ZZfcP8D5gUFwS",
+  "company": "Novata",
+  "domain": "novata.com",
+  "confidence": "medium",
+  "evidence": "Domain novata.com stated on third-party pages (MMC's own portfolio page mmc.vc/portfolio/novata, parsers.vc); MMC Ventures confirmed as investor; domain not fetched directly."
+ },
+ {
+  "id": "rec0clFnm1e7giEYl",
+  "company": "Kaikaku",
+  "domain": "kaikaku.ai",
+  "confidence": "medium",
+  "evidence": "LinkedIn/GitHub handle 'kaikaku-ai' and press (Onshape blog referring to 'KAIKAKU.AI') found via search; 7percent Ventures confirmed as investor via Crunchbase/thebaehq; domain not fetched directly to confirm it resolves."
+ },
+ {
+  "id": "rec0dBpKJqqZPFJkw",
+  "company": "Lowercarbon Capital",
+  "domain": "lowercarbon.com",
+  "confidence": "high",
+  "evidence": "Search result 'Lowercarbon Capital' at lowercarbon.com is the fund's own homepage (name matches exactly); note this entry is itself a VC fund (Chris Sacca's Lowercarbon Capital), not a portfolio startup."
+ },
+ {
+  "id": "rec0dGljBxbAhw2p5",
+  "company": "Organise",
+  "domain": "organise.org.uk",
+  "confidence": "medium",
+  "evidence": "Search surfaced platform.organise.org.uk for the UK worker-rights campaigning platform backed by Ada Ventures/Ascension (TechCrunch 2020 coverage); a separate 'organise.network' domain also appeared, suggesting a possible later rebrand and some remaining ambiguity."
+ },
+ {
+  "id": "rec0t4zDn4e6NJbpg",
+  "company": "CCX Pharma",
+  "domain": "ccx.tech",
+  "confidence": "medium",
+  "evidence": "Search surfaced 'About CCX' at ccx.tech/about and Hoxton Ventures' own portfolio listing (hoxtonventures.com/portfolio/ccx-pharma); official brand is 'CCX' (market-access platform), partial match to input 'CCX Pharma'."
+ },
+ {
+  "id": "rec0tUNOuBw0V11q7",
+  "company": "Trainloop",
+  "domain": "trainloop.ai",
+  "confidence": "medium",
+  "evidence": "Y Combinator company page and Crunchbase (found via search) confirm trainloop.ai; Moonfire confirmed as an investor. Note: company appears US-based (San Francisco) rather than UK."
+ },
+ {
+  "id": "rec0uOn3uj0ffU7q1",
+  "company": "Amihan Entertainment",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Moonfire investment and Crunchbase profile confirmed via search (Los Angeles Web3 game studio), but no result stated an official website domain -- only aggregator/portfolio pages."
+ },
+ {
+  "id": "rec0zFXdmXZKG61qA",
+  "company": "Prefrontal",
+  "domain": "prefrontal.ai",
+  "confidence": "medium",
+  "evidence": "Search snippet states 'Hoxton Ventures participated in a Seed round for prefrontal.ai'; domain from a third-party mention, not fetched directly; the 'Crane' co-investor hint could not be corroborated."
+ },
+ {
+  "id": "rec14atPUEcwl0xF7",
+  "company": "Capably",
+  "domain": "capably.ai",
+  "confidence": "high",
+  "evidence": "capably.ai referenced directly by PRNewswire coverage and the company's own resources page found via search; Haatch and Ascension both confirmed as investors in its $4M seed round."
+ },
+ {
+  "id": "rec16eHGoZJVmeLgc",
+  "company": "Quill",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Search (TechCrunch/Crunchbase) confirms a San Francisco messaging startup 'Quill' backed by Index Ventures, but no result explicitly stated its live domain (the Crunchbase URL slug 'quill-chat' is not confirmation of an actual domain), so left unresolved rather than guessed."
+ },
+ {
+  "id": "rec17483k8oQL0ol0",
+  "company": "R.Grid",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Ascension's own portfolio page (ascension.vc/portfolio/r-grid) confirms R.Grid as a clinical-trial-ops software company and Ascension investment, but no website domain was found in the fetched content or search results."
+ },
+ {
+  "id": "rec19MH9RjlH2hRnc",
+  "company": "Filecoin",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted) before the session's web-search allowance ran out."
+ },
+ {
+  "id": "rec19hAqlcTg9w41O",
+  "company": "Jamm Jar",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Search confirmed JammJar as an AI mortgage-broker platform backed by Haatch (UK Business Angels Association, Mortgage Strategy, soapbox.vc), but no article in the results stated its website domain, so left unresolved rather than guessed."
+ },
+ {
+  "id": "rec1D3XMvWYSOtHTu",
+  "company": "Aardaia",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Search confirmed Aardaia as a Point Nine-backed Wageningen-based protein-tuber breeding startup, but no article in the results stated its website domain, so left unresolved rather than guessed."
+ },
+ {
+  "id": "rec1F9SmtW6pWypxQ",
+  "company": "Amplify",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Search confirmed Amplify (digital life-insurance platform) backed by Anthemis, but results only gave anthemis.com's own portfolio page, not Amplify's own domain, so left unresolved rather than guessed."
+ },
+ {
+  "id": "rec1GVHbRb2ZFbpft",
+  "company": "Merx",
+  "domain": "hellomerx.com",
+  "confidence": "medium",
+  "evidence": "Ascension's own portfolio page (ascension.vc/portfolio/merx) states official site hellomerx.com for 'Merx Solutions Limited', a WhatsApp commerce platform; partial name match, domain sourced from third-party page."
+ },
+ {
+  "id": "rec1KY1HpNwhcF1bE",
+  "company": "Hyper",
+  "domain": "hyperar.com",
+  "confidence": "medium",
+  "evidence": "7percent Ventures' own portfolio page (7pc.vc/portfolio/hyper) states official site hyperar.com, an AR/indoor-mapping retail startup; domain sourced from third-party page, and 'Hyper' is a generic name so some ambiguity remains."
+ },
+ {
+  "id": "rec1M8VPIE6FmPwdD",
+  "company": "Inherent",
+  "domain": "inherentlaboratories.com",
+  "confidence": "medium",
+  "evidence": "Index Ventures' own portfolio page (indexventures.com/companies/inherent) states official site inherentlaboratories.com; partial name match (Inherent vs Inherent Laboratories), domain sourced from third-party page."
+ },
+ {
+  "id": "rec1Mdt8cAvMwBMGX",
+  "company": "Libryo",
+  "domain": "libryo.com",
+  "confidence": "high",
+  "evidence": "Fetched libryo.com directly; page confirms 'Libryo' (now part of ERM), a regulatory/EHS compliance platform, matching the company name exactly. Company has been acquired/absorbed into ERM."
+ },
+ {
+  "id": "rec1XauxWUH4j5fJX",
+  "company": "Telli",
+  "domain": "telli.com",
+  "confidence": "high",
+  "evidence": "Search surfaced telli.com plus its app.telli.com and docs.telli.com subdomains directly (Forbes coverage), confirming the AI voice-agent startup backed by Cherry Ventures and Y Combinator; name matches exactly."
+ },
+ {
+  "id": "rec1aM4YaxZoZT8rg",
+  "company": "Medly AI",
+  "domain": "medlyai.com",
+  "confidence": "medium",
+  "evidence": "Search identified medlyai.com as an AI study-partner/tutoring platform for GCSE/A-Level/IB students; the Ada Ventures investor link could not be corroborated in the same results, leaving some ambiguity."
+ },
+ {
+  "id": "rec1aybxB3XMC1GvW",
+  "company": "Otel",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Search queries for 'Otel' + Playfair Capital returned only unrelated hotel-booking sites and OpenTelemetry documentation; no matching startup or domain was identified."
+ },
+ {
+  "id": "rec1ct8kyr57p80Dt",
+  "company": "Neverless",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Search queries for 'Neverless' + Connect Ventures returned only unrelated, mostly foreign-language results; no matching startup or domain was identified."
+ },
+ {
+  "id": "rec1dh42IypdwR8Lt",
+  "company": "Secret Network",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted) before the session's web-search allowance ran out."
+ },
+ {
+  "id": "rec1nuHfKuqLEl8cL",
+  "company": "Tailor Bio",
+  "domain": "tailor.bio",
+  "confidence": "medium",
+  "evidence": "Ascension's own portfolio page (ascension.vc/portfolio/tailor-bio) states official site tailor.bio for 'Tailor Bio Ltd', an AI drug-discovery company; close name match, domain sourced from third-party page."
+ },
+ {
+  "id": "rec1olmXdSTRa7KMF",
+  "company": "Shutl",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Notion Capital's own portfolio page (notioncapital.com/portfolio) lists Shutl as an exited UK investment ('Complete control over your deliveries'), but shutl.com no longer resolves (connection refused) when fetched directly, so no current working domain could be confirmed."
+ },
+ {
+  "id": "rec1p9yqccM5pMj5J",
+  "company": "Skippr",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Attempted to confirm via Moonfire's portfolio page, but the fetch only returned generic Moonfire Ventures information, not Skippr-specific content, so nothing was verified."
+ },
+ {
+  "id": "rec1veST72ngnsXsj",
+  "company": "Fluent",
+  "domain": "fluenthq.com",
+  "confidence": "medium",
+  "evidence": "Hoxton Ventures' own portfolio page (hoxtonventures.com/portfolio/fluent) states official site fluenthq.com, described as an AI data-analytics platform; domain sourced from third-party page."
+ },
+ {
+  "id": "rec1wfHUGzFj1VQSG",
+  "company": "Trail",
+  "domain": "trailapp.com",
+  "confidence": "medium",
+  "evidence": "Search identified trailapp.com ('Trail | Work Management For Hospitality & Leisure'); name matches, but the Seedcamp investor link was not independently corroborated in the same result, and 'Trail' is a fairly generic name."
+ },
+ {
+  "id": "rec21vQeg6Zlu5AmJ",
+  "company": "Orchestrate",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Search for 'Orchestrate' + Frontline Ventures returned only unrelated ad/forum results, and Frontline Ventures' own portfolio page failed to load (404); no domain identified."
+ },
+ {
+  "id": "rec24qgzgzPaL1PUH",
+  "company": "DataOps",
+  "domain": "dataops.live",
+  "confidence": "high",
+  "evidence": "Fetched dataops.live directly, confirming 'DataOps.live' (now part of FICO), a Snowflake DataOps automation platform; also listed as an exited UK investment on Notion Capital's own portfolio page."
+ },
+ {
+  "id": "rec27YLIzmn3650s8",
+  "company": "WattStack",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted) before the session's web-search allowance ran out."
+ },
+ {
+  "id": "rec2AEkfzD1masarZ",
+  "company": "Supercede",
+  "domain": "supercede.com",
+  "confidence": "high",
+  "evidence": "Fetched supercede.com directly, confirming 'Supercede Technology Ltd', an AI-supported reinsurance-intelligence platform; name matches (Supercede)."
+ },
+ {
+  "id": "rec2CRZEfIjgYyb7K",
+  "company": "Suvera",
+  "domain": "suvera.com",
+  "confidence": "medium",
+  "evidence": "Fetching suvera.co.uk returned a 301 redirect to suvera.com, indicating this is the current domain, but the destination page's content was not independently confirmed to name 'Suvera'."
+ },
+ {
+  "id": "rec2DYWloOycUthvk",
+  "company": "AQMetrics",
+  "domain": "aqmetrics.com",
+  "confidence": "high",
+  "evidence": "Fetched aqmetrics.com directly, confirming 'AQMetrics', a regulatory-reporting compliance platform for asset managers; name matches exactly."
+ },
+ {
+  "id": "rec2HT43tY3JuSgsq",
+  "company": "Nexcade",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted); Connect Ventures' own portfolio page failed to load (404) before the session's web-search allowance ran out."
+ },
+ {
+  "id": "rec2J12g7jFymVcx6",
+  "company": "Oliva",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Fetching oliva.health returned a 301 redirect to betterwitholi.com (possibly a rebrand to 'Oli'), but the destination page's content was not fetched/confirmed to reference 'Oliva', so left unresolved rather than guessed."
+ },
+ {
+  "id": "rec2SanyzGSdRwQoR",
+  "company": "Berachain",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted) before the session's web-search allowance ran out."
+ },
+ {
+  "id": "rec2TbaK77CTO7lky",
+  "company": "StellarSleep",
+  "domain": "stellarsleep.com",
+  "confidence": "medium",
+  "evidence": "Fetched stellarsleep.com directly, confirming 'Stellar Sleep' (operated by Twenty Nights, Inc.), a US insomnia-care platform; name matches closely (spacing only), but the Moonfire investor link was not corroborated in the fetched content and the company appears US- rather than UK-based."
+ },
+ {
+  "id": "rec2dEMZRN0aFUCi7",
+  "company": "Anathem",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted) before the session's web-search allowance ran out."
+ },
+ {
+  "id": "rec2oexsyCGcW7jey",
+  "company": "Smile Genius Dental",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted) before the session's web-search allowance ran out."
+ },
+ {
+  "id": "rec2ohnjepsAOjyVR",
+  "company": "GRNDHOUSE",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted) before the session's web-search allowance ran out."
+ },
+ {
+  "id": "rec30lUxXRlCA6r1Q",
+  "company": "WireWax",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "wirewax.com no longer resolves (DNS lookup failed) when fetched directly, so no current working domain could be confirmed for this Passion Capital-backed company."
+ },
+ {
+  "id": "rec33cR9wTAszq6xX",
+  "company": "Sesame AI",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted) before the session's web-search allowance ran out."
+ },
+ {
+  "id": "rec36FzPeQmEXQOuv",
+  "company": "Shoreline",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted) before the session's web-search allowance ran out."
+ },
+ {
+  "id": "rec3CwkbpAznO9Rao",
+  "company": "CareLineLive",
+  "domain": "carelinelive.com",
+  "confidence": "high",
+  "evidence": "Fetched carelinelive.com directly, confirming 'CareLineLive' (part of the Evaran group), a home-care management software platform; name matches exactly."
+ }
+]

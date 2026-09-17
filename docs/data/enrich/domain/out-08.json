@@ -1,0 +1,352 @@
+[
+ {
+  "id": "recMF145xRdsoUAuq",
+  "company": "Monad",
+  "domain": "monad.com",
+  "confidence": "high",
+  "evidence": "monad.com ('Security Data Pipelines for Enterprise Teams | Monad') matches the cybersecurity data platform backed by Index Ventures' Series A."
+ },
+ {
+  "id": "recML1x4FIK5rK1HR",
+  "company": "Conceivable",
+  "domain": "conceivable.life",
+  "confidence": "medium",
+  "evidence": "conceivable.life page names Fred Destin of Stride VC as team member of 'Conceivable Life Sciences'; partial name match to 'Conceivable'."
+ },
+ {
+  "id": "recMNmf6z41SJMkVx",
+  "company": "Mastra",
+  "domain": "mastra.ai",
+  "confidence": "high",
+  "evidence": "mastra.ai (official blog/about pages) confirms Moonfire as an institutional backer of Mastra's seed round."
+ },
+ {
+  "id": "recMPP8kAjRIXYsOv",
+  "company": "Current Health",
+  "domain": "currenthealth.com",
+  "confidence": "high",
+  "evidence": "currenthealth.com matches Current Health, MMC-backed since 2018 seed and 2019 Series A; company later acquired by Best Buy but domain remains live and official."
+ },
+ {
+  "id": "recMPTqMI0167HrhT",
+  "company": "Four/Four",
+  "domain": "fourfour.ai",
+  "confidence": "high",
+  "evidence": "fourfour.ai ('The co-pilot for your product team - Four/Four') matches the Haatch-backed customer feedback SaaS company."
+ },
+ {
+  "id": "recMRl66dz84yL1Pr",
+  "company": "Paypercut",
+  "domain": "paypercut.com",
+  "confidence": "high",
+  "evidence": "paypercut.com ('Paypercut | One Checkout for Online Payments Across Europe') matches the Passion Capital-backed BNPL/payments company."
+ },
+ {
+  "id": "recMS96jyyHukTMG5",
+  "company": "Lunasa Space",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "7pc.vc portfolio page confirms 7percent Ventures pre-seeded Lúnasa Space, but no official company domain was explicitly stated in the results found."
+ },
+ {
+  "id": "recMeBxWgT19gwKZW",
+  "company": "AppsFlyer",
+  "domain": "appsflyer.com",
+  "confidence": "high",
+  "evidence": "Well-established official domain appsflyer.com; Eight Roads led AppsFlyer's Series B and followed on in Series C."
+ },
+ {
+  "id": "recMesOOWFYDOEQvb",
+  "company": "Magnify",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Results only surfaced Magnify Ventures (an unrelated US care-economy VC fund); no portfolio company named Magnify backed by 'Backed' was found, so the investor hint did not disambiguate."
+ },
+ {
+  "id": "recMl4Y8rmfDI8LHp",
+  "company": "Reya",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Multiple unrelated companies named Reya exist (Reya Network/DeFi L2, a digital health Reya, Reya.ai longevity); none of their listed investors mention 'Backed', so the hint did not disambiguate."
+ },
+ {
+  "id": "recMsUqBXe57dP54U",
+  "company": "LingoLabs",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "No search results connected a company named LingoLabs to Moonfire; only the unrelated Lingokids edtech company appeared."
+ },
+ {
+  "id": "recMsrmAUEYfZ8SfM",
+  "company": "Ember Sword",
+  "domain": "embersword.com",
+  "confidence": "medium",
+  "evidence": "embersword.com ('Welcome - Ember Sword') matches the company name exactly (MMORPG game), but no source confirmed Moonfire as an investor."
+ },
+ {
+  "id": "recMy0RPeOQNyxa6m",
+  "company": "Felk",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "PitchBook profile mentions Felk (cybersecurity, Haatch-backed, raised $443K) but no official domain was stated in accessible results."
+ },
+ {
+  "id": "recN3RfVKjlSH6z2b",
+  "company": "Wool and the Gang",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "MMC/TechCrunch results confirm MMC Ventures backed Wool and the Gang (later acquired by BlueGem Capital), but no source in the results explicitly stated the company's domain."
+ },
+ {
+  "id": "recN4MBc4kBKvQ4za",
+  "company": "Hifi",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "No results connected a startup named 'Hifi' to Hoxton Ventures; only an unrelated, now-closed 'HiFi Ventures' advisory firm surfaced."
+ },
+ {
+  "id": "recNF1ivq1ZI2fRB8",
+  "company": "Weave",
+  "domain": "weaveos.com",
+  "confidence": "medium",
+  "evidence": "weaveos.com blog post confirms Moonfire participated in Weave's (YC W25) $13.5M Series A engineering-intelligence round; domain carries an 'os' suffix beyond the bare company name."
+ },
+ {
+  "id": "recNIIhMgZqPDmbXS",
+  "company": "Vidjet",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (WebSearch budget exhausted before this entry could be queried)."
+ },
+ {
+  "id": "recNJuEZr77obnzi2",
+  "company": "GoodFit",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (WebSearch budget exhausted before this entry could be queried)."
+ },
+ {
+  "id": "recNdZGqmgBra2I07",
+  "company": "Uberchord",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (WebSearch budget exhausted before this entry could be queried)."
+ },
+ {
+  "id": "recNj8Tjtb4tzYtW4",
+  "company": "Tipple",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (WebSearch budget exhausted before this entry could be queried)."
+ },
+ {
+  "id": "recNwOFJRtzivNu6S",
+  "company": "Limbo",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (WebSearch budget exhausted before this entry could be queried)."
+ },
+ {
+  "id": "recO6PTF0vaNzi8uV",
+  "company": "Dailymotion",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (WebSearch budget exhausted before this entry could be queried)."
+ },
+ {
+  "id": "recO7ONaz3dlqcRxr",
+  "company": "Pomelo",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (WebSearch budget exhausted before this entry could be queried)."
+ },
+ {
+  "id": "recOALk1S1ZzFasf8",
+  "company": "Aseon",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (WebSearch budget exhausted before this entry could be queried)."
+ },
+ {
+  "id": "recOQqyCUKYHXrEaf",
+  "company": "OnDevice",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (WebSearch budget exhausted before this entry could be queried)."
+ },
+ {
+  "id": "recOSgGYyvJWjBZS3",
+  "company": "ROVR",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (WebSearch budget exhausted before this entry could be queried)."
+ },
+ {
+  "id": "recOVRxeuPYc7OwVV",
+  "company": "V7 Labs",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (WebSearch budget exhausted before this entry could be queried)."
+ },
+ {
+  "id": "recOmx6uHuIQNRx4E",
+  "company": "Nested",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (WebSearch budget exhausted before this entry could be queried)."
+ },
+ {
+  "id": "recOneKuOHNM4OsoM",
+  "company": "Raito",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (WebSearch budget exhausted before this entry could be queried)."
+ },
+ {
+  "id": "recOqLX1QYn0kJIx7",
+  "company": "Toothpick",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (WebSearch budget exhausted before this entry could be queried)."
+ },
+ {
+  "id": "recOrYI7fLzH9QQpU",
+  "company": "Oradian",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (WebSearch budget exhausted before this entry could be queried)."
+ },
+ {
+  "id": "recOsefCuYp2Z62i1",
+  "company": "OpenFormat",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (WebSearch budget exhausted before this entry could be queried)."
+ },
+ {
+  "id": "recOtwOs4wGLBDN4u",
+  "company": "Seldon",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (WebSearch budget exhausted before this entry could be queried)."
+ },
+ {
+  "id": "recOxoWty7Vm9YYMO",
+  "company": "Quantive",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (WebSearch budget exhausted before this entry could be queried)."
+ },
+ {
+  "id": "recP5gNVbf9nkEW8g",
+  "company": "VineTrade",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (WebSearch budget exhausted before this entry could be queried)."
+ },
+ {
+  "id": "recP7iGj5WpqjndPM",
+  "company": "Fin Mile",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (WebSearch budget exhausted before this entry could be queried)."
+ },
+ {
+  "id": "recPAhUfUM7Y1ALFA",
+  "company": "Next Matter",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (WebSearch budget exhausted before this entry could be queried)."
+ },
+ {
+  "id": "recPJwmtDuINdfco9",
+  "company": "Property.Works",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (WebSearch budget exhausted before this entry could be queried)."
+ },
+ {
+  "id": "recPMhMv0blCRiZ3b",
+  "company": "Burbank",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (WebSearch budget exhausted before this entry could be queried)."
+ },
+ {
+  "id": "recPO8sf5h0cSHHpA",
+  "company": "MiAlgae",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (WebSearch budget exhausted before this entry could be queried)."
+ },
+ {
+  "id": "recPRGbIre0P3K8Mx",
+  "company": "rideOS",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (WebSearch budget exhausted before this entry could be queried)."
+ },
+ {
+  "id": "recPS9iugvaODxQ8a",
+  "company": "Happl",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (WebSearch budget exhausted before this entry could be queried)."
+ },
+ {
+  "id": "recPUMW46ECKbc5mp",
+  "company": "Arca",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (WebSearch budget exhausted before this entry could be queried)."
+ },
+ {
+  "id": "recPVu7nFj7e2dJRP",
+  "company": "Peakon",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (WebSearch budget exhausted before this entry could be queried)."
+ },
+ {
+  "id": "recPa9ntret4H9OQL",
+  "company": "FlexionAI",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (WebSearch budget exhausted before this entry could be queried)."
+ },
+ {
+  "id": "recPbvShWte4lDxJ9",
+  "company": "Rohlik",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (WebSearch budget exhausted before this entry could be queried)."
+ },
+ {
+  "id": "recPf2FBFPb7REObz",
+  "company": "Armada Interactive",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (WebSearch budget exhausted before this entry could be queried)."
+ },
+ {
+  "id": "recPgX5U9nu3hlzae",
+  "company": "Yuty",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (WebSearch budget exhausted before this entry could be queried)."
+ },
+ {
+  "id": "recPhfLzm1jesRJnY",
+  "company": "Boost Security",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (WebSearch budget exhausted before this entry could be queried)."
+ },
+ {
+  "id": "recPib6LbplP6gBhw",
+  "company": "Fraugster",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (WebSearch budget exhausted before this entry could be queried)."
+ }
+]

@@ -1,0 +1,1640 @@
+[
+ {
+  "id": "rec0DfpPrPxSeT7p0",
+  "company": "Henrie",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at cw33.com, not the company site"
+ },
+ {
+  "id": "rec0uOn3uj0ffU7q1",
+  "company": "Amihan Entertainment",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at startupintros.com, not the company site"
+ },
+ {
+  "id": "rec16eHGoZJVmeLgc",
+  "company": "Quill",
+  "domain": "withquill.ai",
+  "confidence": "high",
+  "evidence": "Google result \"Quill - Your finance engine\" at withquill.ai (name in domain)"
+ },
+ {
+  "id": "rec17483k8oQL0ol0",
+  "company": "R.Grid",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at zefyron.com, not the company site"
+ },
+ {
+  "id": "rec19MH9RjlH2hRnc",
+  "company": "Filecoin",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at outlierventures.io, not the company site"
+ },
+ {
+  "id": "rec19hAqlcTg9w41O",
+  "company": "Jamm Jar",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "no Google result matched the name (top: facebook.com)"
+ },
+ {
+  "id": "rec1D3XMvWYSOtHTu",
+  "company": "Aardaia",
+  "domain": "aardaia.com",
+  "confidence": "high",
+  "evidence": "Google result \"Aardaia\" at aardaia.com (name in domain)"
+ },
+ {
+  "id": "rec1F9SmtW6pWypxQ",
+  "company": "Amplify",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at fintech.global, not the company site"
+ },
+ {
+  "id": "rec1aybxB3XMC1GvW",
+  "company": "Otel",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at techfundingnews.com, not the company site"
+ },
+ {
+  "id": "rec1ct8kyr57p80Dt",
+  "company": "Neverless",
+  "domain": "neverless.com",
+  "confidence": "high",
+  "evidence": "Google result \"Founder's Associate\" at neverless.com (name in domain)"
+ },
+ {
+  "id": "rec1dh42IypdwR8Lt",
+  "company": "Secret Network",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "no Google result matched the name (top: outlierventures.io)"
+ },
+ {
+  "id": "rec1olmXdSTRa7KMF",
+  "company": "Shutl",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at notioncapital.com, not the company site"
+ },
+ {
+  "id": "rec1p9yqccM5pMj5J",
+  "company": "Skippr",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at bebee.com, not the company site"
+ },
+ {
+  "id": "rec21vQeg6Zlu5AmJ",
+  "company": "Orchestrate",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "no Google result matched the name (top: techcrunch.com)"
+ },
+ {
+  "id": "rec27YLIzmn3650s8",
+  "company": "WattStack",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "no Google result matched the name (top: pitchbook.com)"
+ },
+ {
+  "id": "rec2HT43tY3JuSgsq",
+  "company": "Nexcade",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at startupmag.co.uk, not the company site"
+ },
+ {
+  "id": "rec2dEMZRN0aFUCi7",
+  "company": "Anathem",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "no Google result matched the name (top: f6s.com)"
+ },
+ {
+  "id": "rec2oexsyCGcW7jey",
+  "company": "Smile Genius Dental",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at businesspost.ie, not the company site"
+ },
+ {
+  "id": "rec2ohnjepsAOjyVR",
+  "company": "GRNDHOUSE",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at bdaily.co.uk, not the company site"
+ },
+ {
+  "id": "rec30lUxXRlCA6r1Q",
+  "company": "WireWax",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at startupranking.com, not the company site"
+ },
+ {
+  "id": "rec33cR9wTAszq6xX",
+  "company": "Sesame AI",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at f4.fund, not the company site"
+ },
+ {
+  "id": "rec36FzPeQmEXQOuv",
+  "company": "Shoreline",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at startupfundraising.com, not the company site"
+ },
+ {
+  "id": "rec3RBfD8MxmPX0Tf",
+  "company": "Weav",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at startupintros.com, not the company site"
+ },
+ {
+  "id": "rec3t5uev3MRhF70s",
+  "company": "Farmstand",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at uktech.news, not the company site"
+ },
+ {
+  "id": "rec4Ew336ONrYCdzI",
+  "company": "Intelligence",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at techinasia.com, not the company site"
+ },
+ {
+  "id": "rec4IfTlyZ0jQKmjh",
+  "company": "Libertus Capital",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at startupintros.com, not the company site"
+ },
+ {
+  "id": "rec4ZFaW4AC5gf7KB",
+  "company": "Cluster HQ",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "no Google result matched the name (top: episode1.com)"
+ },
+ {
+  "id": "rec4f8SbbBvyhW7rD",
+  "company": "Smokeless World",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "no Google result matched the name (top: vcsheet.com)"
+ },
+ {
+  "id": "rec4lncYDXWDUJFFq",
+  "company": "Fundin",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at uktechnews.info, not the company site"
+ },
+ {
+  "id": "rec4uYUP0LRtW0pZo",
+  "company": "Grasp",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at careers.balderton.com, not the company site"
+ },
+ {
+  "id": "rec4vfXlT4K7aPFGe",
+  "company": "Aseon Labs",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at eqs-news.com, not the company site"
+ },
+ {
+  "id": "rec50Rb3MB47jbuJi",
+  "company": "Certchain",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at techfundingnews.com, not the company site"
+ },
+ {
+  "id": "rec56d9fendlWnQ6y",
+  "company": "Lynkstate",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "no Google result matched the name (top: openvc.app)"
+ },
+ {
+  "id": "rec5AbmvNVn7EmOrr",
+  "company": "Swipe",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "no Google result matched the name (top: x.com)"
+ },
+ {
+  "id": "rec5GoIRuQ7mC2Fdy",
+  "company": "Phoenix Hydrogen",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at jobswithstartups.com, not the company site"
+ },
+ {
+  "id": "rec5MPsWE1KXPUOfw",
+  "company": "Truecaller",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "no Google result matched the name (top: medium.com)"
+ },
+ {
+  "id": "rec5e1tqYue8xSoPM",
+  "company": "Volo",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at volosports.com, not the company site"
+ },
+ {
+  "id": "rec5p9Xx1LEWjOpTG",
+  "company": "Barricade",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at independent.ie, not the company site"
+ },
+ {
+  "id": "rec6D6FZeQwuDGqBR",
+  "company": "Maru",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "no Google result matched the name (top: instagram.com)"
+ },
+ {
+  "id": "rec7WqPcyRt0PxAns",
+  "company": "SimpleTax",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at uktech.news, not the company site"
+ },
+ {
+  "id": "rec7pxw65jcIpcAuJ",
+  "company": "Oxford Medical Products",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at adaventures.com, not the company site"
+ },
+ {
+  "id": "rec7xzSac9VLNJzul",
+  "company": "Tandem HR",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at siliconrepublic.com, not the company site"
+ },
+ {
+  "id": "rec7y4WN3pAWP6siW",
+  "company": "Coop Innovations",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "no Google result matched the name (top: ascension.vc)"
+ },
+ {
+  "id": "rec83bRJJfdFY7nUr",
+  "company": "StirLight",
+  "domain": "stirlight.com",
+  "confidence": "high",
+  "evidence": "Google result \"Investment Announcement\" at stirlight.com (name in domain)"
+ },
+ {
+  "id": "rec83zxeNd59lMMTb",
+  "company": "Parse",
+  "domain": "getparse.io",
+  "confidence": "high",
+  "evidence": "Google result \"Parse Labs \u2014 Know What's Happening. Know What To Do.\" at getparse.io (name in domain)"
+ },
+ {
+  "id": "rec8RBnG3xT3fLKya",
+  "company": "Seaflight",
+  "domain": "seaflight.tech",
+  "confidence": "high",
+  "evidence": "Google result \"Seaflight | air cargo drones\" at seaflight.tech (name in domain)"
+ },
+ {
+  "id": "rec8S9lVr4caDLCdg",
+  "company": "NunaBio",
+  "domain": "nunabio.com",
+  "confidence": "high",
+  "evidence": "Google result \"NunaBio \u2013 The cutting edge of synthetic biology and biosensing.\" at nunabio.com (name in domain)"
+ },
+ {
+  "id": "rec8STmbMIwBeBqHP",
+  "company": "CFDX",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at thecompanycheck.com, not the company site"
+ },
+ {
+  "id": "rec8aeyEqJEsouJTc",
+  "company": "AtlasML",
+  "domain": "atlasml.ai",
+  "confidence": "high",
+  "evidence": "Google result \"AtlasML | Enterprise AI & Machine Learning Solutions\" at atlasml.ai (name in domain)"
+ },
+ {
+  "id": "rec8bGZIFFQejv5Fs",
+  "company": "Impact Advantage",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "no Google result matched the name (top: haatch.com)"
+ },
+ {
+  "id": "rec8pLYk8Um6sjzaI",
+  "company": "Tuza",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at startupmag.co.uk, not the company site"
+ },
+ {
+  "id": "rec8ukltqCBfQgtY3",
+  "company": "Loopcam",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at deutsche-startups.de, not the company site"
+ },
+ {
+  "id": "rec90WgVNXPG4fk77",
+  "company": "Warren",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at imdb.com, not the company site"
+ },
+ {
+  "id": "rec90fEoqBApfnPxv",
+  "company": "Dataline Labs",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at startupmag.co.uk, not the company site"
+ },
+ {
+  "id": "rec945KlWeMXmIaxg",
+  "company": "LIV",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at seedcamp.com, not the company site"
+ },
+ {
+  "id": "rec9LX4lbRniEzeqw",
+  "company": "Virtue Health",
+  "domain": "virtuehealthcareservices.com",
+  "confidence": "high",
+  "evidence": "Google result \"Book An Appointment\" at virtuehealthcareservices.com (name in domain)"
+ },
+ {
+  "id": "recAHQ7eHBs75to1p",
+  "company": "Creative Juice",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at indexventures.com, not the company site"
+ },
+ {
+  "id": "recAQ30ATb9HuEZor",
+  "company": "Visly",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "no Google result matched the name (top: mosaicventures.com)"
+ },
+ {
+  "id": "recBRQ00FwHPSRGlk",
+  "company": "Alito",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at f4.fund, not the company site"
+ },
+ {
+  "id": "recDKFXlZ9U5YAqMU",
+  "company": "Pave Financial",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "no Google result matched the name (top: hoxtonventures.com)"
+ },
+ {
+  "id": "recDeGkqQvTRTW1QR",
+  "company": "Arctic Studios",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "no Google result matched the name (top: ascension.vc)"
+ },
+ {
+  "id": "recDlGT9IaqsXhOts",
+  "company": "Liquid",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "no Google result matched the name (top: ascension.vc)"
+ },
+ {
+  "id": "recDoBG5aaXZEg6f5",
+  "company": "Spirable",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at uktech.news, not the company site"
+ },
+ {
+  "id": "recDrAdS3kFWWmQuG",
+  "company": "Hedera",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at outlierventures.io, not the company site"
+ },
+ {
+  "id": "recDvPuotXGWcZxHE",
+  "company": "Authologic",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at crackthedeck.com, not the company site"
+ },
+ {
+  "id": "recE9TUAAVwIJ4LcL",
+  "company": "Urban",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at uktechnews.info, not the company site"
+ },
+ {
+  "id": "recE9a3PzP6gh8Ebo",
+  "company": "Work With Data",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at newnex.io, not the company site"
+ },
+ {
+  "id": "recEAm38RvDMujXMx",
+  "company": "Granulate",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at hetz.vc, not the company site"
+ },
+ {
+  "id": "recEBF4tK1yKP2ktU",
+  "company": "We Are Digital",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at startupintros.com, not the company site"
+ },
+ {
+  "id": "recEBtT6rI7d82aog",
+  "company": "S\u00faper",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at anthemis.com, not the company site"
+ },
+ {
+  "id": "recECBK6OFA9183xq",
+  "company": "Pickr",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at siliconcanals.com, not the company site"
+ },
+ {
+  "id": "recEDYJi2Mzm1JNn4",
+  "company": "Evercontact",
+  "domain": "evercontact.com",
+  "confidence": "high",
+  "evidence": "Google result \"Kwaga, creator of WriteThat.name, is completing a $1.55 ...\" at blog.evercontact.com (name in domain)"
+ },
+ {
+  "id": "recEIHTgMb23wmcmk",
+  "company": "Thursday",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at nordic9.com, not the company site"
+ },
+ {
+  "id": "recEgMwhDm1flwbZA",
+  "company": "Nuephonic",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "no Google result matched the name (top: salicainvestments.com)"
+ },
+ {
+  "id": "recEiOmwvzIfxDuSO",
+  "company": "Ezra",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "no Google result matched the name (top: seedcamp.com)"
+ },
+ {
+  "id": "recEote0R9gVpFaNM",
+  "company": "Kheiron Medical",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at startup.jobs, not the company site"
+ },
+ {
+  "id": "recEqhGEbcFu7Hq0A",
+  "company": "Re-Flow",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at ifamagazine.com, not the company site"
+ },
+ {
+  "id": "recEv1IFy5TWqeKfa",
+  "company": "Satago",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at pehub.com, not the company site"
+ },
+ {
+  "id": "recEvezZux38b2qJq",
+  "company": "Accelex",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "no Google result matched the name (top: superscout.co)"
+ },
+ {
+  "id": "recF6mv34qvF7IC8g",
+  "company": "Demand-Genius",
+  "domain": "demand-genius.com",
+  "confidence": "high",
+  "evidence": "Google result \"Demand-Genius Funding Announcement!\" at demand-genius.com (name in domain)"
+ },
+ {
+  "id": "recFCKwbG0FJ1BD9t",
+  "company": "Mirelo",
+  "domain": "mirelo.ai",
+  "confidence": "high",
+  "evidence": "Google result \"Mirelo AI: Generate sound and music for your videos\" at mirelo.ai (name in domain)"
+ },
+ {
+  "id": "recFS541b1vm3hRDr",
+  "company": "QIS Risk",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "no Google result matched the name (top: qisltd.co.uk)"
+ },
+ {
+  "id": "recFXdvk6C3yejTJ3",
+  "company": "Hesta Health",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at ascension.vc, not the company site"
+ },
+ {
+  "id": "recFZm9owr8cakZ9T",
+  "company": "Low Carbon Materials",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at northeastfund.org, not the company site"
+ },
+ {
+  "id": "recFbIk0G08woySRo",
+  "company": "Goji",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at fintech.global, not the company site"
+ },
+ {
+  "id": "recFmM3X5zC6qmtV3",
+  "company": "Stylus",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "no Google result matched the name (top: haatch.com)"
+ },
+ {
+  "id": "recFvFD0BIVdKW7xv",
+  "company": "Tray.ai",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at f4.fund, not the company site"
+ },
+ {
+  "id": "recFvQVX4xIeK3eL3",
+  "company": "Synkka",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at startupmag.co.uk, not the company site"
+ },
+ {
+  "id": "recFvpq7QVSfkknNE",
+  "company": "Ineffable",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at theventurecodex.com, not the company site"
+ },
+ {
+  "id": "recG3IyzKyH2Ni1JW",
+  "company": "Temporal",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at indexventures.com, not the company site"
+ },
+ {
+  "id": "recG69KQJwSw4M1dP",
+  "company": "All Gravy",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at vestbee.com, not the company site"
+ },
+ {
+  "id": "recG7UlmPg5pd79wg",
+  "company": "PortalOne",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at talent.seedcamp.com, not the company site"
+ },
+ {
+  "id": "recG98UxXDocBvRXw",
+  "company": "Crvva",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "no Google result matched the name (top: none)"
+ },
+ {
+  "id": "recGKrQn7y3ftvFk6",
+  "company": "Narrative",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at dictionary.cambridge.org, not the company site"
+ },
+ {
+  "id": "recGOxgjXx9yCkYwg",
+  "company": "Talasim",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at newswire.com, not the company site"
+ },
+ {
+  "id": "recGkQZVDTlrVlWAB",
+  "company": "Celo",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at outlierventures.io, not the company site"
+ },
+ {
+  "id": "recGvwACTlbQpq2Zx",
+  "company": "Base8",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "no Google result matched the name (top: linkedin.com)"
+ },
+ {
+  "id": "recH9N4Pk2Nc4mJ3H",
+  "company": "Kernel",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at moonfire.com, not the company site"
+ },
+ {
+  "id": "recHXujEnKBXZOb9L",
+  "company": "Because",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "no Google result matched the name (top: indexventures.com)"
+ },
+ {
+  "id": "recHaMR8Tl8swxMYJ",
+  "company": "Alice Camera",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "no Google result matched the name (top: ucl.ac.uk)"
+ },
+ {
+  "id": "recHcX3hRa4lWSUk7",
+  "company": "Harbr Data",
+  "domain": "harbrdata.com",
+  "confidence": "high",
+  "evidence": "Google result \"Harbr wins \u201cData Technology Startup of the Year\u201d\" at harbrdata.com (name in domain)"
+ },
+ {
+  "id": "recHfXOjbgfzEYT1s",
+  "company": "Pace",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "no Google result matched the name (top: seedcamp.com)"
+ },
+ {
+  "id": "recHibsx6KoadFNNz",
+  "company": "Tapaya",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at techfundingnews.com, not the company site"
+ },
+ {
+  "id": "recHo3pDsF52BR3fy",
+  "company": "CourtCorrect",
+  "domain": "courtcorrect.com",
+  "confidence": "high",
+  "evidence": "Google result \"CourtCorrect, Leader in Complaints AI, Completes Funding ...\" at courtcorrect.com (name in domain)"
+ },
+ {
+  "id": "recHoGPD0h2OgDu7b",
+  "company": "Satchel",
+  "domain": "teamsatchel.com",
+  "confidence": "high",
+  "evidence": "Google result \"About Our Company\" at teamsatchel.com (name in domain)"
+ },
+ {
+  "id": "recHr53lOUewcFFaw",
+  "company": "Rensource",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at playfair.vc, not the company site"
+ },
+ {
+  "id": "recHrgyMyGvND1fAu",
+  "company": "Enso",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "no Google result matched the name (top: f4.fund)"
+ },
+ {
+  "id": "recHudl2DmwXjArJo",
+  "company": "Bonfire",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at inspired.ch, not the company site"
+ },
+ {
+  "id": "recHyGl4eDgpNTOBd",
+  "company": "MindGreens",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at f4.fund, not the company site"
+ },
+ {
+  "id": "recHyuGW1K9AxJVtH",
+  "company": "Orbio AI",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at mexicobusiness.news, not the company site"
+ },
+ {
+  "id": "recI3AejHfmg0bEwE",
+  "company": "Covariant.ai",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at indexventures.com, not the company site"
+ },
+ {
+  "id": "recI7F6yiYmxQ6emQ",
+  "company": "Power (Data",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "no Google result matched the name (top: instagram.com)"
+ },
+ {
+  "id": "recI8lmZ1YlBvvahh",
+  "company": "OSCP",
+  "domain": "oscp.com",
+  "confidence": "high",
+  "evidence": "Google result \"Dumb drones set to become smart with a world first in ... - OSCP\" at oscp.com (name in domain)"
+ },
+ {
+  "id": "recIABz67PcUje56m",
+  "company": "Tacit",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at coralliaventures.vc, not the company site"
+ },
+ {
+  "id": "recIBn6Fg9uCy1A2M",
+  "company": "Qoro Quantum",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at finsmes.com, not the company site"
+ },
+ {
+  "id": "recIDFIWYvfdVG8wW",
+  "company": "Antavo",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at seedcamp.com, not the company site"
+ },
+ {
+  "id": "recIEPDvxKYckEFRc",
+  "company": "VERiCASH",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at apis.io, not the company site"
+ },
+ {
+  "id": "recIHXPRnyyMNCTXy",
+  "company": "BuzzTrail",
+  "domain": "buzztrail.ai",
+  "confidence": "high",
+  "evidence": "Google result \"BuzzTrail: AI Video Avatars for Inbound Sales\" at buzztrail.ai (name in domain)"
+ },
+ {
+  "id": "recIM5B9oI7EVSuQ5",
+  "company": "Bother",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at nordic9.com, not the company site"
+ },
+ {
+  "id": "recINxIfue5Y9j2Tg",
+  "company": "Astelia",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at indexventures.com, not the company site"
+ },
+ {
+  "id": "recIWoAeDhnVCJEZ1",
+  "company": "Trussle",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at uktech.news, not the company site"
+ },
+ {
+  "id": "recIXPlKTzYwXurxV",
+  "company": "Rize",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at stationf.co, not the company site"
+ },
+ {
+  "id": "recIb7xJXFi5yUXQs",
+  "company": "People and Robots",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at f4.fund, not the company site"
+ },
+ {
+  "id": "recIdEjnHklFuayyq",
+  "company": "AgentBay",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "no Google result matched the name (top: pitchbook.com)"
+ },
+ {
+  "id": "recIfZUTL3rlOiKzo",
+  "company": "Sprive",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at wealthclub.co.uk, not the company site"
+ },
+ {
+  "id": "recImXDrGTDKqxZeX",
+  "company": "Crowd Data Systems",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at uktechnews.info, not the company site"
+ },
+ {
+  "id": "recIqwWAzut3SwAYl",
+  "company": "Unwritten",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at esgtoday.com, not the company site"
+ },
+ {
+  "id": "recIr8hcbE1WjWe9I",
+  "company": "Boiler Room",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "no Google result matched the name (top: en.wikipedia.org)"
+ },
+ {
+  "id": "recItqHux9hE4048O",
+  "company": "Garner Health",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at indexventures.com, not the company site"
+ },
+ {
+  "id": "recIwpqosid7DAkZf",
+  "company": "Magentic AI",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "no Google result matched the name (top: haatch.com)"
+ },
+ {
+  "id": "recIx2nsMqxZ2YTAs",
+  "company": "Virtuoso QA",
+  "domain": "virtuosoqa.com",
+  "confidence": "high",
+  "evidence": "Google result \"SpotQA Picks Up $3.25M Seed Funding For Its Automated ...\" at virtuosoqa.com (name in domain)"
+ },
+ {
+  "id": "recIxzHXCE04wk1ho",
+  "company": "Verax",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at talent.seedcamp.com, not the company site"
+ },
+ {
+  "id": "recJBU0Ka1LEzMKkS",
+  "company": "Kuano",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at uktech.news, not the company site"
+ },
+ {
+  "id": "recKZbOJDAbLyPzN4",
+  "company": "Ambient",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "no Google result matched the name (top: pitchbook.com)"
+ },
+ {
+  "id": "recLKL9dAqPgunFuw",
+  "company": "Vidya Health",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "no Google result matched the name (top: hoxtonventures.com)"
+ },
+ {
+  "id": "recLf0t5sfaR76a8D",
+  "company": "InSitu",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "no Google result matched the name (top: pitchbook.com)"
+ },
+ {
+  "id": "recLh79s2ab86Vh1b",
+  "company": "Unison",
+  "domain": "unisoninnovations.com",
+  "confidence": "high",
+  "evidence": "Google result \"Unison Innovations\" at unisoninnovations.com (name in domain)"
+ },
+ {
+  "id": "recMS96jyyHukTMG5",
+  "company": "Lunasa Space",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "no Google result matched the name (top: app.dealroom.co)"
+ },
+ {
+  "id": "recMl4Y8rmfDI8LHp",
+  "company": "Reya",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at frontrun.vc, not the company site"
+ },
+ {
+  "id": "recMsUqBXe57dP54U",
+  "company": "LingoLabs",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "no Google result matched the name (top: none)"
+ },
+ {
+  "id": "recMy0RPeOQNyxa6m",
+  "company": "Felk",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at victoriafelkar.com, not the company site"
+ },
+ {
+  "id": "recN3RfVKjlSH6z2b",
+  "company": "Wool and the Gang",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at wsj.com, not the company site"
+ },
+ {
+  "id": "recN4MBc4kBKvQ4za",
+  "company": "Hifi",
+  "domain": "hifi.finance",
+  "confidence": "high",
+  "evidence": "Google result \"Pre-Sale Partners: Funds & Angels\" at blog.hifi.finance (name in domain)"
+ },
+ {
+  "id": "recNIIhMgZqPDmbXS",
+  "company": "Vidjet",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at startupmap.one, not the company site"
+ },
+ {
+  "id": "recNJuEZr77obnzi2",
+  "company": "GoodFit",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at notioncapital.com, not the company site"
+ },
+ {
+  "id": "recNdZGqmgBra2I07",
+  "company": "Uberchord",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at f4.fund, not the company site"
+ },
+ {
+  "id": "recNj8Tjtb4tzYtW4",
+  "company": "Tipple",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at 7pc.vc, not the company site"
+ },
+ {
+  "id": "recNwOFJRtzivNu6S",
+  "company": "Limbo",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at seedtable.com, not the company site"
+ },
+ {
+  "id": "recO7ONaz3dlqcRxr",
+  "company": "Pomelo",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at indexventures.com, not the company site"
+ },
+ {
+  "id": "recOALk1S1ZzFasf8",
+  "company": "Aseon",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "no Google result matched the name (top: linkedin.com)"
+ },
+ {
+  "id": "recOQqyCUKYHXrEaf",
+  "company": "OnDevice",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at f4.fund, not the company site"
+ },
+ {
+  "id": "recOSgGYyvJWjBZS3",
+  "company": "ROVR",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at outlierventures.io, not the company site"
+ },
+ {
+  "id": "recOVRxeuPYc7OwVV",
+  "company": "V7 Labs",
+  "domain": "v7labs.com",
+  "confidence": "high",
+  "evidence": "Google result \"V7 raises a $33m Series A to help teams build robust AI, ...\" at v7labs.com (name in domain)"
+ },
+ {
+  "id": "recOmx6uHuIQNRx4E",
+  "company": "Nested",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at uktech.news, not the company site"
+ },
+ {
+  "id": "recOneKuOHNM4OsoM",
+  "company": "Raito",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at tech.eu, not the company site"
+ },
+ {
+  "id": "recOqLX1QYn0kJIx7",
+  "company": "Toothpick",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "no Google result matched the name (top: techcrunch.com)"
+ },
+ {
+  "id": "recOrYI7fLzH9QQpU",
+  "company": "Oradian",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at caplink.capital, not the company site"
+ },
+ {
+  "id": "recOsefCuYp2Z62i1",
+  "company": "OpenFormat",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at adaventures.com, not the company site"
+ },
+ {
+  "id": "recOtwOs4wGLBDN4u",
+  "company": "Seldon",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at seedtable.com, not the company site"
+ },
+ {
+  "id": "recOxoWty7Vm9YYMO",
+  "company": "Quantive",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at indexventures.com, not the company site"
+ },
+ {
+  "id": "recP5gNVbf9nkEW8g",
+  "company": "VineTrade",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "no Google result matched the name (top: techcrunch.com)"
+ },
+ {
+  "id": "recP7iGj5WpqjndPM",
+  "company": "Fin Mile",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "no Google result matched the name (top: ascension.vc)"
+ },
+ {
+  "id": "recPAhUfUM7Y1ALFA",
+  "company": "Next Matter",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at startupintros.com, not the company site"
+ },
+ {
+  "id": "recPJwmtDuINdfco9",
+  "company": "Property.Works",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "no Google result matched the name (top: cbinsights.com)"
+ },
+ {
+  "id": "recPMhMv0blCRiZ3b",
+  "company": "Burbank",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at fintech.global, not the company site"
+ },
+ {
+  "id": "recPO8sf5h0cSHHpA",
+  "company": "MiAlgae",
+  "domain": "mialgae.com",
+  "confidence": "high",
+  "evidence": "Google result \"Biotech Pioneer MiAlgae Powers Ahead with New ...\" at mialgae.com (name in domain)"
+ },
+ {
+  "id": "recPRGbIre0P3K8Mx",
+  "company": "rideOS",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at siliconangle.com, not the company site"
+ },
+ {
+  "id": "recPS9iugvaODxQ8a",
+  "company": "Happl",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at startupintros.com, not the company site"
+ },
+ {
+  "id": "recPUMW46ECKbc5mp",
+  "company": "Arca",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at indexventures.com, not the company site"
+ },
+ {
+  "id": "recPVu7nFj7e2dJRP",
+  "company": "Peakon",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at f4.fund, not the company site"
+ },
+ {
+  "id": "recPa9ntret4H9OQL",
+  "company": "FlexionAI",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "no Google result matched the name (top: x.com)"
+ },
+ {
+  "id": "recPbvShWte4lDxJ9",
+  "company": "Rohlik",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at indexventures.com, not the company site"
+ },
+ {
+  "id": "recPf2FBFPb7REObz",
+  "company": "Armada Interactive",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at nordic9.com, not the company site"
+ },
+ {
+  "id": "recPgX5U9nu3hlzae",
+  "company": "Yuty",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at adaventures.com, not the company site"
+ },
+ {
+  "id": "recPhfLzm1jesRJnY",
+  "company": "Boost Security",
+  "domain": "boostsecurity.io",
+  "confidence": "high",
+  "evidence": "Google result \"DevSecOps Automation Platform Secures $12M Seed ...\" at boostsecurity.io (name in domain)"
+ },
+ {
+  "id": "recPib6LbplP6gBhw",
+  "company": "Fraugster",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at commerzventures.com, not the company site"
+ },
+ {
+  "id": "recPuafC88lMSUQ75",
+  "company": "Plural",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "no Google result matched the name (top: growthbusiness.co.uk)"
+ },
+ {
+  "id": "recPv6ASR8rgspcr9",
+  "company": "Circles",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at fastcompany.com, not the company site"
+ },
+ {
+  "id": "recPxPZQv8Km8g7hd",
+  "company": "Timetric",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at marketresearch.com, not the company site"
+ },
+ {
+  "id": "recPxwsiBQDH1tynv",
+  "company": "Flagship",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at indexventures.com, not the company site"
+ },
+ {
+  "id": "recQDqYLxAC68Lxp0",
+  "company": "BRINC",
+  "domain": "brinc.io",
+  "confidence": "high",
+  "evidence": "Google result \"Brinc | Venture Accelerator & Private Market Innovation\" at brinc.io (name in domain)"
+ },
+ {
+  "id": "recQLjg5HJPdulRju",
+  "company": "Branchtrack",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at caplink.capital, not the company site"
+ },
+ {
+  "id": "recQNalQnMKmT7z3P",
+  "company": "Two",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "no Google result matched the name (top: phoenixcourt.vc)"
+ },
+ {
+  "id": "recQOfm1BhQwhzpPt",
+  "company": "Tably",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "no Google result matched the name (top: vcbacked.co)"
+ },
+ {
+  "id": "recQT39Pq0rri11kg",
+  "company": "Interactive Investor",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "no Google result matched the name (top: openvc.app)"
+ },
+ {
+  "id": "recQVk4d6cB9OWAWv",
+  "company": "Driftrock",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "no Google result matched the name (top: pitchbook.com)"
+ },
+ {
+  "id": "recQXUGkA8rDDVBkw",
+  "company": "Tema",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at indexventures.com, not the company site"
+ },
+ {
+  "id": "recQcDbeABZbDR67F",
+  "company": "Daybridge",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at nordic9.com, not the company site"
+ },
+ {
+  "id": "recQe1ttGhwU6Dr6I",
+  "company": "V&ME",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at f4.fund, not the company site"
+ },
+ {
+  "id": "recQeBebpBeDc8YZG",
+  "company": "Fifth Dimension",
+  "domain": "fifthdimensionai.com",
+  "confidence": "high",
+  "evidence": "Google result \"Fifth Dimension Raises $26M Series A\" at fifthdimensionai.com (name in domain)"
+ },
+ {
+  "id": "recQjbb5R1XHUXEO6",
+  "company": "PocDoc",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at mmc.vc, not the company site"
+ },
+ {
+  "id": "recQw4yP2kGdGUMJc",
+  "company": "Revyze",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at vestbee.com, not the company site"
+ },
+ {
+  "id": "recQxwR4qW6m8fsHx",
+  "company": "Lick",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "no Google result matched the name (top: adeline.co.uk)"
+ },
+ {
+  "id": "recR0x8lsxrryQlhr",
+  "company": "Laminar",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at mgmtboston.com, not the company site"
+ },
+ {
+  "id": "recRDKIVfjXTY7nL4",
+  "company": "HomeTouch",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at uktech.news, not the company site"
+ },
+ {
+  "id": "recRE2Z15T8lXe7pf",
+  "company": "Auryx",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at parsers.vc, not the company site"
+ },
+ {
+  "id": "recRGubHK5FS2pFdf",
+  "company": "Greenpixie",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at uktechnews.info, not the company site"
+ },
+ {
+  "id": "recRHogtFX1KaywAm",
+  "company": "Countly",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at e27.co, not the company site"
+ },
+ {
+  "id": "recRNXmNkfM5sz63q",
+  "company": "AUDIENCES",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "no Google result matched the name (top: haatch.com)"
+ },
+ {
+  "id": "recROimSmlCfFP9Qn",
+  "company": "Life Supplies",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "no Google result matched the name (top: tracxn.com)"
+ },
+ {
+  "id": "recRPVqqRQNcHxL8M",
+  "company": "Modern Intelligence",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "no Google result matched the name (top: dealroom.co)"
+ },
+ {
+  "id": "recRRCV5lZMOntTr7",
+  "company": "DebtStream",
+  "domain": "debtstream.co.uk",
+  "confidence": "high",
+  "evidence": "Google result \"About\" at debtstream.co.uk (name in domain)"
+ },
+ {
+  "id": "recRUPupj8UViH3fQ",
+  "company": "AskVinny",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at standout.work, not the company site"
+ },
+ {
+  "id": "recRUmNFIF56gHzBq",
+  "company": "patients.app",
+  "domain": "patients.app",
+  "confidence": "high",
+  "evidence": "Google result \"Patients.app\" at patients.app (name in domain)"
+ },
+ {
+  "id": "recRWl74OmXIoQdtz",
+  "company": "Localistico",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at caplink.capital, not the company site"
+ },
+ {
+  "id": "recRasfslM9JkRpaf",
+  "company": "Calliper",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at cord.com, not the company site"
+ },
+ {
+  "id": "recRbuyc9Ww1do5j9",
+  "company": "Emblematic",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at tech.eu, not the company site"
+ },
+ {
+  "id": "recRkLswkoPw7eqp1",
+  "company": "Limejump",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at unquote.com, not the company site"
+ },
+ {
+  "id": "recRloRiJaXoPxiWS",
+  "company": "Novai",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "no Google result matched the name (top: uk.linkedin.com)"
+ },
+ {
+  "id": "recRn96nZ9Ea7u6zh",
+  "company": "Mixlr",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "no Google result matched the name (top: wellfound.com)"
+ },
+ {
+  "id": "recRuHawetI9Zcjlq",
+  "company": "Nullspace",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "no Google result matched the name (top: researchgate.net)"
+ },
+ {
+  "id": "recRuSeeWRtBoiIWs",
+  "company": "Talkpush",
+  "domain": "talkpush.com",
+  "confidence": "high",
+  "evidence": "Google result \"About us\" at talkpush.com (name in domain)"
+ },
+ {
+  "id": "recS1HmFiM9BpZex3",
+  "company": "Moo",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "no Google result matched the name (top: phoenixcourt.vc)"
+ },
+ {
+  "id": "recS1uoaZXIOZT1lo",
+  "company": "Rentify",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at growthbusiness.co.uk, not the company site"
+ },
+ {
+  "id": "recS3SfQv3XmHS6dT",
+  "company": "Andela",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at equityzen.com, not the company site"
+ },
+ {
+  "id": "recS79miVdUAJHtfZ",
+  "company": "Tuune",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at caplink.capital, not the company site"
+ },
+ {
+  "id": "recS8mRrXpPNBf95Q",
+  "company": "Diem",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "no Google result matched the name (top: ascension.vc)"
+ },
+ {
+  "id": "recS97GDEhAlhqgpl",
+  "company": "Moca",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "no Google result matched the name (top: portfolio.outlierventures.io)"
+ },
+ {
+  "id": "recSD1iDcj6ImOFRR",
+  "company": "Dealflo",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at tech.eu, not the company site"
+ },
+ {
+  "id": "recSE6Kqf29dpKqPV",
+  "company": "Twice",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at anthemis.com, not the company site"
+ },
+ {
+  "id": "recSeRe4ro55l6AkP",
+  "company": "Common Surface",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "no Google result matched the name (top: kindredcapital.vc)"
+ },
+ {
+  "id": "recT5c7eu8uRDzu2F",
+  "company": "Remato",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at itkey.media, not the company site"
+ },
+ {
+  "id": "recT797A8Yve9dQPN",
+  "company": "Garrison",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at startup.jobs, not the company site"
+ },
+ {
+  "id": "recT8nIr2P7yCZVU8",
+  "company": "SAPI",
+  "domain": "sapi.com",
+  "confidence": "high",
+  "evidence": "Google result \"SAPI\" at sapi.com (name in domain)"
+ },
+ {
+  "id": "recT9h80uXDYPvG89",
+  "company": "Haku",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at maryannsteggles.com, not the company site"
+ },
+ {
+  "id": "recTEeWQouWfKrplT",
+  "company": "Compol",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "no Google result matched the name (top: facebook.com)"
+ },
+ {
+  "id": "recTbfi9AygIQOSJj",
+  "company": "Land Insight",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at opendataincubator.eu, not the company site"
+ },
+ {
+  "id": "recTdl7KjrQG5yXXk",
+  "company": "Cascade",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at tech.eu, not the company site"
+ },
+ {
+  "id": "recTfI3Fwb0vs7l0d",
+  "company": "Sesame Labs",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at cmswire.com, not the company site"
+ },
+ {
+  "id": "recTiwtlrb2PB7zbK",
+  "company": "Burrow",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at dukecapitalpartners.duke.edu, not the company site"
+ },
+ {
+  "id": "recTjDtFyGNEO06S2",
+  "company": "Honest Mobile",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at bouncewatch.com, not the company site"
+ },
+ {
+  "id": "recTjpskI5DzNyYjM",
+  "company": "Artian",
+  "domain": "artian.ai",
+  "confidence": "high",
+  "evidence": "Google result \"AI Agents in Finance: Why Artian Exists\" at artian.ai (name in domain)"
+ },
+ {
+  "id": "recTkp19D3i1PVY0N",
+  "company": "Voxmind",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Google top match was a third-party page at startupmag.co.uk, not the company site"
+ },
+ {
+  "id": "recU5G4XFdX05Hhjc",
+  "company": "GatlingX",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "no Google result matched the name (top: openvc.app)"
+ }
+]

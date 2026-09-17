@@ -1,0 +1,352 @@
+[
+ {
+  "id": "recZTr6SXzm7mJWWQ",
+  "company": "Dermie AI",
+  "domain": "dermie.ai",
+  "confidence": "medium",
+  "evidence": "Crunchbase/LinkedIn/Tracxn all refer to the company as 'Dermie.AI', backed by Backed VC and Haatch, but no snippet showed the literal URL so the .ai domain is inferred from the brand name."
+ },
+ {
+  "id": "recZWCCyVHJn34zZ5",
+  "company": "The Family",
+  "domain": "thefamily.co",
+  "confidence": "high",
+  "evidence": "Official site 'Building Ambitious Startups | The Family' at thefamily.co, a Paris/London startup accelerator backed by investors including LGT."
+ },
+ {
+  "id": "recZZmkHTZtef9T5u",
+  "company": "home",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Company name 'home' is too generic; search for '\"home\" startup Haatch' returned only Haatch's own portfolio/VC pages, no specific matching company."
+ },
+ {
+  "id": "recZclqDA2Xge2KJN",
+  "company": "Hacktron",
+  "domain": "hacktron.ai",
+  "confidence": "high",
+  "evidence": "Official site 'AI Code Review & Security Vulnerability Detection | Hacktron AI' at hacktron.ai; press explicitly confirms Crane Venture Partners led its pre-seed round."
+ },
+ {
+  "id": "recZexiqAg4izp7oq",
+  "company": "Airstride",
+  "domain": "airstride.ai",
+  "confidence": "high",
+  "evidence": "Official site 'Airstride | The Partner Revenue Growth Platform' at airstride.ai; Haatch investment confirmed by Haatch's own portfolio listing and Crunchbase."
+ },
+ {
+  "id": "recZrWB9BC0pS7Y4D",
+  "company": "Native Teams",
+  "domain": "nativeteams.com",
+  "confidence": "high",
+  "evidence": "Official site nativeteams.com; Haatch's own site (haatch.com) documents its seed investment and later exit from Native Teams."
+ },
+ {
+  "id": "recZwh36fsRA3a7z2",
+  "company": "Darktrace",
+  "domain": "darktrace.com",
+  "confidence": "high",
+  "evidence": "Well-known cybersecurity company; Hoxton Ventures' own portfolio page (hoxtonventures.com/portfolio/darktrace-2) confirms the investment, official site is darktrace.com."
+ },
+ {
+  "id": "recZzpjRcmNAClTcQ",
+  "company": "UniSieve",
+  "domain": "unisieve.com",
+  "confidence": "high",
+  "evidence": "Official site 'Gas Separation Membranes | UniSieve' at unisieve.com; Amadeus Capital's own site confirms it led/joined UniSieve's seed round."
+ },
+ {
+  "id": "reca7y1VtdOkheq4Z",
+  "company": "Graphext Labs",
+  "domain": "graphext.com",
+  "confidence": "medium",
+  "evidence": "Company operates as 'Graphext' (graphext.com); Hoxton Ventures' portfolio page and blog confirm leading its $4.6M seed, but the input name 'Graphext Labs' only partially matches the actual brand 'Graphext'."
+ },
+ {
+  "id": "recaHL4TSmF6QfUsu",
+  "company": "Vitaance",
+  "domain": "vitaance.com",
+  "confidence": "medium",
+  "evidence": "Official site vitaance.com (Spanish insurtech); one source (Nordic9) states the round was 'led by Kindred Capital' though other sources say 'Kindred Ventures', creating some investor-name ambiguity."
+ },
+ {
+  "id": "recaHuR4eKHerfnC8",
+  "company": "Adludio",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Passion Capital's investment in Adludio (London adtech, legal name Future Ad Labs) is confirmed via UKTN/venturecapital.news, but no search snippet showed the literal domain URL, so it is not verified."
+ },
+ {
+  "id": "recaKyJuG6xg9pSsc",
+  "company": "Factual",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Index Ventures' own site lists a portfolio company 'Factual', but 'Factual' is a common name for several unrelated companies and no explicit official domain was found in results."
+ },
+ {
+  "id": "recaNKfBUh0tEz23i",
+  "company": "Scriptic",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recaNtWP2r0yUjuFe",
+  "company": "Anomer Bio",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recaPXr85QnC556YT",
+  "company": "Open Risk Exchange",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recaVLDoqDtVhdLcK",
+  "company": "Sugar",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recaabUKW6uHZgUU4",
+  "company": "Mia AI",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recacsHg7gVXBwMep",
+  "company": "Wealthkernel",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recad9cJctije2Uzu",
+  "company": "Codship",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recadGlB7me74OHip",
+  "company": "wedo",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recaeW8oGVDjHqPwi",
+  "company": "Pointy",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recaiCxhpijd0u9s5",
+  "company": "Fronted",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recatyDK7v8GfkYsj",
+  "company": "OLIX",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recawU1StbdgKJwv9",
+  "company": "SteadyPay",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recb6mrImcnCs9SAa",
+  "company": "Simbe Robotics",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recbCZshqMSIOjH5c",
+  "company": "Spill",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recbE38NpNSJTnGgs",
+  "company": "Membrane",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recbEyPEBYBOhF591",
+  "company": "Swiftshift",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recbFUIA2fZCuzmlB",
+  "company": "Hutch",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recbJ7UEfTJE7PFHS",
+  "company": "Trigify",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recbJlj0vQH57PmfS",
+  "company": "ExSeed",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recbSKBwwsFt2mEst",
+  "company": "Lune",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recbWIvRNQt4Z2ABd",
+  "company": "1SE",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recbXjHrXCEoLi2w0",
+  "company": "ReBorn",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recbhsBbLCwClmxtJ",
+  "company": "deepdots",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recbovVFNIn4ke5Xk",
+  "company": "James Finance",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recc5Jta38DmQkr9Q",
+  "company": "KareInn",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recc79h6XD8bi9Dsx",
+  "company": "Interfaze",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recc7zuIkMzlSPqC4",
+  "company": "Uncommon Therapeutics",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "reccCjgPu8gkRmlkb",
+  "company": "Close Easy",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "reccDXVR6FW0zA52q",
+  "company": "Crabcad",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "reccJnDHFWZLNRWkQ",
+  "company": "API Context",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "reccLLQnWWqs2jJCo",
+  "company": "Vochlea",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "reccOAczdthQnZrvE",
+  "company": "Shift Bioscience",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "reccSsL1dbGtWTHK5",
+  "company": "HURR",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "reccWtxHOClTRYuJ5",
+  "company": "Multiomic",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "reccadmLD4Lmz6Cc5",
+  "company": "Upkeep",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recclp4H3ZMsz3ocs",
+  "company": "Finster",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "reccoH5FI0JdKQEWp",
+  "company": "Decisional AI",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "reccuOcKLLSd9RZq6",
+  "company": "Babylon Health",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ }
+]

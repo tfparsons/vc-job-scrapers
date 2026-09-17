@@ -1,0 +1,352 @@
+[
+ {
+  "id": "recPuafC88lMSUQ75",
+  "company": "Plural",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "7pc.vc/portfolio/plural confirms 7percent Ventures backs a company called Plural (talent marketplace), but no official domain appeared in search results."
+ },
+ {
+  "id": "recPv6ASR8rgspcr9",
+  "company": "Circles",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Crunchbase profile for 'Find Circles' (Kindred Capital, closed Dec 2019) found, but no verified live domain appeared in search results."
+ },
+ {
+  "id": "recPxPZQv8Km8g7hd",
+  "company": "Timetric",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Anthemis and Crunchbase confirm Timetric was an Anthemis portfolio company acquired by GlobalData in 2018, but no live/confirmed domain appeared in search results."
+ },
+ {
+  "id": "recPxwsiBQDH1tynv",
+  "company": "Flagship",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Index Ventures and Sequoia pages confirm a creator-commerce startup called Flagship backed by Index Ventures, later acquired by Shopify; no domain was explicitly shown in the returned result list/snippets."
+ },
+ {
+  "id": "recPyaNeTxZMaOosR",
+  "company": "Root Network",
+  "domain": "therootnetwork.com",
+  "confidence": "medium",
+  "evidence": "therootnetwork.com and docs.therootnetwork.com appeared directly in search results as the site for 'The Root Network', a Futureverse blockchain backed with Outlier Ventures involvement; name match is partial (The Root Network vs Root Network)."
+ },
+ {
+  "id": "recQ6UuaxDcgw5cmf",
+  "company": "Nevercode",
+  "domain": "codemagic.io",
+  "confidence": "medium",
+  "evidence": "Codemagic Blog and codemagic.io/about-us confirm Nevercode (Seedcamp portfolio company) fully rebranded/transitioned to Codemagic in 2021; codemagic.io is the current official domain."
+ },
+ {
+  "id": "recQDqYLxAC68Lxp0",
+  "company": "BRINC",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Two unrelated organizations named BRINC/Brinc (BRINC Drones, and Brinc.io accelerator) are both linked to Index Ventures in search results, and the investor hint does not disambiguate which one is meant."
+ },
+ {
+  "id": "recQHkFCte8sVPfmS",
+  "company": "Keith",
+  "domain": "keith.com",
+  "confidence": "high",
+  "evidence": "News coverage (Legal Futures, TheNextWeb, Soapbox VC) confirms Keith, the AI-native UK conveyancing law firm backed by Backed VC, has official site keith.com."
+ },
+ {
+  "id": "recQLjg5HJPdulRju",
+  "company": "Branchtrack",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "recQNalQnMKmT7z3P",
+  "company": "Two",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "recQOfm1BhQwhzpPt",
+  "company": "Tably",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "recQT39Pq0rri11kg",
+  "company": "Interactive Investor",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "recQVk4d6cB9OWAWv",
+  "company": "Driftrock",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "recQXUGkA8rDDVBkw",
+  "company": "Tema",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "recQcDbeABZbDR67F",
+  "company": "Daybridge",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "recQe1ttGhwU6Dr6I",
+  "company": "V&ME",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "recQeBebpBeDc8YZG",
+  "company": "Fifth Dimension",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "recQjbb5R1XHUXEO6",
+  "company": "PocDoc",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "recQw4yP2kGdGUMJc",
+  "company": "Revyze",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "recQxwR4qW6m8fsHx",
+  "company": "Lick",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "recR0x8lsxrryQlhr",
+  "company": "Laminar",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "recRDKIVfjXTY7nL4",
+  "company": "HomeTouch",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "recRE2Z15T8lXe7pf",
+  "company": "Auryx",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "recRGubHK5FS2pFdf",
+  "company": "Greenpixie",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "recRHogtFX1KaywAm",
+  "company": "Countly",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "recRNXmNkfM5sz63q",
+  "company": "AUDIENCES",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "recROimSmlCfFP9Qn",
+  "company": "Life Supplies",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "recRPVqqRQNcHxL8M",
+  "company": "Modern Intelligence",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "recRRCV5lZMOntTr7",
+  "company": "DebtStream",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "recRRXhYnpZ3vTSbN",
+  "company": "Loveshark",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "recRUPupj8UViH3fQ",
+  "company": "AskVinny",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "recRUmNFIF56gHzBq",
+  "company": "patients.app",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "recRWl74OmXIoQdtz",
+  "company": "Localistico",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "recRasfslM9JkRpaf",
+  "company": "Calliper",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "recRbuyc9Ww1do5j9",
+  "company": "Emblematic",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "recRkLswkoPw7eqp1",
+  "company": "Limejump",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "recRloRiJaXoPxiWS",
+  "company": "Novai",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "recRn96nZ9Ea7u6zh",
+  "company": "Mixlr",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "recRuHawetI9Zcjlq",
+  "company": "Nullspace",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "recRuSeeWRtBoiIWs",
+  "company": "Talkpush",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "recRvnYWpl4zkFvq4",
+  "company": "Patients Know Best",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "recS1HmFiM9BpZex3",
+  "company": "Moo",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "recS1uoaZXIOZT1lo",
+  "company": "Rentify",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "recS3SfQv3XmHS6dT",
+  "company": "Andela",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "recS79miVdUAJHtfZ",
+  "company": "Tuune",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "recS8mRrXpPNBf95Q",
+  "company": "Diem",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "recS97GDEhAlhqgpl",
+  "company": "Moca",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "recSBiKNvN8PozaNx",
+  "company": "laZook",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "recSD1iDcj6ImOFRR",
+  "company": "Dealflo",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "recSE6Kqf29dpKqPV",
+  "company": "Twice",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ }
+]

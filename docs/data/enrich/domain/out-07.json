@@ -1,0 +1,352 @@
+[
+ {
+  "id": "recJFCtHU9LPjymdh",
+  "company": "Bea Fertility",
+  "domain": "beafertility.com",
+  "confidence": "high",
+  "evidence": "beafertility.com is Béa Fertility's own site (Trustpilot/terms pages), and 7percent Ventures' portfolio page confirms the investor match."
+ },
+ {
+  "id": "recJXNAW51NSFzzvi",
+  "company": "Protex",
+  "domain": "protex.ai",
+  "confidence": "high",
+  "evidence": "Protex AI's official site is protex.ai; Playfair Capital's own portfolio page confirms it backs Protex AI since 2021."
+ },
+ {
+  "id": "recJXgD9saJlxUwy8",
+  "company": "Enzai",
+  "domain": "enz.ai",
+  "confidence": "high",
+  "evidence": "Official Enzai AI governance platform site is enz.ai; Seedcamp's own site confirms the investment (name matches ignoring punctuation)."
+ },
+ {
+  "id": "recJedDSrg837y0YF",
+  "company": "Elevaate",
+  "domain": "elevaate.com",
+  "confidence": "high",
+  "evidence": "elevaate.com is Elevaate's site ('Elevaate - Grow Revenue with Scalable Partner Programs'); Haatch's own blog confirms its founder Scott Weavers-Wright also founded Haatch. Company was acquired by Quotient Technology in 2018 but the domain still resolves to the Elevaate brand."
+ },
+ {
+  "id": "recJi2WlPsetgz3gX",
+  "company": "EyeEm",
+  "domain": "eyeem.com",
+  "confidence": "high",
+  "evidence": "EyeEm is a well-known Berlin photo app; eyeem.com is its long-standing official domain, and multiple funding articles confirm Passion Capital as an early/recurring backer."
+ },
+ {
+  "id": "recJiQtJ9RXo7oPgw",
+  "company": "BoomFi",
+  "domain": "boomfi.xyz",
+  "confidence": "high",
+  "evidence": "boomfi.xyz is BoomFi's crypto payment gateway site; PR Newswire and LinkedIn confirm Passion Capital backed BoomFi's $3.8M seed."
+ },
+ {
+  "id": "recJixSTA129D38Ob",
+  "company": "Tellis",
+  "domain": "tellis.ai",
+  "confidence": "medium",
+  "evidence": "tellis.ai matches the e-commerce AI platform description and Haatch backing (also referred to as 'Tellis Labs'), a partial name match."
+ },
+ {
+  "id": "recJk6gbIThmhVdi8",
+  "company": "Round",
+  "domain": "roundtreasury.com",
+  "confidence": "high",
+  "evidence": "roundtreasury.com is Round Treasury's own site; press coverage confirms the pre-seed round was led by Passion Capital with Ascension participating, matching both investor names."
+ },
+ {
+  "id": "recJlWfMkLMOf4q7e",
+  "company": "Inversion Semiconductor",
+  "domain": "inversionsemi.com",
+  "confidence": "medium",
+  "evidence": "inversionsemi.com is the only Inversion Semiconductor found (YC-backed lithography startup); however visible investor lists show Y Combinator/Entrepreneur First rather than Moonfire, so the investor hint is unconfirmed."
+ },
+ {
+  "id": "recJrQ5PzsZ7wL9f1",
+  "company": "Solvo",
+  "domain": "solvo.finance",
+  "confidence": "high",
+  "evidence": "solvo.finance is Solvo's official crypto investing app site; Index Ventures' own site confirms it led Solvo's seed round."
+ },
+ {
+  "id": "recJsfn0RRnG2QuxY",
+  "company": "LiquidTrust",
+  "domain": "liquidtrust.io",
+  "confidence": "high",
+  "evidence": "liquidtrust.io is LiquidTrust's own escrow-payments site; Anthemis's own portfolio page confirms the investment."
+ },
+ {
+  "id": "recJtU8YxdgGAwp4e",
+  "company": "Inflow",
+  "domain": "getinflow.io",
+  "confidence": "high",
+  "evidence": "getinflow.io is Inflow's official ADHD-app site; Hoxton Ventures' own portfolio page and TechCrunch confirm it led Inflow's seed round."
+ },
+ {
+  "id": "recJxaDhruqLAvP61",
+  "company": "Property Partner",
+  "domain": "londonhouseexchange.com",
+  "confidence": "medium",
+  "evidence": "Property Partner rebranded to London House Exchange (per Trustpilot/APIs.io); Seedcamp backed the original £1.25m seed round. Domain reflects the renamed current entity, not the old propertypartner.co branding."
+ },
+ {
+  "id": "recK1l743WJNe6Ch9",
+  "company": "Grubel",
+  "domain": "grubel.ai",
+  "confidence": "high",
+  "evidence": "grubel.ai is the AI legal research lab's own site ('grubel — every matter, its own AI'); EU-Startups and Point Nine's own site confirm the pre-seed round Point Nine led."
+ },
+ {
+  "id": "recK5wcXaH2dchL30",
+  "company": "Vigilant AI",
+  "domain": "vigilant-ai.ai",
+  "confidence": "high",
+  "evidence": "vigilant-ai.ai is Vigilant AI's own press-release/blog domain; multiple outlets confirm Haatch led its £585k pre-seed round."
+ },
+ {
+  "id": "recKAChbCeIw1kcAr",
+  "company": "Rezilion",
+  "domain": "rezilion.com",
+  "confidence": "medium",
+  "evidence": "rezilion.com was Rezilion's official domain (per TechCrunch and a certificate-history record) and TechCrunch/SiliconAngle confirm Kindred Capital's participation in its Series A, but the domain currently resolves to an unrelated site, suggesting it may have lapsed."
+ },
+ {
+  "id": "recKLd8vZ5CafpIiK",
+  "company": "Wayline",
+  "domain": "wayline.com",
+  "confidence": "high",
+  "evidence": "wayline.com is Wayline's own AI property-management site; VCBacked/PitchBook list Moonfire among its pre-seed investors."
+ },
+ {
+  "id": "recKN0ZW5ycxLrRgp",
+  "company": "Candid",
+  "domain": "candidhospitality.co.uk",
+  "confidence": "medium",
+  "evidence": "candidhospitality.co.uk is Candid Hospitality's own site; Haatch's portfolio page and press confirm its participation in the seed round. Batch entry name 'Candid' is a partial match to the full 'Candid Hospitality' brand."
+ },
+ {
+  "id": "recKU1UzvmSMfBjhd",
+  "company": "Moltin",
+  "domain": "elasticpath.com",
+  "confidence": "medium",
+  "evidence": "Moltin, backed by Frontline Ventures per Medium/Tech.eu coverage, was acquired by Elastic Path in January 2020; elasticpath.com is the current official domain for the combined company (moltin.com content now lives under Elastic Path's site)."
+ },
+ {
+  "id": "recKUNeFqEcjSI8v4",
+  "company": "ViCampo",
+  "domain": "vicampo.de",
+  "confidence": "high",
+  "evidence": "vicampo.de is Vicampo's own wine-retail site, still active; Gruenderszene/FinSMES confirm Passion Capital's investment, though ViCampo was later acquired by Viva Wine & Spirits in 2021."
+ },
+ {
+  "id": "recKUifgEU4ShBF5y",
+  "company": "Heatio",
+  "domain": "heatio.com",
+  "confidence": "high",
+  "evidence": "heatio.com is Heatio's own home-energy-platform site; Ascension's own blog confirms it led the Liverpool clean-tech startup's £2m seed round."
+ },
+ {
+  "id": "recKUxWrGStYLUOZo",
+  "company": "Fenka",
+  "domain": "fenka.de",
+  "confidence": "medium",
+  "evidence": "fenka.de is FENKA Robotics' own site; Playfair Capital's careers page and startup-map.berlin list Playfair as an investor. Batch entry name 'Fenka' is a partial match to 'FENKA Robotics'."
+ },
+ {
+  "id": "recKZbOJDAbLyPzN4",
+  "company": "Ambient",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Multiple unrelated companies are named 'Ambient' (a US Ambient.ai, Ambient Property Technologies, a blockchain project, etc.); PitchBook lists a vague 'Ambient (Software Development Applications)' exit tied to Connect Ventures but no site could be confirmed, so the investor hint does not disambiguate."
+ },
+ {
+  "id": "recKboF4owk6hufST",
+  "company": "Bookend",
+  "domain": "bookend.ai",
+  "confidence": "high",
+  "evidence": "bookend.ai is confirmed as Bookend AI's site via Dealroom/VCSheet, and Seedcamp's own site lists Bookend among its 2023 investments."
+ },
+ {
+  "id": "recKh4SHI8wb9G8fH",
+  "company": "Persi",
+  "domain": "yourpersi.com",
+  "confidence": "high",
+  "evidence": "yourpersi.com is Persi's own fashion-tech site; Haatch's portfolio page and multiple articles confirm it led Persi's £660k pre-seed round."
+ },
+ {
+  "id": "recKmUdhNKTD4oJXV",
+  "company": "MoonHub",
+  "domain": "themoonhub.com",
+  "confidence": "high",
+  "evidence": "themoonhub.com is confirmed as MOONHUB's official site directly on Ada Ventures' own portfolio page, which lists it as an investor."
+ },
+ {
+  "id": "recKnj74pRvnjZgvX",
+  "company": "Sentimoto",
+  "domain": "sentimoto.com",
+  "confidence": "medium",
+  "evidence": "sentimoto.com is confirmed via Crunchbase/Dealroom/RocketReach as Sentimoto's site, and Anthemis's own portfolio page lists Sentimoto; however this is an old (2013-2017) UK wearable-wellbeing startup and may no longer be operating."
+ },
+ {
+  "id": "recKqavYe91prVC22",
+  "company": "Peppy",
+  "domain": "peppy.health",
+  "confidence": "high",
+  "evidence": "peppy.health is Peppy's own employee-healthcare site; Seedcamp's own site confirms its 2019 investment in Peppy."
+ },
+ {
+  "id": "recL04xorFQlwy8io",
+  "company": "Guardian Angel",
+  "domain": "octopuslegacy.com",
+  "confidence": "medium",
+  "evidence": "Guardian Angel rebranded to Octopus Legacy per octopuslegacy.com itself ('formerly known as Guardian Angel'); Ascension/Fair By Design sources confirm Ascension backed and exited Guardian Angel."
+ },
+ {
+  "id": "recLDpTbghWeEqNth",
+  "company": "Kamma",
+  "domain": "kammadata.com",
+  "confidence": "high",
+  "evidence": "kammadata.com is Kamma's own property-licensing site; RAM Capital's Ascension EIS fund document lists Kamma as a portfolio company."
+ },
+ {
+  "id": "recLGA5cQFwCDKyxm",
+  "company": "Bubble",
+  "domain": "joinbubble.com",
+  "confidence": "high",
+  "evidence": "joinbubble.com is Bubble Childcare's own site ('Bubble - Find top-rated sitters'); Ada Ventures' own portfolio page confirms it led Bubble's £2m round."
+ },
+ {
+  "id": "recLKL9dAqPgunFuw",
+  "company": "Vidya Health",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Vidya Health (saliva-testing diagnostics, Hoxton Ventures board seat) appears in Hoxton's portfolio as 'ADMINISTRATION' (i.e. defunct), and no working official domain could be found."
+ },
+ {
+  "id": "recLNSOnm8M6v6NE6",
+  "company": "AI Gizmo",
+  "domain": "aigizmo.io",
+  "confidence": "medium",
+  "evidence": "aigizmo.io ('close the drift between Design, Documents and Site', an agentic construction-workflow platform) closely matches Haatch's portfolio description of Ai Gizmo as a workflow-automation platform for urban planning/energy/construction; not fully certain given a similarly named unrelated 'theaigizmo.com' real-estate marketing tool also exists."
+ },
+ {
+  "id": "recLOm51B8KK6YiFA",
+  "company": "Readmill",
+  "domain": "readmill.com",
+  "confidence": "medium",
+  "evidence": "readmill.com is confirmed as Readmill's official domain via WSJ coverage; TechCrunch/FinSMEs confirm Passion Capital and Index Ventures backed it, but the company shut down in 2014 after being acqui-hired by Dropbox."
+ },
+ {
+  "id": "recLPqscBscpdroHx",
+  "company": "Looop",
+  "domain": "looop.co",
+  "confidence": "high",
+  "evidence": "looop.co is still live as 'Looop by 360Learning'; RAM Capital's Ascension EIS document confirms Looop was an Ascension portfolio company, later acquired by 360Learning in 2022."
+ },
+ {
+  "id": "recLQ27Y7jG3rMu3b",
+  "company": "KisanHub",
+  "domain": "kisanhub.com",
+  "confidence": "high",
+  "evidence": "kisanhub.com is confirmed via pseps.com/VC data as KisanHub's official site; Notion Capital's own newsletter names KisanHub as a portfolio company."
+ },
+ {
+  "id": "recLXKqt20YpkDZlD",
+  "company": "Fulfilment.com",
+  "domain": "fulfilment.com",
+  "confidence": "high",
+  "evidence": "The company's name is its domain, fulfilment.com; multiple press articles and Haatch's own portfolio page confirm Haatch backed its seed round."
+ },
+ {
+  "id": "recLXwLDW1tqDosIm",
+  "company": "Thread",
+  "domain": "thread.com",
+  "confidence": "medium",
+  "evidence": "thread.com is confirmed via Bdaily/TechCrunch as the London menswear-styling startup's official domain, and Passion Capital-linked sources (Caplink) describe the same AI+stylist business; the company wound down in 2022 with assets sold to a UK clothing retailer."
+ },
+ {
+  "id": "recLZtJL34Km9dyKt",
+  "company": "Pharosyn",
+  "domain": "pharosyn.ai",
+  "confidence": "high",
+  "evidence": "pharosyn.ai is Pharosyn's own site ('Optimizing Pharma Decision-Making'); numerous September 2026 articles confirm Moonfire led its seed round."
+ },
+ {
+  "id": "recLa7kS7lehkxkMv",
+  "company": "Nueworx",
+  "domain": "nueworx.com",
+  "confidence": "high",
+  "evidence": "nueworx.com is Nueworx's own AI service-desk platform site; Haatch's own portfolio page and LinkedIn posts confirm Haatch backed Nueworx."
+ },
+ {
+  "id": "recLaV4YTyuGAteJn",
+  "company": "hyperGTM",
+  "domain": "hypergtm.com",
+  "confidence": "high",
+  "evidence": "hypergtm.com is hyperGTM's own site; Haatch's own portfolio page lists hyperGTM as a 2024 pre-seed SEIS investment."
+ },
+ {
+  "id": "recLepCcFIyWyjh5F",
+  "company": "Icite",
+  "domain": "icite.io",
+  "confidence": "high",
+  "evidence": "icite.io is Icite's own identity-security site; Crane Venture Partners' own site (crane.vc) and LinkedIn confirm Crane backed Icite."
+ },
+ {
+  "id": "recLf0t5sfaR76a8D",
+  "company": "InSitu",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "PitchBook references an Ada Ventures-backed, exited 'Insitu (Business/Productivity Software)' company, but no distinguishing details or working domain could be found, and the name is heavily confused with the unrelated aerospace company Insitu Inc."
+ },
+ {
+  "id": "recLh79s2ab86Vh1b",
+  "company": "Unison",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Two different 'Unison' startups surfaced (a Passion Capital/Francis Crick-backed biotech data-harmonisation company referred to as 'Unison (Federation)', and an unrelated 'hyperunison.com' AI-data startup); neither had a confirmable, unambiguous official domain matching the investor hint."
+ },
+ {
+  "id": "recLoTFG2SqGdhkMm",
+  "company": "GoSquared",
+  "domain": "gosquared.com",
+  "confidence": "high",
+  "evidence": "gosquared.com is GoSquared's own site; its own blog/timeline confirms Passion Capital as an investor."
+ },
+ {
+  "id": "recLxTgqpjt8LGUDz",
+  "company": "Fy!",
+  "domain": "iamfy.co",
+  "confidence": "high",
+  "evidence": "iamfy.co is Fy!'s own wall-art marketplace site; TechCrunch and Hoxton Ventures' own fund announcements confirm Hoxton backed the homewares marketplace Fy!."
+ },
+ {
+  "id": "recLyEanlxJYX71S4",
+  "company": "Xihelm",
+  "domain": "xihelm.com",
+  "confidence": "medium",
+  "evidence": "xihelm.com is referenced as Xihelm's domain across LinkedIn/Crunchbase/Companies House records, and Wellfound confirms Passion Capital invested; however Xihelm is now deadpooled (per Tracxn) and the domain currently shows only a generic 'coming soon' placeholder."
+ },
+ {
+  "id": "recM0aWMrixMa3LiN",
+  "company": "La Fraise Pro",
+  "domain": "lafraise.pro",
+  "confidence": "high",
+  "evidence": "lafraise.pro is La Fraise Pro's own dental-SaaS site, and Seedcamp's own 'Our Companies' page links directly to it as a 2025 investment."
+ },
+ {
+  "id": "recM8guTi0tL5sLAJ",
+  "company": "Roomex",
+  "domain": "roomex.com",
+  "confidence": "high",
+  "evidence": "roomex.com is Roomex's own site, which itself states the company's £3.5m round was led by Frontline Ventures."
+ },
+ {
+  "id": "recMAnATOhoA71tcu",
+  "company": "Zaro",
+  "domain": "zaro.ai",
+  "confidence": "high",
+  "evidence": "Zaro is widely referred to as 'Zaro.ai' (per LinkedIn/Sifted/Tech.eu coverage) and Cherry Ventures' own portfolio page confirms it led Zaro's $5.1m pre-seed round."
+ }
+]

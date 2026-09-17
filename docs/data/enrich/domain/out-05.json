@@ -1,0 +1,352 @@
+[
+ {
+  "id": "recDCcnClTA4Y3RzC",
+  "company": "Legora",
+  "domain": "legora.com",
+  "confidence": "high",
+  "evidence": "legora.com is the official site of the well-known legal AI startup (name match exact); Cherry Ventures did not appear among investors listed in search results, but the company/domain itself is unambiguous."
+ },
+ {
+  "id": "recDD6YXtsErAxQgz",
+  "company": "Brydge AI",
+  "domain": "brydgeai.com",
+  "confidence": "medium",
+  "evidence": "brydgeai.com ('About Brydge' / 'Brydge - AI-Powered Wholesale Order Processing') matches the name; Companies House shows Brydge AI Limited incorporated Dec 2025, consistent with an early-stage Haatch investment, though Haatch was not explicitly confirmed as investor."
+ },
+ {
+  "id": "recDJvpEH77mCfAIb",
+  "company": "Orca",
+  "domain": "orca.ai",
+  "confidence": "high",
+  "evidence": "Orca.ai is a ship-collision-avoidance startup confirmed to be backed by Playfair Capital (per Playfair's own portfolio page and Crunchbase)."
+ },
+ {
+  "id": "recDKFXlZ9U5YAqMU",
+  "company": "Pave Financial",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Multiple unrelated companies named Pave were found (wealth-management Pave Finance, US comp-management Pave, cash-flow-analytics Pave); none was confirmed as backed by Hoxton Ventures."
+ },
+ {
+  "id": "recDO6eSZLV4mhDBK",
+  "company": "Ziggiz",
+  "domain": "ziggiz.ai",
+  "confidence": "high",
+  "evidence": "ziggiz.ai is the official site of the cybersecurity data platform; Moonfire is confirmed as an investor alongside Databricks and Sequoia."
+ },
+ {
+  "id": "recDQKtZ7vBH0PE4U",
+  "company": "Sorted",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "'Sorted' is a generic name matching several unrelated companies (parcel-delivery Sorted.com, Sorted Food, etc.); no Ascension-backed 'Sorted' was found."
+ },
+ {
+  "id": "recDQutvZZB4WJsyt",
+  "company": "Untap Health",
+  "domain": "untaphealth.com",
+  "confidence": "high",
+  "evidence": "untaphealth.com is the official site of the wastewater-surveillance startup; 7percent Ventures is confirmed as lead pre-seed investor."
+ },
+ {
+  "id": "recDUKJtYoeVAe4AY",
+  "company": "Condense Reality",
+  "domain": "condensereality.com",
+  "confidence": "high",
+  "evidence": "condensereality.com is the official site ('Condense Reality | AI-Powered Virtual Production & Live Events'); 7percent Ventures confirmed as co-investor in its seed round."
+ },
+ {
+  "id": "recDeGkqQvTRTW1QR",
+  "company": "Arctic Studios",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Found in Ascension's portfolio (page slug 'cloudbounce', suggesting a rename from CloudBounce, an AI audio-mastering tool) but its current official domain could not be confirmed before the session's web-search budget was exhausted."
+ },
+ {
+  "id": "recDgO9s75OsI0GrF",
+  "company": "Sojo",
+  "domain": "sojo.uk",
+  "confidence": "high",
+  "evidence": "sojo.uk is the official site of the clothing repair/alterations platform; both Ascension and Haatch confirmed as investors."
+ },
+ {
+  "id": "recDlGT9IaqsXhOts",
+  "company": "Liquid",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "'Liquid' is a generic name; no Ascension-backed company by this name was found in search results."
+ },
+ {
+  "id": "recDletenFN8VACVy",
+  "company": "PageFair",
+  "domain": "blockthrough.com",
+  "confidence": "medium",
+  "evidence": "PageFair was acquired in 2018 and now operates as Blockthrough (blockthrough.com); Frontline Ventures is confirmed as an early PageFair investor."
+ },
+ {
+  "id": "recDoBG5aaXZEg6f5",
+  "company": "Spirable",
+  "domain": "spirable.com",
+  "confidence": "medium",
+  "evidence": "Based on general knowledge, Spirable is a London video-ad personalization company historically linked to Frontline Ventures; not independently re-verified live this session (search budget exhausted)."
+ },
+ {
+  "id": "recDokXKHIc4CPt7P",
+  "company": "frnt",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "No reliable information available; not researched because the session's web-search budget was exhausted before this entry."
+ },
+ {
+  "id": "recDrAdS3kFWWmQuG",
+  "company": "Hedera",
+  "domain": "hedera.com",
+  "confidence": "medium",
+  "evidence": "Based on general knowledge, Hedera (Hedera Hashgraph) is a distributed-ledger platform consistent with an Outlier Ventures (web3-focused) investment; not independently re-verified live this session (search budget exhausted)."
+ },
+ {
+  "id": "recDvPuotXGWcZxHE",
+  "company": "Authologic",
+  "domain": "authologic.com",
+  "confidence": "medium",
+  "evidence": "Based on general knowledge, Authologic is an identity-verification/KYC startup; not independently re-verified live this session (search budget exhausted)."
+ },
+ {
+  "id": "recDz230oif4b3qwe",
+  "company": "Emergent Energy",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Generic name with no reliable recollection; not researched because the session's web-search budget was exhausted."
+ },
+ {
+  "id": "recE9TUAAVwIJ4LcL",
+  "company": "Urban",
+  "domain": "urban.co",
+  "confidence": "medium",
+  "evidence": "Based on general knowledge, Urban (wellness/massage booking marketplace) was Passion Capital-backed; not independently re-verified live this session (search budget exhausted)."
+ },
+ {
+  "id": "recE9a3PzP6gh8Ebo",
+  "company": "Work With Data",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "No reliable recollection; not researched because the session's web-search budget was exhausted."
+ },
+ {
+  "id": "recEAm38RvDMujXMx",
+  "company": "Granulate",
+  "domain": "granulate.io",
+  "confidence": "medium",
+  "evidence": "Based on general knowledge, Granulate (workload/cost optimization, acquired by Intel in 2022) was Dawn Capital-backed; not independently re-verified live this session (search budget exhausted)."
+ },
+ {
+  "id": "recEBF4tK1yKP2ktU",
+  "company": "We Are Digital",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Multiple plausible domain variants exist and none was confirmed; not researched because the session's web-search budget was exhausted."
+ },
+ {
+  "id": "recEBtT6rI7d82aog",
+  "company": "Súper",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "No reliable recollection; not researched because the session's web-search budget was exhausted."
+ },
+ {
+  "id": "recECBK6OFA9183xq",
+  "company": "Pickr",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "No reliable recollection; not researched because the session's web-search budget was exhausted."
+ },
+ {
+  "id": "recEDYJi2Mzm1JNn4",
+  "company": "Evercontact",
+  "domain": "evercontact.com",
+  "confidence": "medium",
+  "evidence": "Based on general knowledge, Evercontact (automatic contact-management tool) was Seedcamp-backed; not independently re-verified live this session (search budget exhausted)."
+ },
+ {
+  "id": "recEEi54IXI1P1Y9e",
+  "company": "Albert",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "'Albert' matches several unrelated companies (US finance app, adtech AI); the Ascension/Index Ventures hint does not disambiguate without live verification."
+ },
+ {
+  "id": "recEIHTgMb23wmcmk",
+  "company": "Thursday",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Recalled as a UK dating app with Ascension backing but the exact domain is uncertain; not independently re-verified live this session (search budget exhausted)."
+ },
+ {
+  "id": "recENY5Vfg7MgYV0G",
+  "company": "Brightflag",
+  "domain": "brightflag.com",
+  "confidence": "medium",
+  "evidence": "Based on general knowledge, Brightflag (legal spend management, Dublin) has historical ties to Frontline Ventures; not independently re-verified live this session (search budget exhausted)."
+ },
+ {
+  "id": "recEceBb4PMvwGP8Z",
+  "company": "Quan",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "No reliable recollection; not researched because the session's web-search budget was exhausted."
+ },
+ {
+  "id": "recEgMwhDm1flwbZA",
+  "company": "Nuephonic",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "No reliable recollection; not researched because the session's web-search budget was exhausted."
+ },
+ {
+  "id": "recEiOmwvzIfxDuSO",
+  "company": "Ezra",
+  "domain": "ezra.com",
+  "confidence": "medium",
+  "evidence": "Based on general knowledge, Ezra (full-body MRI cancer screening) was Seedcamp-backed; not independently re-verified live this session (search budget exhausted)."
+ },
+ {
+  "id": "recEote0R9gVpFaNM",
+  "company": "Kheiron Medical",
+  "domain": "kheironmed.com",
+  "confidence": "medium",
+  "evidence": "Based on general knowledge, Kheiron Medical (breast-cancer AI screening, London) fits the Hoxton Ventures hint; not independently re-verified live this session (search budget exhausted)."
+ },
+ {
+  "id": "recEqhGEbcFu7Hq0A",
+  "company": "Re-Flow",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "No reliable recollection; not researched because the session's web-search budget was exhausted."
+ },
+ {
+  "id": "recEv1IFy5TWqeKfa",
+  "company": "Satago",
+  "domain": "satago.com",
+  "confidence": "medium",
+  "evidence": "Based on general knowledge, Satago (invoice-financing platform, later acquired by Sonovate) was Seedcamp-backed; not independently re-verified live this session (search budget exhausted)."
+ },
+ {
+  "id": "recEvezZux38b2qJq",
+  "company": "Accelex",
+  "domain": "accelex.co",
+  "confidence": "medium",
+  "evidence": "Based on general knowledge, Accelex (private-markets data extraction, London); not independently re-verified live this session (search budget exhausted)."
+ },
+ {
+  "id": "recEyBic6rU2EAGCB",
+  "company": "Greendeck",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "No reliable recollection; not researched because the session's web-search budget was exhausted."
+ },
+ {
+  "id": "recF6mv34qvF7IC8g",
+  "company": "Demand-Genius",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "No reliable recollection; not researched because the session's web-search budget was exhausted."
+ },
+ {
+  "id": "recFCKwbG0FJ1BD9t",
+  "company": "Mirelo",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "No reliable recollection; not researched because the session's web-search budget was exhausted."
+ },
+ {
+  "id": "recFS541b1vm3hRDr",
+  "company": "QIS Risk",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "No reliable recollection; not researched because the session's web-search budget was exhausted."
+ },
+ {
+  "id": "recFXdvk6C3yejTJ3",
+  "company": "Hesta Health",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "No reliable recollection; not researched because the session's web-search budget was exhausted."
+ },
+ {
+  "id": "recFZm9owr8cakZ9T",
+  "company": "Low Carbon Materials",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "No reliable recollection; not researched because the session's web-search budget was exhausted."
+ },
+ {
+  "id": "recFbIk0G08woySRo",
+  "company": "Goji",
+  "domain": "goji.investments",
+  "confidence": "medium",
+  "evidence": "Based on general knowledge, Goji is a UK investment platform historically linked to Anthemis; not independently re-verified live this session (search budget exhausted)."
+ },
+ {
+  "id": "recFmM3X5zC6qmtV3",
+  "company": "Stylus",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "'Stylus' matches multiple unrelated companies (e.g. trend-forecasting firm Stylus); the Haatch hint does not disambiguate without live verification."
+ },
+ {
+  "id": "recFvFD0BIVdKW7xv",
+  "company": "Tray.ai",
+  "domain": "tray.ai",
+  "confidence": "medium",
+  "evidence": "Based on general knowledge, Tray.ai (formerly Tray.io, integration/automation platform) fits the Passion Capital hint as an early investor; not independently re-verified live this session (search budget exhausted)."
+ },
+ {
+  "id": "recFvQVX4xIeK3eL3",
+  "company": "Synkka",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "No reliable recollection; not researched because the session's web-search budget was exhausted."
+ },
+ {
+  "id": "recFvpq7QVSfkknNE",
+  "company": "Ineffable",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "No reliable recollection; not researched because the session's web-search budget was exhausted."
+ },
+ {
+  "id": "recG3IyzKyH2Ni1JW",
+  "company": "Temporal",
+  "domain": "temporal.io",
+  "confidence": "medium",
+  "evidence": "Based on general knowledge, Temporal Technologies (workflow-orchestration platform) fits the Index Ventures hint as an investor; not independently re-verified live this session (search budget exhausted)."
+ },
+ {
+  "id": "recG69KQJwSw4M1dP",
+  "company": "All Gravy",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "No reliable recollection; not researched because the session's web-search budget was exhausted."
+ },
+ {
+  "id": "recG7UlmPg5pd79wg",
+  "company": "PortalOne",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "No reliable recollection; not researched because the session's web-search budget was exhausted."
+ },
+ {
+  "id": "recG98UxXDocBvRXw",
+  "company": "Crvva",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "No reliable recollection; not researched because the session's web-search budget was exhausted."
+ },
+ {
+  "id": "recGKrQn7y3ftvFk6",
+  "company": "Narrative",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "'Narrative' matches several unrelated companies (data marketplace narrative.io, narrative photo app); the Passion Capital hint does not disambiguate without live verification."
+ }
+]

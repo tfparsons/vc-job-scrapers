@@ -1,0 +1,352 @@
+[
+ {
+  "id": "recs95NGS7TldzeeF",
+  "company": "Marianas",
+  "domain": "marianaslabs.com",
+  "confidence": "high",
+  "evidence": "Hoxton Ventures portfolio page (hoxtonventures.com/portfolio/marianas) explicitly lists domain marianaslabs.com for Marianas Labs."
+ },
+ {
+  "id": "recsFtvIXvMZNb920",
+  "company": "LangWatch",
+  "domain": "langwatch.ai",
+  "confidence": "high",
+  "evidence": "langwatch.ai is the company's own site (title 'LangWatch: AI Agent Testing and Evaluation'), matching name and Passion Capital funding news."
+ },
+ {
+  "id": "recsGYJZTcK1U7pFP",
+  "company": "Monzo",
+  "domain": "monzo.com",
+  "confidence": "high",
+  "evidence": "monzo.com is Monzo's own official banking site; Passion Capital is a known major shareholder."
+ },
+ {
+  "id": "recsL7CeuOxunWYdU",
+  "company": "Togather",
+  "domain": "togather.com",
+  "confidence": "high",
+  "evidence": "togather.com is the company's own site ('We Are Togather'); Preqin confirms website www.togather.com and Ascension as an investor."
+ },
+ {
+  "id": "recsUBjq0aRtzQNpf",
+  "company": "IceGuard",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "PitchBook confirms IceGuard is Moonfire-backed (cybersecurity/data-security firm) but no official domain could be found; search results were dominated by unrelated Yokohama tire and gaming products named IceGuard."
+ },
+ {
+  "id": "recsUWPfKIFmtM1bf",
+  "company": "Native",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Native (Native Finance), a Passion Capital-backed real-estate finance platform, was acquired by Novellus in 2023; its former domain nativefinance.com is now a parked GoDaddy page, so no current official domain was found."
+ },
+ {
+  "id": "recsn4mIJ8Bd4ttbF",
+  "company": "BlakBear",
+  "domain": "blakbear.com",
+  "confidence": "high",
+  "evidence": "blakbear.com is the company's own site ('BlakBear – Pioneers of Digital Shelf-Life'); Ada Ventures led its 2023 seed round."
+ },
+ {
+  "id": "recspklVYFswjnpBS",
+  "company": "Scoop",
+  "domain": "scoopforwork.com",
+  "confidence": "high",
+  "evidence": "Multiple third-party sources (Index Ventures portfolio page, RocketReach, Dealroom) explicitly state scoopforwork.com as Scoop Technologies' website; Index Ventures is a confirmed investor."
+ },
+ {
+  "id": "recsri4HltyypyxhG",
+  "company": "Framework",
+  "domain": "frame.work",
+  "confidence": "medium",
+  "evidence": "OpenVC's 7percent Ventures portfolio listing states frame.work as the domain for 'Framework' (Framework Computer), a name partially matching the input 'Framework'."
+ },
+ {
+  "id": "recssgEC1FUIhWFbx",
+  "company": "Alexandria Labs",
+  "domain": "alexandriabooks.com",
+  "confidence": "medium",
+  "evidence": "7percent Ventures portfolio page describes Alexandria Labs as building 'infrastructure for web3 e-books', matching alexandriabooks.com's own description ('Alexandria is building infrastructure for web3...'); name match is partial (Alexandria vs Alexandria Labs) and there's a same-named but unrelated pharma-intelligence company at alexandrialabs.uk, so confidence is medium."
+ },
+ {
+  "id": "recsw2o9V4o9QGRSe",
+  "company": "Wholi",
+  "domain": "wholi.com",
+  "confidence": "medium",
+  "evidence": "Tracxn confirms 'wholi.com is a deadpooled company... founded in 2012 by Tom Savage'; Kindred Capital is listed as an investor. Company appears defunct, hence medium confidence."
+ },
+ {
+  "id": "rect9U3eNYjtbTuox",
+  "company": "Spotlock",
+  "domain": "spotlock.co",
+  "confidence": "high",
+  "evidence": "Seedcamp's own companies page links to Spotlock's website, and VC Sheet lists spotlock.co among Seedcamp-backed company domains; PitchBook confirms Seedcamp investment."
+ },
+ {
+  "id": "rectFc6KYlqeADy8H",
+  "company": "Rowm",
+  "domain": "rowm.co",
+  "confidence": "high",
+  "evidence": "rowm.co is the company's own site ('Rowm | Vehicle delivery and movement made easy'); Haatch's portfolio page confirms Rowm as a 2025 investment."
+ },
+ {
+  "id": "rectG7iWxogmIl9aH",
+  "company": "Truck Track",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "F4 Fund lists 'Truck Track' as a Passion Capital-backed trucking SaaS company (likely the Belgrade, Serbia-based TruckTrack backed via a Seedcamp mini event), but no confirmed current official domain was found; thetrucktrack.com and trucktrack.in appear to be unrelated companies."
+ },
+ {
+  "id": "rectLBbcNkQfrezv5",
+  "company": "Juniver",
+  "domain": "joinjuniver.com",
+  "confidence": "high",
+  "evidence": "joinjuniver.com is the company's own site ('Juniver: Eating disorder help'); Ascension's newsletter confirms Juniver as a portfolio company."
+ },
+ {
+  "id": "rectVVsnjRxcIc7vH",
+  "company": "Gigs",
+  "domain": "gigs.com",
+  "confidence": "high",
+  "evidence": "gigs.com is the company's own press page confirming Crane Venture Partners as a current investor."
+ },
+ {
+  "id": "rectdZVvbQWQtVBtQ",
+  "company": "Climate Corp",
+  "domain": "climate.com",
+  "confidence": "high",
+  "evidence": "Climate Corp (The Climate Corporation), a Moonfire founder's past investment, was acquired by Monsanto in 2013 (now part of Bayer) and renamed Climate FieldView; its current official site is climate.com."
+ },
+ {
+  "id": "rectgCaKEf12FSLiq",
+  "company": "Miru Labs",
+  "domain": "miru-labs.com",
+  "confidence": "high",
+  "evidence": "Seedcamp's companies page and LinkedIn both confirm miru-labs.com as Miru Labs' website; Seedcamp led its pre-seed round."
+ },
+ {
+  "id": "rectmwirOv5MZsdHb",
+  "company": "Ubiquity6",
+  "domain": "ubiquity6.com",
+  "confidence": "medium",
+  "evidence": "ubiquity6.com was the company's own site, confirmed by Index Ventures (a Series B investor); LinkedIn notes the company was later acquired by Discord, so current standalone status is uncertain, hence medium confidence."
+ },
+ {
+  "id": "recturZTUvLMTPVN4",
+  "company": "Axiom.ai",
+  "domain": "axiom.ai",
+  "confidence": "high",
+  "evidence": "axiom.ai is the company's own domain per VC Sheet's list of 7percent Ventures portfolio company domains and OpenVC's listing."
+ },
+ {
+  "id": "rectw0LrvaYKNriTd",
+  "company": "Humu",
+  "domain": "humu.com",
+  "confidence": "medium",
+  "evidence": "Index Ventures' team page explicitly lists humu.com for Humu (Index-led Series A/B investment); Humu was acquired by Perceptyx in 2022, so current independent domain status is uncertain, hence medium confidence."
+ },
+ {
+  "id": "rectwWSh1SP97Qhtv",
+  "company": "Cocoon",
+  "domain": "cocoon.com",
+  "confidence": "high",
+  "evidence": "cocoon.com is the company's own site (About Us - Cocoon); TechCrunch and Crunchbase confirm Index Ventures backing."
+ },
+ {
+  "id": "rectySEdShIRgQ0cP",
+  "company": "Fleet",
+  "domain": "fleetdm.com",
+  "confidence": "high",
+  "evidence": "fleetdm.com is Fleet Device Management's own site; TechCrunch and Moonfire's own blog confirm Moonfire Ventures backing (via co-founder/partner Mike Arpaia)."
+ },
+ {
+  "id": "recu2ExoB0u7XFOGf",
+  "company": "C the Signs",
+  "domain": "cthesigns.com",
+  "confidence": "high",
+  "evidence": "cthesigns.com is the company's own site; MMC Ventures led its 2022 Series A."
+ },
+ {
+  "id": "recu5PxYPjgN5NCsA",
+  "company": "LeadDesk",
+  "domain": "leaddesk.com",
+  "confidence": "high",
+  "evidence": "leaddesk.com is the company's own site (LeadDesk Plc); Dawn Capital led a 2015 investment round per Castrén & Snellman."
+ },
+ {
+  "id": "recu7ucAlNfyQHSE7",
+  "company": "Holvi",
+  "domain": "holvi.com",
+  "confidence": "high",
+  "evidence": "holvi.com is the company's own site (still active per its press releases and blog); Seedcamp backed Holvi from 2011."
+ },
+ {
+  "id": "recu8ldPAXXfN39yP",
+  "company": "data.to.design",
+  "domain": "data.to.design",
+  "confidence": "high",
+  "evidence": "data.to.design is itself the company's literal website domain (title 'data.to.design · Design with real data'); Passion Capital is a confirmed investor per PitchBook."
+ },
+ {
+  "id": "recuKNDXYS8M7LTUs",
+  "company": "HeyMarket",
+  "domain": "heymarket.com",
+  "confidence": "high",
+  "evidence": "heymarket.com is confirmed as the domain in VC Sheet's list of 7percent Ventures portfolio company domains."
+ },
+ {
+  "id": "recuOW9FiXMGU1wnU",
+  "company": "Maiven",
+  "domain": "maiven.tech",
+  "confidence": "high",
+  "evidence": "Ada Ventures' own portfolio page for Maiven explicitly lists 'Website maiven.tech'."
+ },
+ {
+  "id": "recuOw5oUlgD0aVXp",
+  "company": "SideQuest",
+  "domain": "sidequestvr.com",
+  "confidence": "high",
+  "evidence": "sidequestvr.com is the company's own site; Silicon Republic confirms Ada Ventures as an investor in the Belfast-based VR platform."
+ },
+ {
+  "id": "recuRoKHl8zjqva3r",
+  "company": "CLUBZERO",
+  "domain": "clubzero.co",
+  "confidence": "high",
+  "evidence": "Tracxn and the company's own news page confirm clubzero.co as CLUBZERO's website; Seedcamp is a confirmed investor."
+ },
+ {
+  "id": "recuVv9OiYeZCj99V",
+  "company": "Milieu",
+  "domain": "mili.eu",
+  "confidence": "medium",
+  "evidence": "Milieu Insight (Crane Venture Partners-backed) uses mili.eu as its official site per its own About page and LinkedIn; name match is partial ('Milieu' vs 'Milieu Insight')."
+ },
+ {
+  "id": "recuZv5csWIYkV6jS",
+  "company": "Farewill",
+  "domain": "farewill.com",
+  "confidence": "high",
+  "evidence": "farewill.com is the company's own site; Kindred Capital is a confirmed investor per its About page. Farewill was acquired in 2024 but continues to operate under this domain."
+ },
+ {
+  "id": "recumyqUfWqSPgnCf",
+  "company": "Maihem",
+  "domain": "maihem.com",
+  "confidence": "high",
+  "evidence": "maihem.com is confirmed as MAIHEM's website by CB Insights, G2, and Wellfound; Moonfire Ventures backs the company (per Moonfire's own blog interviews with its co-founder)."
+ },
+ {
+  "id": "recv0dRhZ2xL0yeZn",
+  "company": "Orchestr",
+  "domain": "orchestr.com",
+  "confidence": "high",
+  "evidence": "orchestr.com is the company's own site ('Orchestr - The AI Payment Manager'), matching Haatch's portfolio description of Orchestr as a payment orchestration platform."
+ },
+ {
+  "id": "recv8WpfuQLLpReST",
+  "company": "Hullabalook",
+  "domain": "hullabalook.com",
+  "confidence": "high",
+  "evidence": "hullabalook.com is the company's own site; PitchBook confirms Passion Capital and Playfair Capital as investors."
+ },
+ {
+  "id": "recvFALEPi9o4eDG6",
+  "company": "Camera Intelligence",
+  "domain": "cameraintelligence.com",
+  "confidence": "high",
+  "evidence": "cameraintelligence.com is the company's own site ('Caira by Camera Intelligence'); Ascension is a confirmed investor per Dealroom and EU-Startups."
+ },
+ {
+  "id": "recvHAsNBX0vnGi3K",
+  "company": "Scoville",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Scoville was a Seedcamp-backed 2009/2010 location-discovery startup, but no official current domain could be confirmed; the company appears to have shut down long ago."
+ },
+ {
+  "id": "recvJ874LteOjPhnI",
+  "company": "Algomi",
+  "domain": "algomi.com",
+  "confidence": "high",
+  "evidence": "algomi.com is confirmed as Algomi's own site by LinkedIn, Crunchbase, and RocketReach; Hoxton Ventures invested in 2015."
+ },
+ {
+  "id": "recvJwLAficwNClAV",
+  "company": "WatchKeeper",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "WatchKeeper (MMC Ventures-backed) was acquired by Dataminr in 2021 and fully integrated into Dataminr Pulse, with its team moving to Dataminr; no standalone current domain was found."
+ },
+ {
+  "id": "recvL7qeRw7fRxh0c",
+  "company": "Deepstash",
+  "domain": "deepstash.com",
+  "confidence": "high",
+  "evidence": "deepstash.com is the company's own site; Connect Ventures led its 2020 seed round."
+ },
+ {
+  "id": "recvNxEkXu5yPx5JI",
+  "company": "Pollen",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Pollen, the Kindred Capital/Backed/Seedcamp-backed UK events startup (City AM's 'Rocket list' names this exact investor combination), collapsed into administration in August 2022; no current official domain could be found."
+ },
+ {
+  "id": "recvSAyiLFAYk7uta",
+  "company": "Signal Media",
+  "domain": "signal-ai.com",
+  "confidence": "high",
+  "evidence": "Signal Media rebranded to Signal AI; signal-ai.com is its own site (press release referencing 'Signal Media raises $16M'), and Frontline Ventures is a confirmed early investor per TechCrunch."
+ },
+ {
+  "id": "recvTkzOpgK8rvPh9",
+  "company": "Understand.ai",
+  "domain": "understand.ai",
+  "confidence": "high",
+  "evidence": "PitchBook lists www.understand.ai as understandAI's website (status: Acquired/Merged); Frontline Ventures is listed among its investors."
+ },
+ {
+  "id": "recvUFd1ANOkBGTt5",
+  "company": "Convert Pharma",
+  "domain": "convertpharma.com",
+  "confidence": "high",
+  "evidence": "convertpharma.com is Convert Pharmaceuticals' own site, matching the shortened name 'Convert Pharma' in Ascension's portfolio listing."
+ },
+ {
+  "id": "recvY3S3c15eXxQml",
+  "company": "Orbs",
+  "domain": "orbs.com",
+  "confidence": "high",
+  "evidence": "orbs.com is the company's own site; Outlier Ventures' own portfolio page confirms Orbs as an investment."
+ },
+ {
+  "id": "recvZTg0w6gWc5TEr",
+  "company": "Cambridge Aerospace",
+  "domain": "cambridgeaerospace.com",
+  "confidence": "high",
+  "evidence": "cambridgeaerospace.com is the company's own site; 7percent Ventures' LinkedIn post and PitchBook confirm it as a portfolio company."
+ },
+ {
+  "id": "recvddJPTUjK2sRtq",
+  "company": "Instamo",
+  "domain": "instamo.co.uk",
+  "confidence": "high",
+  "evidence": "instamo.co.uk is the company's own site; Haatch's portfolio page and mortgage trade press confirm Haatch's investment."
+ },
+ {
+  "id": "recvhmeD0IPh8uyUZ",
+  "company": "Aloft",
+  "domain": "aloft.so",
+  "confidence": "high",
+  "evidence": "aloft.so is the company's own site ('Aloft AI: AI Property Management Software'); Passion Capital announced a pre-seed investment in Aloft in 2025/2026."
+ },
+ {
+  "id": "recvk2HXRTtUbNmv3",
+  "company": "Fabrica",
+  "domain": "fabrica.ai",
+  "confidence": "high",
+  "evidence": "fabrica.ai is Fabrica AI's own site; Hoxton Ventures' portfolio page and LinkedIn confirm Hoxton as an investor."
+ }
+]

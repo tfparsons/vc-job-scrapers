@@ -1,0 +1,352 @@
+[
+ {
+  "id": "recGOxgjXx9yCkYwg",
+  "company": "Talasim",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Search confirms Seedcamp backed Jordan-based comedy channel Talasim (acquired by Jeeran in 2010), but no live company domain was found for the now-defunct site."
+ },
+ {
+  "id": "recGPWnU6aCixI5UX",
+  "company": "Manna",
+  "domain": "manna.aero",
+  "confidence": "high",
+  "evidence": "manna.aero is Manna Drone Delivery's official site, matching the name; Frontline Ventures confirmed as an investor in multiple sources (Tracxn, seedtable)."
+ },
+ {
+  "id": "recGQWx4lRt4u43wk",
+  "company": "Tradologics",
+  "domain": "tradologics.com",
+  "confidence": "high",
+  "evidence": "tradologics.com is the official site for the cloud algo-trading platform Tradologics; Passion Capital confirmed as investor (Dealroom, Medium founder post). Company has since wound down but domain still resolves."
+ },
+ {
+  "id": "recGVRwtRh1WMZXvB",
+  "company": "Greenwork",
+  "domain": "greenworkx.co.uk",
+  "confidence": "medium",
+  "evidence": "Ada Ventures' portfolio page (adaventures.com/company/greenwork) links to Greenworkx, a climate/green-jobs startup at greenworkx.co.uk; name is a partial match ('Greenwork' vs 'Greenworkx')."
+ },
+ {
+  "id": "recGdS59NKHvgbu2I",
+  "company": "Seva",
+  "domain": "seva.money",
+  "confidence": "high",
+  "evidence": "seva.money is the official site for Seva, a London fintech for MTO remittance cards; listed in Ada Ventures' portfolio (adaventures.com/company/seva)."
+ },
+ {
+  "id": "recGhkEjpifTpg3A6",
+  "company": "Kinfolk",
+  "domain": "kinfolkhq.com",
+  "confidence": "high",
+  "evidence": "kinfolkhq.com is Kinfolk's own site (seed announcement page); TechFundingNews/tech.eu confirm Ascension as an existing investor alongside AlbionVC's lead round."
+ },
+ {
+  "id": "recGkQZVDTlrVlWAB",
+  "company": "Celo",
+  "domain": "celo.org",
+  "confidence": "low",
+  "evidence": "Outlier Ventures ran an accelerator partnership with the Celo ecosystem (RWA Base Camp), not a clear direct equity investment, so the Ada/investor link is weak; celo.org is the well-known blockchain project's domain but match to 'a UK-backed startup' is uncertain."
+ },
+ {
+  "id": "recGtqnG8FBixSsea",
+  "company": "Ardent",
+  "domain": "ardentai.io",
+  "confidence": "high",
+  "evidence": "Crane Venture Partners' own blog post ('Meet Ardent, your data engineering team') confirms they led Ardent AI's pre-seed; ardentai.io is the AI Data Engineer product matching that description."
+ },
+ {
+  "id": "recGud90bd0mshjbr",
+  "company": "Remedy Robotics",
+  "domain": "remedyrobotics.com",
+  "confidence": "medium",
+  "evidence": "remedyrobotics.com is the official site for Remedy Robotics (endovascular surgical robots, Denver-based); name matches exactly but no source confirmed 7percent Ventures as an investor."
+ },
+ {
+  "id": "recGv8vaHjGIqA9p6",
+  "company": "Sedna",
+  "domain": "sedna.com",
+  "confidence": "high",
+  "evidence": "sedna.com (press.sedna.com) confirms SEDNA raised its Series A co-led by Stride.VC, matching company and investor exactly."
+ },
+ {
+  "id": "recGvwACTlbQpq2Zx",
+  "company": "Base8",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Ada Ventures confirmed backing Base8 (robot-intelligence research lab, founder Andrew Hart), but no distinct company domain was found -- only Ada's portfolio post and the founder's personal site."
+ },
+ {
+  "id": "recGz4G5STW7sMAPT",
+  "company": "Koala",
+  "domain": "hikoala.co",
+  "confidence": "medium",
+  "evidence": "hikoala.co is the current site for Koala, the French flight-disruption insurtech; Playfair Capital is listed among its seed investors on Crunchbase (name match is exact but domain differs from company name)."
+ },
+ {
+  "id": "recGzfR3VlZF8YQr1",
+  "company": "Reply.ai",
+  "domain": "reply.ai",
+  "confidence": "medium",
+  "evidence": "reply.ai is the company's own domain (customer-service chatbot startup); Seedcamp confirmed as an investor via Tracxn, though the company was later acquired by Kustomer."
+ },
+ {
+  "id": "recH3w1hCSJsF7uBI",
+  "company": "Pangaea Data",
+  "domain": "pangaeadata.ai",
+  "confidence": "high",
+  "evidence": "pangaeadata.ai is Pangaea Data's own site (press releases hosted there); Ascension Ventures confirmed as an investor in Pangaea Data's round."
+ },
+ {
+  "id": "recH9N4Pk2Nc4mJ3H",
+  "company": "Kernel",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Confirmed Moonfire invested in a startup called Kernel (per founder quote), but the generic name returned no distinguishable official domain before the search budget was exhausted."
+ },
+ {
+  "id": "recHXujEnKBXZOb9L",
+  "company": "Because",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Search for 'Because' plus Index Ventures returned only generic startup-insurance articles, no matching company found."
+ },
+ {
+  "id": "recHaMR8Tl8swxMYJ",
+  "company": "Alice Camera",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Search engine queries (WebSearch quota exhausted, Bing/DuckDuckGo fetch attempts) returned no results specific to an 'Alice Camera' startup or 7percent Ventures link."
+ },
+ {
+  "id": "recHcX3hRa4lWSUk7",
+  "company": "Harbr Data",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recHfXOjbgfzEYT1s",
+  "company": "Pace",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recHibsx6KoadFNNz",
+  "company": "Tapaya",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recHo3pDsF52BR3fy",
+  "company": "CourtCorrect",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recHoGPD0h2OgDu7b",
+  "company": "Satchel",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recHr53lOUewcFFaw",
+  "company": "Rensource",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recHrgyMyGvND1fAu",
+  "company": "Enso",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recHudl2DmwXjArJo",
+  "company": "Bonfire",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recHyGl4eDgpNTOBd",
+  "company": "MindGreens",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recHyuGW1K9AxJVtH",
+  "company": "Orbio AI",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recI3AejHfmg0bEwE",
+  "company": "Covariant.ai",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recI7F6yiYmxQ6emQ",
+  "company": "Power (Data",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recI8lmZ1YlBvvahh",
+  "company": "OSCP",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recIABz67PcUje56m",
+  "company": "Tacit",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recIBn6Fg9uCy1A2M",
+  "company": "Qoro Quantum",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recIDFIWYvfdVG8wW",
+  "company": "Antavo",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recIEPDvxKYckEFRc",
+  "company": "VERiCASH",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recIHXPRnyyMNCTXy",
+  "company": "BuzzTrail",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recIM5B9oI7EVSuQ5",
+  "company": "Bother",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recINxIfue5Y9j2Tg",
+  "company": "Astelia",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recIWoAeDhnVCJEZ1",
+  "company": "Trussle",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recIXPlKTzYwXurxV",
+  "company": "Rize",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recIb7xJXFi5yUXQs",
+  "company": "People and Robots",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recIdEjnHklFuayyq",
+  "company": "AgentBay",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recIfZUTL3rlOiKzo",
+  "company": "Sprive",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recImXDrGTDKqxZeX",
+  "company": "Crowd Data Systems",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recIqwWAzut3SwAYl",
+  "company": "Unwritten",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recIr8hcbE1WjWe9I",
+  "company": "Boiler Room",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recItqHux9hE4048O",
+  "company": "Garner Health",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recIwpqosid7DAkZf",
+  "company": "Magentic AI",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recIx2nsMqxZ2YTAs",
+  "company": "Virtuoso QA",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recIxzHXCE04wk1ho",
+  "company": "Verax",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recJBU0Ka1LEzMKkS",
+  "company": "Kuano",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ }
+]

@@ -1,0 +1,352 @@
+[
+ {
+  "id": "rec3Gn09Bf2N8sZ12",
+  "company": "ShopAI",
+  "domain": "shopai.website",
+  "confidence": "medium",
+  "evidence": "shopai.website is ShopAi's own site (title 'ShopAi - Email-Native Business Intelligence'), matching the conversational/email-native BI product Haatch backed, though the Haatch-Falkin linkage was not directly confirmed on the same page."
+ },
+ {
+  "id": "rec3MGguILU5az5iK",
+  "company": "Falkin",
+  "domain": "falkin.com",
+  "confidence": "high",
+  "evidence": "falkin.com is the official site of the London AI scam-prevention fintech backed by Haatch, Notion Capital and others, per search results."
+ },
+ {
+  "id": "rec3RBfD8MxmPX0Tf",
+  "company": "Weav",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Multiple unrelated companies share the name Weav (Weav Music, a fintech Weav, WEAV Capital); no live-verified domain tied specifically to Passion Capital's investment was found."
+ },
+ {
+  "id": "rec3Wl3m2PSs8MX6c",
+  "company": "Siren",
+  "domain": "siren.io",
+  "confidence": "high",
+  "evidence": "siren.io is Siren's own site (title 'Siren Secures $10 Million Series A Investment - SIREN'); Frontline Ventures led its 2019 Series A per search results."
+ },
+ {
+  "id": "rec3ZtQDoqjq3TaCE",
+  "company": "Ahura AI",
+  "domain": "ahuraai.com",
+  "confidence": "high",
+  "evidence": "ahuraai.com is Ahura AI's official site (AI corporate learning platform); confirmed reachable and matches the 7percent Ventures portfolio company name."
+ },
+ {
+  "id": "rec3d7FtKbb8TYmlK",
+  "company": "Futrli",
+  "domain": "futrli.com",
+  "confidence": "high",
+  "evidence": "futrli.com is Futrli's site (post 'Futrli has been acquired by Sage!'); company was founded with Notion Capital backing and acquired by Sage in 2022, but 'Futrli by Sage' remains live at this domain."
+ },
+ {
+  "id": "rec3dnMF93NeAnKBP",
+  "company": "LGN AI",
+  "domain": "lgn.ai",
+  "confidence": "medium",
+  "evidence": "lgn.ai (LGN Group/LGN Innovations, backed by 7percent Ventures) now shows the company has ceased trading, with its tech folded into successor Atlas Merlin Ltd; domain given is the historical official one."
+ },
+ {
+  "id": "rec3lQKddS4qUiba9",
+  "company": "Tariff Tribe",
+  "domain": "tarifftribe.co.uk",
+  "confidence": "high",
+  "evidence": "Confirmed via Haatch's own portfolio page listing 'Tariff Tribe: https://www.tarifftribe.co.uk/'."
+ },
+ {
+  "id": "rec3q9e0QulRZBGRM",
+  "company": "Jumbo",
+  "domain": "withjumbo.com",
+  "confidence": "medium",
+  "evidence": "withjumbo.com was Jumbo Privacy's official site (Index Ventures-backed); the app/company has since wound down operations per its own blog."
+ },
+ {
+  "id": "rec3rAzF7wnN0RM7Q",
+  "company": "Medley",
+  "domain": "medley.gg",
+  "confidence": "medium",
+  "evidence": "medley.gg is described as Medley's site, a creator loyalty/monetisation platform said to be in Fuel Ventures' portfolio, though the direct investor link wasn't independently confirmed on Medley's own page."
+ },
+ {
+  "id": "rec3roN1mRAFHMXPT",
+  "company": "Plend",
+  "domain": "plend.co.uk",
+  "confidence": "high",
+  "evidence": "Confirmed via Ascension's portfolio page: 'Visit Website' links to https://plend.co.uk for Plend, an Ascension-backed ethical lender."
+ },
+ {
+  "id": "rec3t5uev3MRhF70s",
+  "company": "Farmstand",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Farmstand (Kindred Capital-backed, acquired 2023) has no confirmed live domain; farmstand.co.uk now resolves to an unrelated domain-broker site, and neither Ascension's nor Kindred's portfolio pages listed a working URL."
+ },
+ {
+  "id": "rec40kcwEo1ZYTLXe",
+  "company": "Oratomic",
+  "domain": "oratomic.com",
+  "confidence": "high",
+  "evidence": "oratomic.com is Oratomic's own site, confirmed as a fault-tolerant quantum computing company; Index Ventures participated in its $300M Series A."
+ },
+ {
+  "id": "rec4Ew336ONrYCdzI",
+  "company": "Intelligence",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "\"Intelligence\" is too generic a name; no specific Index Ventures portfolio company by this exact name could be confirmed via search."
+ },
+ {
+  "id": "rec4GsKmv5XYS5LpP",
+  "company": "Better Nature",
+  "domain": "betternaturetempeh.co",
+  "confidence": "high",
+  "evidence": "Confirmed via Ascension's portfolio page 'Visit Website' link to betternaturetempeh.co for the Ascension-backed tempeh brand Better Nature."
+ },
+ {
+  "id": "rec4IfTlyZ0jQKmjh",
+  "company": "Libertus Capital",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Libertus Capital appears to itself be a venture capital firm (blockchain/crypto focused), not a startup backed by an investor called 'Backed'; the entry is ambiguous and no matching portfolio-company domain was found."
+ },
+ {
+  "id": "rec4JMpHYGkHvAQPN",
+  "company": "Flo",
+  "domain": "flo.health",
+  "confidence": "high",
+  "evidence": "flo.health is Flo Health's own domain (women's health/period-tracking app); Anthemis lists Flo on its own portfolio page (anthemis.com/grow_/flo/)."
+ },
+ {
+  "id": "rec4JkQM7aikNcmNk",
+  "company": "Biotx",
+  "domain": "biotx.ai",
+  "confidence": "high",
+  "evidence": "biotx.ai is Biotx.ai's own domain, a genetics-driven drug discovery company backed by Hoxton Ventures via its Hoxton II fund."
+ },
+ {
+  "id": "rec4MDXNwkiAyqP0h",
+  "company": "Bizzon",
+  "domain": "mews.com",
+  "confidence": "medium",
+  "evidence": "Ascension's own portfolio page for Bizzon (an Ascension-backed hospitality POS company) links 'Visit Website' to mews.com, reflecting Bizzon's 2022 acquisition by and folding into Mews."
+ },
+ {
+  "id": "rec4VWgbyOyX9veo5",
+  "company": "A Million Ads",
+  "domain": "amillionads.com",
+  "confidence": "high",
+  "evidence": "Confirmed via Ascension's portfolio page 'Visit Website' link to amillionads.com for A Million Ads, an Ascension-backed personalised audio ad company."
+ },
+ {
+  "id": "rec4ZFaW4AC5gf7KB",
+  "company": "Cluster HQ",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Cluster HQ's original domain clusterhq.com now redirects to an unrelated parked/spam site; the company (Episode 1-backed) went defunct around 2016 and no current official domain was found."
+ },
+ {
+  "id": "rec4cTTpWbGFS6Zu7",
+  "company": "Zoopla",
+  "domain": "zoopla.co.uk",
+  "confidence": "high",
+  "evidence": "zoopla.co.uk is confirmed live as 'a leading UK property website for buying, renting and selling homes', matching the well-known Zoopla brand exactly."
+ },
+ {
+  "id": "rec4dK0QaGhiKrHBh",
+  "company": "Insightology",
+  "domain": "insightology.ai",
+  "confidence": "high",
+  "evidence": "Confirmed via Haatch's own portfolio listing: 'Insightology.ai is the 1st specialist AI workflow for leading market research agencies' with link https://www.insightology.ai/."
+ },
+ {
+  "id": "rec4f8SbbBvyhW7rD",
+  "company": "Smokeless World",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "smokelessworld.com currently redirects to a GoDaddy 'domain for sale' parking page, indicating the company (7percent Ventures-linked) has no live site at that domain; no alternate official domain found."
+ },
+ {
+  "id": "rec4guCdaFK9nwoHc",
+  "company": "Conductor Quantum",
+  "domain": "conductorquantum.com",
+  "confidence": "high",
+  "evidence": "conductorquantum.com is Conductor Quantum, Inc.'s own site, confirmed as a quantum-computing software infrastructure company, matching the name exactly."
+ },
+ {
+  "id": "rec4iEKufZGsAlN8b",
+  "company": "Koru Kids",
+  "domain": "korukids.co.uk",
+  "confidence": "high",
+  "evidence": "korukids.co.uk is confirmed as Koru Kids' own site, a UK nanny-placement platform, matching the Ascension-backed portfolio company name exactly."
+ },
+ {
+  "id": "rec4jzd2SQaYSldbH",
+  "company": "Origin Benefits",
+  "domain": "originbenefits.com",
+  "confidence": "high",
+  "evidence": "originbenefits.com is confirmed live as 'Origin Benefits Ltd', an AI enterprise-benefits intelligence platform, an exact name match."
+ },
+ {
+  "id": "rec4kql4nVjIHKmdi",
+  "company": "Gendo",
+  "domain": "gendo.ai",
+  "confidence": "high",
+  "evidence": "gendo.ai is confirmed live as Gendo, an AI rendering platform for architects/designers; Gendo appears in Ascension's portfolio listing, matching the investor hint."
+ },
+ {
+  "id": "rec4lncYDXWDUJFFq",
+  "company": "Fundin",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Fundin does not appear in Haatch's current full portfolio listing (fetched directly), and its dedicated portfolio page returned 404; no domain could be confirmed."
+ },
+ {
+  "id": "rec4uYUP0LRtW0pZo",
+  "company": "Grasp",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "\"Grasp\" is a generic name with no Moonfire-linked company confirmed via search; not found on relevant portfolio pages checked."
+ },
+ {
+  "id": "rec4vfXlT4K7aPFGe",
+  "company": "Aseon Labs",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (web search budget exhausted before this entry could be investigated)."
+ },
+ {
+  "id": "rec50Rb3MB47jbuJi",
+  "company": "Certchain",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Certchain does not appear in Haatch's current full portfolio listing (fetched directly), and its dedicated portfolio page returned 404; no domain could be confirmed."
+ },
+ {
+  "id": "rec50mJwDXy8KTdA0",
+  "company": "Xelix",
+  "domain": "xelix.com",
+  "confidence": "high",
+  "evidence": "xelix.com is confirmed live as Xelix (GSPV Ltd), a London-based AP-automation AI platform, matching the Passion Capital-backed company name exactly."
+ },
+ {
+  "id": "rec53fWLfpVCo5PSq",
+  "company": "Zeno Power",
+  "domain": "zenopower.com",
+  "confidence": "high",
+  "evidence": "zenopower.com is confirmed live as Zeno Power, a radioisotope power/nuclear battery company, matching the name exactly."
+ },
+ {
+  "id": "rec54XLXMffhuPA0w",
+  "company": "Nebuflow",
+  "domain": "nebuflow.co.uk",
+  "confidence": "high",
+  "evidence": "Confirmed via Ascension's portfolio page 'Visit Website' link to nebuflow.co.uk for Nebuflow."
+ },
+ {
+  "id": "rec56d9fendlWnQ6y",
+  "company": "Lynkstate",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "lynkstate.com does not resolve (DNS lookup failed); no working official domain could be found for this 7percent Ventures-linked company."
+ },
+ {
+  "id": "rec58euTv4Li7gNtd",
+  "company": "Blockstream",
+  "domain": "blockstream.com",
+  "confidence": "high",
+  "evidence": "blockstream.com is confirmed live as Blockstream Corporation Inc., a Bitcoin/blockchain infrastructure company, matching the name exactly."
+ },
+ {
+  "id": "rec5AbmvNVn7EmOrr",
+  "company": "Swipe",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "\"Swipe\" is a generic name shared by several unrelated companies (e.g. crypto card provider Swipe.io); the Passion Capital hint did not disambiguate a specific match."
+ },
+ {
+  "id": "rec5EGYySK3Dn3ISj",
+  "company": "Stepsize",
+  "domain": "stepsize.com",
+  "confidence": "medium",
+  "evidence": "stepsize.com is confirmed live as 'Stepsize AI (acquired by ClickUp)', an engineering-reporting tool matching the Crane-backed company name; now folded into ClickUp."
+ },
+ {
+  "id": "rec5Gme5H6iVwYzpe",
+  "company": "Superfluid",
+  "domain": "superfluid.finance",
+  "confidence": "high",
+  "evidence": "superfluid.finance is confirmed live as 'Superfluid Finance, Ltd.', a continuous-payments protocol, matching the name exactly."
+ },
+ {
+  "id": "rec5GoIRuQ7mC2Fdy",
+  "company": "Phoenix Hydrogen",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (web search budget exhausted before this entry could be investigated)."
+ },
+ {
+  "id": "rec5H9quIz82cfD9z",
+  "company": "Radiant Matter",
+  "domain": "radiantmatter.co",
+  "confidence": "medium",
+  "evidence": "radiantmatter.co resolves and shows the company name 'Radiant Matter', but the fetched page had minimal content confirming the Ada Ventures-backed biomaterials business specifically."
+ },
+ {
+  "id": "rec5JQqSpdlg6MB6I",
+  "company": "Minubo",
+  "domain": "minubo.com",
+  "confidence": "medium",
+  "evidence": "minubo.com is confirmed live as 'minubo', an e-commerce business-intelligence platform, an exact name match, though the Seedcamp investor link was not independently verified."
+ },
+ {
+  "id": "rec5MPsWE1KXPUOfw",
+  "company": "Truecaller",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Fetch attempt to truecaller.com failed and no independent verification was completed before the search budget was exhausted."
+ },
+ {
+  "id": "rec5OdTCRzsrqVCu4",
+  "company": "Wiz",
+  "domain": "wiz.io",
+  "confidence": "high",
+  "evidence": "wiz.io is confirmed live as Wiz, an AI cloud-security platform, matching the name exactly; Index Ventures is a known investor."
+ },
+ {
+  "id": "rec5VC15BhZDCq2EN",
+  "company": "Sweepr",
+  "domain": "sweepr.com",
+  "confidence": "medium",
+  "evidence": "sweepr.com is confirmed live as 'Sweepr Technologies Ltd.', a telecom customer-care AI platform matching the Frontline Ventures-backed company name; now acquired by Plume."
+ },
+ {
+  "id": "rec5cKzyBpKJpPFnY",
+  "company": "Pantree",
+  "domain": "pantree.co.uk",
+  "confidence": "high",
+  "evidence": "Confirmed via Ascension's portfolio page 'Visit Website' link to pantree.co.uk for Pantree."
+ },
+ {
+  "id": "rec5dB8Z4CFtTm8g3",
+  "company": "AbraTax",
+  "domain": "abratax.co.uk",
+  "confidence": "high",
+  "evidence": "abratax.co.uk is confirmed live as AbraTax, a UK HMRC-recognised MTD bridging/VAT software company, matching the name exactly."
+ },
+ {
+  "id": "rec5e1tqYue8xSoPM",
+  "company": "Volo",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (web search budget exhausted before this entry could be investigated)."
+ },
+ {
+  "id": "rec5p9Xx1LEWjOpTG",
+  "company": "Barricade",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "barricade.io redirects to a domain-marketplace listing page rather than a live company site, so no confirmed official domain was found for this Frontline Ventures-linked company."
+ }
+]

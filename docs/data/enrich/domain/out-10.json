@@ -1,0 +1,352 @@
+[
+ {
+  "id": "recSFeoguuUm5oTPI",
+  "company": "Homerun",
+  "domain": "homerun.co",
+  "confidence": "high",
+  "evidence": "Official site (homerun.co/about, title 'About Homerun') confirmed as Moonfire portfolio company; name matches exactly."
+ },
+ {
+  "id": "recSKwximuTW2K2jF",
+  "company": "Teal",
+  "domain": "goteal.co",
+  "confidence": "high",
+  "evidence": "Official site goteal.co ('Teal Raises £1.4 Million... | Teal') matches press coverage of Passion Capital-led round."
+ },
+ {
+  "id": "recSPMF9tUD4vBRkW",
+  "company": "Augmtec",
+  "domain": "augmetec.com",
+  "confidence": "medium",
+  "evidence": "Official site augmetec.com found via Haatch portfolio page and press; input spelling 'Augmtec' vs actual 'Augmetec' is a partial name match."
+ },
+ {
+  "id": "recSSQFFUPOslHoM8",
+  "company": "ABEX",
+  "domain": "abex.capital",
+  "confidence": "high",
+  "evidence": "Official site abex.capital ('ABEX - Algorithmic Best Execution for Digital Assets') confirmed as MMC Ventures investment."
+ },
+ {
+  "id": "recSZEpxCmSrX5JqX",
+  "company": "Tillo",
+  "domain": "tillo.com",
+  "confidence": "high",
+  "evidence": "Official site tillo.com (blog/press pages) confirmed as Passion Capital's 2016 seed investment; name matches exactly."
+ },
+ {
+  "id": "recSeRe4ro55l6AkP",
+  "company": "Common Surface",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Search returned no company matching 'Common Surface' associated with Kindred Capital; name too generic/ambiguous to resolve."
+ },
+ {
+  "id": "recSfbOgDxrTWtGce",
+  "company": "Mutt Motorcycles",
+  "domain": "muttmotorcycles.com",
+  "confidence": "high",
+  "evidence": "Official site muttmotorcycles.com confirmed as Ascension Ventures portfolio company; note company entered administration in March 2025 but domain still resolves as its official site."
+ },
+ {
+  "id": "recSpW2PiRQh2MgRU",
+  "company": "Jump",
+  "domain": "join-jump.com",
+  "confidence": "medium",
+  "evidence": "Crunchbase profile ('join-jump') and press (TechCrunch, Tech.eu, Index Ventures) confirm this Paris freelancer-benefits startup backed by Index Ventures; domain inferred from third-party profile rather than directly viewed official page, and 'Jump' name is generic."
+ },
+ {
+  "id": "recSqwYOqbH5h994N",
+  "company": "Pythagora AI",
+  "domain": "pythagora.ai",
+  "confidence": "high",
+  "evidence": "Official site pythagora.ai confirmed as Moonfire-backed AI dev tool; name matches."
+ },
+ {
+  "id": "recSujiD6RYxPdqW9",
+  "company": "Saafehouse",
+  "domain": "saafehouse.com",
+  "confidence": "high",
+  "evidence": "Official site saafehouse.com ('Saafehouse — Modern Cash and Asset Software for Investment Management') confirmed as Haatch investment; name matches exactly."
+ },
+ {
+  "id": "recT5c7eu8uRDzu2F",
+  "company": "Remato",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "recT797A8Yve9dQPN",
+  "company": "Garrison",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "recT8nIr2P7yCZVU8",
+  "company": "SAPI",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "recT9h80uXDYPvG89",
+  "company": "Haku",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "recTEeWQouWfKrplT",
+  "company": "Compol",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "recTbfi9AygIQOSJj",
+  "company": "Land Insight",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "recTdl7KjrQG5yXXk",
+  "company": "Cascade",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "recTfI3Fwb0vs7l0d",
+  "company": "Sesame Labs",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "recTiwtlrb2PB7zbK",
+  "company": "Burrow",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "recTjDtFyGNEO06S2",
+  "company": "Honest Mobile",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "recTjpskI5DzNyYjM",
+  "company": "Artian",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "recTkp19D3i1PVY0N",
+  "company": "Voxmind",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "recU5G4XFdX05Hhjc",
+  "company": "GatlingX",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "recU6BaxZUnlfvS8J",
+  "company": "Replan",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "recUDHkycX801ArMS",
+  "company": "Eterna Regeneratives",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "recUEVnxUfts9WcNR",
+  "company": "Amilis",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "recUGjrYrNz8ge6TF",
+  "company": "Huboo",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "recUGqRwSn77TxX3v",
+  "company": "Neo4j",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "recUHUmCI8rEeV1aO",
+  "company": "Greg",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "recUI3IQFa2AwZxIT",
+  "company": "Pinipa",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "recUK56va3QdX3nL5",
+  "company": "Acurable",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "recULogxzOFr6n9gP",
+  "company": "Kbox Global",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "recUTIKaxhhH4pGJq",
+  "company": "Legit Patents",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "recUVMdpA0hcD5Mwr",
+  "company": "CultureAI",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "recUWrFnk8cmmk8iD",
+  "company": "Surfboard",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "recUcHIsTqTGRTPDs",
+  "company": "Pinata Farms",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "recUgYYFJWLGKiyqz",
+  "company": "NewVoiceMedia",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "recUm3zU9FWNHDsvU",
+  "company": "Night Zookeeper",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "recUs30z8vkbRbwYr",
+  "company": "Lodgify",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "recUvK4ZLB33Gjmgq",
+  "company": "Netfabric",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "recUvbGTwhWTU7Zv1",
+  "company": "Claimer",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "recUymtimxLkpPLyc",
+  "company": "Tanaza",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "recUzlHDxVnpa8rA8",
+  "company": "Stablepharma",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "recV1KdzXQ7gRrMoC",
+  "company": "Fleksy",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "recV2QOYiWNFbfZU8",
+  "company": "Comtravo",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "recV6JJI8XpnlLgKb",
+  "company": "Beyond Aero",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "recV7FIU9QuNObLcp",
+  "company": "Ploy",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "recV94T6XphRpgRls",
+  "company": "ManholeMetrics",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "recVG68LNffNPAEfV",
+  "company": "Tessian",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "recVPnv9zK5JBAhGU",
+  "company": "Adazza",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ }
+]

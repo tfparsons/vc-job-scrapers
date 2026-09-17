@@ -1,0 +1,352 @@
+[
+ {
+  "id": "rec5pKyBNKAcMVlWK",
+  "company": "Kurve",
+  "domain": "kurve.co.uk",
+  "confidence": "high",
+  "evidence": "kurve.co.uk is the app growth/marketing agency's own site, listed in Haatch's portfolio (haatch.com/portfolio) matching the investor hint."
+ },
+ {
+  "id": "rec5tq24GGcIpGgC7",
+  "company": "Artivest",
+  "domain": "artivest.co",
+  "confidence": "medium",
+  "evidence": "artivest.co is Artivest's official platform domain (platform.artivest.co); Anthemis is a confirmed investor, but Artivest has since been absorbed into iCapital Network."
+ },
+ {
+  "id": "rec62j8XoY6T2J25A",
+  "company": "Server Density",
+  "domain": "serverdensity.com",
+  "confidence": "high",
+  "evidence": "serverdensity.com is the company's own site (support.serverdensity.com, Seedcamp-backed per Sussex Place Ventures); company was later acquired/merged into StackPath in 2018 but the domain remained its official site."
+ },
+ {
+  "id": "rec69eydVbYvHhMpE",
+  "company": "StatusToday",
+  "domain": "statustoday.com",
+  "confidence": "medium",
+  "evidence": "statustoday.com is StatusToday's own domain (Notion Capital-backed per notioncapital.com/portfolio/statustoday), but the live site now shows a rebranded product ('Isaak'), so name match on current content is partial."
+ },
+ {
+  "id": "rec6CFmjAmhCuhAQo",
+  "company": "Paired",
+  "domain": "getpaired.com",
+  "confidence": "medium",
+  "evidence": "www.getpaired.com / paired.com is the official site for the London relationship app 'Paired' (name matches exactly), but reported investors (Eka Ventures, Taavet Hinrikus) don't confirm the '7percent Ventures' hint given, so the match to this specific investor is unconfirmed."
+ },
+ {
+  "id": "rec6D6FZeQwuDGqBR",
+  "company": "Maru",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "No Seedcamp portfolio company named 'Maru' could be found; 'Maru' is a common name (e.g. Maru Group market research) with no clear match to the investor hint."
+ },
+ {
+  "id": "rec6OtsgkgI4OWjhy",
+  "company": "Moteefe",
+  "domain": "moteefe.com",
+  "confidence": "high",
+  "evidence": "moteefe.com is Moteefe's official print-on-demand platform site; Ascension Ventures confirmed as an investor per ascension.vc/portfolio/moteefe."
+ },
+ {
+  "id": "rec6U354bY7w7tfcC",
+  "company": "Cowboy Space",
+  "domain": "cowboyspace.com",
+  "confidence": "high",
+  "evidence": "cowboyspace.com is Cowboy Space Corporation's official site; TechCrunch/BusinessWire confirm Index Ventures led its $275M Series B, matching the investor hint exactly."
+ },
+ {
+  "id": "rec6aD9XFVEbbnKRK",
+  "company": "Flowstate",
+  "domain": "flowstate.inc",
+  "confidence": "high",
+  "evidence": "flowstate.inc is the official site for the London-based Workforce Engineering platform 'Flowstate', which PitchBook/Crunchbase list as Haatch-backed, matching the investor hint; other same-named companies (flowstatehq.com, flowstateai.dev) are unrelated."
+ },
+ {
+  "id": "rec6aEz0hKMjXPweM",
+  "company": "Smartup",
+  "domain": "smartup.io",
+  "confidence": "high",
+  "evidence": "smartup.io is the official site of the peer-to-peer learning platform SmartUp, confirmed Notion Capital-backed per notioncapital.com/portfolio/smartup."
+ },
+ {
+  "id": "rec6tB1Uolg76Ajok",
+  "company": "Valla",
+  "domain": "valla.uk",
+  "confidence": "high",
+  "evidence": "valla.uk is the official site for the UK employment-law legaltech startup Valla; press coverage confirms both Ascension Ventures and Ada Ventures as investors, matching the hint."
+ },
+ {
+  "id": "rec70qUgNqq9is8Pw",
+  "company": "Vouch",
+  "domain": "vouch.us",
+  "confidence": "high",
+  "evidence": "vouch.us is Vouch Insurance's official site; Index Ventures and Anthemis are both confirmed investors (indexventures.com/companies/vouch, anthemis.com/portfolio/vouch), matching the hint exactly."
+ },
+ {
+  "id": "rec7DAwsF6yw5IUwF",
+  "company": "Knowunity",
+  "domain": "knowunity.com",
+  "confidence": "medium",
+  "evidence": "Stride.VC confirmed as a Series A/B investor in Berlin edtech Knowunity per Nordic9/eu-startups coverage; the knowunity.com domain itself was not independently re-verified this session (search budget exhausted) but is the widely cited official domain."
+ },
+ {
+  "id": "rec7GdixnqozYUoqN",
+  "company": "Light.inc",
+  "domain": "light.inc",
+  "confidence": "high",
+  "evidence": "light.inc is the AI finance/accounting startup's own domain (light.inc/light-announces-13-million-funding); Cherry Ventures confirmed as an investor in its seed and Series A rounds."
+ },
+ {
+  "id": "rec7L6yHqC1JYtOHd",
+  "company": "Apis Partners",
+  "domain": "apis.pe",
+  "confidence": "medium",
+  "evidence": "apis.pe is Apis Partners' official site (seen at apis.pe/our-team and apis.pe/team pages); Anthemis is described as a close partner/portfolio relation rather than a straightforward investor, so the investor-hint match is partial."
+ },
+ {
+  "id": "rec7MXjlEzPsXy4gd",
+  "company": "Payslip",
+  "domain": "payslip.com",
+  "confidence": "high",
+  "evidence": "payslip.com is the Irish global payroll company's official site (payslip.com/company/our-investors); Frontline Ventures confirmed as lead investor in its seed and Series A rounds."
+ },
+ {
+  "id": "rec7MezpuuV2uJvRr",
+  "company": "Hubble",
+  "domain": "hubblehq.com",
+  "confidence": "high",
+  "evidence": "hubblehq.com is the official site of Hubble HQ, the London flexible-office marketplace; described as part of the Seedcamp portfolio matching the investor hint."
+ },
+ {
+  "id": "rec7WqPcyRt0PxAns",
+  "company": "SimpleTax",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "A Seedcamp-backed 'SimpleTax' (Portugal-based tax-filing startup, per UKTN/TheNextWeb) was found but no clear official domain could be confirmed, and the name collides with an unrelated Canadian tax-software SimpleTax and UK's GoSimpleTax."
+ },
+ {
+  "id": "rec7aS1jEfbL4MYfV",
+  "company": "Onum",
+  "domain": "onum.com",
+  "confidence": "high",
+  "evidence": "onum.com is the Madrid-based data-observability startup's official domain; Dawn Capital confirmed as lead Series A investor (dawncapital.com/companies/onum); Onum was acquired by CrowdStrike in Sept 2025 but retains its own domain."
+ },
+ {
+  "id": "rec7idLOrXJ3FnFgO",
+  "company": "umba",
+  "domain": "umba.com",
+  "confidence": "high",
+  "evidence": "umba.com is the official site of Umba, the Irish-founded digital bank for African/emerging markets; Frontline Ventures and ACT Venture Capital confirmed as early investors."
+ },
+ {
+  "id": "rec7oLu8KXGfYw8nd",
+  "company": "Argent",
+  "domain": "argent.xyz",
+  "confidence": "medium",
+  "evidence": "argent.xyz is the well-known official domain for the Argent crypto wallet, an Index Ventures portfolio company; not re-verified via live search this session due to exhausted search budget."
+ },
+ {
+  "id": "rec7pxw65jcIpcAuJ",
+  "company": "Oxford Medical Products",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "No search performed (session search budget exhausted) and no confident prior knowledge of an official domain for this company; leaving unresolved rather than guessing."
+ },
+ {
+  "id": "rec7rbRYny9BbinVJ",
+  "company": "RIF (Rootstock)",
+  "domain": "rootstock.io",
+  "confidence": "medium",
+  "evidence": "rootstock.io is the known official domain for the RSK/RIF blockchain ecosystem backed by Outlier Ventures; not re-verified via live search this session due to exhausted search budget."
+ },
+ {
+  "id": "rec7xzSac9VLNJzul",
+  "company": "Tandem HR",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "No search performed (budget exhausted); 'Tandem HR' is a common name (a US PEO firm called Tandem HR exists but is unrelated to Frontline Ventures), so guessing a domain would be unreliable."
+ },
+ {
+  "id": "rec7y4WN3pAWP6siW",
+  "company": "Coop Innovations",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "No search performed (budget exhausted) and no reliable prior knowledge of this company's domain."
+ },
+ {
+  "id": "rec83bRJJfdFY7nUr",
+  "company": "StirLight",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "No search performed (budget exhausted) and no reliable prior knowledge of this company's domain."
+ },
+ {
+  "id": "rec83zxeNd59lMMTb",
+  "company": "Parse",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "No search performed (budget exhausted); 'Parse' is a highly ambiguous name (e.g. the former Facebook Parse platform) with no way to disambiguate the Haatch-backed company without a search."
+ },
+ {
+  "id": "rec87I8kTozveRNFI",
+  "company": "Xata",
+  "domain": "xata.io",
+  "confidence": "medium",
+  "evidence": "xata.io is the well-known official domain for the serverless database company Xata, an Index Ventures portfolio company; not re-verified via live search this session due to exhausted search budget."
+ },
+ {
+  "id": "rec8CeaqIapf9PJTJ",
+  "company": "Accurx",
+  "domain": "accurx.com",
+  "confidence": "medium",
+  "evidence": "accurx.com is the well-known official domain for UK healthtech company Accurx; Moonfire is a known backer, but not re-verified via live search this session due to exhausted search budget."
+ },
+ {
+  "id": "rec8EKlRXWzIr9DXB",
+  "company": "Bidvine",
+  "domain": "bidvine.com",
+  "confidence": "medium",
+  "evidence": "bidvine.com is the well-known official domain for the UK services marketplace Bidvine, backed by Backed VC; not re-verified via live search this session due to exhausted search budget."
+ },
+ {
+  "id": "rec8NOLvv6D5qGXXv",
+  "company": "Pusher",
+  "domain": "pusher.com",
+  "confidence": "medium",
+  "evidence": "pusher.com is the well-known official domain for the realtime-API company Pusher, a Passion Capital portfolio company; not re-verified via live search this session due to exhausted search budget."
+ },
+ {
+  "id": "rec8RBnG3xT3fLKya",
+  "company": "Seaflight",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "No search performed (budget exhausted) and no reliable prior knowledge of this company's domain."
+ },
+ {
+  "id": "rec8S9lVr4caDLCdg",
+  "company": "NunaBio",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "No search performed (budget exhausted) and no reliable prior knowledge of this company's domain."
+ },
+ {
+  "id": "rec8STmbMIwBeBqHP",
+  "company": "CFDX",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "No search performed (budget exhausted) and no reliable prior knowledge of this company's domain."
+ },
+ {
+  "id": "rec8U9aOJOt4aZ2OG",
+  "company": "Idecsi",
+  "domain": "idecsi.com",
+  "confidence": "medium",
+  "evidence": "idecsi.com is the known official domain for the French cybersecurity company Idecsi, a Mosaic Ventures portfolio company; not re-verified via live search this session due to exhausted search budget."
+ },
+ {
+  "id": "rec8aeyEqJEsouJTc",
+  "company": "AtlasML",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "No search performed (budget exhausted) and no reliable prior knowledge of this company's domain."
+ },
+ {
+  "id": "rec8bGZIFFQejv5Fs",
+  "company": "Impact Advantage",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "No search performed (budget exhausted) and no reliable prior knowledge of this company's domain."
+ },
+ {
+  "id": "rec8ctYAlOvAJdSfQ",
+  "company": "Prolo",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "No search performed (budget exhausted); uncertain whether this refers to the construction-software company Prolo or another Haatch-backed 'Prolo', so leaving unresolved rather than guessing."
+ },
+ {
+  "id": "rec8iiZLjhtZRKuNt",
+  "company": "Incuto",
+  "domain": "incuto.com",
+  "confidence": "medium",
+  "evidence": "incuto.com is the known official domain for the credit-union banking-tech company Incuto, an Ascension portfolio company; not re-verified via live search this session due to exhausted search budget."
+ },
+ {
+  "id": "rec8jY9rZ1R56hXqg",
+  "company": "Flair Impact",
+  "domain": "flairimpact.com",
+  "confidence": "medium",
+  "evidence": "flairimpact.com is the known official domain for ESG data platform Flair Impact, a Hoxton Ventures portfolio company; not re-verified via live search this session due to exhausted search budget."
+ },
+ {
+  "id": "rec8nBm9pCgKnoCrZ",
+  "company": "Raising IT",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "No search performed (budget exhausted) and no reliable prior knowledge of this company's domain."
+ },
+ {
+  "id": "rec8pLYk8Um6sjzaI",
+  "company": "Tuza",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "No search performed (budget exhausted); recall of a UK renter-savings app called Tuza is not confident enough to state a domain reliably."
+ },
+ {
+  "id": "rec8uFE0uNJGlipdj",
+  "company": "Medfin",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "No search performed (budget exhausted); an Australian medical-finance company called Medfin exists but its investors don't match 'Haatch' (a UK fund), so this is likely a different, unidentified company."
+ },
+ {
+  "id": "rec8ukltqCBfQgtY3",
+  "company": "Loopcam",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "No search performed (budget exhausted) and no reliable prior knowledge of this company's domain."
+ },
+ {
+  "id": "rec90WgVNXPG4fk77",
+  "company": "Warren",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "No search performed (budget exhausted); 'Warren' is too generic a name to guess a domain reliably without disambiguating search results."
+ },
+ {
+  "id": "rec90fEoqBApfnPxv",
+  "company": "Dataline Labs",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "No search performed (budget exhausted) and no reliable prior knowledge of this company's domain."
+ },
+ {
+  "id": "rec92ookDPD5McEaw",
+  "company": "Pento",
+  "domain": "pento.io",
+  "confidence": "medium",
+  "evidence": "pento.io is the well-known official domain for payroll company Pento, backed by Moonfire and Seedcamp; not re-verified via live search this session due to exhausted search budget."
+ },
+ {
+  "id": "rec945KlWeMXmIaxg",
+  "company": "LIV",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "No search performed (budget exhausted); 'LIV' is too generic/ambiguous a name (e.g. LIV Golf) to guess a domain reliably without disambiguating search results."
+ },
+ {
+  "id": "rec9LX4lbRniEzeqw",
+  "company": "Virtue Health",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "No search performed (budget exhausted) and no reliable prior knowledge of this company's domain."
+ },
+ {
+  "id": "rec9OzHGRvgOJ2vHh",
+  "company": "Codemagic",
+  "domain": "codemagic.io",
+  "confidence": "medium",
+  "evidence": "codemagic.io is the well-known official domain for the CI/CD platform Codemagic (by Nevercode), a Seedcamp-backed company; not re-verified via live search this session due to exhausted search budget."
+ }
+]

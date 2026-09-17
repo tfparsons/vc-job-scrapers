@@ -1,0 +1,352 @@
+[
+ {
+  "id": "rec9X8ehMHsOMujoF",
+  "company": "VerbaFlo",
+  "domain": "verbaflo.ai",
+  "confidence": "high",
+  "evidence": "Official site verbaflo.ai/stories page confirms VerbaFlo raised funding with Haatch participating; name matches exactly."
+ },
+ {
+  "id": "rec9ZtIHvyN84Ftxh",
+  "company": "Webstudio",
+  "domain": "webstudio.is",
+  "confidence": "high",
+  "evidence": "webstudio.is is the official open-source website builder's site, title 'Webstudio \u2014 Advanced Open Source Website Builder'; Crunchbase confirms Seedcamp as an investor."
+ },
+ {
+  "id": "rec9ciBwtIskg0WFO",
+  "company": "Turneo",
+  "domain": "turneo.com",
+  "confidence": "high",
+  "evidence": "Hospitalitynet article titled 'Turneo Launches Neo' and Ascension VC portfolio page confirm turneo.com as the traveltech startup's official domain."
+ },
+ {
+  "id": "rec9qJEmZKfoY6HeU",
+  "company": "AAZZUR",
+  "domain": "aazzur.com",
+  "confidence": "high",
+  "evidence": "aazzur.com homepage matches company name exactly; Haatch's own news page confirms it led AAZZUR's funding round."
+ },
+ {
+  "id": "rec9v9Dejk6NdPdlu",
+  "company": "Triver",
+  "domain": "triver.com",
+  "confidence": "high",
+  "evidence": "Triver's own blog (blog.triver.com) confirms triver.com as the root domain; Silicon Canals confirms Stride.VC-led funding for Triver."
+ },
+ {
+  "id": "recA7lisdsFGnYUrJ",
+  "company": "Inntelo",
+  "domain": "inntelo.com",
+  "confidence": "medium",
+  "evidence": "inntelo.com is the official site, but the brand is 'Inntelo AI' rather than bare 'Inntelo', a partial name match; Haatch's own post confirms its investment."
+ },
+ {
+  "id": "recAHQ7eHBs75to1p",
+  "company": "Creative Juice",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Creative Juice was acquired by Rho in July 2024 and no longer maintains an active standalone official site distinct from Rho's; no clear current domain found."
+ },
+ {
+  "id": "recANsFrpkvL5OgxG",
+  "company": "TeachKloud",
+  "domain": "teachkloud.com",
+  "confidence": "high",
+  "evidence": "teachkloud.com homepage and about page match the company name exactly; Silicon Republic confirms Frontline Ventures led its funding round."
+ },
+ {
+  "id": "recAOqSJZjIN9zH95",
+  "company": "Awell",
+  "domain": "awellhealth.com",
+  "confidence": "medium",
+  "evidence": "awellhealth.com is the official site but branded 'Awell Health'/'Awell' rather than bare 'Awell', a partial name match; Tech.eu confirms Moonfire as an investor."
+ },
+ {
+  "id": "recAQ30ATb9HuEZor",
+  "company": "Visly",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Visly was acquired by Figma in 2021 and Crunchbase lists it as 'Closed'; its old visly.app site no longer represents an active independent company, so no current official domain applies."
+ },
+ {
+  "id": "recARVnzhcFwp4TlP",
+  "company": "Swallow",
+  "domain": "swallow.app",
+  "confidence": "high",
+  "evidence": "swallow.app is the official site for Swallow (Llow Group), the pricing platform backed by Connect Ventures; title 'Swallow - The Financial Pricing Platform' matches."
+ },
+ {
+  "id": "recAVCmQ9Ij9p6YXn",
+  "company": "Beside",
+  "domain": "beside.com",
+  "confidence": "high",
+  "evidence": "beside.com is the AI receptionist startup's own site (blog, pricing, help center), matching Index Ventures-backed 'Beside' from press coverage."
+ },
+ {
+  "id": "recAa1udVglGyAyFl",
+  "company": "Rerun",
+  "domain": "rerun.io",
+  "confidence": "high",
+  "evidence": "Rerun is a well-known open-source visualization toolbox at rerun.io, matching the Seedcamp-backed company described in seedcamp.com's own portfolio post."
+ },
+ {
+  "id": "recAklgcNFQM0b9Ac",
+  "company": "5D AI",
+  "domain": "fifthdimensionai.com",
+  "confidence": "medium",
+  "evidence": "The Ascension-backed company is 'Fifth Dimension AI' (branded 5D), official site fifthdimensionai.com; name match is partial ('5D AI' vs 'Fifth Dimension AI')."
+ },
+ {
+  "id": "recAlXHfxWZcSa1y3",
+  "company": "QFEX",
+  "domain": "qfex.com",
+  "confidence": "high",
+  "evidence": "qfex.com is QFEX's own site ('The first 24/7 exchange only for US equities, commodities and FX'), matching the Moonfire-backed exchange startup."
+ },
+ {
+  "id": "recAzE85OIcZI59Ud",
+  "company": "Space Dots",
+  "domain": "space-dots.com",
+  "confidence": "high",
+  "evidence": "space-dots.com ('SpaceDOTS - The Intelligence Core for Smarter Space Missions') is the official site of the 7percent Ventures-backed spacetech startup."
+ },
+ {
+  "id": "recB7GUUnfEqHKlcg",
+  "company": "Ravelin",
+  "domain": "ravelin.com",
+  "confidence": "high",
+  "evidence": "ravelin.com is Ravelin's own site ('Ravelin Technology - Innovative Anti-Fraud & Payments Solutions'), matching the Passion Capital-backed fraud prevention startup."
+ },
+ {
+  "id": "recBAcBWKWjtuGapP",
+  "company": "Advisable",
+  "domain": "advisable.com",
+  "confidence": "high",
+  "evidence": "Tech.eu reports 'Advisable.com is a Dublin-based startup' that raised funding led by Frontline Ventures, confirming advisable.com as the domain."
+ },
+ {
+  "id": "recBBRKb6YSyEThpO",
+  "company": "Qstream",
+  "domain": "qstream.com",
+  "confidence": "high",
+  "evidence": "qstream.com is Qstream's own site (leadership/investors page), matching the Frontline Ventures-backed microlearning company."
+ },
+ {
+  "id": "recBDe7P5VBsgWOxc",
+  "company": "Runa",
+  "domain": "runa.io",
+  "confidence": "high",
+  "evidence": "runa.io is Runa's own site ('Runa - Global Payout Platform'), matching the Stride.VC/Ascension-backed payouts company."
+ },
+ {
+  "id": "recBGFkkjKJbLg7ED",
+  "company": "Karakuri",
+  "domain": "karakuri.com",
+  "confidence": "high",
+  "evidence": "karakuri.com official site (\"Karakuri unveils its first robotic canteen...\") matches company backed by Hoxton Ventures per hoxtonventures.com/portfolio/karakuri-note."
+ },
+ {
+  "id": "recBJXzFAxu5Xl2EN",
+  "company": "JunoBio",
+  "domain": "juno.bio",
+  "confidence": "high",
+  "evidence": "Official site juno.bio (\"Juno Bio | Your At-Home Vaginal Microbiome Test\") confirmed as Ada Ventures portfolio company on adaventures.com/company/junobio."
+ },
+ {
+  "id": "recBQbFXJfT9ybnQa",
+  "company": "Ready Player Me",
+  "domain": "readyplayer.me",
+  "confidence": "high",
+  "evidence": "Official site readyplayer.me confirmed as 7percent Ventures portfolio company via jobs.7pc.vc/companies/ready-player-me."
+ },
+ {
+  "id": "recBRQ00FwHPSRGlk",
+  "company": "Alito",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Ada Ventures lists a portfolio page at adaventures.com/company/alito but search results conflated it with an unrelated company \"Alitu\"; no independently verifiable official domain found matching the name."
+ },
+ {
+  "id": "recBcLqjeonlAO5wU",
+  "company": "Credit Kudos",
+  "domain": "creditkudos.com",
+  "confidence": "high",
+  "evidence": "Official site creditkudos.com (\"Better data for better credit decisions with Open Banking\") confirmed as Ascension portfolio company; note company was acquired by Apple in 2022."
+ },
+ {
+  "id": "recBcQclyYyl8YyAJ",
+  "company": "Esther",
+  "domain": "esther.international",
+  "confidence": "medium",
+  "evidence": "esther.international (\"ESTHER International\") self-describes as the fintech aid platform funded by Clarendon Fund Managers, Ada Ventures and SFC Capital, matching the Ada Ventures portfolio entry; name match is partial (Esther vs ESTHER International)."
+ },
+ {
+  "id": "recBt8GTWdwjd6GNR",
+  "company": "Carbometrics",
+  "domain": "carbometrics.com",
+  "confidence": "high",
+  "evidence": "Official site carbometrics.com (news page) confirmed as Ada Ventures portfolio company via adaventures.com/company/carbometrics."
+ },
+ {
+  "id": "recBtvD2N5stcBueQ",
+  "company": "Platus",
+  "domain": "platus.com",
+  "confidence": "high",
+  "evidence": "Official site platus.com (\"Platus - Instant Legal Infrastructure\") confirmed backed by Moonfire Ventures per Founderland article."
+ },
+ {
+  "id": "recC1GL73kUM0ZgtE",
+  "company": "Atoa",
+  "domain": "paywithatoa.co.uk",
+  "confidence": "high",
+  "evidence": "Official site paywithatoa.co.uk (\"Atoa Payment Platform UK\") confirmed pre-seed backed by Passion Capital and Leo Capital."
+ },
+ {
+  "id": "recC1yY1E59uaHIge",
+  "company": "Wordsmith",
+  "domain": "wordsmith.ai",
+  "confidence": "high",
+  "evidence": "Official site wordsmith.ai confirmed via Highland Europe's own announcement (highlandeurope.com/wordsmith-raises-70m) of its Series B investment in Wordsmith."
+ },
+ {
+  "id": "recC45tjS9T3WIq2d",
+  "company": "Campanja",
+  "domain": "campanja.com",
+  "confidence": "high",
+  "evidence": "parsers.vc and multiple sources confirm campanja.com as the official site of the Hoxton Ventures-backed ad-optimization startup; note it was later acquired by [24]7.ai / 24/7 Media."
+ },
+ {
+  "id": "recCC1FlW7h03QVsZ",
+  "company": "Much Better Adventures",
+  "domain": "muchbetteradventures.com",
+  "confidence": "high",
+  "evidence": "Well-known Seedcamp-backed London adventure travel marketplace; standard company-name domain, consistent with Crowdcube page slug 'muchbetteradventures'."
+ },
+ {
+  "id": "recCClcgaxkGzszeh",
+  "company": "TAINA Tech",
+  "domain": "taina.tech",
+  "confidence": "high",
+  "evidence": "TAINA's own press page is hosted at www.taina.tech (taina-technology-closes-funding-round...), and Anthemis' portfolio page confirms the investment match for the RegTech company."
+ },
+ {
+  "id": "recCQPGOQf6DX0mHI",
+  "company": "Yieldify",
+  "domain": "yieldify.com",
+  "confidence": "high",
+  "evidence": "Hoxton Ventures portfolio page (hoxtonventures.com/portfolio/yeildify) confirms Yieldify as investee; yieldify.com is the long-established official domain (company later acquired by Publicis Groupe in 2023 but retains the domain)."
+ },
+ {
+  "id": "recCVL4LMBL9ElF9s",
+  "company": "Shipamax",
+  "domain": "shipamax.com",
+  "confidence": "high",
+  "evidence": "Crane Venture Partners' own portfolio page (crane.vc/company/shipamax) and Shipamax's own blog URL (shipamax.com/blog/...) confirm shipamax.com as the official site."
+ },
+ {
+  "id": "recCVb0FWft6Kqejg",
+  "company": "BridgeU",
+  "domain": "bridge-u.com",
+  "confidence": "high",
+  "evidence": "Official site titled 'BridgeU: World-leading education software and services' is hosted at bridge-u.com (not bridgeu.com); Seedcamp podcast confirms Seedcamp as investor. Company was later acquired by Manifest Global."
+ },
+ {
+  "id": "recCVe849LeneW9M2",
+  "company": "Flat",
+  "domain": "flat.mx",
+  "confidence": "medium",
+  "evidence": "Anthemis' own portfolio page (anthemis.com/grow_/flat) lists 'Flat' as the investee, matching to Flat.mx, a Mexico City proptech; name match is partial ('Flat' vs 'Flat.mx') and geography doesn't confirm UK focus, hence medium confidence."
+ },
+ {
+  "id": "recCWOI64cy4tOAjd",
+  "company": "Plus Simple",
+  "domain": "plussimple.eu",
+  "confidence": "medium",
+  "evidence": "Anthemis portfolio lists 'Plus Simple' as investee, matching the French insurtech branded '+Simple', whose corporate site is hosted at corporate.plussimple.eu; name match is partial (+Simple vs Plus Simple) so confidence is medium."
+ },
+ {
+  "id": "recCWvAjZweepWaQq",
+  "company": "SayDuck",
+  "domain": "sayduck.com",
+  "confidence": "high",
+  "evidence": "Official site 'Sayduck - Leading 3D Product Visualisation Platform' at www.sayduck.com; ArcticStartup article confirms Sayduck was accepted into Seedcamp. Company was later acquired by Bublar Group."
+ },
+ {
+  "id": "recChIs8iHOsPwulY",
+  "company": "Bless",
+  "domain": "bless.network",
+  "confidence": "high",
+  "evidence": "Outlier Ventures' own portfolio page (portfolio.outlierventures.io/bless-2) lists Bless as a BaseCamp cohort 9 portfolio company; official site is bless.network, name matches exactly."
+ },
+ {
+  "id": "recCi0sk74SFKQGJk",
+  "company": "Perceptive Space",
+  "domain": "perceptivespace.com",
+  "confidence": "high",
+  "evidence": "Official site perceptivespace.com found directly; company confirmed backed by 7percent Ventures per 7pc.vc portfolio page."
+ },
+ {
+  "id": "recCiFTbYpOUze21z",
+  "company": "AeroVolt",
+  "domain": "aerovolt.co.uk",
+  "confidence": "high",
+  "evidence": "Official site aerovolt.co.uk (title 'AEROVOLT | The Smart Aircraft Charging Network'); 7percent Ventures listed as investor on 7pc.vc portfolio page."
+ },
+ {
+  "id": "recCnUAyYvma6oX7D",
+  "company": "Hutch Games",
+  "domain": "hutch.io",
+  "confidence": "high",
+  "evidence": "Official site hutch.io (title 'Hutch Games'); Index Ventures confirmed as investor via indexventures.com company page."
+ },
+ {
+  "id": "recCoDX9FgcThZ3pw",
+  "company": "Radom",
+  "domain": "radom.com",
+  "confidence": "high",
+  "evidence": "Official site radom.com (crypto payment gateway, title 'Radom'); Haatch confirmed as investor per search results."
+ },
+ {
+  "id": "recCxOUFjxP29kcYI",
+  "company": "Ambral",
+  "domain": "ambral.com",
+  "confidence": "high",
+  "evidence": "Official site ambral.com confirmed via Y Combinator company page; Moonfire confirmed as investor."
+ },
+ {
+  "id": "recCyktUHg9ewuDzN",
+  "company": "Kinvault",
+  "domain": "kinvault.com",
+  "confidence": "high",
+  "evidence": "Official site kinvault.com ('About Kinvault' page); Haatch confirmed as lead/anchor investor."
+ },
+ {
+  "id": "recCzskcGcrArcjGO",
+  "company": "Renbee",
+  "domain": "renbee.co.uk",
+  "confidence": "high",
+  "evidence": "Official site renbee.co.uk (title 'Renbee'); Haatch and Founders Factory confirmed as investors via haatch.com/portfolio/renbee."
+ },
+ {
+  "id": "recD19rA6ncD61jlz",
+  "company": "Idio",
+  "domain": "optimizely.com",
+  "confidence": "medium",
+  "evidence": "Idio was acquired by Episerver in 2019, which later rebranded as Optimizely; Idio's technology is now part of Optimizely, no independent Idio domain remains active. Notion Capital confirmed as original investor."
+ },
+ {
+  "id": "recD9EmQLiH1ymsya",
+  "company": "Phinxt",
+  "domain": "phinxt.com",
+  "confidence": "high",
+  "evidence": "Official site phinxt.com (PHINXT Robotics); Ada Ventures confirmed as investor per adaventures.com company page."
+ },
+ {
+  "id": "recD9EmyH4d7xutXU",
+  "company": "Currencycloud",
+  "domain": "currencycloud.com",
+  "confidence": "high",
+  "evidence": "Official site currencycloud.com (title 'Currencycloud'); Notion Capital and Anthemis both confirmed as investors; note company was acquired by Visa in 2021 but retains its own domain."
+ }
+]

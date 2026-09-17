@@ -1,0 +1,352 @@
+[
+ {
+  "id": "recjGvmCh2F5aesde",
+  "company": "Raptor Supplies",
+  "domain": "raptorsupplies.com",
+  "confidence": "high",
+  "evidence": "Hoxton Ventures portfolio page and the company's own site (raptorsupplies.com/partners) confirm this is a Hoxton-backed UK MRO e-commerce company."
+ },
+ {
+  "id": "recjH9U5YP14VR1Hb",
+  "company": "Stupeflix",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Confirmed as a Seedcamp 2008 winner acquired by GoPro in 2015; the company no longer operates independently and its historical domain was not confirmed in search results."
+ },
+ {
+  "id": "recjHm1wdWeT6BFDh",
+  "company": "C TWO",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Dawn Capital's portfolio page (dawncapital.com/companies/ctwo) confirms the MMC/Dawn-backed Norwegian RPA company, but its own registrable domain could not be confirmed before the search budget ran out."
+ },
+ {
+  "id": "recjIWSQe1Y2QRpzk",
+  "company": "Near Buy",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Only match found was 'Nearbuy Systems' cited as an exit for a Playfair Capital partner's personal angel investing, not clearly the same portfolio company; ambiguous."
+ },
+ {
+  "id": "recjNdRRye9q9ePHG",
+  "company": "Tembo",
+  "domain": "tembomoney.com",
+  "confidence": "medium",
+  "evidence": "Ascension's portfolio page (ascension.vc/portfolio/tembo) and press describe 'Tembo Money (t/a Tembo)', a UK mortgage/savings fintech; domain inferred from the trading name, not directly shown in a fetched snippet."
+ },
+ {
+  "id": "recjQsPrOmMp71Qoo",
+  "company": "bd4travel",
+  "domain": "bd4travel.com",
+  "confidence": "medium",
+  "evidence": "Hoxton Ventures portfolio page (hoxtonventures.com/portfolio/bd4travel) and TravelTechNation confirm this Hoxton-backed travel personalization startup; the name is distinctive enough to infer the domain, though not directly confirmed in a fetched snippet."
+ },
+ {
+  "id": "recjW3iXrWe6znr2T",
+  "company": "Boxfish",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Crunchbase lists Frontline Ventures as an investor in a TV-audience-analytics company called Boxfish, but the company's own site/domain was not confirmed and the name is not distinctive enough to be certain."
+ },
+ {
+  "id": "recjWGcl0vfo1zBOe",
+  "company": "Squad",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Haatch's portfolio page (haatch.com/portfolio/squad) confirms a product-strategy tool called Squad, but 'Squad' is a very generic name and the actual company domain could not be confirmed."
+ },
+ {
+  "id": "recjWfXzknXiFR3Ti",
+  "company": "Omi",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Dawn Capital's portfolio page confirms Omi, a Paris-based AI/3D product-visual startup backed by Dawn Capital, but its exact registrable domain was not confirmed in the search results."
+ },
+ {
+  "id": "recjbUhV0nG9pUKv4",
+  "company": "Visionable",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "No search results connecting 'Visionable' to Ascension were found."
+ },
+ {
+  "id": "recjbymG5zlq6WaRo",
+  "company": "ConfigHub",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "recjcFWl9vlH4gSSU",
+  "company": "Bloomsbury",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "recjkkBYVFVZTT8xe",
+  "company": "Materials Nexus",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "recjm6qmdxE8CAIla",
+  "company": "Verifly",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "recjmmkPbVOr7A2kQ",
+  "company": "Fuzey",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "recjpO50Cghqyrza4",
+  "company": "kitch",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "recjyxYxkuxXhVhR4",
+  "company": "Numerai",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "reck6TzKQSvZLJlTG",
+  "company": "Immunio",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "reck7ZXK4gJImw93p",
+  "company": "Capdesk",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "reckC20y913o23C80",
+  "company": "Reliant",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "reckCK2D2wn9B7JC6",
+  "company": "Centrifuge",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "reckEHWlLEOFRRscx",
+  "company": "Concert Bio",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "reckHwaH0d1mCuEom",
+  "company": "Gizmo",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "reckI4ohtS9gnYyZ3",
+  "company": "Vidsy",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "reckNIZi3vrjU26yO",
+  "company": "Fygo",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "reckUPebUxrUtJ0fd",
+  "company": "Bulbshare",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "reckUtpr17uD2zHBp",
+  "company": "Hosel",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "reckhf81fS7WkNUV2",
+  "company": "Entropy Industrial Capital",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "reckl5fG4vYSNsv0P",
+  "company": "Volta",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "reckmjxVh74JTDOku",
+  "company": "Guevara",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "reckqdYczdyxfpxWq",
+  "company": "Dirac Software",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "recktUds0sk7xjP3V",
+  "company": "Star",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "reckvkfH6fAC1BtCg",
+  "company": "Montonio",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "reckvqMIXVkqDu9VA",
+  "company": "Automatic",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "reckxpdDQm4qawE81",
+  "company": "Learnerbly",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "recl1SJt15DkPk2rX",
+  "company": "Avantia Law",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "recl4ad2mg9QazTxV",
+  "company": ".txt",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "reclCG1eMFJzxBpSL",
+  "company": "Thalamos",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "reclL2zq6stvpwQ0T",
+  "company": "Duffel",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "reclMGYNORZBkd1LR",
+  "company": "Breaking Change",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "reclRnntF4yfKN1Wt",
+  "company": "Coinfloor",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "reclYcuW60hZGJmcp",
+  "company": "Mokn",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "recldIlmqzJaHlJnF",
+  "company": "Qflow",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "reclgMxIEMi4PKc99",
+  "company": "Reinfer",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "recliWtuhuqRDe6mG",
+  "company": "James",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "reclmt9QAMBWubRWO",
+  "company": "Colossal",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "reclvtPaKVwcPUUb9",
+  "company": "Elwood",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "recm15H97GMH7i2Wz",
+  "company": "Workstream",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "recmDASRHL7hPjLdN",
+  "company": "Vinaya",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ },
+ {
+  "id": "recmEmhETmg7xF3d7",
+  "company": "ZeroTier",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Not searched (budget exhausted)."
+ }
+]

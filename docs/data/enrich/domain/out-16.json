@@ -1,0 +1,352 @@
+[
+ {
+  "id": "recmNNoEDlPtMZ1yU",
+  "company": "CustomUse",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Bing search found customuse.com, a 3D game-asset/AI design app, with no evidence linking it to Ada Ventures' portfolio; likely a name collision, could not confirm the correct company."
+ },
+ {
+  "id": "recmYoPsmojLyWFcl",
+  "company": "Featurespace",
+  "domain": "featurespace.com",
+  "confidence": "high",
+  "evidence": "Official site featurespace.com confirmed; multiple sources (Highland Europe's own site, Business Wire) confirm Highland Europe led its funding round."
+ },
+ {
+  "id": "recmdsrZfy3IQmZw8",
+  "company": "Infiniti Recycling",
+  "domain": "infinitirecycling.com",
+  "confidence": "high",
+  "evidence": "Official site infinitirecycling.com found directly in search results, name matches exactly (UK lithium-ion battery recycling startup)."
+ },
+ {
+  "id": "recmf4XHwqgmSe7gZ",
+  "company": "Ordercast",
+  "domain": "ordercast.io",
+  "confidence": "medium",
+  "evidence": "Domain ordercast.io stated explicitly on Hoxton Ventures' own portfolio page for Ordercast (third-party source confirming the domain)."
+ },
+ {
+  "id": "recmmFrhdd6sdGq7R",
+  "company": "SentiSum",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Only third-party profile pages (EU-Startups, Crunchbase, Dealroom, Tracxn) returned; no official domain stated in the retrieved results."
+ },
+ {
+  "id": "recmt740Pp9Pbo5dY",
+  "company": "Zefir",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Found a Zefir (Paris-based proptech, formerly Vesta) backed by Stride.VC, but no official domain was stated in the search results."
+ },
+ {
+  "id": "recmzeCvO0RB5LhD3",
+  "company": "Landmark",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Found Landmark Games (London gaming startup backed by Moonfire among others) via a Tech Startups article, but no official domain was given in the results."
+ },
+ {
+  "id": "recn4Atizs5bz7qg7",
+  "company": "Peak AI",
+  "domain": "peak.ai",
+  "confidence": "high",
+  "evidence": "Official site peak.ai confirmed (peak.ai/hub/blog and MMC's own portfolio page mmc.vc/portfolio/peak-ai), name matches and MMC investment confirmed."
+ },
+ {
+  "id": "recnBOvFIgM9pr1to",
+  "company": "ZyFin",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "ZyFin appears to be a deadpooled Mumbai/Singapore investment advisory firm (formerly BluFin); no domain found and unclear this is a UK Anthemis-backed startup."
+ },
+ {
+  "id": "recnDPSaSLgffzKPE",
+  "company": "Jukedeck",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Search results were irrelevant (unrelated Reddit/other content); no information on Jukedeck retrieved before search budget ran out."
+ },
+ {
+  "id": "recnIAgkxc1zp4VwC",
+  "company": "Stream",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "stream.co (financial wellbeing platform) appeared in results but Ascension backing was not confirmed; 'Stream' is too generic a name to disambiguate confidently."
+ },
+ {
+  "id": "recnMy1zLYr7ra1zW",
+  "company": "Papermill",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Search returned irrelevant results (Trenitalia train booking pages); no information on Papermill or Haatch found."
+ },
+ {
+  "id": "recnN02n6wHYT9fan",
+  "company": "Peaq",
+  "domain": "peaq.xyz",
+  "confidence": "medium",
+  "evidence": "peaq.xyz found (Web3 'omnichain economic system' for machines), a plausible fit for Outlier Ventures (a Web3-focused fund), though the investor relationship was not explicitly confirmed in the retrieved snippet."
+ },
+ {
+  "id": "recnNeBhP8hUdIIOb",
+  "company": "Scale",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "scale.com (Scale AI) appeared in results but Index Ventures backing was not confirmed and 'Scale' is a very common company name, so it cannot be disambiguated confidently."
+ },
+ {
+  "id": "recnPIME7uqqs3cge",
+  "company": "Lantum",
+  "domain": "lantum.com",
+  "confidence": "high",
+  "evidence": "Official site lantum.com confirmed (NHS workforce tech company), name matches clearly."
+ },
+ {
+  "id": "recnUdkfGO4tB7JcE",
+  "company": "Reliably",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Search returned only dictionary definitions of the word 'reliably'; no company information found."
+ },
+ {
+  "id": "recna3UJETQif1s6Q",
+  "company": "Effra",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Search returned only unrelated Google service links; no information on Effra or Passion Capital found."
+ },
+ {
+  "id": "recnaDLNNaQRrDPVy",
+  "company": "Orthrus",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Only found orthrussoftware.com (UK nuclear software company) and Greek-mythology references; no confirmed connection to Haatch, likely a different company."
+ },
+ {
+  "id": "recnw6ZpULEPIoWrF",
+  "company": "Dataseat",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Search returned irrelevant results (unrelated Chinese-language articles); no information on Dataseat found."
+ },
+ {
+  "id": "recnxv80Kp36RgT3i",
+  "company": "geoSurge",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "reco1iXFQ32fVUw4K",
+  "company": "Viagogo",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "reco25ABfXRDrbd7Y",
+  "company": "Kima",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "reco6oGI3iiDDYlG5",
+  "company": "Untap",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "reco6vZGlX2XHaVuP",
+  "company": "Skydda",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "reco8Kg4BUROeGoCR",
+  "company": "Sofia",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recoJX55CFAkrhPSR",
+  "company": "cto.new",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recoh4WCMJZZzGRil",
+  "company": "Brandwatch",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recoj4OOxvIgtuUZW",
+  "company": "Alvie",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recon6tXAoayPHCM1",
+  "company": "DayJob",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recoozOGOr9WugdK2",
+  "company": "Inkitt",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recopyD4zqysyGGYP",
+  "company": "Sonia",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recouHHxuC0LpH0Uf",
+  "company": "PlannerPal",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recovfTznCTInXATN",
+  "company": "Levro",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recozNkEqYU8NL5MI",
+  "company": "User Replay",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recp1PVpiwV5LmeVQ",
+  "company": "FiveAI",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recp75hmnO6ICLfqE",
+  "company": "Tract",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recp7BXnJ0o7rY968",
+  "company": "Snowplow",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recp8K6CI9VL9J3t4",
+  "company": "Mapillary",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recpHK21D4mfW30mm",
+  "company": "Decima2",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recpI5y43RdLgP3D8",
+  "company": "Bloom",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recpY6kn0G4hLxd2J",
+  "company": "Twig",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recpajg6gdc1bbY4Z",
+  "company": "Gaia AI",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recpbBoTC9HJ8vkm7",
+  "company": "Meniga",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recpcNDTPPam3LDhN",
+  "company": "Charco Neurotech",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recpq2cRh57UHsbZ9",
+  "company": "Payr",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recpqeanWkgJI439x",
+  "company": "Elementl",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recptzj4cGdYL1joH",
+  "company": "Kyra",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recpvmaz9gz9xlpu0",
+  "company": "HealthKey",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recpxgYlWZo6zFifG",
+  "company": "Atreides",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recq2jRURczpTs3JX",
+  "company": "Tova",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ }
+]

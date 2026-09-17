@@ -1,0 +1,352 @@
+[
+ {
+  "id": "recq8JtdPkGi33Njp",
+  "company": "GOAT",
+  "domain": "goat.com",
+  "confidence": "high",
+  "evidence": "Index Ventures' own portfolio/perspectives pages (indexventures.com) confirm GOAT (sneaker marketplace, GOAT Group) as their portfolio company; official site is goat.com."
+ },
+ {
+  "id": "recq8XBlCFv3uiAYp",
+  "company": "BioDot Genomics",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Search only surfaced biodot.com, an unrelated liquid-dispensing equipment company (founded 1994); no page confirmed a link to Eight Roads or an entity named 'BioDot Genomics'."
+ },
+ {
+  "id": "recqAL3nUsJO0TM5y",
+  "company": "Alcolase",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Ada Ventures portfolio page and news coverage (tech.eu, DealStreetAsia) confirm Ada Ventures backs Alcolase (alcohol-intolerance biotech), but no result stated the company's own official domain."
+ },
+ {
+  "id": "recqALH9ZnlgeusWk",
+  "company": "Glaize",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Ascension VC portfolio page (ascension.vc/portfolio/glaize) confirms Glaize (nail-care D2C brand) as a portfolio company, but the snippet did not state the company's own official domain."
+ },
+ {
+  "id": "recqD3m5WsMxThc70",
+  "company": "Really Clever",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "Coverage confirms Really Clever (mushroom-leather startup) raised pre-seed funding from Hoxton Ventures, but no result gave the company's own official domain."
+ },
+ {
+  "id": "recqFfdRxoDOU04og",
+  "company": "Soc.Os",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recqIgYgG7yRym92o",
+  "company": "Last-Second Tickets",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recqJVMofmajn7pOv",
+  "company": "Greenjets",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recqKQnbJfWlXj1nm",
+  "company": "Adaptyv",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recqKlauFK5xw3uy2",
+  "company": "Martee AI",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recqMl4rf5OkxCQI0",
+  "company": "Technology Will Save Us",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recqOxDILlauQ8mMf",
+  "company": "MapMortar",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recqWfm2DSBtgV6L6",
+  "company": "Rosita",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recqYq2lOjMLvN48F",
+  "company": "Safi",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recqaFaKjtz2jlkRi",
+  "company": "Nanoplume",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recqiTw6phpMPcjNj",
+  "company": "Jiminy",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recqinYWVYeeSH1PY",
+  "company": "Cudo",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recqjXIwGc79RaLJl",
+  "company": "Toothfairy",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recqk1LTTIpW1HwyD",
+  "company": "AllFocal Optics",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recqlTxt1mgsTfFRY",
+  "company": "The Climate Corporation",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recqlbzpZmUVl6Og3",
+  "company": "Wine In Black",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recqn3hRz12gUBuLd",
+  "company": "CRU Kafe",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recqowU8evcuiLVqb",
+  "company": "GEEIQ",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recqqEY5LQQY2y1pB",
+  "company": "Integral Ad Science",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recqr999fBlRCXx6j",
+  "company": "Volant",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recqsqX3gB4QiQ8Qz",
+  "company": "Interstellar Lab",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recqwJEDZVsAiUbGD",
+  "company": "Parla",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recqwike2B0sgTa8k",
+  "company": "Huggg",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recqy54mhlHgj9cyx",
+  "company": "Skew",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recqzpwADgx6PF3Cf",
+  "company": "Zemanta",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recr1xHiXGkwgQl4N",
+  "company": "Leaf FM",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recr4EcpCeg7IQoXv",
+  "company": "Pathfinder",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recr5NlBzW3m1GVBV",
+  "company": "Greenleaf Bio",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recr6PWUv51DeoauJ",
+  "company": "Bilanc",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recr89nasybBaJApw",
+  "company": "Pact Coffee",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recrBakKJL0FSonNd",
+  "company": "Canveo",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recrFJj40bW3nlt7L",
+  "company": "BiOS",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recrH3Z8SZe0sqw6W",
+  "company": "Prewarp",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recrJRdIgkRHgz4AK",
+  "company": "Memories",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recrPlRPC88Iyu4we",
+  "company": "Foreword Fund",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recrPvT2o7XQ37vgo",
+  "company": "Jarvis",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recrgnsozL6BEzo1e",
+  "company": "Dines",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recriV2GZZZDMQUR8",
+  "company": "TOGL",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recrplojHkG9oiu8c",
+  "company": "Crowd.dev",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recrt01GZlpKMpRik",
+  "company": "Flattr",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recruRXsfHkt6tzqM",
+  "company": "Secret Spa",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recruSsFzqtIJkJl3",
+  "company": "Apex",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recrxeVnOs9cx4P9Y",
+  "company": "Veriom",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recs2CPvf90fkkhIB",
+  "company": "Klydo",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ },
+ {
+  "id": "recs4X427dtRRmb1p",
+  "company": "MAAT",
+  "domain": null,
+  "confidence": "low",
+  "evidence": "not searched (budget exhausted)"
+ }
+]

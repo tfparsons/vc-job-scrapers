@@ -1,14 +1,15 @@
 {
   "name": "domain",
-  "description": "Official website domain for a Startup Universe company that has none. Same eligibility as the Airtable AI field: blank Domain, not pre-seed or exited.",
+  "description": "Official website domain for a Startup Universe company that has none (not pre-seed or exited).",
   "base": "app4AILlddDnxgRpq",
   "table": "tbloPq3sVvuKuqjmm",
-  "filter": "AND({Domain}='', {Stage}!='Pre-seed', {Stage}!='Exited')",
-  "inputs": ["Company", "Investors", "Sector", "Stage"],
+  "filter": "AND({Domain}='', {Domain confidence}='', {Stage}!='Pre-seed', {Stage}!='Exited')",
+  "inputs": ["Company", "Sector", "Investors"],
+  "gather": { "type": "domain-candidates", "concurrency": 6 },
+  "judge": "model",
+  "chunkSize": 150,
   "output": { "field": "Domain", "type": "domain" },
+  "review": { "candidateField": "Domain candidate", "confidenceField": "Domain confidence" },
   "notes": "Notes",
-  "batchSize": 120,
-  "searchesPerRow": 1,
-  "minConfidence": "medium",
-  "instruction": "Run one WebSearch: the company name in quotes plus its first investor, for example \"Sorair\" Haatch. Find the company's official website. It must be the company's own site, never LinkedIn, Crunchbase, a news article, a job board or an investor's portfolio page, and its title or snippet must contain the company name. If several companies share the name, use the investors to pick the right one. If the company was acquired, give the acquirer's domain and start evidence with \"Exited:\"; if renamed, give the new domain and start evidence with \"Rebranded:\"."
+  "instruction": "evidence.candidates lists up to 4 domains a script found by guessing name-based hosts (\"guess\") or from Clearbit autocomplete (\"clearbit\"), each with the homepage title and description it fetched. Pick the candidate that is this company's own official website, or null if none is. Be strict: startup names often collide with unrelated businesses. \"high\": the page shows the company name AND a business that clearly fits the Sector. \"medium\": the name matches and it is plausibly a venture-backed tech startup, but Sector is blank or only loosely fits, or the name is a short common word. \"low\" with value null: nothing fits. Reject parked or for-sale pages, unrelated businesses (bands, printers, credit unions, local firms), directories and empty pages. If two candidates both look right, prefer the one with real content, then .com. An acquirer's site is not the company's domain."
 }

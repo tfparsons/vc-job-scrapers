@@ -12,3 +12,6 @@ out-serpapi.json
 hq-raw.json
 hq-report.json
 hq-feeds-report.json
+
+# enrich working files (per run)
+enrich/work/

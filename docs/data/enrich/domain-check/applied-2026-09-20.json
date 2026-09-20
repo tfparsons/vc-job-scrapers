@@ -1,0 +1,386 @@
+[
+ {
+  "id": "rec0uOn3uj0ffU7q1",
+  "company": "Amihan Entertainment",
+  "Domain check": "Confirmed",
+  "evidence": "Title \"Amihan Entertainment\" and desc describe a game studio, matching Gaming/Web3."
+ },
+ {
+  "id": "rec19MH9RjlH2hRnc",
+  "company": "Filecoin",
+  "Domain check": "Confirmed",
+  "evidence": "Title \"Filecoin\", desc \"decentralized storage network\", matches DePIN/Storage."
+ },
+ {
+  "id": "rec1dh42IypdwR8Lt",
+  "company": "Secret Network",
+  "Domain check": "Confirmed",
+  "evidence": "Title \"Secret Network\", desc \"Confidential Computing Layer of Web3\", matches Privacy."
+ },
+ {
+  "id": "rec2HT43tY3JuSgsq",
+  "company": "Nexcade",
+  "Domain check": "Confirmed",
+  "evidence": "Title \"Nexcade\", desc \"AI agents run freight quoting...\", consistent with AI/Enterprise."
+ },
+ {
+  "id": "rec33cR9wTAszq6xX",
+  "company": "Sesame AI",
+  "Domain check": "Confirmed",
+  "evidence": "Site/title \"Sesame\", desc mentions \"personal agents\" and \"intelligent eyewear\", fits AI/AR-VR."
+ },
+ {
+  "id": "rec4f8SbbBvyhW7rD",
+  "company": "Smokeless World",
+  "Domain check": "Confirmed",
+  "evidence": "Title \"Smokeless XQuit\", desc \"nicotine reduction system\", partial name match, fits Healthcare/Hardware."
+ },
+ {
+  "id": "rec7DAwsF6yw5IUwF",
+  "company": "Knowunity",
+  "Domain check": "Confirmed",
+  "evidence": "Site \"Knowunity\", desc \"taglicher KI-Begleiter\" for school, matches Education."
+ },
+ {
+  "id": "recDvPuotXGWcZxHE",
+  "company": "Authologic",
+  "Domain check": "Confirmed",
+  "evidence": "Site \"Authologic\", desc \"Automate KYC, KYB & AML\", matches Cybersecurity/Fintech."
+ },
+ {
+  "id": "recENY5Vfg7MgYV0G",
+  "company": "Brightflag",
+  "Domain check": "Confirmed",
+  "evidence": "Site \"Brightflag\", desc \"AI-powered ELM platform\" for legal teams, matches Legal tech."
+ },
+ {
+  "id": "recFZm9owr8cakZ9T",
+  "company": "Low Carbon Materials",
+  "Domain check": "Confirmed",
+  "evidence": "Title \"Low Carbon Materials\", desc on \"carbon negative additives\", matches Climate Equity."
+ },
+ {
+  "id": "recHr53lOUewcFFaw",
+  "company": "Rensource",
+  "Domain check": "Confirmed",
+  "evidence": "Title/site \"RenSource Energy\", desc on solar/hybrid power in Africa, matches Energy."
+ },
+ {
+  "id": "recMS96jyyHukTMG5",
+  "company": "Lunasa Space",
+  "Domain check": "Confirmed",
+  "evidence": "Title \"Lunasa Advancing Space Infastructure\" matches name and Aerospace sector; desc empty."
+ },
+ {
+  "id": "recOQqyCUKYHXrEaf",
+  "company": "OnDevice",
+  "Domain check": "Confirmed",
+  "evidence": "Title \"OnDevice\", desc \"hybrid inference engine\" moving LLM traffic on-device, matches AI Infra."
+ },
+ {
+  "id": "recOrYI7fLzH9QQpU",
+  "company": "Oradian",
+  "Domain check": "Confirmed",
+  "evidence": "Title \"Oradian | AI-Native Core Banking Software\", matches Fintech."
+ },
+ {
+  "id": "recOtwOs4wGLBDN4u",
+  "company": "Seldon",
+  "Domain check": "Confirmed",
+  "evidence": "Title \"Seldon - Take Control of ML and AI Complexity\" matches AI Infrastructure; desc empty."
+ },
+ {
+  "id": "recPAhUfUM7Y1ALFA",
+  "company": "Next Matter",
+  "Domain check": "Confirmed",
+  "evidence": "Site \"Next Matter\", desc \"AI orchestration for financial services\", consistent with Enterprise Productivity."
+ },
+ {
+  "id": "recPS9iugvaODxQ8a",
+  "company": "Happl",
+  "Domain check": "Confirmed",
+  "evidence": "Title \"Happl | Global Employee Benefits Platform\", consistent with Future of Work."
+ },
+ {
+  "id": "recQOfm1BhQwhzpPt",
+  "company": "Tably",
+  "Domain check": "Confirmed",
+  "evidence": "Site \"Tably\", desc \"all-in-one data tool\" with connectors/analytics, matches Enterprise."
+ },
+ {
+  "id": "recQw4yP2kGdGUMJc",
+  "company": "Revyze",
+  "Domain check": "Confirmed",
+  "evidence": "French title/desc for \"Revyze\", a scroll-based revision app, matches EdTech."
+ },
+ {
+  "id": "recRWl74OmXIoQdtz",
+  "company": "Localistico",
+  "Domain check": "Confirmed",
+  "evidence": "Site \"Localistico\", desc \"local marketing and analytics platform\", matches sector exactly."
+ },
+ {
+  "id": "recRasfslM9JkRpaf",
+  "company": "Calliper",
+  "Domain check": "Confirmed",
+  "evidence": "Title \"Calliper | Make smarter and faster decisions with data\", matches Data Analytics."
+ },
+ {
+  "id": "recUvbGTwhWTU7Zv1",
+  "company": "Claimer",
+  "Domain check": "Confirmed",
+  "evidence": "Title \"Claimer - R&D Tax Credit Software for Advisors\", matches Tax/Automation."
+ },
+ {
+  "id": "recX49dEDKmtg1bjX",
+  "company": "Birdi",
+  "Domain check": "Confirmed",
+  "evidence": "Site \"Birdi\", desc \"Geospatial AI Workspace for Teams\", matches Satellite imagery & analytics."
+ },
+ {
+  "id": "recY4gtVJf8NtV5IU",
+  "company": "Cowbell Cyber",
+  "Domain check": "Confirmed",
+  "evidence": "Site \"Cowbell\", title \"AI-Native Specialty Insurance\", desc on cyber insurance, matches sector."
+ },
+ {
+  "id": "recaNKfBUh0tEz23i",
+  "company": "Scriptic",
+  "Domain check": "Confirmed",
+  "evidence": "Title \"Scriptic - BAFTA Nominated Game Studio\", matches Gaming."
+ },
+ {
+  "id": "recb6mrImcnCs9SAa",
+  "company": "Simbe Robotics",
+  "Domain check": "Confirmed",
+  "evidence": "Site \"Simbe\", desc \"Leader in Physical AI and Robotics for Retail\", matches sector."
+ },
+ {
+  "id": "recbhsBbLCwClmxtJ",
+  "company": "deepdots",
+  "Domain check": "Confirmed",
+  "evidence": "Site \"Deepdots\", desc \"leading AI for customer feedback analysis\", matches sector exactly."
+ },
+ {
+  "id": "reccJnDHFWZLNRWkQ",
+  "company": "API Context",
+  "Domain check": "Confirmed",
+  "evidence": "Title \"APIContext\", desc on API/journey monitoring signal, matches Data Infrastructure."
+ },
+ {
+  "id": "recd3P7B5JiXMcUAH",
+  "company": "TravelNest",
+  "Domain check": "Confirmed",
+  "evidence": "Title \"Your home for hosting - Travelnest\", desc on advertising vacation rentals, matches sector."
+ },
+ {
+  "id": "receIyiucOOFp9uqF",
+  "company": "Airstoc",
+  "Domain check": "Confirmed",
+  "evidence": "Title \"Drone Aerial Videos and Photos - Airstoc\", desc \"Hire a drone pilot\", fits B2B Marketplace."
+ },
+ {
+  "id": "receXnicnu8jAzr7c",
+  "company": "SigmaOS",
+  "Domain check": "Confirmed",
+  "evidence": "Title \"SigmaOS\", desc \"smarter way to browse the internet... new browser\", fits Productivity."
+ },
+ {
+  "id": "receaQiaoBYZORAo2",
+  "company": "StackAuth",
+  "Domain check": "Confirmed",
+  "evidence": "Title \"About StackAuth - Stack Auth\" matches name and Authentication sector; desc empty."
+ },
+ {
+  "id": "recei11Tt48vPU59T",
+  "company": "ResPaid",
+  "Domain check": "Confirmed",
+  "evidence": "Site \"Respaid\", desc \"AI-powered invoice recovery\", matches Finance/Collections."
+ },
+ {
+  "id": "recfBVBXtz5CzQWwh",
+  "company": "IOTA",
+  "Domain check": "Confirmed",
+  "evidence": "Site \"IOTA\", desc \"decentralized blockchain infrastructure... supply chains\", matches DePIN/IoT."
+ },
+ {
+  "id": "recfkTwDzpRRJ1SMb",
+  "company": "eDRV",
+  "Domain check": "Confirmed",
+  "evidence": "Title \"AI-Powered EV Charging Operations with eDRV AIOps Platform\", matches sector exactly."
+ },
+ {
+  "id": "rechK3yZafTymUwba",
+  "company": "Onfleet",
+  "Domain check": "Confirmed",
+  "evidence": "Site \"Onfleet\", desc \"Last Mile Delivery Software for Dispatch and Route Management\", matches Logistics."
+ },
+ {
+  "id": "rechZnYVrjXQgD2Si",
+  "company": "Tray",
+  "Domain check": "Confirmed",
+  "evidence": "Title \"Tray.ai - AI-ready integration and automation platform\", matches Automation."
+ },
+ {
+  "id": "rechwbvHCYUgNWSZi",
+  "company": "Tyk",
+  "Domain check": "Confirmed",
+  "evidence": "Site \"Tyk API Management\", desc \"API Management Platform & API Gateway\", matches Cloud & data infra."
+ },
+ {
+  "id": "reciKwJrOXirGeaR0",
+  "company": "Cortea",
+  "Domain check": "Confirmed",
+  "evidence": "Title \"AI audit agents for professional audit firms | Cortea\", matches Agentic audit."
+ },
+ {
+  "id": "recjHm1wdWeT6BFDh",
+  "company": "C TWO",
+  "Domain check": "Confirmed",
+  "evidence": "Title \"C TWO: Agentic Management Platform\", desc on RPA monitoring, matches Enterprise AI."
+ },
+ {
+  "id": "recjyxYxkuxXhVhR4",
+  "company": "Numerai",
+  "Domain check": "Confirmed",
+  "evidence": "Site \"Numerai\", desc \"hardest data science tournament... predict the stock market\", matches Fintech."
+ },
+ {
+  "id": "reckC20y913o23C80",
+  "company": "Reliant",
+  "Domain check": "Confirmed",
+  "evidence": "Title \"Reliant AI - Complex research made simple\", desc on life sciences data, matches Knowledge/LLMs."
+ },
+ {
+  "id": "reckxpdDQm4qawE81",
+  "company": "Learnerbly",
+  "Domain check": "Confirmed",
+  "evidence": "Site \"Learnerbly\", desc \"employee learning and thoughtful outplacement\", matches sector exactly."
+ },
+ {
+  "id": "reclYcuW60hZGJmcp",
+  "company": "Mokn",
+  "Domain check": "Confirmed",
+  "evidence": "Title \"MokN - The smartest way to end credential threats\", matches Cybersecurity."
+ },
+ {
+  "id": "reclvtPaKVwcPUUb9",
+  "company": "Elwood",
+  "Domain check": "Confirmed",
+  "evidence": "Title \"Elwood | Digital Asset Trading Platform\", matches sector exactly."
+ },
+ {
+  "id": "recmEmhETmg7xF3d7",
+  "company": "ZeroTier",
+  "Domain check": "Confirmed",
+  "evidence": "Site \"ZeroTier\", title \"Next-Generation Connectivity and Cybersecurity\", matches sector."
+ },
+ {
+  "id": "recnUdkfGO4tB7JcE",
+  "company": "Reliably",
+  "Domain check": "Confirmed",
+  "evidence": "Title \"Reliably\", desc \"resilience engineering\" for reliable products, loosely matches Compute Stack."
+ },
+ {
+  "id": "recovfTznCTInXATN",
+  "company": "Levro",
+  "Domain check": "Confirmed",
+  "evidence": "Title \"Levro | Global Banking and Payments\" matches name and Fintech/Banking; desc empty."
+ },
+ {
+  "id": "recp7BXnJ0o7rY968",
+  "company": "Snowplow",
+  "Domain check": "Confirmed",
+  "evidence": "Site \"Snowplow\", title \"Customer Context Layer\", desc on customer data, matches Cloud & data infra."
+ },
+ {
+  "id": "recpcNDTPPam3LDhN",
+  "company": "Charco Neurotech",
+  "Domain check": "Confirmed",
+  "evidence": "Site \"Charco Neurotech\", desc \"wearable device for people with Parkinsons\", nothing contradicts vague sector \"Human\"."
+ },
+ {
+  "id": "recpxgYlWZo6zFifG",
+  "company": "Atreides",
+  "Domain check": "Confirmed",
+  "evidence": "Title \"Atreides | Intelligence Platform for Mission Decisions\", desc on defense AI, fits B2B SaaS AI/ML."
+ },
+ {
+  "id": "recqKQnbJfWlXj1nm",
+  "company": "Adaptyv",
+  "Domain check": "Confirmed",
+  "evidence": "Title \"Adaptyv Bio - The Automated Lab for Agentic Biology\", matches Biotech."
+ },
+ {
+  "id": "recqqEY5LQQY2y1pB",
+  "company": "Integral Ad Science",
+  "Domain check": "Confirmed",
+  "evidence": "Site \"Integral Ad Science\", desc \"Global Media Measurement & Optimization\", matches AdTech."
+ },
+ {
+  "id": "recr89nasybBaJApw",
+  "company": "Pact Coffee",
+  "Domain check": "Confirmed",
+  "evidence": "Title \"The UKs Best Coffee Delivery & Subscription Service | Pact Coffee\", matches Consumer & product."
+ },
+ {
+  "id": "recw0iFZ2x2tkN4Md",
+  "company": "Starship",
+  "Domain check": "Confirmed",
+  "evidence": "Title/site \"Starship Technologies: Autonomous robot delivery\", matches Robotics."
+ },
+ {
+  "id": "recxXeFWYK3MjCPqO",
+  "company": "Think Orbital",
+  "Domain check": "Confirmed",
+  "evidence": "Title \"ThinkOrbital We build space\" matches name and Spacetech sector; desc empty."
+ },
+ {
+  "id": "recxbDnualOAG5sFh",
+  "company": "ForeAI",
+  "Domain check": "Confirmed",
+  "evidence": "Title \"fore ai | Your Autonomous QA Agent\", desc on autonomous testing, matches Testing/Automation."
+ },
+ {
+  "id": "recxlmaAXLZkGkfml",
+  "company": "Paid",
+  "Domain check": "Confirmed",
+  "evidence": "Site \"Paid.ai\", title \"Monetization Platform for AI Agents\", matches Financial Systems."
+ },
+ {
+  "id": "recxtwam9FZqlf6qg",
+  "company": "Branch",
+  "Domain check": "Confirmed",
+  "evidence": "Title \"Branch International | Home\" matches name; desc truncated, gives little on sector fit."
+ },
+ {
+  "id": "recyhOUQIQn5Ot15m",
+  "company": "Lopay",
+  "Domain check": "Confirmed",
+  "evidence": "Title \"Lopay | Take payments your way | Payment app & POS system\", matches Fintech."
+ },
+ {
+  "id": "recyr2DieXFxO5Mio",
+  "company": "Lisk",
+  "Domain check": "Confirmed",
+  "evidence": "Title \"Modern Money Operations | Lisk\", desc on accounts/payments for finance teams, loosely fits Infrastructure."
+ },
+ {
+  "id": "reczN2rzeX7a9wukH",
+  "company": "Agamon Health",
+  "Domain check": "Confirmed",
+  "evidence": "Title \"Agamon | Home\", desc on radiology follow-ups and lung cancer screening, matches Data-driven health."
+ },
+ {
+  "id": "reczgVjmsjiP6CSgZ",
+  "company": "Bebo",
+  "Domain check": "Suspect",
+  "evidence": "Title \"Thank you, and goodbye - Bebo\", desc says \"Bebo is closed\", pointing to new app Bluebell."
+ },
+ {
+  "id": "reczhnxbwyQIISToN",
+  "company": "StackSync",
+  "Domain check": "Confirmed",
+  "evidence": "Site \"Stacksync\", desc \"real-time, two-way data sync platform\", matches Integration/CRM."
+ }
+]

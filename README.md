@@ -258,6 +258,19 @@ dated Notes line for dead or unresolved rows, nothing for rows that were
 never actually searched. Existing domains are never overwritten. Rerun
 `coverage.mjs` and `ats-detect.mjs --all` afterwards.
 
+## Enrichment (`scripts/enrich.mjs`, skill `enrich`)
+
+Fills an Airtable column the way Clay does, paid for in session tokens.
+A recipe (`enrich/recipes/<name>.json`) names the rows that need the value,
+a gatherer (`scripts/lib/gather.mjs`) that collects evidence in code for
+every row in parallel, and optionally an instruction for a model to judge
+that evidence in bulk. No agent browses per row. `apply` writes high
+confidence answers, puts the rest in a `<X> candidate` column with
+`<X> confidence` for review, and marks rows with nothing found as
+`Couldn't fetch`; `promote` copies candidates marked Approved. Recipes:
+`domain`, `domain-check`, `linkedin`. The loop and how to add a recipe are
+in `.claude/skills/enrich/SKILL.md`.
+
 ## ATS detection (`scripts/ats-detect.mjs`)
 
 For every Startup Universe row with a domain and no ATS yet (London / UK rows

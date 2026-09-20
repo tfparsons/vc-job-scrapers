@@ -1,14 +1,14 @@
 {
   "name": "domain-check",
-  "description": "Does the Domain on a Startup Universe row belong to that company? Judged by reading the site against the company's sector and investors. Catches wrong domains before they feed ATS detection and polling.",
+  "description": "Does the Domain on a row really belong to that company? Judged from the homepage title and description against name, sector and investors.",
   "base": "app4AILlddDnxgRpq",
   "table": "tbloPq3sVvuKuqjmm",
   "filter": "AND({Domain}!='', {Domain check}='')",
-  "inputs": ["Company", "Domain", "Sector", "Investors", "HQ"],
+  "inputs": ["Company", "Domain", "Sector", "Investors"],
+  "gather": { "type": "homepage", "concurrency": 20 },
+  "judge": "model",
+  "chunkSize": 300,
   "output": { "field": "Domain check", "type": "select", "options": ["Confirmed", "Suspect", "Wrong", "Unclear"] },
   "notes": "Notes",
-  "batchSize": 100,
-  "searchesPerRow": 1,
-  "minConfidence": "medium",
-  "instruction": "Open https://<Domain> with WebFetch and read what the site says the company does. Decide whether this site belongs to the company in the entry, given its name, sector and investors. Only use a WebSearch if the site is unreachable or says nothing useful. Answer: Confirmed when the site clearly is this company (name matches and the business fits the sector or investors); Wrong when the site is clearly a different business or an unrelated parked page; Suspect when the name matches but the business does not fit, or the site now belongs to an acquirer or a rebrand; Unclear when the site cannot be read. In evidence, quote the site's own description of itself in a few words and say what matched or did not."
+  "instruction": "evidence holds what a script saw on the Domain's homepage: title, desc, landed (final host if it redirected elsewhere), nameInPage, or error if the site could not be read. Decide whether the homepage belongs to this company. \"Confirmed\": clearly this company (name matches and the business is consistent with the Sector, or Sector is blank and nothing contradicts it); this is the large majority. \"Wrong\": clearly a different business, a parked or for-sale domain, a hosting default page, or unrelated content. \"Suspect\": name matches but the business plainly does not fit (a name collision), or the domain redirects to a different company (acquirer or rebrand), or Domain is not really a domain. \"Unclear\": evidence.error is set, or the title and description are empty or too generic to tell. Always give a value; use confidence high or medium."
 }

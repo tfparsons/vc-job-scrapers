@@ -1,0 +1,13 @@
+{
+  "name": "linkedin",
+  "description": "Company LinkedIn page, read from the link on the company's own homepage. No model needed.",
+  "base": "app4AILlddDnxgRpq",
+  "table": "tbloPq3sVvuKuqjmm",
+  "filter": "AND({Domain}!='', {Domain check}='Confirmed', {LinkedIn}='', {LinkedIn confidence}='')",
+  "inputs": ["Company", "Domain"],
+  "gather": { "type": "homepage-links", "pattern": "linkedin\\.com/(company/[^/\"'?#\\s<>\\\\]+)", "prefix": "https://www.linkedin.com/", "exclude": "company/(linkedin|wix|squarespace|webflow|shopify|hubspot)$", "concurrency": 20 },
+  "judge": "none",
+  "output": { "field": "LinkedIn", "type": "url", "pattern": "^https://www\\.linkedin\\.com/company/[^/]+$" },
+  "review": { "candidateField": "LinkedIn candidate", "confidenceField": "LinkedIn confidence" },
+  "notes": null
+}

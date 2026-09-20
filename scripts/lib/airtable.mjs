@@ -30,11 +30,22 @@ export async function airtable(base, table, { method = "GET", params = null, bod
   if (!token) throw new Error("AIRTABLE_TOKEN is not set (environment or .env)");
   const url = new URL(`https://api.airtable.com/v0/${base}/${table}`);
   for (const [k, v] of Object.entries(params || {})) url.searchParams.set(k, v);
-  const res = await fetch(url, {
-    method,
-    headers: { authorization: `Bearer ${token}`, "content-type": "application/json" },
-    body: body ? JSON.stringify(body) : undefined,
-  });
+  // Airtable occasionally never answers; time out and retry rather than hang.
+  // Safe for PATCH too: our writes set fields to fixed values.
+  let res;
+  for (let attempt = 1; ; attempt += 1) {
+    try {
+      res = await fetch(url, {
+        method,
+        headers: { authorization: `Bearer ${token}`, "content-type": "application/json" },
+        body: body ? JSON.stringify(body) : undefined,
+        signal: AbortSignal.timeout(30000),
+      });
+      if (res.status !== 429 && res.status < 500) break;
+    } catch (e) { if (attempt >= 4) throw e; }
+    if (attempt >= 4) break;
+    await new Promise((r) => setTimeout(r, 2000 * attempt));
+  }
   const json = await res.json();
   if (!res.ok) throw new Error(`Airtable ${method} ${table} HTTP ${res.status}: ${JSON.stringify(json).slice(0, 300)}`);
   return json;

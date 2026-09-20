@@ -1,0 +1,101 @@
+[
+ {
+  "id": "rec07xt7yn4kueiVR",
+  "company": "Vortexa",
+  "LinkedIn": "https://www.linkedin.com/company/vortexa",
+  "LinkedIn confidence": "High",
+  "evidence": "Linked from the company homepage; handle matches the name."
+ },
+ {
+  "id": "rec08yIQFvgOhIuCN",
+  "company": "Peopleforce",
+  "LinkedIn": "https://www.linkedin.com/company/peopleforceapp",
+  "LinkedIn confidence": "High",
+  "evidence": "Linked from the company homepage; handle matches the name."
+ },
+ {
+  "id": "rec09RXgpQ70wymZz",
+  "company": "Birdie",
+  "LinkedIn": "https://www.linkedin.com/company/birdiecare",
+  "LinkedIn confidence": "High",
+  "evidence": "Linked from the company homepage; handle matches the name."
+ },
+ {
+  "id": "rec0ASQlTey2ca8Un",
+  "company": "Sorair",
+  "LinkedIn": "https://www.linkedin.com/company/sorair-technologies",
+  "LinkedIn confidence": "High",
+  "evidence": "Linked from the company homepage; handle matches the name."
+ },
+ {
+  "id": "rec0ApZa6aYjc9tgc",
+  "company": "KRY",
+  "LinkedIn": "https://www.linkedin.com/company/kry-uk",
+  "LinkedIn confidence": "High",
+  "evidence": "Linked from the company homepage; handle matches the name."
+ },
+ {
+  "id": "rec0FF84a6lEDwCzB",
+  "company": "Deepnote",
+  "LinkedIn confidence": "Couldn't fetch",
+  "evidence": "No matching link on the homepage."
+ },
+ {
+  "id": "rec0HDQ79NiEoryRK",
+  "company": "Super Payments",
+  "LinkedIn confidence": "Couldn't fetch",
+  "evidence": "No matching link on the homepage."
+ },
+ {
+  "id": "rec0Iza8qokVW7355",
+  "company": "Metaview",
+  "LinkedIn": "https://www.linkedin.com/company/metaview-technologies",
+  "LinkedIn confidence": "High",
+  "evidence": "Linked from the company homepage; handle matches the name."
+ },
+ {
+  "id": "rec0OQlxqXFmA39dW",
+  "company": "Eolas",
+  "LinkedIn": "https://www.linkedin.com/company/eolas-medical",
+  "LinkedIn confidence": "High",
+  "evidence": "Linked from the company homepage; handle matches the name."
+ },
+ {
+  "id": "rec0PrS4O2KahAobA",
+  "company": "Vaire Computing",
+  "LinkedIn": "https://www.linkedin.com/company/vaire-computing",
+  "LinkedIn confidence": "High",
+  "evidence": "Linked from the company homepage; handle matches the name."
+ },
+ {
+  "id": "rec0Th4hj2kZI2UhZ",
+  "company": "Nacelle",
+  "LinkedIn confidence": "Couldn't fetch",
+  "evidence": "No matching link on the homepage."
+ },
+ {
+  "id": "rec0UzBegwQ4xj22r",
+  "company": "Spoke",
+  "LinkedIn confidence": "Couldn't fetch",
+  "evidence": "No matching link on the homepage."
+ },
+ {
+  "id": "rec0WKJADG85WfdWr",
+  "company": "Eisen",
+  "LinkedIn": "https://www.linkedin.com/company/eisen",
+  "LinkedIn confidence": "High",
+  "evidence": "Linked from the company homepage; handle matches the name."
+ },
+ {
+  "id": "rec0XKIGRXP65rgBA",
+  "company": "Augmetec",
+  "LinkedIn confidence": "Couldn't fetch",
+  "evidence": "No matching link on the homepage."
+ },
+ {
+  "id": "rec0ZZfcP8D5gUFwS",
+  "company": "Novata",
+  "LinkedIn confidence": "Couldn't fetch",
+  "evidence": "No matching link on the homepage."
+ }
+]

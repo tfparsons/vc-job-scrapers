@@ -35,8 +35,17 @@ skills.
 | 1. What gets watched | Sources (Airtable) | VC portfolio boards (Sources table), company ATS feeds (Startup Universe rows with Poll ticked), keyword sources (Keyword Sources table). Email alerts from LinkedIn, Welcome to the Jungle and Built In bypass this run and land in Gmail for job-sweep. |
 | 2. Fetch | This Worker | One endpoint per platform. Applies the search terms, UK location rules and recency window, returns the standard listing envelope. Stateless. |
 | 3. Orchestrate | n8n "VC Boards Sweep" (`AQzbFqr1Pi0uyWMd`) | Mon to Fri 01:00 London. Three branches in parallel (boards, company polls, keyword sources), each reading its Airtable config, calling the Worker and writing status back. Merges, dedupes on link, guards, upserts Raw Listings, emails. |
-| 4. Remember | Airtable, two bases | VC Job Sweeper (`appv8Lxbh4kp6DoBv`) holds the plumbing: Sources, Keyword Sources, Raw Listings, Tasks. Employers / Opportunities (`app4AILlddDnxgRpq`) holds the knowledge: Startup Universe, Employers, Roles Inventory, Application Tracker. |
+| 4. Remember | Airtable, two bases | VC Job Sweeper (`appv8Lxbh4kp6DoBv`) holds the plumbing: Sources, Keyword Sources, Raw Listings, Tasks, and the monitoring pair Source Health and Run Log. Employers / Opportunities (`app4AILlddDnxgRpq`) holds the knowledge: Startup Universe, Employers, Roles Inventory, Application Tracker. |
 | 5. Act | Inbox and skills | The "VC Boards Sweep" email, a readable list plus a JSON payload, is the boundary. job-sweep parses it into Roles Inventory; role-shortlist, role-triage and enrich-role score and research; pipeline-sync keeps the Application Tracker current. |
+
+**Monitoring.** After each run, the n8n node "Build health rows" gives every
+board, keyword source, the company polls (one aggregate row) and the run itself
+a status, upserts it into **Source Health** on its Key, and appends a row per
+source to **Run Log**. Green means it ran, had no error and fetched something.
+Orange means partial errors, or it fetched nothing (a site change usually looks
+like this). Red means it failed; the company polls go Red above 25% failures and
+Orange above 2%. Grey rows (not built, switched off) and email alerts are kept by
+hand. Both write nodes continue on error, so monitoring can never block the sweep.
 
 The Worker never stores anything and never emails. n8n never parses a job board.
 The skills never call the Worker. If something breaks, that split says where to

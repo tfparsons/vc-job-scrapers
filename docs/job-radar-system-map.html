@@ -1,0 +1,336 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Job Radar System Map</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+  :root {
+    --ground: #F4F6F4;
+    --surface: #FFFFFF;
+    --ink: #172022;
+    --muted: #57666A;
+    --faint: #8A979A;
+    --rule: #D6DDDB;
+    --rule-strong: #B7C2BF;
+    --accent: #0C6B67;
+    --accent-soft: #DCEEEC;
+    --live: #2B7A4B;
+    --live-soft: #E1F1E6;
+    --wait: #9A6310;
+    --wait-soft: #FBEFD9;
+    --off: #9A3A31;
+    --off-soft: #F8E3E0;
+    --idle: #5F6B70;
+    --idle-soft: #E8ECEC;
+    --sans: "Schibsted Grotesk", "Helvetica Neue", Arial, sans-serif;
+    --mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --ground: #111718; --surface: #182022; --ink: #E4ECEA; --muted: #9BAAAB; --faint: #6E7D7F;
+      --rule: #2A3537; --rule-strong: #3B494B; --accent: #5CC2BB; --accent-soft: #173432;
+      --live: #6CC593; --live-soft: #16301F; --wait: #E0A94F; --wait-soft: #33260F;
+      --off: #E88A80; --off-soft: #3A1C19; --idle: #A6B2B4; --idle-soft: #232D2F;
+    }
+  }
+  :root[data-theme="dark"] {
+    --ground: #111718; --surface: #182022; --ink: #E4ECEA; --muted: #9BAAAB; --faint: #6E7D7F;
+    --rule: #2A3537; --rule-strong: #3B494B; --accent: #5CC2BB; --accent-soft: #173432;
+    --live: #6CC593; --live-soft: #16301F; --wait: #E0A94F; --wait-soft: #33260F;
+    --off: #E88A80; --off-soft: #3A1C19; --idle: #A6B2B4; --idle-soft: #232D2F;
+  }
+
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--ground); color: var(--ink); font-family: var(--sans); font-size: 15px; line-height: 1.55; }
+  .page { max-width: 1180px; margin: 0 auto; padding-inline: 20px; padding-block: 40px 80px; }
+  a { color: var(--accent); }
+  :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  code, .mono { font-family: var(--mono); font-size: 0.86em; }
+  code { background: var(--idle-soft); padding: 1px 5px; border-radius: 4px; overflow-wrap: anywhere; }
+  h1, h2, h3 { text-wrap: balance; margin: 0; }
+
+  header.top { display: grid; gap: 18px; padding-bottom: 28px; border-bottom: 1px solid var(--rule); }
+  .eyebrow { font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent); font-weight: 600; }
+  h1 { font-size: clamp(30px, 4.4vw, 46px); font-weight: 800; letter-spacing: -0.02em; line-height: 1.05; }
+  .lede { max-width: 68ch; color: var(--muted); font-size: 16.5px; margin: 0; }
+  .asof { font-size: 13px; color: var(--faint); }
+
+  .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 1px; background: var(--rule); border: 1px solid var(--rule); border-radius: 10px; overflow: hidden; margin-top: 8px; }
+  .stat { background: var(--surface); padding: 14px 16px; display: grid; gap: 2px; }
+  .stat b { font-size: 26px; font-weight: 700; font-variant-numeric: tabular-nums; letter-spacing: -0.01em; }
+  .stat span { font-size: 13px; color: var(--muted); }
+
+  nav.toc { display: flex; flex-wrap: wrap; gap: 6px 18px; margin-top: 22px; font-size: 14px; }
+  nav.toc a { color: var(--muted); text-decoration: none; border-bottom: 1px solid transparent; }
+  nav.toc a:hover { color: var(--ink); border-bottom-color: var(--rule-strong); }
+
+  section { padding-top: 48px; }
+  .sec-head { display: grid; gap: 6px; margin-bottom: 20px; max-width: 72ch; }
+  h2 { font-size: 24px; font-weight: 700; letter-spacing: -0.01em; }
+  .sec-head p { margin: 0; color: var(--muted); }
+
+  .pill { display: inline-flex; align-items: center; gap: 6px; font-size: 12px; font-weight: 600; padding: 2px 9px 2px 7px; border-radius: 999px; white-space: nowrap; }
+  .pill::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: currentColor; }
+  .live { color: var(--live); background: var(--live-soft); }
+  .wait { color: var(--wait); background: var(--wait-soft); }
+  .off { color: var(--off); background: var(--off-soft); }
+  .idle { color: var(--idle); background: var(--idle-soft); }
+
+  .flow-wrap { overflow-x: auto; padding-bottom: 6px; }
+  .flow { display: grid; grid-template-columns: 1.15fr 0.95fr 1fr 1fr 1.05fr; gap: 0; min-width: 960px; }
+  .stage { display: grid; grid-template-rows: auto 1fr; }
+  .stage-head { padding: 0 14px 10px; display: grid; gap: 2px; }
+  .stage-head .n { font-family: var(--mono); font-size: 12px; color: var(--faint); }
+  .stage-head h3 { font-size: 15px; font-weight: 700; }
+  .stage-head small { color: var(--muted); font-size: 12.5px; }
+  .stage-body { display: flex; flex-direction: column; gap: 10px; padding: 14px; border-left: 1px dashed var(--rule-strong); position: relative; }
+  .stage:first-child .stage-body { border-left: 0; }
+  .stage-body.tint { background: var(--accent-soft); border-radius: 12px; border-left-color: transparent; }
+  .node { background: var(--surface); border: 1px solid var(--rule); border-radius: 9px; padding: 10px 12px; display: grid; gap: 4px; }
+  .node h4 { margin: 0; font-size: 14px; font-weight: 600; display: flex; justify-content: space-between; gap: 8px; align-items: baseline; }
+  .node p { margin: 0; font-size: 12.5px; color: var(--muted); line-height: 1.45; }
+  .node .mono { color: var(--faint); font-size: 11.5px; }
+  .node.hub { border-color: var(--accent); box-shadow: 0 1px 0 var(--accent); }
+  .flow-foot { margin-top: 14px; font-size: 13px; color: var(--muted); max-width: 80ch; }
+
+  ol.steps { list-style: none; margin: 0; padding: 0; display: grid; gap: 0; border-top: 1px solid var(--rule); max-width: 900px; }
+  ol.steps li { display: grid; grid-template-columns: 44px 1fr; gap: 12px; padding: 12px 0; border-bottom: 1px solid var(--rule); counter-increment: step; }
+  ol.steps li::before { content: counter(step, decimal-leading-zero); font-family: var(--mono); color: var(--accent); font-size: 13px; padding-top: 1px; }
+  ol.steps b { font-weight: 600; }
+  ol.steps p { margin: 2px 0 0; color: var(--muted); font-size: 14px; }
+
+  .tbl-wrap { overflow-x: auto; border: 1px solid var(--rule); border-radius: 10px; background: var(--surface); }
+  table { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 720px; }
+  th { text-align: left; font-size: 12px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--faint); font-weight: 600; padding: 10px 14px; border-bottom: 1px solid var(--rule); background: var(--ground); }
+  td { padding: 10px 14px; border-bottom: 1px solid var(--rule); vertical-align: top; }
+  tr:last-child td { border-bottom: 0; }
+  td .sub { display: block; color: var(--muted); font-size: 12.5px; margin-top: 2px; }
+  tr.group td { background: var(--ground); font-size: 12px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); padding-block: 7px; }
+
+  .cols { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 16px; }
+  .base { background: var(--surface); border: 1px solid var(--rule); border-radius: 10px; padding: 16px 18px; display: grid; gap: 12px; align-content: start; }
+  .base header { display: grid; gap: 2px; }
+  .base h3 { font-size: 16px; }
+  .base header p { margin: 0; color: var(--muted); font-size: 13.5px; }
+  .tables { display: grid; gap: 0; }
+  .tables div { display: grid; gap: 1px; padding: 9px 0; border-top: 1px solid var(--rule); }
+  .tables b { font-weight: 600; font-size: 14px; }
+  .tables span { font-size: 13px; color: var(--muted); }
+
+  footer { margin-top: 56px; padding-top: 18px; border-top: 1px solid var(--rule); color: var(--faint); font-size: 13px; }
+
+  @media (max-width: 640px) {
+    .page { padding-block: 24px 56px; }
+    ol.steps li { grid-template-columns: 34px 1fr; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+  <header class="top">
+    <div class="eyebrow">VC Job Scrapers · Stage 0 of the job hunt</div>
+    <h1>Job Radar System Map</h1>
+    <p class="lede">Everything that finds roles before job-sweep sees them: three kinds of source, one Cloudflare Worker that fetches them, one n8n run each weekday night that merges them into Airtable and emails you. Plus the one-off scripts that built the company list the poller reads.</p>
+    <div class="asof">As of 17 Sep 2026. The live backlog is the Tasks table in the VC Job Sweeper base; this page is the map only.</div>
+    <div class="stats">
+      <div class="stat"><b>37</b><span>VC boards swept</span></div>
+      <div class="stat"><b>253</b><span>companies polled on their ATS</span></div>
+      <div class="stat"><b>5</b><span>keyword sources built</span></div>
+      <div class="stat"><b>2,468</b><span>companies in Startup Universe</span></div>
+      <div class="stat"><b>01:00</b><span>London, Mon to Fri: the nightly run</span></div>
+    </div>
+    <nav class="toc" aria-label="Sections">
+      <a href="#flow">How it fits together</a>
+      <a href="#run">The nightly run</a>
+      <a href="#sources">Every source</a>
+      <a href="#airtable">Where data lives</a>
+      <a href="#scripts">Enrichment scripts</a>
+      <a href="#keys">Keys and accounts</a>
+    </nav>
+  </header>
+
+  <section id="flow">
+    <div class="sec-head">
+      <h2>How it fits together</h2>
+      <p>Read left to right. Configuration lives in Airtable, the Worker does the fetching, n8n does the orchestration and state, and the inbox is the hand-off to your job-hunt skills.</p>
+    </div>
+    <div class="flow-wrap" tabindex="0" aria-label="System flow diagram, scrolls sideways on small screens">
+      <div class="flow">
+        <div class="stage">
+          <div class="stage-head"><span class="n">1 · what gets watched</span><h3>Sources</h3><small>Each has a config row in Airtable</small></div>
+          <div class="stage-body">
+            <div class="node"><h4>VC portfolio boards <span class="pill live">37</span></h4><p>Getro 23, Consider 12, Y Combinator, a16z. Jobs posted across a fund's portfolio.</p><span class="mono">Sources table</span></div>
+            <div class="node"><h4>Company ATS feeds <span class="pill live">253 polled</span></h4><p>Ashby, Greenhouse, Lever, Workable, Teamtailor, Recruitee. One company's own open roles.</p><span class="mono">Startup Universe, Poll ticked</span></div>
+            <div class="node"><h4>Keyword sources <span class="pill live">5 built</span></h4><p>Jobs by Workable, RevOps Careers, Clay community, Adzuna, Reed.</p><span class="mono">Keyword Sources table</span></div>
+            <div class="node"><h4>Email alerts <span class="pill idle">not in this run</span></h4><p>LinkedIn, Welcome to the Jungle, Built In. Land in Gmail directly for job-sweep.</p><span class="mono">job-sweep senders.csv</span></div>
+          </div>
+        </div>
+        <div class="stage">
+          <div class="stage-head"><span class="n">2 · fetch</span><h3>Cloudflare Worker</h3><small>Stateless, returns JSON</small></div>
+          <div class="stage-body tint">
+            <div class="node hub"><h4>vc-job-scrapers</h4><p>One endpoint per platform. Applies the search terms, UK location rules and 7-day window, then returns a standard listing shape.</p><span class="mono">…tfparsons87.workers.dev</span></div>
+            <div class="node"><h4>Board endpoints</h4><p><code>/getro</code> <code>/consider</code> <code>/yc</code> <code>/a16z</code></p></div>
+            <div class="node"><h4>ATS endpoints</h4><p><code>/ashby</code> <code>/greenhouse</code> <code>/lever</code> <code>/workable</code> <code>/teamtailor</code> <code>/recruitee</code></p></div>
+            <div class="node"><h4>Keyword endpoints</h4><p><code>/workable-search</code> <code>/rss</code> <code>/adzuna</code> <code>/reed</code></p></div>
+            <div class="node"><h4>Company lists</h4><p><code>/companies</code>, used only by the coverage script, not the nightly run.</p></div>
+          </div>
+        </div>
+        <div class="stage">
+          <div class="stage-head"><span class="n">3 · orchestrate</span><h3>n8n: VC Boards Sweep</h3><small>Mon to Fri, 01:00 London</small></div>
+          <div class="stage-body">
+            <div class="node hub"><h4>Three branches in parallel</h4><p>Boards, company polls and keyword sources each read their Airtable config, call the Worker and write status back to their own row.</p><span class="mono">workflow AQzbFqr1Pi0uyWMd</span></div>
+            <div class="node"><h4>Merge and guard</h4><p>Dedupe on link. If boards return under 20 roles or more than 5 boards fail, send a FAILED email and stop.</p></div>
+            <div class="node"><h4>Store and send</h4><p>Upsert Raw Listings, pick rows seen today and never emailed, email them, stamp Emailed on.</p></div>
+          </div>
+        </div>
+        <div class="stage">
+          <div class="stage-head"><span class="n">4 · remember</span><h3>Airtable</h3><small>Two bases</small></div>
+          <div class="stage-body">
+            <div class="node"><h4>VC Job Sweeper</h4><p>The plumbing: Sources, Keyword Sources, Raw Listings.</p><span class="mono">appv8Lxbh4kp6DoBv</span></div>
+            <div class="node"><h4>Employers / Opportunities</h4><p>The knowledge: Startup Universe, Employers, Roles Inventory, Application Tracker.</p><span class="mono">app4AILlddDnxgRpq</span></div>
+          </div>
+        </div>
+        <div class="stage">
+          <div class="stage-head"><span class="n">5 · act</span><h3>Inbox and skills</h3><small>Outside this repo</small></div>
+          <div class="stage-body">
+            <div class="node hub"><h4>"VC Boards Sweep" email</h4><p>Readable list plus a JSON payload. The boundary: nothing upstream writes to the Roles Inventory.</p><span class="mono">tfparsons87@gmail.com</span></div>
+            <div class="node"><h4>job-sweep</h4><p>Parses alerts and the sweep email into Roles Inventory, deduped and gated.</p></div>
+            <div class="node"><h4>role-shortlist → role-triage → enrich-role</h4><p>Scores, tiers, researches, and puts cards on Trello Priority Applications.</p></div>
+            <div class="node"><h4>pipeline-sync</h4><p>Keeps the Application Tracker current from your inboxes.</p></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p class="flow-foot">The Worker never stores anything and never emails. n8n never parses a job board. The skills never call the Worker. If something breaks, that split tells you where to look.</p>
+  </section>
+
+  <section id="run">
+    <div class="sec-head">
+      <h2>The nightly run, step by step</h2>
+      <p>What happens each weekday at 01:00 London. It takes 6 to 8 minutes, mostly writing to Airtable one row at a time.</p>
+    </div>
+    <ol class="steps">
+      <li><div><b>Read the config.</b><p>Sources rows that are Active; Startup Universe rows with Poll ticked and an ATS slug; Keyword Sources rows that are Active, not email alerts, with a Worker endpoint.</p></div></li>
+      <li><div><b>Call the Worker.</b><p>All boards at once. Company feeds 8 at a time every 1.5 seconds, so Workable doesn't rate-limit. Keyword sources 4 at a time, one call per line in the row's Keywords.</p></div></li>
+      <li><div><b>Write status back.</b><p>Last run, last error and listings pulled on each Sources, Startup Universe and Keyword Sources row. A failure here never stops the run.</p></div></li>
+      <li><div><b>Merge and dedupe on link.</b><p>A role found on a board and on the company's own feed is one role.</p></div></li>
+      <li><div><b>Check the guard.</b><p>Only the boards count: under 20 listings or more than 5 failed boards sends "VC Boards Sweep - FAILED" and stops. Dead ATS slugs and keyword errors are listed in the email instead.</p></div></li>
+      <li><div><b>Upsert Raw Listings on link.</b><p>Last seen is set to today; First seen is stamped on new rows.</p></div></li>
+      <li><div><b>Email what's new.</b><p>Rows seen today and never emailed, with source, location, posted date and salary where stated. Sent even on zero-new days.</p></div></li>
+      <li><div><b>Stamp Emailed on, then tidy.</b><p>Emailed rows are stamped so a re-run can't send them twice. Rows first seen more than 30 days ago are deleted.</p></div></li>
+    </ol>
+  </section>
+
+  <section id="sources">
+    <div class="sec-head">
+      <h2>Every source</h2>
+      <p>Where it's configured is where you switch it on or off.</p>
+    </div>
+    <div class="tbl-wrap">
+      <table>
+        <thead><tr><th>Source</th><th>How it's fetched</th><th>Switch it on or off in</th><th>Kind</th></tr></thead>
+        <tbody>
+          <tr class="group"><td colspan="4">VC portfolio boards</td></tr>
+          <tr><td>Getro boards (23)<span class="sub">Dawn, Index, Seedcamp, Accel, Atomico, Creandum and others</span></td><td><code>/getro?host=</code><span class="sub">One search per term, 20 cards each</span></td><td>Sources · Active</td><td><span class="pill live">Scraped</span></td></tr>
+          <tr><td>Consider boards (12)<span class="sub">Notion, Balderton, Sequoia, Lightspeed, GTMfund, Point72 and others</span></td><td><code>/consider?host=</code><span class="sub">Session cookie plus search API</span></td><td>Sources · Active</td><td><span class="pill live">Scraped</span></td></tr>
+          <tr><td>Y Combinator, a16z</td><td><code>/yc</code> <code>/a16z</code></td><td>Sources · Active</td><td><span class="pill live">Scraped</span></td></tr>
+          <tr><td>Molten, Eight Roads, 83North</td><td>No usable feed found</td><td>Sources</td><td><span class="pill idle">Not scraped</span></td></tr>
+
+          <tr class="group"><td colspan="4">Company ATS feeds</td></tr>
+          <tr><td>London and UK companies with a verified feed<span class="sub">Ashby, Greenhouse, Lever, Workable, Teamtailor, Recruitee</span></td><td><code>/ashby?slug=</code> and siblings<span class="sub">One call to the company's public job feed</span></td><td>Startup Universe · Poll</td><td><span class="pill live">Polled</span></td></tr>
+          <tr><td>Companies with a feed but no UK roles<span class="sub">Hiring only abroad today; each row has a dated note</span></td><td>Same endpoints</td><td>Startup Universe · Poll</td><td><span class="pill idle">Not polled</span></td></tr>
+          <tr><td>Growth, PE and vendor targets<span class="sub">Clay, Apollo, HubSpot, Cognism, n8n, CUBE, Unity Advisory, Attest, Maze, Mitratech</span></td><td>Same endpoints</td><td>Startup Universe · Poll</td><td><span class="pill live">Polled</span></td></tr>
+
+          <tr class="group"><td colspan="4">Keyword sources, run by the Worker</td></tr>
+          <tr><td>Jobs by Workable search</td><td><code>/workable-search?q=</code><span class="sub">London, quoted phrase</span></td><td>Keyword Sources · Active</td><td><span class="pill live">Built</span></td></tr>
+          <tr><td>RevOps Careers job feed</td><td><code>/rss?feed=revopscareers</code><span class="sub">Latest 10 UK roles, one slow call a day</span></td><td>Keyword Sources · Active</td><td><span class="pill live">Built</span></td></tr>
+          <tr><td>Clay community share-jobs</td><td><code>/rss?feed=clay</code><span class="sub">Free-text posts, noisy</span></td><td>Keyword Sources · Active</td><td><span class="pill live">Built</span></td></tr>
+          <tr><td>Adzuna</td><td><code>/adzuna?q=</code><span class="sub">London; needs Worker secrets</span></td><td>Keyword Sources · Active</td><td><span class="pill live">Built</span></td></tr>
+          <tr><td>Reed</td><td><code>/reed?q=</code><span class="sub">London, direct employers; needs a Worker secret</span></td><td>Keyword Sources · Active</td><td><span class="pill live">Built</span></td></tr>
+
+          <tr class="group"><td colspan="4">Email alerts, read by job-sweep</td></tr>
+          <tr><td>LinkedIn, Welcome to the Jungle, Built In London</td><td>Alert emails to Gmail</td><td>Each site's alert settings</td><td><span class="pill idle">Outside this run</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section id="airtable">
+    <div class="sec-head">
+      <h2>Where data lives</h2>
+      <p>The split: pipes and run logs in one base, companies and roles you act on in the other. Airtable can't link records across bases, which is why Startup Universe sits with Employers.</p>
+    </div>
+    <div class="cols">
+      <div class="base">
+        <header><h3>VC Job Sweeper</h3><p>Plumbing. What to fetch, and what was fetched.</p><span class="mono" style="color:var(--faint);font-size:12px">appv8Lxbh4kp6DoBv</span></header>
+        <div class="tables">
+          <div><b>Sources</b><span>One row per VC board. Nightly run reads it and writes last scraped, last error and count back.</span></div>
+          <div><b>Keyword Sources</b><span>One row per whole-market source, including email alerts for reference. Nightly run reads the active non-email rows.</span></div>
+          <div><b>Raw Listings</b><span>Every role the run has seen, keyed on link. Source of the nightly email. Rows older than 30 days are deleted.</span></div>
+          <div><b>Tasks</b><span>The live backlog for this system: status, owner, priority and effort per task.</span></div>
+        </div>
+      </div>
+      <div class="base">
+        <header><h3>Employers / Opportunities</h3><p>Knowledge. Companies and roles you research and act on.</p><span class="mono" style="color:var(--faint);font-size:12px">app4AILlddDnxgRpq</span></header>
+        <div class="tables">
+          <div><b>Startup Universe</b><span>2,468 companies, mostly VC-backed, thin by design: domain, UK status, which boards list it, ATS and slug, Poll. The poller's config.</span></div>
+          <div><b>Employers</b><span>Curated targets with rich research. Linked to Startup Universe.</span></div>
+          <div><b>Roles Inventory</b><span>Every role job-sweep has captured, with shortlist, triage and enrichment fields.</span></div>
+          <div><b>Application Tracker</b><span>Roles you've applied to, kept current by pipeline-sync.</span></div>
+          <div><b>Also here</b><span>Contacts, Recruiters, VC Sources, and run logs for the skills.</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="scripts">
+    <div class="sec-head">
+      <h2>Enrichment scripts</h2>
+      <p>Not part of the nightly run. Run by hand from the repo to build or refresh Startup Universe. All read keys from <code>.env</code>, support a dry run, and skip rows already handled. Pilot on 10 rows before any big run.</p>
+    </div>
+    <div class="tbl-wrap">
+      <table>
+        <thead><tr><th>Script</th><th>What it does</th><th>Rerun when</th><th>Needs</th></tr></thead>
+        <tbody>
+          <tr><td><code>coverage.mjs</code></td><td>Pulls every board's company list and marks which Startup Universe companies each board already covers. Fills blank domain and HQ from the boards.</td><td>Boards added, or new domains resolved</td><td>Airtable token</td></tr>
+          <tr><td><code>resolve-domains.mjs</code> then <code>apply-domains.mjs</code></td><td>Finds a website for name-only companies through Google, checks the site loads, writes Domain.</td><td>SerpApi quota resets (monthly)</td><td>SerpApi key, Airtable token</td></tr>
+          <tr><td><code>ats-detect.mjs</code></td><td>Visits each company's site and careers page, identifies its ATS and slug, verifies the public feed answers.</td><td>New domains resolved</td><td>Airtable token</td></tr>
+          <tr><td><code>hq-from-feeds.mjs</code></td><td>Reads each verified job feed and sets UK status from where the company is actually hiring.</td><td>After ATS detection</td><td>Airtable token</td></tr>
+          <tr><td><code>hq-enrich.mjs</code></td><td>Companies House name match. Wrong too often on common names, so only for review by hand.</td><td>Rarely</td><td>Companies House key</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="flow-foot">The usual refresh order after adding companies: resolve domains, coverage, ATS detection, UK status from feeds, then tick Poll on the London and UK rows.</p>
+  </section>
+
+  <section id="keys">
+    <div class="sec-head">
+      <h2>Keys and accounts</h2>
+      <p>Where each credential lives. None are in the repo.</p>
+    </div>
+    <div class="tbl-wrap">
+      <table>
+        <thead><tr><th>Credential</th><th>Used by</th><th>Stored in</th></tr></thead>
+        <tbody>
+          <tr><td>Airtable personal access token</td><td>Enrichment scripts</td><td><code>.env</code> in the repo, gitignored</td></tr>
+          <tr><td>Airtable credential in n8n</td><td>Nightly run, both bases</td><td>n8n credentials</td></tr>
+          <tr><td>Gmail</td><td>Nightly email</td><td>n8n credentials</td></tr>
+          <tr><td>Adzuna app ID and app key</td><td><code>/adzuna</code></td><td>Worker secrets</td></tr>
+          <tr><td>Reed API key</td><td><code>/reed</code></td><td>Worker secrets</td></tr>
+          <tr><td>SerpApi key</td><td>Domain resolution</td><td><code>.env</code></td></tr>
+          <tr><td>Companies House key</td><td><code>hq-enrich.mjs</code></td><td><code>.env</code></td></tr>
+          <tr><td>Cloudflare (wrangler login)</td><td>Deploys, secrets</td><td>The deploying machine</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="flow-foot">Check which Worker keys are set, without revealing them, at <code>/healthz</code>.</p>
+  </section>
+
+  <footer>Repo: github.com/tfparsons/vc-job-scrapers. Running record of what changed and why: <code>docs/PLAN.md</code>. Endpoint detail and the same map in Markdown: <code>README.md</code>.</footer>
+</div>
+</body>
+</html>

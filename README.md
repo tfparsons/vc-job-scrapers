@@ -21,6 +21,98 @@ the Startup Universe rows with Poll ticked in the Employers / Opportunities base
 tfparsons87@gmail.com. To pause a board, untick Active on its
 Sources row. To pause everything, deactivate the workflow.
 
+## System map
+
+Stage 0 of the job hunt: everything that finds roles before the job-sweep skill
+sees them. Three kinds of source, one Worker that fetches them, one n8n run each
+weekday night that merges them into Airtable and emails a digest. Read left to
+right: configuration lives in Airtable, the Worker does the fetching, n8n does
+the orchestration and state, and the inbox is the hand-off to the job-hunt
+skills.
+
+| Stage | Component | Role |
+|---|---|---|
+| 1. What gets watched | Sources (Airtable) | VC portfolio boards (Sources table), company ATS feeds (Startup Universe rows with Poll ticked), keyword sources (Keyword Sources table). Email alerts from LinkedIn, Welcome to the Jungle and Built In bypass this run and land in Gmail for job-sweep. |
+| 2. Fetch | This Worker | One endpoint per platform. Applies the search terms, UK location rules and recency window, returns the standard listing envelope. Stateless. |
+| 3. Orchestrate | n8n "VC Boards Sweep" (`AQzbFqr1Pi0uyWMd`) | Mon to Fri 01:00 London. Three branches in parallel (boards, company polls, keyword sources), each reading its Airtable config, calling the Worker and writing status back. Merges, dedupes on link, guards, upserts Raw Listings, emails. |
+| 4. Remember | Airtable, two bases | VC Job Sweeper (`appv8Lxbh4kp6DoBv`) holds the plumbing: Sources, Keyword Sources, Raw Listings, Tasks. Employers / Opportunities (`app4AILlddDnxgRpq`) holds the knowledge: Startup Universe, Employers, Roles Inventory, Application Tracker. |
+| 5. Act | Inbox and skills | The "VC Boards Sweep" email, a readable list plus a JSON payload, is the boundary. job-sweep parses it into Roles Inventory; role-shortlist, role-triage and enrich-role score and research; pipeline-sync keeps the Application Tracker current. |
+
+The Worker never stores anything and never emails. n8n never parses a job board.
+The skills never call the Worker. If something breaks, that split says where to
+look.
+
+### The nightly run
+
+1. **Read the config.** Sources rows that are Active; Startup Universe rows with Poll ticked and an ATS slug; Keyword Sources rows that are Active, not email alerts, with a Worker endpoint.
+2. **Call the Worker.** All boards at once. Company feeds 8 at a time every 1.5 seconds so Workable does not rate-limit. Keyword sources 4 at a time, one call per line of the row's Keywords.
+3. **Write status back.** Last run, last error and listings pulled on each Sources, Startup Universe and Keyword Sources row. A failure here never stops the run.
+4. **Merge and dedupe on link.** A role found on a board and on the company's own feed is one role.
+5. **Check the guard.** Only the boards count: under 20 listings or more than 5 failed boards sends "VC Boards Sweep - FAILED" and stops. Dead ATS slugs and keyword errors are listed in the email instead.
+6. **Upsert Raw Listings on link.** Last seen is set to today; First seen is stamped on new rows.
+7. **Email what's new.** Rows seen today and never emailed, with source, location, posted date and salary where stated. Sent even on zero-new days.
+8. **Stamp Emailed on, then tidy.** Emailed rows are stamped so a re-run cannot send them twice. Rows first seen more than 30 days ago are deleted.
+
+The run takes 6 to 8 minutes, mostly writing to Airtable one row at a time.
+
+### Every source
+
+| Source | How it is fetched | Switched on or off in |
+|---|---|---|
+| **VC portfolio boards** | | |
+| Getro boards (23): Dawn, Index, Seedcamp, Accel, Atomico, Creandum and others | `/getro?host=`, one search per term, 20 cards each | Sources · Active |
+| Consider boards (12): Notion, Balderton, Sequoia, Lightspeed, GTMfund, Point72 and others | `/consider?host=`, session cookie plus search API | Sources · Active |
+| Y Combinator, a16z | `/yc`, `/a16z` | Sources · Active |
+| Molten, Eight Roads, 83North | No usable feed found; not scraped | Sources |
+| **Company ATS feeds** | | |
+| London and UK companies with a verified feed (Ashby, Greenhouse, Lever, Workable, Teamtailor, Recruitee) | `/ashby?slug=` and siblings, one call to the company's public job feed | Startup Universe · Poll |
+| Companies with a feed but no UK roles | Same endpoints; Poll left unticked, each row has a dated note | Startup Universe · Poll |
+| Growth, PE and vendor targets (Clay, Apollo, HubSpot, Cognism, n8n and others) | Same endpoints | Startup Universe · Poll |
+| **Keyword sources, run by the Worker** | | |
+| Jobs by Workable search | `/workable-search?q=`, London, quoted phrase | Keyword Sources · Active |
+| RevOps Careers job feed | `/rss?feed=revopscareers`, latest 10 UK roles | Keyword Sources · Active |
+| Clay community share-jobs | `/rss?feed=clay`, free-text posts, noisy | Keyword Sources · Active |
+| Adzuna | `/adzuna?q=`, London; needs Worker secrets | Keyword Sources · Active |
+| Reed | `/reed?q=`, London, direct employers; needs a Worker secret | Keyword Sources · Active |
+| **Email alerts, read by job-sweep** | | |
+| LinkedIn, Welcome to the Jungle, Built In London | Alert emails to Gmail | Each site's alert settings, then job-sweep's senders list |
+
+### Enrichment scripts
+
+Not part of the nightly run. Run by hand from this repo to build or refresh
+Startup Universe. All read keys from `.env`, support a dry run, and skip rows
+already handled. Pilot on 10 rows before any big run. The usual refresh order
+after adding companies: resolve domains, coverage, ATS detection, UK status from
+feeds, then tick Poll on the London and UK rows. Each script has its own section
+below.
+
+| Script | What it does | Rerun when |
+|---|---|---|
+| `coverage.mjs` | Pulls every board's company list and marks which Startup Universe companies each board covers. Fills blank domain and HQ from the boards. | Boards added, or new domains resolved |
+| `resolve-domains.mjs` then `apply-domains.mjs` | Finds a website for name-only companies through Google, checks the site loads, writes Domain. | SerpApi quota resets (monthly) |
+| `ats-detect.mjs` | Visits each company's site and careers page, identifies its ATS and slug, verifies the public feed answers. | New domains resolved |
+| `hq-from-feeds.mjs` | Reads each verified job feed and sets UK status from where the company is actually hiring. | After ATS detection |
+| `hq-enrich.mjs` | Companies House name match. Wrong too often on common names, so only for review by hand. | Rarely |
+
+### Keys and accounts
+
+None are in the repo. `/healthz` reports which Worker secrets are set without
+revealing them.
+
+| Credential | Used by | Stored in |
+|---|---|---|
+| Airtable personal access token | Enrichment scripts | `.env`, gitignored |
+| Airtable credential | Nightly run, both bases | n8n credentials |
+| Gmail | Nightly email | n8n credentials |
+| Adzuna app ID and key | `/adzuna` | Worker secrets |
+| Reed API key | `/reed` | Worker secrets |
+| SerpApi key | Domain resolution | `.env` |
+| Companies House key | `hq-enrich.mjs` | `.env` |
+| Cloudflare | Deploys, secrets | `wrangler login` on the deploying machine |
+
+A fuller, styled version of this map is at
+[docs/job-radar-system-map.html](docs/job-radar-system-map.html).
+
 ## Endpoints
 
 | Endpoint | What it does |

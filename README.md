@@ -14,7 +14,8 @@ Design of record: [BRIEF.md](BRIEF.md) (this Worker) and [docs/PLAN.md](docs/PLA
 Live at `https://vc-job-scrapers.tfparsons87.workers.dev`.
 
 The caller is the n8n workflow "VC Boards Sweep" (id `AQzbFqr1Pi0uyWMd`, folder
-VC Job Boards) which runs Monday to Friday at 01:00 London. It reads the Sources
+VC Job Boards) which runs Monday to Friday at 01:00 London, with a retry of the
+night's failed boards at 02:10. It reads the Sources
 and Keyword Sources tables in the VC Job Sweeper base (`appv8Lxbh4kp6DoBv`) and
 the Startup Universe rows with Poll ticked in the Employers / Opportunities base
 (`app4AILlddDnxgRpq`), upserts Raw Listings on Link, and emails
@@ -34,7 +35,7 @@ skills.
 |---|---|---|
 | 1. What gets watched | Sources (Airtable) | VC portfolio boards (Sources table), company ATS feeds (Startup Universe rows with Poll ticked), keyword sources (Keyword Sources table). Email alerts from LinkedIn, Welcome to the Jungle and Built In bypass this run and land in Gmail for job-sweep. |
 | 2. Fetch | This Worker | One endpoint per platform. Applies the search terms, UK location rules and recency window, returns the standard listing envelope. Stateless. |
-| 3. Orchestrate | n8n "VC Boards Sweep" (`AQzbFqr1Pi0uyWMd`) | Mon to Fri 01:00 London. Three branches in parallel (boards, company polls, keyword sources), each reading its Airtable config, calling the Worker and writing status back. Merges, dedupes on link, guards, upserts Raw Listings, emails. |
+| 3. Orchestrate | n8n "VC Boards Sweep" (`AQzbFqr1Pi0uyWMd`) | Mon to Fri 01:00 London. Three branches in parallel (boards, company polls, keyword sources), each reading its Airtable config, calling the Worker and writing status back. Merges, dedupes on link, grades the night, upserts Raw Listings, emails. A second trigger at 02:10 retries the boards that failed. |
 | 4. Remember | Airtable, two bases | VC Job Sweeper (`appv8Lxbh4kp6DoBv`) holds the plumbing: Sources, Keyword Sources, Raw Listings, Tasks, and the monitoring pair Source Health and Run Log. Employers / Opportunities (`app4AILlddDnxgRpq`) holds the knowledge: Startup Universe, Employers, Roles Inventory, Application Tracker. |
 | 5. Act | Inbox and skills | The "VC Boards Sweep" email, a readable list plus a JSON payload, is the boundary. job-sweep parses it into Roles Inventory; role-shortlist, role-triage and enrich-role score and research; pipeline-sync keeps the Application Tracker current. |
 
@@ -44,7 +45,9 @@ a status, upserts it into **Source Health** on its Key, and appends a row per
 source to **Run Log**. Green means it ran, had no error and fetched something.
 Orange means partial errors, or it fetched nothing (a site change usually looks
 like this). Red means it failed; the company polls go Red above 25% failures and
-Orange above 2%. Grey rows (not built, switched off) and email alerts are kept by
+Orange above 2%. The Nightly run row goes Red when the night collected nothing,
+under 20 board listings, or more than 5 failed boards; whatever was collected is
+still stored and emailed. Grey rows (not built, switched off) and email alerts are kept by
 hand. Both write nodes continue on error, so monitoring can never block the sweep.
 
 The Worker never stores anything and never emails. n8n never parses a job board.
@@ -54,15 +57,24 @@ look.
 ### The nightly run
 
 1. **Read the config.** Sources rows that are Active; Startup Universe rows with Poll ticked and an ATS slug; Keyword Sources rows that are Active, not email alerts, with a Worker endpoint.
-2. **Call the Worker.** All boards at once. Company feeds 8 at a time every 1.5 seconds so Workable does not rate-limit. Keyword sources 4 at a time, one call per line of the row's Keywords.
+2. **Call the Worker.** Boards 4 at a time every 15 seconds, 180 s timeout each: Getro slows sharply when hit in parallel, and all boards at once timed out en masse. Company feeds 8 at a time every 1.5 seconds so Workable does not rate-limit. Keyword sources 4 at a time, one call per line of the row's Keywords.
 3. **Write status back.** Last run, last error and listings pulled on each Sources, Startup Universe and Keyword Sources row. A failure here never stops the run.
 4. **Merge and dedupe on link.** A role found on a board and on the company's own feed is one role.
-5. **Check the guard.** Only the boards count: under 20 listings or more than 5 failed boards sends "VC Boards Sweep - FAILED" and stops. Dead ATS slugs and keyword errors are listed in the email instead.
+5. **Grade the night.** Only the boards count, and the listings are always kept: a board timeout costs that board, never the night. The subject says how it went: `VC Boards Sweep - DD MMM YYYY` normally, with 1 to 5 failed boards named in a note at the top; `- DEGRADED -` before the date when more than 5 boards failed, with a banner; `- FAILED -` when boards returned under 20 listings (a night with nothing sends an empty `listings`). Dead ATS slugs and keyword errors are listed in the email.
 6. **Upsert Raw Listings on link.** Last seen is set to today; First seen is stamped on new rows.
 7. **Email what's new.** Rows seen today and never emailed, with source, location, posted date and salary where stated. Sent even on zero-new days.
 8. **Stamp Emailed on, then tidy.** Emailed rows are stamped so a re-run cannot send them twice. Rows first seen more than 30 days ago are deleted.
+9. **Retry at 02:10.** The trigger "Weekdays 02:10 London (retry)" reads Sources rows scraped today with a non-partial Last error and re-calls only those boards, with the same stagger and timeout. It updates Sources, Source Health and Raw Listings, appends `<date> <board> (retry)` rows to Run Log, and emails listings not yet sent as `VC Boards Sweep - RETRY - DD MMM YYYY`, then stamps Emailed on. Nothing failed, nothing sent.
 
-The run takes 6 to 8 minutes, mostly writing to Airtable one row at a time.
+**The payload.** Every variant carries the fenced JSON payload job-sweep reads.
+Besides `listings` it has `kind` (`nightly` or `retry`), `status` (`ok`,
+`degraded` or `failed`), `boards_failed_platforms` (e.g. `getro 14 of 23`),
+`boards_partial` and `retry_at`, and on a retry `boards_retried` and
+`boards_recovered`. The payload is the contract with job-sweep's
+`extract.py --format vcboards`: change its shape there too, or VC-board rows
+stop.
+
+The run takes about 15 minutes: the staggered board calls, then writing to Airtable one row at a time.
 
 ### Every source
 
@@ -441,7 +453,7 @@ to every scraper:
   `https://vc-job-scrapers.tfparsons87.workers.dev/<platform>?host=<host>`.
   Leave the row's Active box unticked until the deploy is live: a host that
   is not yet allowlisted returns `host not allowed`, and six or more erroring
-  boards trip the FAILED guard for the whole run. To tell the platforms
+  boards turn the night's email DEGRADED. To tell the platforms
   apart: a Consider board's page source contains `"csrfToken"`, a Getro page
   contains `data-testid="job-list-item"` and "Powered by Getro".
 - **A Consider board with no vanity domain** (its URL is
@@ -543,7 +555,7 @@ after, or look for the Cloudflare check on the commit in GitHub.
   searches run one at a time because Getro slows sharply and times out when
   hit in parallel; from Cloudflare's edge each search takes about 3 s, so a
   Getro board takes 20 to 60 s end to end. Consider requests have a 15 s
-  timeout, Getro requests 25 s. Set the caller's HTTP timeout to 120 s.
+  timeout, Getro requests 25 s. Set the caller's HTTP timeout to 180 s.
 - One pass per board per day, descriptive User-Agent. The only retry is a
   single second attempt when a Getro search times out.
 - No state, no caching, no auth. The host allowlist is the abuse guard.

@@ -183,8 +183,9 @@
           <div class="stage-head"><span class="n">3 · orchestrate</span><h3>n8n: VC Boards Sweep</h3><small>Mon to Fri, 01:00 London</small></div>
           <div class="stage-body">
             <div class="node hub"><h4>Three branches in parallel</h4><p>Boards, company polls and keyword sources each read their Airtable config, call the Worker and write status back to their own row.</p><span class="mono">workflow AQzbFqr1Pi0uyWMd</span></div>
-            <div class="node"><h4>Merge and guard</h4><p>Dedupe on link. If boards return under 20 roles or more than 5 boards fail, send a FAILED email and stop.</p></div>
+            <div class="node"><h4>Merge and grade</h4><p>Dedupe on link. Listings are always kept; the subject marks the night DEGRADED (more than 5 boards failed) or FAILED (under 20 board roles).</p></div>
             <div class="node"><h4>Store and send</h4><p>Upsert Raw Listings, pick rows seen today and never emailed, email them, stamp Emailed on.</p></div>
+            <div class="node"><h4>Retry at 02:10</h4><p>Re-calls only the boards that failed tonight and emails what they recover as a RETRY email.</p></div>
           </div>
         </div>
         <div class="stage">
@@ -211,17 +212,18 @@
   <section id="run">
     <div class="sec-head">
       <h2>The nightly run, step by step</h2>
-      <p>What happens each weekday at 01:00 London. It takes 6 to 8 minutes, mostly writing to Airtable one row at a time.</p>
+      <p>What happens each weekday at 01:00 London. It takes about 15 minutes: the staggered board calls, then writing to Airtable one row at a time.</p>
     </div>
     <ol class="steps">
       <li><div><b>Read the config.</b><p>Sources rows that are Active; Startup Universe rows with Poll ticked and an ATS slug; Keyword Sources rows that are Active, not email alerts, with a Worker endpoint.</p></div></li>
-      <li><div><b>Call the Worker.</b><p>All boards at once. Company feeds 8 at a time every 1.5 seconds, so Workable doesn't rate-limit. Keyword sources 4 at a time, one call per line in the row's Keywords.</p></div></li>
+      <li><div><b>Call the Worker.</b><p>Boards 4 at a time every 15 seconds, 180 s timeout each, because Getro times out when hit all at once. Company feeds 8 at a time every 1.5 seconds, so Workable doesn't rate-limit. Keyword sources 4 at a time, one call per line in the row's Keywords.</p></div></li>
       <li><div><b>Write status back.</b><p>Last run, last error and listings pulled on each Sources, Startup Universe and Keyword Sources row. A failure here never stops the run.</p></div></li>
       <li><div><b>Merge and dedupe on link.</b><p>A role found on a board and on the company's own feed is one role.</p></div></li>
-      <li><div><b>Check the guard.</b><p>Only the boards count: under 20 listings or more than 5 failed boards sends "VC Boards Sweep - FAILED" and stops. Dead ATS slugs and keyword errors are listed in the email instead.</p></div></li>
+      <li><div><b>Grade the night.</b><p>Only the boards count, and listings are always kept. The subject is "VC Boards Sweep - DD MMM YYYY" normally (1 to 5 failed boards named at the top), "- DEGRADED -" when more than 5 boards failed, "- FAILED -" under 20 board listings. Dead ATS slugs and keyword errors are listed in the email.</p></div></li>
       <li><div><b>Upsert Raw Listings on link.</b><p>Last seen is set to today; First seen is stamped on new rows.</p></div></li>
       <li><div><b>Email what's new.</b><p>Rows seen today and never emailed, with source, location, posted date and salary where stated. Sent even on zero-new days.</p></div></li>
       <li><div><b>Stamp Emailed on, then tidy.</b><p>Emailed rows are stamped so a re-run can't send them twice. Rows first seen more than 30 days ago are deleted.</p></div></li>
+      <li><div><b>Retry at 02:10.</b><p>Boards scraped tonight with a non-partial error are called again, same stagger and timeout. Sources, Source Health, Run Log and Raw Listings are updated, and listings not yet sent go out as "VC Boards Sweep - RETRY - DD MMM YYYY". Nothing failed, nothing sent.</p></div></li>
     </ol>
   </section>
 

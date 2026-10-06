@@ -140,9 +140,10 @@ Rules that follow from the system map (`job-hunt-system-map.md`):
 
 ```
 gtm, go-to-market, revops, revenue operations, sales operations, marketing operations,
-martech, growth, lifecycle, crm, hubspot, salesforce, product manager,
-forward deployed, solutions engineer
+martech, growth, hubspot, product manager
 ```
+
+Trimmed from 15 to 10 on 6 Oct (decision 13).
 
 **Location** - keep if location is **blank**, or names `London`, `United Kingdom`, `UK`, `England`, `Scotland`, `Wales`, `EMEA` or `Europe` as a whole word, or is Remote (the word, or Consider's `remote` flag) without naming the US, Canada, the Americas, APAC or a main US hub city. Blank is kept deliberately: Framer's GTM Engineer had no location and that is the class the alert filter dropped. Tightened on 2 Sep from the original "any Remote" rule, which let US-remote roles through.
 
@@ -285,3 +286,4 @@ Cloudflare free tier (~20 requests/day). Airtable paid plan (already held, no in
 10. (3 Sep) Hosted Consider boards take `?board=<id>` rather than an allowlist entry per board; the allowlist guards the host, the query names the board.
 11. (3 Sep) YC listings carry no posted date, so they always pass recency. Accepted because the email is new-links-only after day one.
 12. (3 Sep) a16z uses the board's own `posted=<days>` filter instead of parsing every card's age, so the 25-card cap only bites on terms with more than 25 postings a week (product manager).
+13. (6 Oct) Default terms trimmed from 15 to 10: crm, salesforce, lifecycle, solutions engineer and forward deployed dropped. Across 477 board and poll roles every role that reached triage came via growth, gtm or go-to-market; solutions engineer (50 roles) and forward deployed (59) never produced a Borderline, and no role depended on lifecycle, crm or salesforce. Fewer searches per board means shorter Getro runs. Tim's call; evidence on the Tasks row "Trim the board search terms from 15 to 10".

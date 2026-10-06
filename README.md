@@ -430,7 +430,7 @@ to every scraper:
 | `getro: 0 cards on all terms (DOM change?)` | The page still says "Powered by Getro" but no cards parsed. If every Getro board says this at once, Getro changed its markup. |
 | `getro: HTTP 503 for gtm` | Every term search failed; the first failure is shown. Same shape for `yc:` and `a16z:`. |
 | `board required for consider.com: ?board=<id>` | A hosted Consider board was called without its board id. |
-| `partial: 2/15 term fetches failed: ...` | Some searches timed out or errored; the listings from the rest are still returned. |
+| `partial: 2/10 term fetches failed: ...` | Some searches timed out or errored; the listings from the rest are still returned. |
 | `unhandled: ...` | A bug. The stack is in `wrangler tail`. |
 
 ## How to add a board
@@ -535,7 +535,7 @@ after, or look for the Cloudflare check on the commit in GitHub.
 
 ## Limits and politeness
 
-- Free tier: 10 ms CPU per request and 50 subrequests. A board uses 15 to 18
+- Free tier: 10 ms CPU per request and 50 subrequests. A board uses 10 to 13
   requests and a few milliseconds of CPU; the rest is waiting on the network,
   which does not count. Do not upgrade pre-emptively; the signal is "Script
   exceeded time limit" in the Cloudflare logs.

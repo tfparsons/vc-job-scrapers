@@ -77,11 +77,11 @@ test("ats: bad feeds throw a short error, never return partial junk", () => {
 });
 
 test("ats: term match is whole-word on the title", () => {
-  const terms = ["gtm", "crm", "growth", "product manager"];
+  const terms = ["gtm", "hubspot", "growth", "product manager"];
   assert.deepEqual(termsInTitle("GTM Engineer", terms), ["gtm"]);
   assert.deepEqual(termsInTitle("Scrum Master", terms), []);
   assert.deepEqual(termsInTitle("Senior Product Manager, Growth", terms), ["growth", "product manager"]);
-  assert.deepEqual(termsInTitle("CRM & Lifecycle Lead", terms), ["crm"]);
+  assert.deepEqual(termsInTitle("HubSpot & Lifecycle Lead", terms), ["hubspot"]);
 });
 
 test("ats: slug and host guards", () => {

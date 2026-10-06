@@ -2,8 +2,7 @@
 
 export const TERMS = [
   "gtm", "go-to-market", "revops", "revenue operations", "sales operations",
-  "marketing operations", "martech", "growth", "lifecycle", "crm", "hubspot",
-  "salesforce", "product manager", "forward deployed", "solutions engineer",
+  "marketing operations", "martech", "growth", "hubspot", "product manager",
 ];
 
 // A listing is kept when its location names one of these (matched as whole

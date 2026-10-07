@@ -148,4 +148,4 @@ Four Airtable descriptions disagree with live and are Tim's to fix, listed in th
 
 ## Reply (claude-code)
 
-All three parts done: CLAUDE.md replaced verbatim (protocol block byte-identical, a87d601); parts 2 and 3 are in PR #3 (https://github.com/tfparsons/vc-job-scrapers/pull/3) with tests passing, except `Triaged` is left off `retired-names.txt` because `docs/system.md` names it in a live-hazard caveat, and the two retirement decisions wait for Tim in the PR description.
+All three parts done and merged in PR #3 (https://github.com/tfparsons/vc-job-scrapers/pull/3), deployed as d1a30f54: CLAUDE.md replaced verbatim (protocol block byte-identical, a87d601); Tim retired all three scripts (resolve-domains, apply-domains, hq-enrich) and they are off `docs/scripts.md` and on `retired-names.txt`; `Triaged` is left off that list because `docs/system.md` names it in a live-hazard caveat.

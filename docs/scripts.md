@@ -14,14 +14,12 @@ Pilot on ten rows before any big run.
 | Script | What it does | Rerun when |
 |---|---|---|
 | `coverage.mjs` | Pulls every board's company list through the Worker's `/companies`, matches Startup Universe rows on domain first and normalised name second, and writes Boards and Board coverage. Fills blank Domain, HQ and London status from the boards. | Boards added, or new domains resolved |
-| `resolve-domains.mjs` then `apply-domains.mjs` | Finds a website for name-only rows through SerpApi and writes Domain after checking the site answers. Never overwrites an existing domain. | SerpApi quota resets (monthly) |
 | `enrich.mjs` | The general enrichment loop: a recipe in `enrich/recipes/` names the rows that need a value, a gatherer collects evidence for all of them in code, a model judges in bulk only where needed, and `apply` routes answers by confidence. Recipes: `domain`, `domain-check`, `linkedin`. | A recipe's filter still matches rows |
 | `ats-detect.mjs` | Visits each company's site and careers page, identifies its ATS and slug from host signatures in links, iframes, scripts and redirects, and verifies that the public feed answers. Writes ATS, ATS slug, Careers URL, Last verified, and a Notes line when nothing was found. | New domains resolved |
 | `hq-from-feeds.mjs` | Reads each verified feed and sets UK status from where the company is actually hiring. | After ATS detection |
-| `hq-enrich.mjs` | Companies House name match. Wrong too often on common names, so review-by-hand only. | Rarely |
 | `dedupe-universe.mjs` | Merges rows sharing a domain, or a normalised name where one has no domain. Never merges two rows with different verified feeds. | After a bulk load |
 
-The usual order after adding companies: resolve domains, coverage, ATS detection, UK status from feeds, then tick Poll on the London and UK rows by hand.
+The usual order after adding companies: the `domain` recipe for rows with no domain, coverage, ATS detection, UK status from feeds, then tick Poll on the London and UK rows by hand.
 
 ## Rules that shape them
 
@@ -48,7 +46,5 @@ The loop, the pilot and how to add a recipe are in the `enrich` skill under `.cl
 | Credential | Used by |
 |---|---|
 | `AIRTABLE_TOKEN` | Every script |
-| `SERPAPI_KEY` | `resolve-domains.mjs` (free tier is a small monthly quota; pass `--limit`) |
-| Companies House key | `hq-enrich.mjs` |
 
 The nightly run's own credentials (Airtable, Gmail) live in n8n, and the Worker's keys are Worker secrets; neither is in `.env`.

@@ -2,7 +2,7 @@
 // a search API sits behind a CSRF token printed in the page. Two steps:
 //   1. GET https://{host}/jobs   -> cookies + csrfToken + board id
 //   2. POST https://{host}/api-boards/search-jobs, once per term
-// Parsing patterns were validated live on 2 Sep 2026 (see BRIEF.md), with one
+// Parsing patterns were validated live on 2 Sep 2026, with one
 // correction: the search key is `titlePrefix` (what the site's own "Search by
 // title" box sends), not `query`, which the API silently ignores. It matches
 // word prefixes in the job title, so "growth" finds "Product Growth Manager".

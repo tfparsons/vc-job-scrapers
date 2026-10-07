@@ -148,4 +148,4 @@ Four Airtable descriptions disagree with live and are Tim's to fix, listed in th
 
 ## Reply (claude-code)
 
-Done: CLAUDE.md replaced verbatim with the drop-in in da8f4ee (protocol block byte-identical); the consider.js comment fix is in PR #3 (https://github.com/tfparsons/vc-job-scrapers/pull/3), tests passing, waiting on Tim to merge.
+All three parts done: CLAUDE.md replaced verbatim (protocol block byte-identical, a87d601); parts 2 and 3 are in PR #3 (https://github.com/tfparsons/vc-job-scrapers/pull/3) with tests passing, except `Triaged` is left off `retired-names.txt` because `docs/system.md` names it in a live-hazard caveat, and the two retirement decisions wait for Tim in the PR description.

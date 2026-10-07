@@ -40,8 +40,7 @@ The workflow, base and table IDs are in `docs/system.md`, not here.
 | `docs/worker.md` | The Worker reference: endpoints, output contract, filters, feeds, error strings, how to add a board, limits, layout. Read before changing `src/`. |
 | `docs/scripts.md` | The scripts that build Startup Universe: what each does, run order, keys. Read before running or changing `scripts/` or `enrich/`. |
 | `docs/handoffs/` | The channel between Claude Code and Cowork (see Repo protocol). |
-| `docs/data/`, `docs/gtme-sourcing-research.md` | Seed data, enrichment run outputs and the research behind Startup Universe. Record, not current state. |
-| `assets/` | Two HTML pages for humans: the styled system map and the coverage audit. Dated records, not kept in step with the docs. |
+| `assets/` | Records for humans, not kept in step with the docs: the styled system map, the coverage audit, the sourcing research behind it, and the per-fund portfolio-scrape notes. |
 | `scripts/` | Local enrichment and data scripts that write to Startup Universe, plus `session-start.sh`, the start check. Not deployed. |
 | `enrich/recipes/` | Recipes for `scripts/enrich.mjs`. `enrich/work/` is its git-ignored scratch. |
 | `.claude/skills/enrich/` | Claude Code's project skill for the enrichment loop. Load it for any "enrich" or "check the domains" request. |

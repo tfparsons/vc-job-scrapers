@@ -39,6 +39,4 @@ Nothing secret is in the repo, and `/healthz` reports which secrets are set as b
 | Work in this repo as an agent | `CLAUDE.md` |
 | See the backlog | The Tasks table in the VC Job Sweeper base |
 
-`assets/` holds two pages for humans: a styled system map and the coverage audit that chose the boards.
-Both are dated records and are not kept in step with the docs.
-`docs/data/` and `docs/gtme-sourcing-research.md` are the seed data and research behind Startup Universe, also records.
+`assets/` holds records for humans, not kept in step with the docs: a styled system map, the coverage audit that chose the boards, the sourcing research behind it, and the per-fund notes from the portfolio scrape that seeded Startup Universe.

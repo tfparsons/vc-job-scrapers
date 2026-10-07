@@ -1,7 +1,7 @@
 ---
 to: claude-code
 from: cowork
-status: open
+status: answered
 ---
 
 # Docs reset: CLAUDE.md pointers and one code comment
@@ -11,7 +11,7 @@ The docs were reset on 7 October 2026.
 `BRIEF.md`, `docs/PLAN.md` and the two `docs/BRIEF-*.md` briefs are retired (git keeps them).
 The two HTML pages moved from `docs/` to `assets/` as dated records for humans.
 
-Two things are yours, not Cowork's.
+Three things are yours, not Cowork's. Part 3 was added after a second look at the repo.
 
 ## 1. Replace CLAUDE.md with the version below
 
@@ -61,8 +61,7 @@ The workflow, base and table IDs are in `docs/system.md`, not here.
 | `docs/worker.md` | The Worker reference: endpoints, output contract, filters, feeds, error strings, how to add a board, limits, layout. Read before changing `src/`. |
 | `docs/scripts.md` | The scripts that build Startup Universe: what each does, run order, keys. Read before running or changing `scripts/` or `enrich/`. |
 | `docs/handoffs/` | The channel between Claude Code and Cowork (see Repo protocol). |
-| `docs/data/`, `docs/gtme-sourcing-research.md` | Seed data, enrichment run outputs and the research behind Startup Universe. Record, not current state. |
-| `assets/` | Two HTML pages for humans: the styled system map and the coverage audit. Dated records, not kept in step with the docs. |
+| `assets/` | Records for humans, not kept in step with the docs: the styled system map, the coverage audit, the sourcing research behind it, and the per-fund portfolio-scrape notes. |
 | `scripts/` | Local enrichment and data scripts that write to Startup Universe, plus `session-start.sh`, the start check. Not deployed. |
 | `enrich/recipes/` | Recipes for `scripts/enrich.mjs`. `enrich/work/` is its git-ignored scratch. |
 | `.claude/skills/enrich/` | Claude Code's project skill for the enrichment loop. Load it for any "enrich" or "check the domains" request. |
@@ -106,6 +105,47 @@ BRIEF.md is retired.
 Suggested replacement for that clause: "(the live boards are the reference)", or drop the parenthesis.
 Not urgent; fold it into the next PR that touches the file.
 
+## 3. Get the data out of docs/, and stop the scripts refilling it
+
+`docs/data/` is 3.1 MB of a 3.3 MB tracked tree; `src/` is 104 KB.
+None of it is documentation.
+
+What is there:
+
+- Seed inputs from the 11 Sep portfolio scrape: `universe_seed.csv`, `funds.csv`, `funds-notes.md`, and `startup-universe-merged-2026-09-17.json` (the backup of the 135 rows the dedupe removed).
+  The seed has been loaded, deduped and enriched in Airtable since; the files are stale snapshots.
+- `docs/data/enrich/`, 2.4 MB: `applied-DATE.json` logs that `scripts/enrich.mjs` writes there by design (`LOG` in `enrich.mjs`, and the `enrich` skill says "the log is committed"), plus per-row evidence and judge files (`out-bulk-*.json`, `archive/out-NN.json`, `check-*.json`, `candidates-*.json`, `held-for-review.json`) that are scratch from before `enrich/work/` existed.
+
+The `enrich` skill's own rule is that state lives in Airtable, not on disk.
+Airtable's revision history already holds what each apply wrote.
+A public repo, every clone, every cloud session and the Project's `docs/` mirror all carry this, and the mirror's search will rank JSON above the three docs.
+
+Do:
+
+1. `git rm -r docs/data`, except `funds-notes.md`, which moves to `assets/funds-notes.md`: an open Tasks row (adding the no-board funds' portfolios) will need its per-fund page notes.
+   Git keeps the rest.
+2. Move `docs/gtme-sourcing-research.md` to `assets/` as well, so `docs/` holds only `system.md`, `worker.md`, `scripts.md` and `handoffs/`.
+   The coverage-audit page's footer names it; update that line.
+3. In `scripts/enrich.mjs`, point `LOG` at `enrich/work/<recipe>/` (already git-ignored) or drop the file and print the tally.
+   In `.claude/skills/enrich/SKILL.md`, delete "`docs/data/enrich/<name>/applied-DATE.json` is the log and is" and say the log is scratch.
+4. Add `scripts/retired-names.txt` so `docs-check` enforces the reset: one name per line, `BRIEF.md`, `PLAN.md`, `Triaged`, `/static`, `docs/data`.
+   The workflow already greps for it in `CLAUDE.md` and `docs/*.md`.
+5. The code comments that say "Session C", "Session D", "Session E" (`src/scrapers/keyword.js`, `keyword-feeds.js`, every script under `scripts/`) refer to sessions in the retired plan and mean nothing now.
+   Replace each with what the file does, in the same PR as the `consider.js` comment.
+
+Decide, with Tim:
+
+- `scripts/resolve-domains.mjs` and `apply-domains.mjs` (SerpApi, writes files in the "web-search batches" shape) and the `domain` recipe in `enrich.mjs` are two paths to the same column.
+  If the recipe has superseded the pair, retire them and drop their row from `docs/scripts.md`.
+- `scripts/hq-enrich.mjs` was tried and rejected for its job (wrong company on common names) and is kept as "review by hand only".
+  A script nobody runs is a candidate for retirement.
+
+Checked and clean: no secrets or token-shaped strings in tracked files; `test/fixtures/` (620 KB) is the legitimate large folder; `.gitignore` covers the per-run outputs.
+
 ## Not in this handoff
 
 Four Airtable descriptions disagree with live and are Tim's to fix, listed in the reset report: Raw Listings (says Dedupe key is the upsert key and the table is append-only), Sources Platform (mentions Thriver), Raw Listings JD snippet (mentions a Claude triage step), Tasks (says `docs/PLAN.md` keeps the narrative).
+
+## Reply (claude-code)
+
+Done: CLAUDE.md replaced verbatim with the drop-in in da8f4ee (protocol block byte-identical); the consider.js comment fix is in PR #3 (https://github.com/tfparsons/vc-job-scrapers/pull/3), tests passing, waiting on Tim to merge.

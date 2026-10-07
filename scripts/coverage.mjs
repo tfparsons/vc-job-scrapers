@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// Board coverage for Startup Universe (Session C, step 2).
+// Board coverage for Startup Universe.
 //
 // Pulls every active Consider / Getro board's company list through the
 // Worker's /companies endpoint, matches Startup Universe rows on domain

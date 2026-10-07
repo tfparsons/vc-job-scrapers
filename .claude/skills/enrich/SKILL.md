@@ -39,8 +39,9 @@ this job belongs in Claude Code.
 
 State lives in Airtable, not on disk. A row needs work while it matches the
 recipe's `filter`; apply always writes something that takes it out. To retry
-rows, clear their confidence cell. `enrich/work/` is scratch and not committed;
-`docs/data/enrich/<name>/applied-DATE.json` is the log and is.
+rows, clear their confidence cell. `enrich/work/` is scratch and not committed,
+including the `applied-DATE.json` log that apply writes there; the next gather
+clears it. Airtable's revision history is the record of what was written.
 
 ## Tim's review
 

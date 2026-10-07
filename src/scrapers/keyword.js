@@ -1,4 +1,4 @@
-// Keyword source endpoints (Session E). Each takes ?q=<phrase>, the title n8n
+// Keyword source endpoints. Each takes ?q=<phrase>, the title n8n
 // reads from the Keyword Sources row's Keywords column, one call per line:
 //   /adzuna?q=          Adzuna UK search, what_phrase + where=London (key: ADZUNA_APP_ID / ADZUNA_APP_KEY)
 //   /reed?q=            Reed search, London 15 miles, direct employers (key: REED_API_KEY)

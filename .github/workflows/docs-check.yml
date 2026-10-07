@@ -1,0 +1,18 @@
+# .github/workflows/docs-check.yml
+name: docs-check
+on: [pull_request, push]
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: CLAUDE.md within budget
+        run: test "$(wc -l < CLAUDE.md)" -le 200 || { echo "CLAUDE.md is over 200 lines"; exit 1; }
+      - name: Retired names absent from the current-state docs
+        run: |
+          [ -f scripts/retired-names.txt ] || exit 0
+          if grep -rnwF -f scripts/retired-names.txt CLAUDE.md docs/*.md ; then exit 1; fi
+      - name: Internal links resolve
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: --offline --no-progress './**/*.md'

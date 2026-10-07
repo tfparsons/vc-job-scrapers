@@ -1,9 +1,16 @@
+# Baseline for every repo; add app-specific lines below it.
+.DS_Store
+CLAUDE.local.md
+.claude/settings.local.json
+.claude/worktrees/
+# Cowork's drop folder for packages and scratch. Never a channel between agents: handoffs go in docs/handoffs/.
+Claude outputs/
+*.skill
+.env*
+
 node_modules/
 .wrangler/
 .dev.vars
-.env
-.env.local
-.DS_Store
 *.log
 coverage-updates.json
 ats-report.json

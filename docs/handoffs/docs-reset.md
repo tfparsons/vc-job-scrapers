@@ -1,7 +1,7 @@
 ---
 to: claude-code
 from: cowork
-status: open
+status: answered
 ---
 
 # Docs reset: CLAUDE.md pointers and one code comment
@@ -109,3 +109,7 @@ Not urgent; fold it into the next PR that touches the file.
 ## Not in this handoff
 
 Four Airtable descriptions disagree with live and are Tim's to fix, listed in the reset report: Raw Listings (says Dedupe key is the upsert key and the table is append-only), Sources Platform (mentions Thriver), Raw Listings JD snippet (mentions a Claude triage step), Tasks (says `docs/PLAN.md` keeps the narrative).
+
+## Reply (claude-code)
+
+Done: CLAUDE.md replaced verbatim with the drop-in in da8f4ee (protocol block byte-identical); the consider.js comment fix is in PR #3 (https://github.com/tfparsons/vc-job-scrapers/pull/3), tests passing, waiting on Tim to merge.

@@ -1,11 +1,11 @@
 #!/usr/bin/env node
-// ATS detection for Startup Universe (Session C, step 4).
+// ATS detection for Startup Universe.
 //
 // For every row with a Domain and no ATS yet (London / UK rows first), fetch
 // the homepage and the usual careers paths, follow any nav link that looks
 // like a careers page, and look for ATS host signatures in hrefs, iframes,
 // scripts and redirects. When the ATS has a public feed the slug is verified
-// by calling it, so Session D can trust `Poll` rows. Writes ATS, ATS slug,
+// by calling it, so a row ticked for Poll is known to answer. Writes ATS, ATS slug,
 // Careers URL, Last verified, and a Notes line when nothing was found.
 //
 // Usage:
@@ -251,7 +251,7 @@ async function main() {
       line = `${name}${v.verified ? ` (${v.count ?? "?"} jobs)` : v.verified === false ? " (unverified)" : ""}`;
     } else {
       // A vendor hint with no verifiable slug still records the vendor, so
-      // Session D can pick it up once the slug is found by hand.
+      // the row can be polled once the slug is found by hand.
       fields[F.ats] = res.brand ? res.brand.name : "None found";
       if (res.careersUrl && !row.fields[F.careersUrl]) fields[F.careersUrl] = res.careersUrl;
       const why = res.brand ? `${res.brand.name} named on ${res.brand.url} but no slug verified`

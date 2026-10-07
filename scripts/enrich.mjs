@@ -26,7 +26,6 @@ if (!cmd || !name) { console.error("usage: enrich.mjs <status|gather|prompt|appl
 
 const recipe = JSON.parse(readFileSync(join("enrich", "recipes", `${name}.json`), "utf8"));
 const WORK = join("enrich", "work", name);
-const LOG = join("docs", "data", "enrich", name);
 const today = new Date().toISOString().slice(0, 10);
 const o = recipe.output;
 const rv = recipe.review; // { candidateField, confidenceField } or undefined
@@ -115,8 +114,8 @@ if (cmd === "apply") {
   console.log(tally);
   if (dry) { console.log("dry run, nothing written"); process.exit(0); }
   await patchAll(recipe.base, recipe.table, updates);
-  mkdirSync(LOG, { recursive: true });
-  writeFileSync(join(LOG, `applied-${today}.json`), JSON.stringify(report, null, 1));
+  mkdirSync(WORK, { recursive: true });
+  writeFileSync(join(WORK, `applied-${today}.json`), JSON.stringify(report, null, 1));
   console.log(`wrote ${updates.length} rows`);
 }
 

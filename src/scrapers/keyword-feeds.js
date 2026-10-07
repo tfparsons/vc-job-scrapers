@@ -1,4 +1,4 @@
-// Keyword sources (Session E): whole-market search APIs and feeds, one pure
+// Keyword sources: whole-market search APIs and feeds, one pure
 // mapper each (text in, contract listings out). Shapes validated live on
 // 16 Sep 2026 unless marked: Jobs by Workable search, RevOps Careers job
 // feed, Clay community share-jobs RSS. Adzuna and Reed follow their public

@@ -32,6 +32,13 @@ function escapeRe(s) {
   return s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 }
 
+// Collapse dotted initialisms ("u.s.a." -> "usa.", "u.s." -> "us.", "u.k." ->
+// "uk.") so the whole-word match below sees the bare token: a letter after
+// "u.s." would otherwise stop "U.S.A." matching anything.
+function undotInitials(text) {
+  return text.replace(/\b([a-z])\.(?=[a-z]\b)/g, "$1");
+}
+
 // Whole-word, case-insensitive match so "uk" does not match "Ukraine".
 function mentionsAny(text, tokens) {
   return tokens.some((t) => new RegExp(`(^|[^a-z])${escapeRe(t)}([^a-z]|$)`, "i").test(text));
@@ -42,7 +49,7 @@ export function keepByLocation(listing, rules) {
   if (!rules) return true;
   const loc = listing.location;
   if (loc == null || String(loc).trim() === "") return true; // deliberate: never drop for missing data
-  const text = String(loc).toLowerCase();
+  const text = undotInitials(String(loc).toLowerCase());
   if (mentionsAny(text, rules.keep)) return true;
   const isRemote = listing.remote === true || /remote/i.test(text);
   if (isRemote) return !mentionsAny(text, rules.remoteExclude);

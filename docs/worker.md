@@ -91,7 +91,8 @@ Filter semantics live once in `src/lib/filter.js` and run at the end of every sc
 - Terms: search each term, union the results, dedupe on `link`.
   For feeds and keyword sources, which have no search, a listing is kept when a term appears in its title as a whole word.
 - Location: keep if `location` is empty; or if it names London, the UK, EMEA or Europe as a whole word (so "UK" does not match "Ukraine"); or if it is remote and does not name a region on the remote exclude list, which covers the US, Canada, the Americas, APAC and the main US hub cities.
-  So "Remote - EMEA" stays, "Remote - United States" goes, and on-site roles in other EU cities go.
+  Dotted initials are undotted before matching, so "U.S.A." reads as "usa", "U.S." as "us" and "U.K." as "uk".
+  So "Remote - EMEA" and bare "Remote" stay, "Remote - United States" and "Remote - U.S.A. - Pacific Time" go, and on-site roles in other EU cities go.
   *Why remote is conditional:* "any Remote" let US-remote roles dominate one board's results.
 - Recency: keep if `posted_date` is empty, or within the window of `scraped_at` counted in calendar days.
   An empty date with a relative age of months or years is dropped.

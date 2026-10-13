@@ -12,8 +12,10 @@ export const LOCATION_KEEP = ["london", "united kingdom", "uk", "england", "scot
 
 // "Remote" only counts when it is UK/EU friendly. A remote listing that names
 // any of these is dropped, so "Remote - United States" and "US-Remote" go.
+// Dotted forms ("U.S.", "U.S.A.") are undotted before matching, so list the
+// bare form only.
 export const LOCATION_REMOTE_EXCLUDE = [
-  "united states", "usa", "u.s.", "us", "namer", "north america", "americas",
+  "united states", "usa", "us", "namer", "north america", "americas",
   "canada", "latam", "latin america", "apac", "asia", "australia", "india",
   "singapore", "mexico", "brazil",
   "new york", "san francisco", "chicago", "boston", "austin", "seattle",

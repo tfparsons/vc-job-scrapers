@@ -139,13 +139,13 @@ A Teamtailor host must be `*.teamtailor.com` or listed in `TEAMTAILOR_HOSTS`, be
 |---|---|---|
 | `/workable-search?q=` | Jobs by Workable cross-company search, London, quoted phrase, a few pages | none |
 | `/rss?feed=revopscareers` | RevOps Careers job feed, United Kingdom, latest roles | none |
-| `/rss?feed=clay` | Clay community share-jobs RSS, free text | none |
+| `/rss?feed=clay` | Clay's job board (clay.com/job-board), served as a public CSV of roles that ask for Clay | none |
 | `/adzuna?q=` | Adzuna UK search, London, the recency window as max age | `ADZUNA_APP_ID`, `ADZUNA_APP_KEY` |
 | `/reed?q=` | Reed search, London, direct employers only | `REED_API_KEY` |
 
 A listing is kept when its title contains `q` or any config term as a whole word, then the shared filters.
 Adzuna salaries are kept only when Adzuna did not predict them.
-Clay posts are free text, so `company` and a location hint are parsed from the title.
+Clay's board gives company and location but no posted date or salary; its link is the employer's own ATS URL, so it dedupes against the same role polled from that ATS.
 RevOps Careers is slow to answer, so it is one location-only call with its own long timeout.
 `/rss` takes an allowlisted feed name, never a URL: the allowlist is the abuse guard.
 

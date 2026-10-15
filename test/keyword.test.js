@@ -1,6 +1,6 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { mapAdzuna, mapReed, mapWorkableSearch, mapRevopsCareers, mapClayCommunity } from "../src/scrapers/keyword-feeds.js";
+import { mapAdzuna, mapReed, mapWorkableSearch, mapRevopsCareers, mapClayJobBoard, parseCsv } from "../src/scrapers/keyword-feeds.js";
 import { scrapeKeyword, validPhrase } from "../src/scrapers/keyword.js";
 import { expectSnapshot, fixture } from "./helpers.js";
 
@@ -52,14 +52,20 @@ test("keyword: RevOps Careers job feed maps structured fields (snapshot)", () =>
   expectSnapshot("kw-revopscareers", list);
 });
 
-test("keyword: Clay community posts get company and a location hint from the title (snapshot)", () => {
-  const list = mapClayCommunity(fixture("kw-clay.xml"));
+test("keyword: Clay job board CSV maps to the contract with the ATS link as identity (snapshot)", () => {
+  const list = mapClayJobBoard(fixture("kw-clay-board.csv"));
   checkContract(list);
-  const sprinto = list.find((l) => /Sprinto/.test(l.title));
-  assert.equal(sprinto.company, "Sprinto");
-  assert.equal(sprinto.location, "India-based");
-  assert.equal(sprinto.remote, true);
-  expectSnapshot("kw-clay", list);
+  assert.ok(list.every((l) => l.company), "every row names its company");
+  const deepl = list.find((l) => l.company === "DeepL");
+  assert.equal(deepl.location, "London, UK");
+  assert.equal(deepl.posted_date, null);
+  assert.equal(deepl.salary_raw, null);
+  expectSnapshot("kw-clay-board", list);
+});
+
+test("keyword: CSV parser handles quoted commas, doubled quotes, newlines and CRLF", () => {
+  const rows = parseCsv('"title","company"\r\n"Lead, GTM","A ""B"" Ltd"\r\n"Two\nlines",C\n');
+  assert.deepEqual(rows, [["title", "company"], ["Lead, GTM", 'A "B" Ltd'], ["Two\nlines", "C"]]);
 });
 
 test("keyword: phrase guard", () => {

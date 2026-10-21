@@ -1,7 +1,7 @@
 // Keyword sources: whole-market search APIs and feeds, one pure
 // mapper each (text in, contract listings out). Shapes validated live on
 // 16 Sep 2026 unless marked: Jobs by Workable search, RevOps Careers job
-// feed, Clay community share-jobs RSS. Adzuna and Reed follow their public
+// feed; the Clay job board CSV on 12 Oct 2026. Adzuna and Reed follow their public
 // API docs and are re-checked against a live call before n8n uses them.
 
 import { clean, stripTags, decodeEntities } from "../lib/html.js";
@@ -110,23 +110,43 @@ export function mapRevopsCareers(text) {
   });
 }
 
-// ---------- Clay community share-jobs (free-text posts) ----------
-// No structured fields. The title usually reads "Hiring: <role> at <Company>
-// (Remote, $x)" so company and a location hint are pulled from it; when the
-// title has no parenthetical, location stays null and the post is kept.
-export function mapClayCommunity(text) {
-  return rssItems(text).map((it) => {
-    const title = clean(decodeEntities(tag(it, "title") || "")) || "";
-    const role = title.replace(/^hiring(\s+now)?\s*:?\s*/i, "");
-    const at = role.match(/\bat\s+([A-Z][\w&.'-]*(?:\s+[A-Z][\w&.'-]*){0,3})/);
-    const paren = title.match(/\(([^)]*)\)\s*$/);
-    return listing({
-      company: at ? clean(at[1]) : null,
-      title,
-      location: paren ? clean(paren[1]) : null,
-      posted_date: isoDate(tag(it, "pubDate")),
-      remote: /\bremote\b/i.test(title) ? true : null,
-      link: clean(tag(it, "link")),
-    });
-  });
+// ---------- Clay job board (clay.com/job-board) ----------
+// The page renders a public CSV with columns title, company, location, logo,
+// link, category. Roles are ones that ask for Clay, posted by employers; the
+// link is the employer's own ATS URL, so it is canonical and matches the same
+// role polled from that ATS. No posted date and no salary are given.
+export function mapClayJobBoard(text) {
+  const [head = [], ...rows] = parseCsv(text);
+  const col = Object.fromEntries(head.map((h, i) => [h.trim().toLowerCase(), i]));
+  return rows
+    .filter((r) => r.length > 1)
+    .map((r) => listing({
+      company: clean(r[col.company]),
+      title: clean(r[col.title]),
+      location: clean(r[col.location]),
+      // One employer posts an http:// ATS link; the poller's links are https.
+      link: clean(r[col.link])?.replace(/^http:\/\//i, "https://") ?? null,
+    }))
+    .filter((l) => l.title && l.link);
+}
+
+// RFC 4180 CSV: quoted fields may hold commas, newlines and doubled quotes.
+export function parseCsv(text) {
+  const rows = [];
+  let row = [], field = "", quoted = false;
+  for (let i = 0; i < text.length; i++) {
+    const c = text[i];
+    if (quoted) {
+      if (c === '"' && text[i + 1] === '"') { field += '"'; i++; }
+      else if (c === '"') quoted = false;
+      else field += c;
+    } else if (c === '"') quoted = true;
+    else if (c === ",") { row.push(field); field = ""; }
+    else if (c === "\n" || c === "\r") {
+      if (c === "\r" && text[i + 1] === "\n") i++;
+      row.push(field); rows.push(row); row = []; field = "";
+    } else field += c;
+  }
+  if (field || row.length) { row.push(field); rows.push(row); }
+  return rows;
 }

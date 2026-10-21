@@ -47,7 +47,7 @@ Three kinds of source feed the same run and the same email:
 
 - VC portfolio boards (Getro, Consider, Y Combinator, a16z), one Sources row each.
 - Company ATS feeds (Ashby, Greenhouse, Lever, Workable, Teamtailor, Recruitee), one Startup Universe row each with Poll ticked.
-- Keyword sources that search the whole market (Jobs by Workable, RevOps Careers, the Clay community feed), one Keyword Sources row each.
+- Keyword sources that search the whole market (Jobs by Workable, RevOps Careers, Clay's job board), one Keyword Sources row each.
 
 Email alerts from LinkedIn, Welcome to the Jungle and Built In are not part of this run.
 They land in Gmail directly and `job-sweep` reads them through its senders list.

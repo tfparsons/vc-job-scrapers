@@ -4,14 +4,14 @@
 //   /reed?q=            Reed search, London 15 miles, direct employers (key: REED_API_KEY)
 //   /workable-search?q= Jobs by Workable cross-company search, quoted phrase, London, up to 3 pages
 //   /rss?feed=revopscareers     RevOps Careers job feed, United Kingdom (no query; titles filtered here)
-//   /rss?feed=clay      Clay community share-jobs RSS (no query; titles filtered on the config terms)
+//   /rss?feed=clay      Clay job board CSV (no query; titles filtered on the config terms)
 // A listing is kept when its title contains the phrase or any config term as
 // a whole word; then the shared location and recency filters run.
 
 import { runFilters } from "../lib/filter.js";
 import { fetchWithUA } from "../lib/http.js";
 import { termsInTitle } from "./ats.js";
-import { mapAdzuna, mapReed, mapWorkableSearch, mapRevopsCareers, mapClayCommunity } from "./keyword-feeds.js";
+import { mapAdzuna, mapReed, mapWorkableSearch, mapRevopsCareers, mapClayJobBoard } from "./keyword-feeds.js";
 
 const PHRASE = /^[\p{L}\p{N} .&+/-]{2,60}$/u;
 export const validPhrase = (q) => (typeof q === "string" && PHRASE.test(q.trim()) ? q.trim() : null);
@@ -92,7 +92,7 @@ export const KEYWORD = {
         u.searchParams.set("search_location", "United Kingdom");
         return mapRevopsCareers(await getText(u.toString(), { timeoutMs: RSS_TIMEOUT_MS }, fetchImpl));
       }
-      return mapClayCommunity(await getText("https://community.clay.com/x/share-jobs/rss.xml", {}, fetchImpl));
+      return mapClayJobBoard(await getText("https://assets.clayrun.dev/jobs.csv", {}, fetchImpl));
     },
   },
 };

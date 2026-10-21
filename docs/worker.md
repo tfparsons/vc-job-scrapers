@@ -119,7 +119,7 @@ Six endpoints, one per ATS with a public feed, each taking the slug stored in St
 | Endpoint | Feed |
 |---|---|
 | `/ashby?slug=` | Ashby posting API, with compensation |
-| `/greenhouse?slug=` | Greenhouse boards API, then the EU API on 404 |
+| `/greenhouse?slug=` | Greenhouse boards API, which serves EU-hosted boards too |
 | `/lever?slug=` | Lever postings API, then the EU API on 404 |
 | `/workable?slug=` | Workable widget API |
 | `/recruitee?slug=` | Recruitee offers API |
@@ -168,6 +168,7 @@ Its response is its own contract, not the listings envelope: `companies`, each w
 | `consider: csrf token or board id not found in page` | The board page markup changed. |
 | `getro: 0 cards on all terms (DOM change?)` | The page still says "Powered by Getro" but no cards parsed. Every Getro board at once means Getro changed its markup. |
 | `getro: HTTP 503 for gtm` | Every term search failed; the first failure is shown. Same shape for `yc:` and `a16z:`. |
+| `greenhouse: HTTP 404` | No board for that slug: the slug is wrong or the board is gone. Same shape for the other ATS feeds; Lever's means neither the US nor the EU API has it. |
 | `board required for consider.com: ?board=<id>` | A hosted Consider board was called without its board id. |
 | `partial: 2/10 term fetches failed: ...` | Some searches timed out or errored; the listings from the rest are still returned. |
 | `<source>: secret not set: ...` | A keyword source's Worker secret is missing. |

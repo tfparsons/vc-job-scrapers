@@ -120,12 +120,20 @@ test("ats: one feed fetch, term filter on titles, source from the caller", async
   }
 });
 
-test("ats: Greenhouse falls back to the EU API on 404", async () => {
-  const { fetchImpl, calls } = stub([{ match: "boards-api.eu.greenhouse.io/v1/boards/dexory", body: fixture("ats-greenhouse.json") }]);
-  const out = await scrapeAts({ platform: "greenhouse", id: "dexory", source: "Dexory", now: NOW, config: CONFIG, fetch: fetchImpl });
+test("ats: Greenhouse calls only the boards API, so a dead slug reports its 404", async () => {
+  const { fetchImpl, calls } = stub([]);
+  const out = await scrapeAts({ platform: "greenhouse", id: "gone", source: "Gone", now: NOW, config: CONFIG, fetch: fetchImpl });
+  assert.deepEqual(calls, ["https://boards-api.greenhouse.io/v1/boards/gone/jobs"]);
+  assert.deepEqual(out.listings, []);
+  assert.equal(out.error, "greenhouse: HTTP 404");
+});
+
+test("ats: Lever falls back to the EU API on 404", async () => {
+  const { fetchImpl, calls } = stub([{ match: "api.eu.lever.co/v0/postings/acme", body: fixture("ats-lever.json") }]);
+  const out = await scrapeAts({ platform: "lever", id: "acme", source: "Acme", now: NOW, config: CONFIG, fetch: fetchImpl });
   assert.equal(out.error, null);
-  assert.deepEqual(calls, ["https://boards-api.greenhouse.io/v1/boards/dexory/jobs", "https://boards-api.eu.greenhouse.io/v1/boards/dexory/jobs"]);
-  assert.equal(out.counts.fetched, 8);
+  assert.deepEqual(calls, ["https://api.lever.co/v0/postings/acme?mode=json&limit=500", "https://api.eu.lever.co/v0/postings/acme?mode=json&limit=500"]);
+  assert.ok(out.counts.fetched > 0);
 });
 
 test("ats: a feed that answers nothing is reported in error with no listings", async () => {

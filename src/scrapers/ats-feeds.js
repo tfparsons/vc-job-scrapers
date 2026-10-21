@@ -133,11 +133,12 @@ export function mapRecruitee(text) {
   }));
 }
 
-// Endpoint name -> feed URL(s) to try in order, and the mapper. Greenhouse
-// boards on the EU data centre answer only on the EU API, hence two URLs.
+// Endpoint name -> feed URL(s) to try in order, and the mapper. A 404 moves on
+// to the next URL. Lever boards on the EU data centre answer only on the EU
+// API, hence two URLs. Greenhouse's one boards API serves EU-hosted boards too.
 export const FEEDS = {
   ashby: { key: "slug", urls: (s) => [`https://api.ashbyhq.com/posting-api/job-board/${s}?includeCompensation=true`], map: mapAshby },
-  greenhouse: { key: "slug", urls: (s) => [`https://boards-api.greenhouse.io/v1/boards/${s}/jobs`, `https://boards-api.eu.greenhouse.io/v1/boards/${s}/jobs`], map: mapGreenhouse },
+  greenhouse: { key: "slug", urls: (s) => [`https://boards-api.greenhouse.io/v1/boards/${s}/jobs`], map: mapGreenhouse },
   lever: { key: "slug", urls: (s) => [`https://api.lever.co/v0/postings/${s}?mode=json&limit=500`, `https://api.eu.lever.co/v0/postings/${s}?mode=json&limit=500`], map: mapLever },
   workable: { key: "slug", urls: (s) => [`https://apply.workable.com/api/v1/widget/accounts/${s}`], map: mapWorkable },
   teamtailor: { key: "host", urls: (h) => [`https://${h}/jobs.rss?per_page=200`], map: mapTeamtailor },
